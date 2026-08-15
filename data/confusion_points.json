@@ -1,0 +1,1321 @@
+[
+  {
+    "id": "cp_gp_sensation_perception_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_sensation",
+    "title": "感觉 vs 知觉",
+    "summary": "感觉是对刺激个别属性的直接反映，知觉是对事物整体属性的综合反映。",
+    "differencePoints": [
+      "感觉反映个别属性，知觉反映整体对象",
+      "感觉更基础，知觉更依赖经验和组织",
+      "知觉通常建立在感觉基础之上"
+    ],
+    "commonMistakes": [
+      "把感觉和知觉都理解成看到、听到等简单反应",
+      "答题时只写先后关系，不写反映对象差异"
+    ],
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "辨析题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_memory_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_memory",
+    "title": "短时记忆 vs 工作记忆",
+    "summary": "两者都涉及短时间信息保持，但工作记忆更强调加工处理功能。",
+    "differencePoints": [
+      "短时记忆更强调暂时存储",
+      "工作记忆强调存储与加工并行",
+      "工作记忆是更复杂的认知系统概念"
+    ],
+    "commonMistakes": [
+      "将工作记忆简单等同于短时记忆",
+      "忽略工作记忆中的加工功能"
+    ],
+    "questionTypes": [
+      "简答题",
+      "论述题",
+      "辨析题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_memory_02",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_memory",
+    "title": "再认 vs 回忆",
+    "summary": "二者都是提取方式，但回忆要求更高，再认有外部线索支持。",
+    "differencePoints": [
+      "再认依赖外部线索提示",
+      "回忆更多依赖内部主动提取",
+      "回忆通常难度高于再认"
+    ],
+    "commonMistakes": [
+      "答题时只说一个简单、一个困难",
+      "没有说明线索支持差异"
+    ],
+    "questionTypes": [
+      "名词解释",
+      "简答题"
+    ],
+    "importance": "medium",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_emotion_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_emotion",
+    "title": "情绪 vs 情感",
+    "summary": "情绪较短暂、情境性强，情感较稳定、社会性更强。",
+    "differencePoints": [
+      "情绪持续时间较短，情感较稳定",
+      "情绪更多与生理唤醒相关，情感更多与社会意义相关",
+      "情感通常建立在情绪基础上"
+    ],
+    "commonMistakes": [
+      "将两者视为完全同义词",
+      "只写稳定与不稳定，不写社会性差异"
+    ],
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "辨析题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_thinking_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_thinking",
+    "title": "聚合思维 vs 发散思维",
+    "summary": "两者都属于思维方式，但聚合强调收敛到较优答案，发散强调多向探索。",
+    "differencePoints": [
+      "聚合思维强调唯一或较优解",
+      "发散思维强调多种可能性和新颖性",
+      "发散思维更常与创造性联系"
+    ],
+    "commonMistakes": [
+      "把发散思维理解成没有限制的随意联想",
+      "只写一个求同、一个求异，不写问题解决目标差异"
+    ],
+    "questionTypes": [
+      "简答题",
+      "辨析题",
+      "论述题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_memory_03",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_memory",
+    "title": "痕迹衰退说 vs 干扰说",
+    "summary": "两者都解释遗忘机制，但一个强调时间推移导致痕迹减弱，一个强调信息之间相互干扰。",
+    "differencePoints": [
+      "痕迹衰退说强调记忆痕迹自然消退",
+      "干扰说强调前摄和倒摄干扰作用",
+      "干扰说更强调学习材料之间的相互影响"
+    ],
+    "commonMistakes": [
+      "答题时只列理论名称不指出机制差异",
+      "忽略前摄干扰与倒摄干扰的区分"
+    ],
+    "questionTypes": [
+      "简答题",
+      "论述题",
+      "辨析题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_sensation_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_sensation",
+    "title": "绝对阈限 vs 差别阈限",
+    "summary": "两者都属于感觉阈限，但一个是最小可觉察刺激量，一个是最小可觉察差异量。",
+    "differencePoints": [
+      "绝对阈限指刚刚能引起感觉的最小刺激量",
+      "差别阈限指刚刚能觉察到刺激差异的最小差别量",
+      "前者对应有无感觉，后者对应感觉差异"
+    ],
+    "commonMistakes": [
+      "把二者都答成感受性的大小",
+      "忽略一个针对刺激存在，一个针对刺激差异"
+    ],
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "辨析题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_perception_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_perception",
+    "title": "知觉恒常性 vs 错觉",
+    "summary": "二者都与知觉结果有关，但恒常性体现相对稳定的知觉保持，错觉则体现歪曲的知觉结果。",
+    "differencePoints": [
+      "知觉恒常性使对象在条件变化下仍保持相对稳定知觉",
+      "错觉是在特定条件下产生的歪曲知觉",
+      "恒常性通常具有适应意义，错觉多体现知觉偏差"
+    ],
+    "commonMistakes": [
+      "把恒常性和错觉都理解成知觉不准确",
+      "忽略恒常性在日常知觉中的积极功能"
+    ],
+    "questionTypes": [
+      "简答题",
+      "辨析题"
+    ],
+    "importance": "medium",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_emotion_02",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_emotion",
+    "title": "心境 vs 激情 vs 应激",
+    "summary": "三者都属于情绪状态，但在强度、持续时间和情境性上存在明显差异。",
+    "differencePoints": [
+      "心境持续时间较长、强度较低",
+      "激情强度高、爆发性强、持续较短",
+      "应激多由紧张情境引发，伴随明显身心反应"
+    ],
+    "commonMistakes": [
+      "只按强弱排序，不写持续性和诱发条件差异",
+      "把应激简单等同于消极情绪"
+    ],
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "辨析题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_ep_variables_01",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_variables",
+    "title": "组间设计 vs 组内设计",
+    "summary": "两者都属于实验设计类型，但在被试安排与误差控制上存在显著差异。",
+    "differencePoints": [
+      "组间设计中不同被试接受不同实验处理",
+      "组内设计中同一被试接受多种实验处理",
+      "组内设计更易受顺序效应影响"
+    ],
+    "commonMistakes": [
+      "只写被试人数多少，不写误差来源差异",
+      "忽略组内设计的顺序效应问题"
+    ],
+    "questionTypes": [
+      "简答题",
+      "辨析题",
+      "实验设计题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_ep_psychophysics_01",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_psychophysics",
+    "title": "极限法 vs 恒定刺激法",
+    "summary": "两者都用于测定感觉阈限，但程序复杂度、精确性与实施成本不同。",
+    "differencePoints": [
+      "极限法按递增或递减顺序呈现刺激",
+      "恒定刺激法按随机顺序多次呈现若干固定刺激",
+      "恒定刺激法通常更精确但更耗时"
+    ],
+    "commonMistakes": [
+      "忽略刺激呈现顺序的差异",
+      "把恒定刺激法写成递增递减法"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "论述题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_sensation_02",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_sensation",
+    "title": "感觉适应 vs 感觉对比",
+    "summary": "两者都表现为感觉变化，但一个强调同一刺激持续作用后的变化，一个强调不同刺激相互作用造成的变化。",
+    "differencePoints": [
+      "感觉适应强调同一刺激持续作用",
+      "感觉对比强调不同刺激相互影响",
+      "适应用于解释感受性随持续刺激变化，对比用于解释比较性变化"
+    ],
+    "commonMistakes": [
+      "把所有感觉变化都写成适应",
+      "忽视是否存在不同刺激之间的相互作用"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "选择题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_perception_02",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_perception",
+    "title": "知觉恒常性 vs 错觉",
+    "summary": "二者都与知觉结果有关，但恒常性体现的是适应性稳定，错觉体现的是特定条件下的歪曲知觉。",
+    "differencePoints": [
+      "恒常性强调条件变化时知觉保持相对稳定",
+      "错觉强调在客观刺激基础上产生歪曲知觉",
+      "恒常性具有适应意义，错觉体现偏差现象"
+    ],
+    "commonMistakes": [
+      "把恒常性写成知觉错误",
+      "忽略错觉仍然建立在客观刺激存在基础上"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_consciousness_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_consciousness",
+    "title": "意识 vs 无意识",
+    "summary": "二者都属于心理活动状态，但意识具有清晰觉知和可报告性，无意识则不直接处于清晰觉知中心。",
+    "differencePoints": [
+      "意识活动处于当前清晰觉知范围内",
+      "无意识活动通常不被个体直接觉察",
+      "意识更容易被言语报告和主动控制"
+    ],
+    "commonMistakes": [
+      "把无意识理解成完全没有心理活动",
+      "把意识和注意混为一谈"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_memory_04",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_memory",
+    "title": "短时记忆 vs 长时记忆",
+    "summary": "二者都属于记忆系统组成部分，但在容量、保持时间和加工方式上存在明显差异。",
+    "differencePoints": [
+      "短时记忆保持时间较短、容量有限",
+      "长时记忆保持时间长、容量较大",
+      "短时记忆更依赖即时加工，长时记忆更强调编码和长期保持"
+    ],
+    "commonMistakes": [
+      "把短时记忆和工作记忆完全等同",
+      "忽略保持时间和容量差异"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "选择题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_thinking_02",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_thinking",
+    "title": "概念 vs 表象",
+    "summary": "二者都参与认知活动，但概念反映事物本质属性和共同特征，表象则是过去感知过的事物形象在头脑中的再现。",
+    "differencePoints": [
+      "概念属于理性认识成分，表象更接近形象化经验",
+      "概念反映本质属性，表象反映具体形象",
+      "概念具有更强概括性，表象具有较强直观性"
+    ],
+    "commonMistakes": [
+      "把表象直接等同于概念",
+      "忽略概念的抽象概括特点"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "选择题"
+    ],
+    "importance": "medium",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_language_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_language",
+    "title": "语言 vs 言语",
+    "summary": "语言是社会约定俗成的符号系统，言语是个体运用语言进行交际和思维表达的活动过程。",
+    "differencePoints": [
+      "语言是社会共有的符号系统",
+      "言语是个体实际运用语言的活动",
+      "语言相对稳定，言语具有具体情境性和个体性"
+    ],
+    "commonMistakes": [
+      "把语言和言语混作一个概念",
+      "忽略语言的社会性和言语的活动性"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "选择题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_motivation_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_motivation",
+    "title": "需要 vs 动机",
+    "summary": "需要是个体对某种客观条件的缺乏状态，动机是在需要基础上推动行为的内部动力。",
+    "differencePoints": [
+      "需要强调缺乏和需求状态",
+      "动机强调推动行为的内在动力",
+      "需要是动机产生的重要基础，但二者不完全等同"
+    ],
+    "commonMistakes": [
+      "把需要和动机写成同义词",
+      "忽略动机具有行为指向与维持作用"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "选择题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_emotion_03",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_emotion",
+    "title": "情绪 vs 情感",
+    "summary": "二者都属于情感过程，但情绪更具情境性和暂时性，情感则更稳定、深刻并与社会意义联系紧密。",
+    "differencePoints": [
+      "情绪更直接、外显，常与具体情境联系",
+      "情感更稳定、持久，并与价值观和社会关系联系密切",
+      "情绪可视为较低层次、较原始的体验，情感更具社会性"
+    ],
+    "commonMistakes": [
+      "把情绪和情感完全等同",
+      "只写强弱差异，不写稳定性和社会性差异"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_intelligence_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intelligence",
+    "title": "智力 vs 知识",
+    "summary": "智力是个体认知加工和解决问题的能力水平，知识则是后天学习积累的经验内容。",
+    "differencePoints": [
+      "智力强调能力水平与认知加工特点",
+      "知识强调后天获得的信息和经验",
+      "知识的掌握依赖一定智力水平，但二者不等同"
+    ],
+    "commonMistakes": [
+      "把智力简单理解为知识多少",
+      "忽略智力的能力属性"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "选择题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_personality_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_personality",
+    "title": "气质 vs 性格",
+    "summary": "二者都属于人格结构组成部分，但气质更偏向先天和动力特征，性格更体现社会性与个体态度特征。",
+    "differencePoints": [
+      "气质更多体现高级神经活动类型及动力特征",
+      "性格更多体现个体对现实的态度和行为方式",
+      "气质较稳定、较先天，性格受教育和环境影响更明显"
+    ],
+    "commonMistakes": [
+      "把气质和性格完全等同",
+      "只写先天后天，不写态度与动力差别"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_learning_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_learning",
+    "title": "经典条件作用 vs 操作条件作用",
+    "summary": "二者都属于行为主义学习理论的重要内容，但经典条件作用强调刺激之间的联结，操作条件作用强调行为与结果之间的联系。",
+    "differencePoints": [
+      "经典条件作用强调条件刺激与无条件刺激的配对",
+      "操作条件作用强调行为后果对行为的塑造",
+      "前者更关注被动反应形成，后者更关注主动行为习得"
+    ],
+    "commonMistakes": [
+      "把两种条件作用都写成刺激替代",
+      "忽略强化在操作条件作用中的核心地位"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "选择题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_lifespan_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_lifespan",
+    "title": "发展 vs 成熟",
+    "summary": "发展是个体心理机能随时间发生的整体变化过程，成熟更强调机体先天生理机制按一定程序展开。",
+    "differencePoints": [
+      "发展强调整体变化过程及多因素共同作用",
+      "成熟强调生理机能按遗传程序展开",
+      "发展受教育和环境影响更明显，成熟更依赖生物学基础"
+    ],
+    "commonMistakes": [
+      "把发展简单理解为年龄增长",
+      "把成熟当成发展的全部原因"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_intro_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intro_methods",
+    "title": "观察法 vs 实验法",
+    "summary": "二者都属于心理学常用研究方法，但观察法强调自然条件下的记录，实验法强调对条件的控制和因果关系分析。",
+    "differencePoints": [
+      "观察法多在自然情境中进行",
+      "实验法强调操纵变量和控制条件",
+      "实验法更有利于揭示因果关系"
+    ],
+    "commonMistakes": [
+      "把观察法写成没有任何目的的日常观看",
+      "把实验法仅理解为在实验室里做题"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "选择题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_brain_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_brain_basis",
+    "title": "中枢神经系统 vs 周围神经系统",
+    "summary": "二者同属神经系统组成部分，但在结构位置和功能分工上存在明显差异。",
+    "differencePoints": [
+      "中枢神经系统主要包括脑和脊髓",
+      "周围神经系统包括脑神经和脊神经等",
+      "中枢系统是整合中枢，周围系统承担信息传入和传出"
+    ],
+    "commonMistakes": [
+      "把脊髓写成周围神经系统组成部分",
+      "忽略周围神经系统的信息传导功能"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "选择题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_consciousness_02",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_consciousness",
+    "title": "睡眠 vs 梦",
+    "summary": "二者都属于意识状态变化相关内容，但睡眠是较完整的生理—心理状态，梦是睡眠过程中的一种心理现象。",
+    "differencePoints": [
+      "睡眠是整体状态，梦是睡眠中的特定心理活动",
+      "睡眠强调机体休息与意识水平变化",
+      "梦强调睡眠中出现的形象化体验和心理活动"
+    ],
+    "commonMistakes": [
+      "把梦直接等同于睡眠",
+      "忽略梦只是某些睡眠阶段中更常出现的心理现象"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "选择题"
+    ],
+    "importance": "medium",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_language_02",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_language",
+    "title": "内部言语 vs 外部言语",
+    "summary": "二者都属于言语活动形式，但内部言语更隐蔽、简略，外部言语则具有外显性和交际性。",
+    "differencePoints": [
+      "内部言语主要服务于个体思维活动",
+      "外部言语用于实际交流表达",
+      "内部言语更简缩，外部言语更完整外显"
+    ],
+    "commonMistakes": [
+      "把内部言语理解成没有语言成分的想法",
+      "忽略外部言语的交际功能"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "选择题"
+    ],
+    "importance": "medium",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_motivation_02",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_motivation",
+    "title": "内在动机 vs 外在动机",
+    "summary": "二者都能推动行为发生，但内在动机主要来自活动本身，外在动机更多来自外部奖励、评价或要求。",
+    "differencePoints": [
+      "内在动机来源于活动本身的兴趣和满足",
+      "外在动机来源于外部奖励、惩罚或评价",
+      "内在动机通常更有利于长期主动投入"
+    ],
+    "commonMistakes": [
+      "把内在动机简单理解成个人想做",
+      "忽略外在动机也可以有效推动行为"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "选择题"
+    ],
+    "importance": "medium",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_intelligence_02",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intelligence",
+    "title": "智力 vs 能力",
+    "summary": "智力通常指认知活动中的综合能力，能力则是更广义的心理特征，可包括一般能力和特殊能力。",
+    "differencePoints": [
+      "智力更多指与认知加工和问题解决相关的综合能力",
+      "能力是更广泛的概念，可包括音乐、绘画等特殊能力",
+      "智力可看作能力体系中的重要组成部分"
+    ],
+    "commonMistakes": [
+      "把智力和所有能力完全等同",
+      "忽略特殊能力与一般智力的差异"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "选择题"
+    ],
+    "importance": "medium",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_personality_02",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_personality",
+    "title": "人格 vs 个性",
+    "summary": "二者在很多教材中常被接近使用，但人格更强调稳定心理特征系统，个性一词在中文语境中有时使用更宽泛。",
+    "differencePoints": [
+      "人格更强调稳定的心理特征结构",
+      "个性在某些语境下可指个体独特性或人格整体",
+      "考试作答时宜优先采用教材中的规范表述"
+    ],
+    "commonMistakes": [
+      "脱离教材语境随意混用术语",
+      "把个性只理解成性格鲜明"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题"
+    ],
+    "importance": "medium",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_learning_02",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_learning",
+    "title": "强化 vs 惩罚",
+    "summary": "二者都能影响行为，但强化旨在增加行为发生概率，惩罚旨在减少行为发生概率。",
+    "differencePoints": [
+      "强化使某行为更可能再次出现",
+      "惩罚使某行为发生概率降低",
+      "二者都属于行为结果对行为的调节方式"
+    ],
+    "commonMistakes": [
+      "把强化理解成单纯表扬",
+      "把惩罚理解成任何负面体验"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "选择题"
+    ],
+    "importance": "medium",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_intro_02",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intro_methods",
+    "title": "基础心理学 vs 应用心理学",
+    "summary": "二者都属于心理学学科体系的重要组成部分，但前者重在揭示一般心理规律，后者重在解决现实问题。",
+    "differencePoints": [
+      "基础心理学侧重心理规律研究",
+      "应用心理学侧重实践问题解决",
+      "二者相互联系、相互促进"
+    ],
+    "commonMistakes": [
+      "把应用心理学理解成不需要理论基础",
+      "把基础心理学和普通心理学完全等同"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "选择题"
+    ],
+    "importance": "medium",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_lifespan_02",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_lifespan",
+    "title": "连续性 vs 阶段性",
+    "summary": "二者并不是相互排斥的，人生全程发展既体现连续变化，也体现不同阶段的质的差异。",
+    "differencePoints": [
+      "连续性强调发展在时间上的持续推进",
+      "阶段性强调不同年龄阶段有相对稳定的特征与任务",
+      "心理发展通常表现为连续性和阶段性的统一"
+    ],
+    "commonMistakes": [
+      "把发展写成只有连续没有阶段",
+      "把阶段性理解成完全割裂的跳跃变化"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题"
+    ],
+    "importance": "medium",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_brain_02",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_brain_basis",
+    "title": "反射 vs 反射弧",
+    "summary": "反射是机体对刺激所作出的规律性反应，反射弧则是完成反射活动的神经结构基础。",
+    "differencePoints": [
+      "反射强调反应过程和结果",
+      "反射弧强调完成反射的结构通路",
+      "没有完整反射弧，反射活动难以正常实现"
+    ],
+    "commonMistakes": [
+      "把反射和反射弧写成同一概念",
+      "只写刺激反应，不写神经通路基础"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "选择题"
+    ],
+    "importance": "medium",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_consciousness_03",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_consciousness",
+    "title": "意识状态变化 vs 意识内容变化",
+    "summary": "意识状态变化强调觉醒水平和组织形式变化，意识内容变化则更强调意识中具体经验内容的改变。",
+    "differencePoints": [
+      "意识状态变化强调整体觉醒水平和组织方式",
+      "意识内容变化强调注意到的对象和体验内容变化",
+      "睡眠、催眠更偏状态变化，知觉对象改变更偏内容变化"
+    ],
+    "commonMistakes": [
+      "把所有意识变化都混写成同一层面",
+      "只写例子，不写区分标准"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题"
+    ],
+    "importance": "medium",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_language_03",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_language",
+    "title": "口头言语 vs 书面言语",
+    "summary": "二者都属于外部言语形式，但在表达条件、结构完整性和信息保持方式上不同。",
+    "differencePoints": [
+      "口头言语依赖即时声音表达和情境支持",
+      "书面言语依赖文字表达，结构通常更完整严谨",
+      "书面言语更便于保存和反复加工"
+    ],
+    "commonMistakes": [
+      "把书面言语只理解成写字行为",
+      "忽略口头言语的情境依赖性"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "选择题"
+    ],
+    "importance": "medium",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_motivation_03",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_motivation",
+    "title": "成就动机中的趋成分 vs 避败成分",
+    "summary": "二者都属于成就动机的重要成分，但前者趋向成功，后者倾向回避失败。",
+    "differencePoints": [
+      "趋成分强调追求成功和积极挑战",
+      "避败成分强调避免失败和风险",
+      "二者共同影响个体在任务情境中的行为选择"
+    ],
+    "commonMistakes": [
+      "把成就动机只写成追求成功",
+      "忽略回避失败倾向在成就活动中的作用"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题"
+    ],
+    "importance": "medium",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_personality_03",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_personality",
+    "title": "人格特质 vs 人格类型",
+    "summary": "二者都是理解人格差异的方式，但特质强调连续维度，类型强调类别划分。",
+    "differencePoints": [
+      "人格特质强调相对稳定的连续性差异",
+      "人格类型强调把个体归入某类典型模式",
+      "特质观点更便于描述程度差异，类型观点更便于整体分类"
+    ],
+    "commonMistakes": [
+      "把特质和类型写成同一种划分方法",
+      "只写定义，不写连续维度与类别划分差异"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "选择题"
+    ],
+    "importance": "medium",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_intelligence_03",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intelligence",
+    "title": "智商高 vs 智力发展全面",
+    "summary": "二者并不能简单等同，较高测验分数并不意味着个体在所有能力维度上都均衡发展。",
+    "differencePoints": [
+      "智商高强调测验结果或总体水平较高",
+      "智力发展全面强调多个能力成分较协调",
+      "测验分数不能替代对个体智力结构的完整判断"
+    ],
+    "commonMistakes": [
+      "把高智商直接写成全面优秀",
+      "忽略智力的结构差异与个体差异"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题"
+    ],
+    "importance": "medium",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_learning_03",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_learning",
+    "title": "观察学习 vs 机械模仿",
+    "summary": "观察学习不只是简单重复动作，它还涉及对榜样行为及其结果的认知加工。",
+    "differencePoints": [
+      "观察学习强调通过观察他人行为及结果获得新行为方式",
+      "机械模仿更偏向表面动作重复",
+      "观察学习包含认知加工和替代强化机制"
+    ],
+    "commonMistakes": [
+      "把观察学习写成单纯模仿动作",
+      "忽略榜样结果和认知加工的重要性"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "选择题"
+    ],
+    "importance": "medium",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_intro_03",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intro_methods",
+    "title": "相关关系 vs 因果关系",
+    "summary": "两者在心理学研究解释中意义不同，相关并不自动意味着因果。",
+    "differencePoints": [
+      "相关关系强调变量之间共同变化",
+      "因果关系强调一个变量变化导致另一个变量变化",
+      "相关结果不能直接推出因果结论"
+    ],
+    "commonMistakes": [
+      "见到相关就直接判断因果",
+      "忽略控制变量在因果推断中的意义"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "选择题"
+    ],
+    "importance": "medium",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_brain_03",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_brain_basis",
+    "title": "条件反射 vs 无条件反射",
+    "summary": "二者都属于反射活动形式，但无条件反射较先天稳定，条件反射在后天经验中形成。",
+    "differencePoints": [
+      "无条件反射是先天形成的较固定反应",
+      "条件反射是在后天生活过程中建立的",
+      "条件反射更能体现环境和学习作用"
+    ],
+    "commonMistakes": [
+      "把条件反射写成完全脱离无条件反射基础",
+      "忽略条件反射的后天形成特点"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "选择题"
+    ],
+    "importance": "medium",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_lifespan_03",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_lifespan",
+    "title": "遗传决定论 vs 环境决定论",
+    "summary": "两种单因素观点都过于绝对，心理发展应理解为多因素共同作用结果。",
+    "differencePoints": [
+      "遗传决定论强调先天生物基础的决定作用",
+      "环境决定论强调后天环境塑造作用",
+      "现代观点更强调遗传、环境和教育的交互作用"
+    ],
+    "commonMistakes": [
+      "把心理发展单纯归结于某一个因素",
+      "只批评一种观点，忽略另一种同样片面"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "论述题",
+      "简答题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_sensation_03",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_sensation",
+    "title": "绝对感受性 vs 差别感受性",
+    "summary": "二者都反映感觉能力，但前者针对最小刺激觉察，后者针对最小差异觉察。",
+    "differencePoints": [
+      "绝对感受性强调刚刚能觉察某刺激的能力",
+      "差别感受性强调刚刚能分辨两个刺激差异的能力",
+      "对应的阈限分别是绝对阈限和差别阈限"
+    ],
+    "commonMistakes": [
+      "把两种感受性都写成对刺激强弱的同一种反应",
+      "忽略其对应阈限不同"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "选择题"
+    ],
+    "importance": "medium",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_perception_03",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_perception",
+    "title": "空间知觉 vs 时间知觉",
+    "summary": "二者都属于复杂知觉，但所反映的对象属性不同，一个偏空间关系，一个偏持续与顺序。",
+    "differencePoints": [
+      "空间知觉反映物体的方位、距离和形状等空间属性",
+      "时间知觉反映事件的延续、先后和节奏等时间属性",
+      "二者都建立在多种感觉信息整合基础上"
+    ],
+    "commonMistakes": [
+      "把空间知觉只写成视觉问题",
+      "忽略时间知觉中的顺序与节奏成分"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题"
+    ],
+    "importance": "medium",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_personality_04",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_personality",
+    "title": "问卷法 vs 投射法",
+    "summary": "二者都是人格测量的常见方法，但在材料形式、作答方式和解释基础上存在明显差异。",
+    "differencePoints": [
+      "问卷法多采用结构化项目，由被试直接作答",
+      "投射法多采用意义不明确的刺激材料，引出个体内在反应",
+      "问卷法便于量化比较，投射法更强调深层心理特征解释"
+    ],
+    "commonMistakes": [
+      "把投射法写成普通自陈量表",
+      "只写表面材料差异，忽略测量逻辑不同"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "论述题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_learning_04",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_learning",
+    "title": "经典条件作用 vs 操作条件作用",
+    "summary": "二者都解释学习形成机制，但前者强调刺激之间联结，后者强调反应后果对行为的塑造。",
+    "differencePoints": [
+      "经典条件作用强调条件刺激与无条件刺激之间建立联结",
+      "操作条件作用强调行为结果尤其是强化和惩罚对反应概率的影响",
+      "前者更偏自动诱发反应，后者更偏主动行为塑造"
+    ],
+    "commonMistakes": [
+      "把两者都笼统写成刺激—反应联结",
+      "忽略操作条件作用中强化与惩罚的核心地位"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "论述题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_emotion_04",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_emotion",
+    "title": "情绪 vs 情感",
+    "summary": "二者都属于情感过程，但情绪更偏向情境性、短暂性反应，情感则更稳定并与社会意义联系更紧。",
+    "differencePoints": [
+      "情绪通常与具体情境刺激相联系，变化较快",
+      "情感较稳定，更多体现个体对客观事物的稳定态度",
+      "情感通常具有更明显的社会性和深刻性"
+    ],
+    "commonMistakes": [
+      "把情绪和情感完全等同",
+      "只写持续时间差异，忽略社会性与稳定性差异"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "论述题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_intelligence_04",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intelligence",
+    "title": "流体智力 vs 晶体智力",
+    "summary": "二者都是智力的重要组成，但前者更偏抽象推理与问题解决，后者更多体现知识经验积累。",
+    "differencePoints": [
+      "流体智力强调在新情境中进行推理和解决问题的能力",
+      "晶体智力强调通过教育和经验形成的知识与技能",
+      "流体智力受年龄和生理成熟影响更明显，晶体智力与文化教育联系更紧"
+    ],
+    "commonMistakes": [
+      "把晶体智力写成先天智力",
+      "把流体智力简单理解为学习成绩高"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "选择题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_consciousness_04",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_consciousness",
+    "title": "睡眠 vs 梦",
+    "summary": "梦通常发生在睡眠过程中，但二者并不等同，睡眠是整体意识状态变化，梦是其中的一种特殊心理活动。",
+    "differencePoints": [
+      "睡眠是一种周期性发生的意识状态变化",
+      "梦是在睡眠中出现的特殊心理活动体验",
+      "并非所有睡眠阶段都以梦为主要表现"
+    ],
+    "commonMistakes": [
+      "把梦直接写成睡眠的全部内容",
+      "忽略睡眠作为整体意识状态变化的性质"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "选择题"
+    ],
+    "importance": "medium",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_language_04",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_language",
+    "title": "语言 vs 思维",
+    "summary": "语言与思维密切相关，但语言是符号系统和交际工具，思维则是对客观事物间接概括的反映过程。",
+    "differencePoints": [
+      "语言是以词为物质外壳的社会符号系统",
+      "思维是借助语言等工具实现的高级认知过程",
+      "二者联系密切，但不能简单等同"
+    ],
+    "commonMistakes": [
+      "把语言直接写成思维本身",
+      "只写二者关系密切，忽略本质区别"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "论述题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_motivation_04",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_motivation",
+    "title": "内在动机 vs 外在动机",
+    "summary": "二者都能推动行为发生，但前者主要来自活动本身，后者主要来自外部奖惩或压力。",
+    "differencePoints": [
+      "内在动机来源于个体对活动本身的兴趣或满足",
+      "外在动机来源于活动之外的奖赏、评价或压力",
+      "二者都能影响行为，但驱动来源不同"
+    ],
+    "commonMistakes": [
+      "把内在动机简单写成没有任何外部条件",
+      "把外在动机一概理解为消极动机"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "选择题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_lifespan_04",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_lifespan",
+    "title": "阶段性 vs 连续性",
+    "summary": "心理发展既表现为不同阶段的相对稳定特征，也表现为前后相继、持续推进的连续过程。",
+    "differencePoints": [
+      "阶段性强调不同年龄阶段具有相对稳定的心理特征",
+      "连续性强调个体发展前后相继、逐步积累的过程",
+      "二者是心理发展规律的不同表现面向"
+    ],
+    "commonMistakes": [
+      "把阶段性和连续性理解为彼此排斥",
+      "只写阶段差异，忽略发展延续性"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "论述题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_perception_04",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_perception",
+    "title": "感觉 vs 知觉",
+    "summary": "二者都属于认识过程，但感觉反映事物个别属性，知觉则反映事物整体及其关系。",
+    "differencePoints": [
+      "感觉反映事物的个别属性，如颜色、声音、气味",
+      "知觉反映事物整体及其空间关系、时间关系等",
+      "知觉以感觉为基础，但高于感觉"
+    ],
+    "commonMistakes": [
+      "把知觉写成多个感觉的简单相加",
+      "只写知觉更复杂，未写反映对象差异"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "论述题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_thinking_03",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_thinking",
+    "title": "发散思维 vs 聚合思维",
+    "summary": "二者都属于思维活动形式，但前者强调多方向、多答案探索，后者强调集中求得较佳答案。",
+    "differencePoints": [
+      "发散思维强调从不同方向产生多种可能答案",
+      "聚合思维强调依据条件集中求得相对确定的答案",
+      "创造性活动中常需要二者配合"
+    ],
+    "commonMistakes": [
+      "把发散思维写成没有任何限制的胡乱联想",
+      "把聚合思维写成完全机械的重复判断"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "选择题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_sensation_04",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_sensation",
+    "title": "感觉适应 vs 感觉后像",
+    "summary": "二者都与刺激持续作用有关，但感觉适应强调感受性变化，后像强调刺激停止后仍保留的感觉印象。",
+    "differencePoints": [
+      "感觉适应是在刺激持续作用下感受性发生变化",
+      "感觉后像是在刺激停止后仍暂时保留感觉形象",
+      "前者强调感受性变化，后者强调感觉印象残留"
+    ],
+    "commonMistakes": [
+      "把感觉适应和后像都写成刺激结束后的现象",
+      "忽略二者发生时点不同"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "选择题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_brain_04",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_brain_basis",
+    "title": "树突 vs 轴突",
+    "summary": "二者都是神经元的重要组成部分，但在数量、形态和传导功能上存在明显差异。",
+    "differencePoints": [
+      "树突通常较短且数量较多，主要接收信息",
+      "轴突通常较长且一般只有一条，主要传出神经冲动",
+      "二者共同构成神经元的信息传递结构"
+    ],
+    "commonMistakes": [
+      "把树突和轴突都写成传出结构",
+      "只写长短差异，忽略功能区别"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "选择题"
+    ],
+    "importance": "high",
+    "status": "active"
+  },
+  {
+    "id": "cp_gp_intro_04",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intro_methods",
+    "title": "观察法 vs 实验法",
+    "summary": "二者都是心理学研究的重要方法，但在控制条件、研究目的和所得结论上存在明显差异。",
+    "differencePoints": [
+      "观察法强调在自然条件下考察行为表现",
+      "实验法强调有目的地控制条件并考察变量关系",
+      "实验法更有利于探讨因果关系，观察法更便于保持情境自然性"
+    ],
+    "commonMistakes": [
+      "把观察法写成完全没有研究设计",
+      "把实验法写成只要做测试就算实验"
+    ],
+    "questionTypes": [
+      "辨析题",
+      "简答题",
+      "选择题"
+    ],
+    "importance": "high",
+    "status": "active"
+  }
+]

@@ -1,0 +1,1605 @@
+[
+  {
+    "id": "fp_gp_memory_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_memory",
+    "title": "记忆的三级存储模型",
+    "focusType": "high_frequency",
+    "summary": "感觉记忆、短时记忆和长时记忆构成记忆研究中的基础框架，是本章最重要的骨架内容之一。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题"
+    ],
+    "keywords": [
+      "感觉记忆",
+      "短时记忆",
+      "长时记忆"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_memory_02",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_memory",
+    "title": "工作记忆模型",
+    "focusType": "must_memorize",
+    "summary": "工作记忆强调信息的暂时存储与加工，是区别于传统短时记忆的重要理论。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "论述题"
+    ],
+    "keywords": [
+      "工作记忆",
+      "加工",
+      "认知活动"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_memory_03",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_memory",
+    "title": "遗忘理论",
+    "focusType": "high_frequency",
+    "summary": "遗忘理论是记忆章中最常见的综合考查点，常涉及衰退说、干扰说、提取失败说等。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "论述题"
+    ],
+    "keywords": [
+      "遗忘",
+      "衰退说",
+      "干扰说",
+      "提取失败"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_thinking_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_thinking",
+    "title": "问题解决的过程与影响因素",
+    "focusType": "high_frequency",
+    "summary": "问题解决是思维章中常考重点，适合出简答题和论述题。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "论述题"
+    ],
+    "keywords": [
+      "问题解决",
+      "策略",
+      "影响因素"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_emotion_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_emotion",
+    "title": "经典情绪理论",
+    "focusType": "high_frequency",
+    "summary": "经典情绪理论是情绪章中的高频内容，常以比较和论述方式出现。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "论述题"
+    ],
+    "keywords": [
+      "詹姆斯-兰格理论",
+      "坎农-巴德理论",
+      "沙赫特双因素理论"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_thinking_02",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_thinking",
+    "title": "思维的特征与类型",
+    "focusType": "easy_to_test",
+    "summary": "思维的间接性、概括性及其类型是思维章节的入门骨架。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题"
+    ],
+    "keywords": [
+      "间接性",
+      "概括性",
+      "思维类型"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_thinking_03",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_thinking",
+    "title": "创造性思维",
+    "focusType": "high_frequency",
+    "summary": "创造性思维是思维章中具有区分度的常考内容，适合综合问答。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "论述题"
+    ],
+    "keywords": [
+      "创造性思维",
+      "发散思维",
+      "创造力"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_memory_04",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_memory",
+    "title": "影响记忆效果的因素",
+    "focusType": "easy_to_test",
+    "summary": "材料性质、识记方式、复习安排等因素是记忆章节中很典型的应用型考点。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "论述题"
+    ],
+    "keywords": [
+      "识记",
+      "复习",
+      "记忆效果"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_sensation_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_sensation",
+    "title": "感觉的种类与规律",
+    "focusType": "high_frequency",
+    "summary": "感觉的种类、感受性与感觉阈限等基本规律，是感觉章中的骨架内容。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题"
+    ],
+    "keywords": [
+      "感受性",
+      "感觉阈限",
+      "绝对阈限",
+      "差别阈限"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_sensation_02",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_sensation",
+    "title": "感觉适应与感觉后像",
+    "focusType": "easy_to_test",
+    "summary": "感觉适应和后像是感觉章节中高频出现的现象类考点。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题"
+    ],
+    "keywords": [
+      "感觉适应",
+      "后像",
+      "视觉现象"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_perception_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_perception",
+    "title": "知觉的基本特性",
+    "focusType": "high_frequency",
+    "summary": "知觉的选择性、整体性、理解性和恒常性是知觉章的标准骨架。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "论述题"
+    ],
+    "keywords": [
+      "选择性",
+      "整体性",
+      "理解性",
+      "恒常性"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_perception_02",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_perception",
+    "title": "知觉组织规律",
+    "focusType": "high_frequency",
+    "summary": "格式塔知觉组织规律是知觉章节中的经典高频内容，常用于简答和论述。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "论述题"
+    ],
+    "keywords": [
+      "接近律",
+      "相似律",
+      "闭合律",
+      "格式塔"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_emotion_02",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_emotion",
+    "title": "情绪的成分与功能",
+    "focusType": "easy_to_test",
+    "summary": "情绪的主观体验、生理唤醒和外部表现，以及适应、动机等功能，是情绪章的重要基础题源。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题"
+    ],
+    "keywords": [
+      "主观体验",
+      "生理唤醒",
+      "外部表现",
+      "情绪功能"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_emotion_03",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_emotion",
+    "title": "情绪状态与分类",
+    "focusType": "high_frequency",
+    "summary": "心境、激情与应激等情绪状态，是情绪章中常见的概念与比较题。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题"
+    ],
+    "keywords": [
+      "心境",
+      "激情",
+      "应激"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_variables_01",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_variables",
+    "title": "自变量、因变量与控制变量",
+    "focusType": "high_frequency",
+    "summary": "变量区分是实验设计题和基础概念题的高频考点。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "实验设计题"
+    ],
+    "keywords": [
+      "自变量",
+      "因变量",
+      "控制变量"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_variables_02",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_variables",
+    "title": "实验设计的基本类型",
+    "focusType": "high_frequency",
+    "summary": "组间设计、组内设计和混合设计是实验设计章节的核心骨架。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "实验设计题"
+    ],
+    "keywords": [
+      "组间设计",
+      "组内设计",
+      "混合设计"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_reaction_01",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_reaction_time",
+    "title": "反应时法与减法反应时技术",
+    "focusType": "high_frequency",
+    "summary": "反应时法及其逻辑基础是实验心理学中的标志性高频考点。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "论述题"
+    ],
+    "keywords": [
+      "反应时法",
+      "减法反应时",
+      "信息加工"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_psychophysics_01",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_psychophysics",
+    "title": "三种经典心理物理法",
+    "focusType": "high_frequency",
+    "summary": "极限法、恒定刺激法、平均差误法是心理物理法章节最重要的比较型内容。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "辨析题",
+      "论述题"
+    ],
+    "keywords": [
+      "极限法",
+      "恒定刺激法",
+      "平均差误法"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_memory_01",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_memory_experiment",
+    "title": "记忆实验范式",
+    "focusType": "easy_to_test",
+    "summary": "节省法、对偶联合法、自由回忆法构成记忆实验章节的主干。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "实验设计题"
+    ],
+    "keywords": [
+      "节省法",
+      "对偶联合法",
+      "自由回忆法"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_sensation_03",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_sensation",
+    "title": "感受性与感觉阈限的关系",
+    "focusType": "high_frequency",
+    "summary": "感受性与感觉阈限成反比，是感觉章节最稳定的基础高频点。",
+    "importance": "high",
+    "questionTypes": [
+      "选择题",
+      "判断题",
+      "简答题",
+      "辨析题"
+    ],
+    "keywords": [
+      "感受性",
+      "感觉阈限",
+      "绝对阈限",
+      "差别阈限"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_sensation_04",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_sensation",
+    "title": "感觉现象：适应、后像、对比与联觉",
+    "focusType": "easy_to_test",
+    "summary": "感觉现象类内容适合出名词解释、例子判断和简答题。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "选择题",
+      "判断题",
+      "简答题"
+    ],
+    "keywords": [
+      "适应",
+      "后像",
+      "感觉对比",
+      "联觉"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_perception_03",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_perception",
+    "title": "知觉的四大基本特性",
+    "focusType": "high_frequency",
+    "summary": "选择性、整体性、理解性、恒常性是知觉章节的主干骨架。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "论述题",
+      "选择题"
+    ],
+    "keywords": [
+      "选择性",
+      "整体性",
+      "理解性",
+      "恒常性"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_perception_04",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_perception",
+    "title": "知觉对象与背景及知觉组织",
+    "focusType": "easy_to_test",
+    "summary": "对象与背景关系及格式塔组织规律是知觉章节常见考查点。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "论述题",
+      "选择题"
+    ],
+    "keywords": [
+      "对象",
+      "背景",
+      "组织规律",
+      "格式塔"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_consciousness_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_consciousness",
+    "title": "意识的含义与基本特征",
+    "focusType": "high_frequency",
+    "summary": "意识章节的基础点，重点掌握意识作为觉知状态和心理活动组织形式的含义。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "keywords": [
+      "意识",
+      "觉知",
+      "心理状态"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_consciousness_02",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_consciousness",
+    "title": "睡眠、梦与意识状态变化",
+    "focusType": "easy_to_test",
+    "summary": "意识状态变化是教材中的常见考点，适合出简答题和客观题。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题",
+      "判断题"
+    ],
+    "keywords": [
+      "睡眠",
+      "梦",
+      "意识状态"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_memory_05",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_memory",
+    "title": "记忆的基本过程",
+    "focusType": "high_frequency",
+    "summary": "识记、保持、再认和回忆是记忆章节的主线骨架。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "keywords": [
+      "识记",
+      "保持",
+      "再认",
+      "回忆"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_memory_06",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_memory",
+    "title": "遗忘规律与影响记忆效果的条件",
+    "focusType": "high_frequency",
+    "summary": "遗忘规律、遗忘原因和提升记忆效果的条件是记忆章常见主观题方向。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "论述题",
+      "辨析题"
+    ],
+    "keywords": [
+      "遗忘",
+      "艾宾浩斯",
+      "记忆效果"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_thinking_04",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_thinking",
+    "title": "思维的基本特征：间接性与概括性",
+    "focusType": "high_frequency",
+    "summary": "间接性与概括性是界定思维本质的两大核心特征。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "keywords": [
+      "思维",
+      "间接性",
+      "概括性"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_thinking_05",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_thinking",
+    "title": "问题解决过程与影响因素",
+    "focusType": "high_frequency",
+    "summary": "问题解决是思维章节最适合展开成简答和论述题的内容。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "论述题",
+      "辨析题"
+    ],
+    "keywords": [
+      "问题解决",
+      "思维过程",
+      "影响因素"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_language_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_language",
+    "title": "语言与言语的关系",
+    "focusType": "high_frequency",
+    "summary": "语言章节最基础的骨架是区分语言系统与言语活动。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "辨析题"
+    ],
+    "keywords": [
+      "语言",
+      "言语",
+      "交际工具"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_language_02",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_language",
+    "title": "言语的种类与思维中的作用",
+    "focusType": "easy_to_test",
+    "summary": "内部言语、外部言语及语言在思维中的作用是语言章的常见考点。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "keywords": [
+      "内部言语",
+      "外部言语",
+      "语言与思维"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_motivation_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_motivation",
+    "title": "动机的含义与功能",
+    "focusType": "high_frequency",
+    "summary": "动机是行为的内在动力，常考其激活、指向和维持功能。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "keywords": [
+      "动机",
+      "需要",
+      "行为动力"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_motivation_02",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_motivation",
+    "title": "动机冲突的类型",
+    "focusType": "easy_to_test",
+    "summary": "趋近—趋近、回避—回避、趋近—回避等是动机章节的稳定考点。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题",
+      "判断题"
+    ],
+    "keywords": [
+      "动机冲突",
+      "趋近",
+      "回避"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_emotion_04",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_emotion",
+    "title": "情绪的成分",
+    "focusType": "high_frequency",
+    "summary": "主观体验、生理唤醒和外部表现构成情绪问题的基础骨架。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题",
+      "名词解释"
+    ],
+    "keywords": [
+      "主观体验",
+      "生理唤醒",
+      "外部表现"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_emotion_05",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_emotion",
+    "title": "情绪的功能",
+    "focusType": "high_frequency",
+    "summary": "情绪的适应、动机、组织和信号功能是情绪章常见论述方向。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "论述题",
+      "选择题"
+    ],
+    "keywords": [
+      "适应功能",
+      "动机功能",
+      "信号功能"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_intelligence_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intelligence",
+    "title": "智力的含义与基本特点",
+    "focusType": "high_frequency",
+    "summary": "智力是认知能力总体水平的重要概念，是智力章节的基础入口。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "keywords": [
+      "智力",
+      "认知能力",
+      "智力差异"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_intelligence_02",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intelligence",
+    "title": "影响智力发展的因素",
+    "focusType": "easy_to_test",
+    "summary": "遗传、环境、教育等因素对智力发展共同产生作用。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "论述题",
+      "选择题"
+    ],
+    "keywords": [
+      "遗传",
+      "环境",
+      "教育",
+      "智力发展"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_personality_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_personality",
+    "title": "人格的含义与基本特征",
+    "focusType": "high_frequency",
+    "summary": "人格作为稳定心理特征总和，是人格章最基础的概念骨架。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "keywords": [
+      "人格",
+      "稳定性",
+      "整体性"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_personality_02",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_personality",
+    "title": "气质与性格",
+    "focusType": "high_frequency",
+    "summary": "气质与性格是人格章节最典型的比较与结构性考点。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "辨析题",
+      "选择题"
+    ],
+    "keywords": [
+      "气质",
+      "性格",
+      "人格结构"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_learning_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_learning",
+    "title": "学习的含义与主要类型",
+    "focusType": "high_frequency",
+    "summary": "学习章节的基础入口是界定学习及其主要形式。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "keywords": [
+      "学习",
+      "行为变化",
+      "经验"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_learning_02",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_learning",
+    "title": "经典条件作用与操作条件作用",
+    "focusType": "high_frequency",
+    "summary": "学习理论比较题最常围绕经典条件作用与操作条件作用展开。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "辨析题",
+      "选择题"
+    ],
+    "keywords": [
+      "经典条件作用",
+      "操作条件作用",
+      "强化"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_lifespan_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_lifespan",
+    "title": "人生全程发展的基本特点",
+    "focusType": "high_frequency",
+    "summary": "发展章节的主干是把握心理发展的一生连续性、阶段性和不平衡性。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "论述题",
+      "选择题"
+    ],
+    "keywords": [
+      "发展",
+      "阶段性",
+      "连续性",
+      "不平衡性"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_lifespan_02",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_lifespan",
+    "title": "影响心理发展的主要因素",
+    "focusType": "easy_to_test",
+    "summary": "遗传、环境和教育在心理发展中的作用是发展章节的稳定考点。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "论述题",
+      "选择题"
+    ],
+    "keywords": [
+      "遗传",
+      "环境",
+      "教育",
+      "发展因素"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_intro_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intro_methods",
+    "title": "心理学的研究对象",
+    "focusType": "high_frequency",
+    "summary": "第一章的基础是明确心理学研究心理现象及其规律，并理解心理过程与个性心理。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "名词解释",
+      "选择题"
+    ],
+    "keywords": [
+      "心理学",
+      "心理现象",
+      "心理过程",
+      "个性心理"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_intro_02",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intro_methods",
+    "title": "心理学的主要研究方法",
+    "focusType": "high_frequency",
+    "summary": "观察法、实验法、调查法、测验法和个案法是绪论部分的稳定考点。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "辨析题",
+      "选择题"
+    ],
+    "keywords": [
+      "观察法",
+      "实验法",
+      "调查法",
+      "测验法",
+      "个案法"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_brain_01",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_brain_basis",
+    "title": "神经系统的基本结构",
+    "focusType": "high_frequency",
+    "summary": "脑和神经系统的组成是第二章最基础的结构性内容。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "keywords": [
+      "神经系统",
+      "中枢神经系统",
+      "周围神经系统"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_brain_02",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_brain_basis",
+    "title": "反射与反射弧",
+    "focusType": "easy_to_test",
+    "summary": "反射和反射弧是脑神经基础章节最适合出基础概念题和简答题的内容。",
+    "importance": "medium",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "keywords": [
+      "反射",
+      "反射弧",
+      "刺激反应"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_consciousness_03",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_consciousness",
+    "title": "睡眠的阶段与基本特点",
+    "focusType": "easy_to_test",
+    "summary": "睡眠阶段是意识章节中最适合出简答题和客观题的结构性内容。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题",
+      "判断题"
+    ],
+    "keywords": [
+      "睡眠",
+      "阶段",
+      "意识状态"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_language_03",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_language",
+    "title": "内部言语与外部言语",
+    "focusType": "easy_to_test",
+    "summary": "内部言语和外部言语的区分是语言章常见客观题和简答题方向。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "辨析题",
+      "选择题"
+    ],
+    "keywords": [
+      "内部言语",
+      "外部言语",
+      "言语类型"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_motivation_03",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_motivation",
+    "title": "内在动机与外在动机",
+    "focusType": "easy_to_test",
+    "summary": "内在动机和外在动机的区分是动机章常见的比较型考点。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "辨析题",
+      "选择题"
+    ],
+    "keywords": [
+      "内在动机",
+      "外在动机",
+      "行为动力"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_intelligence_03",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intelligence",
+    "title": "智力的个体差异",
+    "focusType": "easy_to_test",
+    "summary": "智力的水平差异、结构差异和表现早晚差异是智力章常见考点。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题",
+      "论述题"
+    ],
+    "keywords": [
+      "智力差异",
+      "水平差异",
+      "结构差异"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_personality_03",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_personality",
+    "title": "人格形成与发展的影响因素",
+    "focusType": "easy_to_test",
+    "summary": "遗传、环境、教育和社会实践对人格形成的作用是人格章常见简答方向。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "论述题",
+      "选择题"
+    ],
+    "keywords": [
+      "人格形成",
+      "遗传",
+      "环境",
+      "教育"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_learning_03",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_learning",
+    "title": "强化与惩罚在学习中的作用",
+    "focusType": "easy_to_test",
+    "summary": "强化与惩罚是学习章节中最常见的机制型考点。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题",
+      "辨析题"
+    ],
+    "keywords": [
+      "强化",
+      "惩罚",
+      "操作条件作用"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_intro_03",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intro_methods",
+    "title": "心理学的学科性质与主要分支",
+    "focusType": "easy_to_test",
+    "summary": "绪论中常要求理解心理学既有自然科学属性，也有人文社会科学关联，并掌握主要分支。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "keywords": [
+      "学科性质",
+      "心理学分支",
+      "基础心理学",
+      "应用心理学"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_lifespan_03",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_lifespan",
+    "title": "不同发展阶段的主要任务",
+    "focusType": "easy_to_test",
+    "summary": "婴幼儿期、儿童期、青少年期、成年期和老年期的发展任务是常见概括型考点。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "论述题",
+      "选择题"
+    ],
+    "keywords": [
+      "发展阶段",
+      "发展任务",
+      "青少年期",
+      "成年期"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_brain_03",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_brain_basis",
+    "title": "大脑皮层的机能分区",
+    "focusType": "easy_to_test",
+    "summary": "感觉区、运动区和言语相关区域是脑神经基础章节的重要结构性考点。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "keywords": [
+      "大脑皮层",
+      "机能分区",
+      "感觉区",
+      "运动区"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_consciousness_04",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_consciousness",
+    "title": "生物节律与意识状态",
+    "focusType": "easy_to_test",
+    "summary": "意识状态变化与生物节律的关系是意识章节常见的扩展型考点。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "keywords": [
+      "生物节律",
+      "昼夜节律",
+      "意识状态"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_language_04",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_language",
+    "title": "口头言语与书面言语",
+    "focusType": "easy_to_test",
+    "summary": "口头言语和书面言语的比较有助于补齐语言章节的言语形式框架。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "辨析题",
+      "选择题"
+    ],
+    "keywords": [
+      "口头言语",
+      "书面言语",
+      "言语形式"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_motivation_04",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_motivation",
+    "title": "成就动机",
+    "focusType": "easy_to_test",
+    "summary": "成就动机是动机章节中最常见的应用型与概念型考点之一。",
+    "importance": "medium",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "keywords": [
+      "成就动机",
+      "成功倾向",
+      "失败回避"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_personality_04",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_personality",
+    "title": "人格结构的基本组成",
+    "focusType": "high_frequency",
+    "summary": "气质、性格和能力等内容共同构成人格结构，是人格章的重要总括性考点。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题",
+      "论述题"
+    ],
+    "keywords": [
+      "人格结构",
+      "气质",
+      "性格",
+      "能力"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_intelligence_04",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intelligence",
+    "title": "智力测验的基本功能与限度",
+    "focusType": "easy_to_test",
+    "summary": "智力测验既是智力章的重要应用内容，也是常见辨析入口。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "辨析题",
+      "选择题"
+    ],
+    "keywords": [
+      "智力测验",
+      "智商",
+      "测验限度"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_learning_04",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_learning",
+    "title": "观察学习",
+    "focusType": "easy_to_test",
+    "summary": "观察学习有助于补齐学习理论中非直接强化路径的内容。",
+    "importance": "medium",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "keywords": [
+      "观察学习",
+      "模仿",
+      "替代强化"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_intro_04",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intro_methods",
+    "title": "心理学研究中的变量与控制意识",
+    "focusType": "easy_to_test",
+    "summary": "绪论中对科学研究基本要求的理解，有助于后续方法题作答。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "keywords": [
+      "变量",
+      "控制",
+      "科学研究"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_brain_04",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_brain_basis",
+    "title": "条件反射与无条件反射",
+    "focusType": "easy_to_test",
+    "summary": "反射分类是第二章最适合继续扩展的基础结构点。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "辨析题",
+      "选择题"
+    ],
+    "keywords": [
+      "条件反射",
+      "无条件反射",
+      "后天习得"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_lifespan_04",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_lifespan",
+    "title": "遗传、环境与教育在发展中的关系",
+    "focusType": "high_frequency",
+    "summary": "发展因素关系是人生全程发展章最容易形成综合题的一块内容。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "论述题",
+      "辨析题"
+    ],
+    "keywords": [
+      "遗传",
+      "环境",
+      "教育",
+      "发展因素"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_sensation_05",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_sensation",
+    "title": "视觉和听觉的基本现象",
+    "focusType": "easy_to_test",
+    "summary": "视觉、听觉是感觉系统中最常见的具体内容入口，适合补充客观题和简答题。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "keywords": [
+      "视觉",
+      "听觉",
+      "感觉系统"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_perception_05",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_perception",
+    "title": "空间知觉、时间知觉与运动知觉",
+    "focusType": "easy_to_test",
+    "summary": "知觉种类中的空间、时间与运动知觉适合作为知觉章的结构补充。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "keywords": [
+      "空间知觉",
+      "时间知觉",
+      "运动知觉"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_personality_05",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_personality",
+    "title": "人格测量的基本方式",
+    "focusType": "high_frequency",
+    "summary": "人格测量兼具理论与应用价值，适合形成简答题与论述题的连接点。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "论述题",
+      "选择题"
+    ],
+    "keywords": [
+      "人格测量",
+      "问卷法",
+      "投射法"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_learning_05",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_learning",
+    "title": "经典条件作用与操作条件作用",
+    "focusType": "high_frequency",
+    "summary": "两种学习理论是学习章最核心的主干，适合做比较题和综合题。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "辨析题",
+      "论述题"
+    ],
+    "keywords": [
+      "经典条件作用",
+      "操作条件作用",
+      "强化"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_emotion_06",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_emotion",
+    "title": "情绪的成分与功能",
+    "focusType": "high_frequency",
+    "summary": "情绪成分与功能是情绪章常见主干简答题，也适合与情感、动机等内容形成综合联系。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "论述题",
+      "选择题"
+    ],
+    "keywords": [
+      "情绪成分",
+      "情绪功能",
+      "主观体验"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_intelligence_05",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intelligence",
+    "title": "流体智力与晶体智力",
+    "focusType": "high_frequency",
+    "summary": "流体智力与晶体智力是智力章最典型的比较型知识点，适合高频简答与辨析题。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "辨析题",
+      "选择题"
+    ],
+    "keywords": [
+      "流体智力",
+      "晶体智力",
+      "智力理论"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_consciousness_05",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_consciousness",
+    "title": "睡眠与梦",
+    "focusType": "high_frequency",
+    "summary": "睡眠与梦是意识章最典型的命题入口，适合简答题、辨析题和基础客观题。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "辨析题",
+      "选择题"
+    ],
+    "keywords": [
+      "睡眠",
+      "梦",
+      "意识状态"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_language_05",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_language",
+    "title": "语言与思维的关系",
+    "focusType": "high_frequency",
+    "summary": "语言与思维关系是语言章最适合出综合比较题的主干内容。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "辨析题",
+      "论述题"
+    ],
+    "keywords": [
+      "语言",
+      "思维",
+      "认知活动"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_motivation_05",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_motivation",
+    "title": "内在动机与外在动机",
+    "focusType": "high_frequency",
+    "summary": "内在动机与外在动机是动机章最适合出比较题和辨析题的主干内容。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "辨析题",
+      "选择题"
+    ],
+    "keywords": [
+      "内在动机",
+      "外在动机",
+      "行为驱动"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_lifespan_05",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_lifespan",
+    "title": "心理发展的基本规律",
+    "focusType": "high_frequency",
+    "summary": "心理发展的规律性是发展章最常见的主干简答题与论述题基础。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "论述题",
+      "辨析题"
+    ],
+    "keywords": [
+      "心理发展",
+      "阶段性",
+      "不平衡性"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_perception_06",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_perception",
+    "title": "知觉的基本特性",
+    "focusType": "high_frequency",
+    "summary": "知觉的整体性、选择性、理解性和恒常性，是知觉章最核心的结构型主干。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "论述题",
+      "选择题"
+    ],
+    "keywords": [
+      "整体性",
+      "选择性",
+      "理解性",
+      "恒常性"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_thinking_06",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_thinking",
+    "title": "发散思维与聚合思维",
+    "focusType": "high_frequency",
+    "summary": "发散思维与聚合思维是思维章最典型的比较型主干内容。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "辨析题",
+      "选择题"
+    ],
+    "keywords": [
+      "发散思维",
+      "聚合思维",
+      "创造性"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_sensation_06",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_sensation",
+    "title": "感觉适应",
+    "focusType": "high_frequency",
+    "summary": "感觉适应是感觉章最常见的基础主干点之一，适合简答题和选择题。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题",
+      "判断题"
+    ],
+    "keywords": [
+      "感觉适应",
+      "刺激持续作用",
+      "感受性变化"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_brain_05",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_brain_basis",
+    "title": "神经元的结构与功能",
+    "focusType": "high_frequency",
+    "summary": "神经元结构与功能是脑神经基础章最核心的概念主干之一。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "keywords": [
+      "神经元",
+      "树突",
+      "轴突",
+      "神经冲动"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_gp_intro_05",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intro_methods",
+    "title": "心理学研究的主要方法",
+    "focusType": "high_frequency",
+    "summary": "观察法、实验法和调查法是绪论章最典型的主干内容，适合作为方法论简答题与辨析题基础。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "辨析题",
+      "选择题"
+    ],
+    "keywords": [
+      "观察法",
+      "实验法",
+      "调查法",
+      "研究方法"
+    ],
+    "status": "active"
+  }
+]

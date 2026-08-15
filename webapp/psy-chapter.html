@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>章节复习 - 心理学考研复习系统</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="./psy.css" />
+</head>
+<body data-page="chapter">
+  <div class="shell">
+    <header class="topbar card compact-topbar">
+      <div>
+        <div class="eyebrow">Chapter Review</div>
+        <h1 id="chapterTitle">章节复习</h1>
+        <p class="muted" id="chapterSummary">加载中…</p>
+        <div class="chapter-breadcrumb" id="chapterBreadcrumb"></div>
+      </div>
+      <nav class="nav">
+        <a class="nav-link" href="./psy-index.html">首页</a>
+        <a class="nav-link" href="./psy-subject.html?subject=general_psychology">学科复习</a>
+        <a class="nav-link" href="./psy-papers.html">测试卷中心</a>
+        <a class="nav-link" href="./psy-progress.html">复习进度</a>
+        <a class="nav-link" href="./psy-manage.html">内容管理</a>
+        <a class="nav-link" href="./psy-readme.html">使用说明</a>
+      </nav>
+    </header>
+
+    <section class="card two-col">
+      <div>
+        <div class="eyebrow">Position</div>
+        <h2>章节定位</h2>
+        <p class="body-text" id="chapterPosition"></p>
+        <div class="tag-row" id="chapterTags"></div>
+      </div>
+      <div class="panel">
+        <div class="eyebrow">Status</div>
+        <h3>复习状态</h3>
+        <div class="stack">
+          <button class="cta primary" id="markReviewedBtn">标记为已通读</button>
+          <button class="cta secondary" id="markWeakBtn">标记为薄弱</button>
+          <a class="quick-link" href="./psy-papers.html">去做本章测试</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="section-head"><div><div class="eyebrow">Overview</div><h3>本章复习面板</h3></div></div>
+      <div class="stats-grid" id="chapterStats"></div>
+    </section>
+
+    <section class="card two-col">
+      <div>
+        <div class="section-head"><div><div class="eyebrow">Focus</div><h3>高频重点</h3></div></div>
+        <div class="stack" id="chapterFocus"></div>
+      </div>
+      <div>
+        <div class="section-head"><div><div class="eyebrow">Confusion</div><h3>易混点</h3></div></div>
+        <div class="stack" id="chapterConfusions"></div>
+      </div>
+    </section>
+
+    <section class="card two-col">
+      <div>
+        <div class="section-head"><div><div class="eyebrow">Objective</div><h3>客观题练习</h3></div></div>
+        <div class="stack" id="chapterObjectiveQuestions"></div>
+      </div>
+      <div>
+        <div class="section-head"><div><div class="eyebrow">Subjective</div><h3>主观题练习</h3></div></div>
+        <div class="stack" id="chapterSubjectiveQuestions"></div>
+      </div>
+    </section>
+  </div>
+  <script src="./psy-app.js"></script>
+</body>
+</html>

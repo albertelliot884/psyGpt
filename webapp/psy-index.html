@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>心理学考研复习系统</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="./psy.css" />
+</head>
+<body data-page="home">
+  <div class="shell">
+    <header class="topbar card">
+      <div>
+        <div class="eyebrow">Psychology · Review · Exam</div>
+        <h1>心理学考研复习系统</h1>
+        <p class="muted">严肃、专业、适合考研人群的专业课复习网页。覆盖普通心理学、实验心理学、教育心理学、社会心理学、心理测量与统计。</p>
+      </div>
+      <nav class="nav">
+        <a class="nav-link active" href="./psy-index.html">首页</a>
+        <a class="nav-link" href="./psy-subject.html?subject=general_psychology">学科复习</a>
+        <a class="nav-link" href="./psy-papers.html">测试卷中心</a>
+        <a class="nav-link" href="./psy-progress.html">复习进度</a>
+        <a class="nav-link" href="./psy-manage.html">内容管理</a>
+        <a class="nav-link" href="./psy-readme.html">使用说明</a>
+      </nav>
+    </header>
+
+    <section class="hero card">
+      <div class="hero-main">
+        <div class="hero-note">COURSE OVERVIEW</div>
+        <h2>把教材、重点、题目和进度放进同一个复习工作台</h2>
+        <p class="muted">当前先以普通心理学为首批样板学科，跑通“章节复习 → 高频提炼 → 试卷训练 → 进度记录”的第一版闭环。</p>
+        <div class="cta-row">
+          <a class="cta primary" href="./psy-subject.html?subject=general_psychology">进入普通心理学</a>
+          <a class="cta secondary" href="./psy-papers.html">去做测试卷</a>
+        </div>
+      </div>
+      <div class="hero-aside panel stats-grid" id="homeStats"></div>
+    </section>
+
+    <section class="card">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Subjects</div>
+          <h3>学科入口</h3>
+        </div>
+      </div>
+      <div class="grid" id="subjectGrid"></div>
+    </section>
+
+    <section class="card two-col">
+      <div>
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Recommended</div>
+            <h3>推荐任务</h3>
+          </div>
+        </div>
+        <div class="stack" id="recommendList"></div>
+      </div>
+      <div>
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Quick Links</div>
+            <h3>快捷入口</h3>
+          </div>
+        </div>
+        <div class="stack">
+          <a class="quick-link" href="./psy-subject.html?subject=general_psychology">继续普通心理学复习</a>
+          <a class="quick-link" href="./psy-papers.html">生成一套高频冲刺卷</a>
+          <a class="quick-link" href="./psy-progress.html">查看当前进度与薄弱章节</a>
+          <a class="quick-link" href="./psy-manage.html">进入内容管理页</a>
+          <a class="quick-link" href="./psy-readme.html">查看系统使用说明</a>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="./psy-app.js"></script>
+</body>
+</html>

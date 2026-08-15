@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>五线谱识谱学习站</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  <style>
+    :root {
+      --bg: #f8f4ec;
+      --card: rgba(255,253,248,.96);
+      --text: #2f2a24;
+      --muted: #746b60;
+      --primary: #314a68;
+      --teal: #7a8f72;
+      --accent: #9a5b52;
+      --shadow: 0 12px 28px rgba(79,63,44,.08);
+      --radius: 16px;
+      --border: 1px solid rgba(219,210,194,.95);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(154,91,82,.08), transparent 26%),
+        radial-gradient(circle at top right, rgba(122,143,114,.08), transparent 24%),
+        linear-gradient(180deg, #f3ede2 0%, #f8f4ec 100%);
+      min-height: 100vh;
+      padding: 18px;
+    }
+    .app { width: min(1160px, 100%); margin: 0 auto; display: grid; gap: 16px; }
+    .card { background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); padding: 24px; border: var(--border); }
+    .hero { display: grid; gap: 18px; position: relative; overflow: hidden; background: linear-gradient(180deg, rgba(255,253,248,.98) 0%, rgba(247,240,227,.96) 100%); padding-top: 26px; }
+    .hero::before { content: "COURSE NOTES"; position: absolute; right: 22px; top: 18px; font-size: 12px; letter-spacing: .18em; color: #a08f78; font-weight: 800; }
+    .hero::after { content: ""; position: absolute; left: 22px; top: 18px; width: 72px; height: 3px; border-radius: 999px; background: linear-gradient(90deg, #314a68 0%, #9a5b52 100%); opacity: .75; }
+    h1,h2,h3,p { margin-top: 0; }
+    h1 { font-size: 34px; margin-bottom: 10px; letter-spacing: .02em; }
+    h2 { color: #2f2a24; }
+    h3 { color: #3f392f; }
+    .subtitle,.muted { color: var(--muted); line-height: 1.7; }
+    .top-nav { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+    .nav-link { display: inline-flex; align-items: center; justify-content: center; min-height: 42px; padding: 10px 14px; border-radius: 12px; text-decoration: none; font-weight: 700; background: #ebe3d6; color: #5a5248; border: 1px solid #ddd3c3; box-shadow: inset 0 1px 0 rgba(255,255,255,.45); }
+    .nav-link.active { background: #e7ddbf; color: #314a68; border-color: #d3c494; box-shadow: inset 0 1px 0 rgba(255,255,255,.45), 0 4px 10px rgba(122,106,74,.06); }
+    .cta-row, .feature-grid, .path-grid { display: grid; gap: 12px; }
+    .cta-row { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+    .feature-grid, .path-grid { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+    .panel { border-radius: 16px; padding: 16px; background: rgba(255,253,248,.95); border: var(--border); position: relative; overflow: hidden; }
+    .panel::before { content: ""; position: absolute; left: 0; top: 0; width: 100%; height: 4px; background: #314a68; opacity: .9; }
+    .feature-grid .panel:nth-child(2n)::before { background: #7a8f72; }
+    .path-grid .panel:nth-child(3n)::before { background: #9a5b52; }
+    .cta {
+      display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 12px 14px;
+      border-radius: 12px; text-decoration: none; font-weight: 700; transition: .15s ease; border: 1px solid transparent;
+    }
+    .cta.primary { background: var(--primary); color: white; box-shadow: 0 8px 18px rgba(49,74,104,.16); }
+    .cta.secondary { background: #efe7da; color: #4a443c; border-color: #d8cbb7; }
+    .cta.teal { background: var(--teal); color: white; box-shadow: 0 8px 18px rgba(122,143,114,.16); }
+    .cta:hover { transform: translateY(-1px); }
+    ul { margin: 0; padding-left: 18px; line-height: 1.8; }
+    .pill { display: inline-flex; align-items: center; padding: 6px 10px; border-radius: 999px; background: #ece4d4; color: #314a68; font-size: 13px; font-weight: 700; border: 1px solid #ddd1bb; }
+    @media (max-width: 720px) { body { padding: 12px; } .card { padding: 18px; } .hero { gap: 14px; padding-top: 24px; } .hero::before { right: 18px; top: 14px; font-size: 11px; } .hero::after { left: 18px; top: 14px; width: 56px; } h1 { font-size: 28px; } .cta-row { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <section class="card">
+      <div class="top-nav">
+        <a class="nav-link active" href="./home.html">学习站首页</a>
+        <a class="nav-link" href="./index.html">识谱训练器</a>
+        <a class="nav-link" href="./learn.html">乐理教学</a>
+        <a class="nav-link" href="./README.html">使用说明</a>
+        <a class="nav-link" href="./psy-index.html">心理学复习系统</a>
+      </div>
+    </section>
+
+    <section class="card hero">
+      <div>
+        <div class="muted" style="font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:#8a7a63; margin-bottom:8px;">Guide · Practice · Theory</div>
+        <div class="pill">纯前端 · 可本地打开 · 可静态部署</div>
+        <h1>五线谱识谱学习站</h1>
+        <p class="subtitle">把识谱训练器、乐理教学、小测、随机练习和章节联动整合到一起的学习小站。你可以直接开始刷题，也可以按课程地图从基础一路学到和弦功能、终止式、七和弦。</p>
+      </div>
+      <div class="cta-row">
+        <a class="cta primary" href="./index.html">开始识谱训练</a>
+        <a class="cta teal" href="./learn.html">开始乐理学习</a>
+        <a class="cta secondary" href="./README.html">查看使用说明</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>快速开始</h2>
+      <div class="feature-grid">
+        <div class="panel">
+          <h3>我是刚入门</h3>
+          <p class="muted">先看课程地图，再从音程、五度圈开始，别急着一上来全混合。</p>
+          <a class="cta secondary" href="./learn.html">开始乐理学习</a>
+        </div>
+        <div class="panel">
+          <h3>我想直接刷题</h3>
+          <p class="muted">直接进入识谱训练器，用高音 / 低音专项把基本盘先拉稳。</p>
+          <a class="cta primary" href="./index.html">开始识谱训练</a>
+        </div>
+        <div class="panel">
+          <h3>我要临时复习</h3>
+          <p class="muted">先做训练，再看错题和报告，再回教学页补薄弱章节。</p>
+          <a class="cta teal" href="./README.html">先看使用建议</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>你可以怎么用这套站</h2>
+      <div class="path-grid">
+        <div class="panel">
+          <h3>路线 A：先练再学</h3>
+          <p class="muted">适合已经在学琴、想先把识谱速度拉起来的人。</p>
+          <ul>
+            <li>先进训练器练高音 / 低音谱号</li>
+            <li>再补音程、五度圈、调号知识</li>
+            <li>最后回训练器按章节预设强化</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>路线 B：先学再练</h3>
+          <p class="muted">适合刚入门、怕一上来只会机械猜答案的人。</p>
+          <ul>
+            <li>先看课程地图和推荐顺序</li>
+            <li>每章做小测和随机练习</li>
+            <li>点“开始本章练习”回训练器验证</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>路线 C：考前冲刺</h3>
+          <p class="muted">适合临近测验，需要集中做题和查漏补缺。</p>
+          <ul>
+            <li>先开考试模式</li>
+            <li>导出练习报告</li>
+            <li>根据错题回到对应教学章节复习</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>站点包含什么</h2>
+      <div class="feature-grid">
+        <div class="panel">
+          <h3>识谱训练器</h3>
+          <ul>
+            <li>高音 / 低音 / 混合谱号</li>
+            <li>自然音 / 升号 / 降号 / 混合</li>
+            <li>线 / 间专项、中央 C、加线、八度强化</li>
+            <li>错题本、考试模式、练习报告导出</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>乐理教学页</h3>
+          <ul>
+            <li>音程、五度圈、调号与调性</li>
+            <li>三和弦、和弦功能、终止式、七和弦</li>
+            <li>节奏与拍号、音阶与调式</li>
+            <li>课程地图、章节状态、本地学习进度</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>学练联动</h3>
+          <ul>
+            <li>章节小测与随机练习</li>
+            <li>教学页可直接跳回训练器</li>
+            <li>训练器可读取 <code>lesson</code> 参数自动套预设</li>
+            <li>支持恢复默认配置继续自由练习</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>推荐学习顺序</h2>
+      <div class="feature-grid">
+        <div class="panel"><h3>1. 识谱基础</h3><p class="muted">先熟悉高音 / 低音谱号、中央 C、线与间。</p></div>
+        <div class="panel"><h3>2. 音程与五度圈</h3><p class="muted">建立音与音之间、调与调之间的关系。</p></div>
+        <div class="panel"><h3>3. 调号与和弦</h3><p class="muted">开始理解调性、三和弦和功能走向。</p></div>
+        <div class="panel"><h3>4. 终止式与七和弦</h3><p class="muted">补上更完整的和声听感与分析入口。</p></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>其他学习项目</h2>
+      <div class="feature-grid">
+        <div class="panel">
+          <h3>心理学考研复习系统</h3>
+          <p class="muted">面向考研人群的专业课复习网页，当前已完成普通心理学首批 6 章样板，并接入章节复习、重点提炼、测试卷和进度记录。</p>
+          <ul>
+            <li>普通心理学 6 章首批内容骨架</li>
+            <li>章节页 / 测试卷页 / 进度页</li>
+            <li>严肃学院手册风界面</li>
+            <li>支持后续继续扩题和接真题</li>
+          </ul>
+          <div style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap;">
+            <a class="cta primary" href="./psy-index.html">进入心理学复习系统</a>
+            <a class="cta secondary" href="./psy-subject.html?subject=general_psychology">查看普通心理学</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

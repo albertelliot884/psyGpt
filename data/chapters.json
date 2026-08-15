@@ -1,0 +1,265 @@
+[
+  {
+    "id": "ep_variables",
+    "subjectId": "experimental_psychology",
+    "name": "实验变量与实验设计",
+    "order": 1,
+    "importance": "high",
+    "difficulty": "medium",
+    "summary": "实验变量、自变量、因变量、控制变量及基本实验设计是实验心理学的入门主干。",
+    "tags": [
+      "高频",
+      "基础骨架",
+      "设计题"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ep_reaction_time",
+    "subjectId": "experimental_psychology",
+    "name": "反应时法",
+    "order": 2,
+    "importance": "high",
+    "difficulty": "medium",
+    "summary": "反应时法是实验心理学最常考的方法论章节之一，经常和减法反应时技术结合出题。",
+    "tags": [
+      "高频",
+      "方法",
+      "常考"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ep_psychophysics",
+    "subjectId": "experimental_psychology",
+    "name": "心理物理法",
+    "order": 3,
+    "importance": "high",
+    "difficulty": "hard",
+    "summary": "极限法、恒定刺激法、平均差误法是心理物理法章节的核心内容。",
+    "tags": [
+      "高频",
+      "方法",
+      "阈限"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ep_memory_experiment",
+    "subjectId": "experimental_psychology",
+    "name": "记忆实验",
+    "order": 4,
+    "importance": "medium",
+    "difficulty": "medium",
+    "summary": "记忆实验覆盖节省法、对偶联合法、自由回忆法等，是实验范式应用的重要部分。",
+    "tags": [
+      "经典范式",
+      "应用"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "gp_intro_methods",
+    "subjectId": "general_psychology",
+    "name": "第一章 心理学的研究对象和方法",
+    "order": 1,
+    "importance": "medium",
+    "difficulty": "easy",
+    "summary": "本章说明心理学研究什么、如何研究，是进入全书前必须建立的学科框架章。",
+    "tags": [
+      "绪论",
+      "方法",
+      "框架"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "gp_brain_basis",
+    "subjectId": "general_psychology",
+    "name": "第二章 心理与行为的脑神经基础",
+    "order": 2,
+    "importance": "medium",
+    "difficulty": "medium",
+    "summary": "本章介绍心理与行为活动的神经系统基础，重点理解脑、神经与心理活动之间的关系。",
+    "tags": [
+      "绪论",
+      "脑神经",
+      "生理基础"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "gp_sensation",
+    "subjectId": "general_psychology",
+    "name": "第三章 感觉",
+    "order": 3,
+    "importance": "high",
+    "difficulty": "easy",
+    "summary": "感觉是信息加工的起点，重点掌握感觉种类、感受性、阈限及感觉现象等基础内容。",
+    "tags": [
+      "信息加工",
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "gp_perception",
+    "subjectId": "general_psychology",
+    "name": "第四章 知觉",
+    "order": 4,
+    "importance": "high",
+    "difficulty": "medium",
+    "summary": "知觉在感觉基础上反映事物整体属性，重点掌握知觉特性、组织规律与错觉。",
+    "tags": [
+      "信息加工",
+      "高频",
+      "整体加工"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "gp_consciousness",
+    "subjectId": "general_psychology",
+    "name": "第五章 意识",
+    "order": 5,
+    "importance": "medium",
+    "difficulty": "medium",
+    "summary": "本章讨论意识状态及其变化，常见内容包括睡眠、梦和无意识等。",
+    "tags": [
+      "信息加工",
+      "意识状态"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "gp_memory",
+    "subjectId": "general_psychology",
+    "name": "第六章 记忆",
+    "order": 6,
+    "importance": "high",
+    "difficulty": "medium",
+    "summary": "记忆是普通心理学主干高频章，重点掌握记忆过程、记忆系统、遗忘规律与理论。",
+    "tags": [
+      "信息加工",
+      "高频",
+      "主干章"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "gp_thinking",
+    "subjectId": "general_psychology",
+    "name": "第七章 思维",
+    "order": 7,
+    "importance": "high",
+    "difficulty": "medium",
+    "summary": "思维是高级认知过程，重点掌握思维特征、问题解决与创造性思维。",
+    "tags": [
+      "信息加工",
+      "高频",
+      "综合"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "gp_language",
+    "subjectId": "general_psychology",
+    "name": "第八章 语言",
+    "order": 8,
+    "importance": "medium",
+    "difficulty": "medium",
+    "summary": "本章讨论语言与言语活动，重点理解语言在认知和思维中的作用。",
+    "tags": [
+      "信息加工",
+      "语言"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "gp_motivation",
+    "subjectId": "general_psychology",
+    "name": "第九章 动机",
+    "order": 9,
+    "importance": "medium",
+    "difficulty": "medium",
+    "summary": "本章讨论行为的内在动力，包括需要、动机、诱因及动机冲突等内容。",
+    "tags": [
+      "行为调节",
+      "动机"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "gp_emotion",
+    "subjectId": "general_psychology",
+    "name": "第十章 情绪",
+    "order": 10,
+    "importance": "high",
+    "difficulty": "medium",
+    "summary": "情绪是行为调节与控制中的核心章节，重点包括情绪成分、状态与功能。",
+    "tags": [
+      "行为调节",
+      "高频",
+      "情绪"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "gp_intelligence",
+    "subjectId": "general_psychology",
+    "name": "第十一章 智力",
+    "order": 11,
+    "importance": "medium",
+    "difficulty": "medium",
+    "summary": "本章讨论智力的含义、理论、测量及个体差异，是个体差异板块的重要内容。",
+    "tags": [
+      "心理特性",
+      "智力"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "gp_personality",
+    "subjectId": "general_psychology",
+    "name": "第十二章 人格",
+    "order": 12,
+    "importance": "high",
+    "difficulty": "medium",
+    "summary": "人格是普通心理学中个体差异的核心内容，重点掌握气质、性格和人格形成。",
+    "tags": [
+      "心理特性",
+      "高频",
+      "人格"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "gp_learning",
+    "subjectId": "general_psychology",
+    "name": "第十三章 学习",
+    "order": 13,
+    "importance": "medium",
+    "difficulty": "medium",
+    "summary": "本章讨论学习的含义、主要理论及影响学习效果的条件。",
+    "tags": [
+      "学习与发展",
+      "学习"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "gp_lifespan",
+    "subjectId": "general_psychology",
+    "name": "第十四章 人生全程发展",
+    "order": 14,
+    "importance": "medium",
+    "difficulty": "medium",
+    "summary": "本章从发展视角讨论个体一生中心理发展的阶段特点及影响因素。",
+    "tags": [
+      "学习与发展",
+      "发展"
+    ],
+    "status": "active"
+  }
+]

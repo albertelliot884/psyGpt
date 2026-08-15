@@ -1,0 +1,4932 @@
+[
+  {
+    "id": "q_gp_memory_001",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_memory",
+    "type": "名词解释",
+    "title": "工作记忆",
+    "stem": "请解释工作记忆的含义。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学题目总结",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "高频",
+      "概念题",
+      "常考"
+    ],
+    "answer": "工作记忆是指对信息进行暂时存储并加工处理的系统，是认知活动的重要基础。作答时一般应先给出概念的核心定义，再点出其关键属性、适用范围或与相关概念的区别。结合复习要求看，本题容易与短时记忆混淆，答题时应突出加工功能。",
+    "scoringPoints": [
+      "说明其为暂时存储系统",
+      "说明其包含加工处理功能",
+      "指出其在认知活动中的作用"
+    ],
+    "analysis": "本题容易与短时记忆混淆，答题时应突出加工功能。",
+    "relatedFocusPointIds": [
+      "fp_gp_memory_02"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_memory_01"
+    ],
+    "status": "active",
+    "recommendedWords": "80-120字",
+    "recommendedTime": "3-5分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_memory_002",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_memory",
+    "type": "简答题",
+    "title": "记忆的三级存储模型",
+    "stem": "简述记忆的三级存储模型。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学题目总结",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "高频",
+      "模型题",
+      "章节核心"
+    ],
+    "answer": "记忆的三级存储模型包括感觉记忆、短时记忆和长时记忆。三者在容量、保持时间、编码方式等方面存在差异，并共同构成完整的记忆系统。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出感觉记忆、短时记忆、长时记忆；简述三者基本特征；说明三者之间的关系。从复习角度看，这是记忆章基础骨架题，适合章节卷和高频卷。",
+    "scoringPoints": [
+      "写出感觉记忆、短时记忆、长时记忆",
+      "简述三者基本特征",
+      "说明三者之间的关系"
+    ],
+    "analysis": "这是记忆章基础骨架题，适合章节卷和高频卷。",
+    "relatedFocusPointIds": [
+      "fp_gp_memory_01"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_memory_003",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_memory",
+    "type": "论述题",
+    "title": "主要遗忘理论及启示",
+    "stem": "试述主要遗忘理论，并说明其对学习和教学的启示。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学题目总结",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "高频",
+      "综合题",
+      "应用题"
+    ],
+    "answer": "主要遗忘理论包括痕迹衰退说、干扰说、提取失败说等。不同理论分别从记忆痕迹消退、信息干扰、提取线索不足等角度解释遗忘。对学习和教学的启示包括合理安排复习、减少干扰、提供有效线索等。论述题不能只停留在列点层面，最好先给出总述，再分层展开各个理论点，最后再回到题目要求作总结。如果题目中带有“比较”“启示”“影响因素”“应用”这类要求，必须在主体部分专门分出相应段落，不宜只写定义。本题写作时建议至少覆盖：写出主要遗忘理论；概括各理论核心观点；结合学习/教学谈启示。从训练角度看，本题适合真题风格卷和综合模拟卷，能检验整合能力。在考场中，这类题通常需要写出较完整的层次：先交代基本概念或总体观点，再按逻辑展开主体内容，最后补一句概括性结论，这样更接近阅卷习惯。论述题作答时，首先要交代题目涉及的总体观点或基本框架，再按逻辑顺序展开各个分论点，使答案形成完整论证，而不是若干零散条目。如果题目要求写“启示”“影响”或“应用”，则应在主体理论写完之后，专门分出一个层次进行延伸，不能把应用要求省略掉。从考场表达看，论述题更强调层次感和展开度，通常需要做到“先总述、再分点、后总结”，这样既有理论性，也更接近实际阅卷标准。",
+    "scoringPoints": [
+      "写出主要遗忘理论",
+      "概括各理论核心观点",
+      "结合学习/教学谈启示"
+    ],
+    "analysis": "本题适合真题风格卷和综合模拟卷，能检验整合能力。",
+    "relatedFocusPointIds": [
+      "fp_gp_memory_03"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "500-700字",
+    "recommendedTime": "15-22分钟",
+    "answerLevel": "expanded"
+  },
+  {
+    "id": "q_gp_thinking_001",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_thinking",
+    "type": "论述题",
+    "title": "问题解决的过程与影响因素",
+    "stem": "试述问题解决的基本过程及其影响因素。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学题目总结",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "高频",
+      "论述题",
+      "综合"
+    ],
+    "answer": "问题解决通常包括发现问题、分析问题、提出假设、检验假设等环节。影响因素包括问题表征、知识经验、定势、功能固着、动机状态等。论述题不能只停留在列点层面，最好先给出总述，再分层展开各个理论点，最后再回到题目要求作总结。如果题目中带有“比较”“启示”“影响因素”“应用”这类要求，必须在主体部分专门分出相应段落，不宜只写定义。本题写作时建议至少覆盖：写出问题解决的主要过程；写出关键影响因素；体现一定逻辑层次。从训练角度看，思维章高频综合题，适合真题风格卷。在考场中，这类题通常需要写出较完整的层次：先交代基本概念或总体观点，再按逻辑展开主体内容，最后补一句概括性结论，这样更接近阅卷习惯。论述题作答时，首先要交代题目涉及的总体观点或基本框架，再按逻辑顺序展开各个分论点，使答案形成完整论证，而不是若干零散条目。如果题目要求写“启示”“影响”或“应用”，则应在主体理论写完之后，专门分出一个层次进行延伸，不能把应用要求省略掉。从考场表达看，论述题更强调层次感和展开度，通常需要做到“先总述、再分点、后总结”，这样既有理论性，也更接近实际阅卷标准。写作时还应注意把教材中的关键术语写准确，必要时可用一两句话解释术语之间的联系，这样比单纯罗列名词更有论述题的完整度。",
+    "scoringPoints": [
+      "写出问题解决的主要过程",
+      "写出关键影响因素",
+      "体现一定逻辑层次"
+    ],
+    "analysis": "思维章高频综合题，适合真题风格卷。",
+    "relatedFocusPointIds": [
+      "fp_gp_thinking_01"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "500-700字",
+    "recommendedTime": "15-22分钟",
+    "answerLevel": "expanded"
+  },
+  {
+    "id": "q_gp_emotion_001",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_emotion",
+    "type": "简答题",
+    "title": "经典情绪理论比较",
+    "stem": "简述几种经典情绪理论，并比较其主要观点。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学题目总结",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "高频",
+      "比较题",
+      "论述潜力"
+    ],
+    "answer": "经典情绪理论包括詹姆斯-兰格理论、坎农-巴德理论和沙赫特双因素理论等。它们分别从生理反应、丘脑作用和认知评价等角度解释情绪产生机制。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出主要情绪理论名称；概括各理论观点；指出它们之间的主要区别。从复习角度看，适合情绪章高频训练，也适合易混辨析卷。作答时可以先概括本题的中心观点，再围绕教材中的关键术语分点展开，避免只列名词而缺少解释。",
+    "scoringPoints": [
+      "写出主要情绪理论名称",
+      "概括各理论观点",
+      "指出它们之间的主要区别"
+    ],
+    "analysis": "适合情绪章高频训练，也适合易混辨析卷。",
+    "relatedFocusPointIds": [
+      "fp_gp_emotion_01"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_emotion_01"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_memory_004",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_memory",
+    "type": "简答题",
+    "title": "影响记忆效果的因素",
+    "stem": "简述影响记忆效果的主要因素。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学题目总结",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "高频",
+      "应用题",
+      "基础综合"
+    ],
+    "answer": "影响记忆效果的因素包括材料的性质与数量、识记目的、识记方法、复习安排、情绪状态以及已有知识经验等。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出主要因素；能适当分类说明；体现一定应用意识。从复习角度看，这类题常和学习策略、教学启示结合。作答时可以先概括本题的中心观点，再围绕教材中的关键术语分点展开，避免只列名词而缺少解释。",
+    "scoringPoints": [
+      "写出主要因素",
+      "能适当分类说明",
+      "体现一定应用意识"
+    ],
+    "analysis": "这类题常和学习策略、教学启示结合。",
+    "relatedFocusPointIds": [
+      "fp_gp_memory_04"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_memory_005",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_memory",
+    "type": "名词解释",
+    "title": "再认",
+    "stem": "请解释再认。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学题目总结",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "概念题"
+    ],
+    "answer": "再认是指个体在过去感知过的事物再次出现时能够识别并确认其曾经经历过的提取方式。作答时一般应先给出概念的核心定义，再点出其关键属性、适用范围或与相关概念的区别。结合复习要求看，适合与“回忆”一起构成辨析题。",
+    "scoringPoints": [
+      "指出其属于提取方式",
+      "说明有外部刺激再次出现",
+      "体现识别曾经经验的含义"
+    ],
+    "analysis": "适合与“回忆”一起构成辨析题。",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": [
+      "cp_gp_memory_02"
+    ],
+    "status": "active",
+    "recommendedWords": "80-120字",
+    "recommendedTime": "3-5分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_thinking_002",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_thinking",
+    "type": "简答题",
+    "title": "思维的特征",
+    "stem": "简述思维的主要特征。",
+    "difficulty": "easy",
+    "importance": "high",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学题目总结",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "高频",
+      "基础题"
+    ],
+    "answer": "思维的主要特征包括间接性和概括性。思维能够借助已有知识经验对事物本质和规律进行间接、概括的反映。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出间接性和概括性；分别作简要说明。从复习角度看，是思维章最基础的骨架题。作答时可以先概括本题的中心观点，再围绕教材中的关键术语分点展开，避免只列名词而缺少解释。",
+    "scoringPoints": [
+      "写出间接性和概括性",
+      "分别作简要说明"
+    ],
+    "analysis": "是思维章最基础的骨架题。",
+    "relatedFocusPointIds": [
+      "fp_gp_thinking_02"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_thinking_003",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_thinking",
+    "type": "简答题",
+    "title": "创造性思维的特征",
+    "stem": "简述创造性思维的主要特征。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学题目总结",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "高频",
+      "综合题"
+    ],
+    "answer": "创造性思维通常表现为流畅性、变通性和独创性等特征，强调在问题解决中产生新颖且有价值的结果。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出主要特征；体现新颖性与价值性。从复习角度看，适合和发散思维一起考。作答时可以先概括本题的中心观点，再围绕教材中的关键术语分点展开，避免只列名词而缺少解释。",
+    "scoringPoints": [
+      "写出主要特征",
+      "体现新颖性与价值性"
+    ],
+    "analysis": "适合和发散思维一起考。",
+    "relatedFocusPointIds": [
+      "fp_gp_thinking_03"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_thinking_01"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_thinking_004",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_thinking",
+    "type": "名词解释",
+    "title": "发散思维",
+    "stem": "请解释发散思维。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学题目总结",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "概念题",
+      "创造性"
+    ],
+    "answer": "发散思维是指沿着不同方向、从多种角度探索问题并寻求多种可能答案的思维方式。作答时一般应先给出概念的核心定义，再点出其关键属性、适用范围或与相关概念的区别。结合复习要求看，适合与聚合思维比较。",
+    "scoringPoints": [
+      "说明多方向探索",
+      "说明多种可能答案"
+    ],
+    "analysis": "适合与聚合思维比较。",
+    "relatedFocusPointIds": [
+      "fp_gp_thinking_03"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_thinking_01"
+    ],
+    "status": "active",
+    "recommendedWords": "80-120字",
+    "recommendedTime": "3-5分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_sensation_001",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_sensation",
+    "type": "名词解释",
+    "title": "感觉适应",
+    "stem": "请解释感觉适应。",
+    "difficulty": "easy",
+    "importance": "high",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学题目总结",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "高频",
+      "现象题"
+    ],
+    "answer": "感觉适应是指同一刺激持续作用于感觉器官时，感受性发生变化的现象。作答时一般应先给出概念的核心定义，再点出其关键属性、适用范围或与相关概念的区别。结合复习要求看，是感觉章最常见概念题之一。",
+    "scoringPoints": [
+      "指出持续刺激作用",
+      "指出感受性变化"
+    ],
+    "analysis": "是感觉章最常见概念题之一。",
+    "relatedFocusPointIds": [
+      "fp_gp_sensation_02"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "80-120字",
+    "recommendedTime": "3-5分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_sensation_002",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_sensation",
+    "type": "简答题",
+    "title": "感觉阈限与感受性的关系",
+    "stem": "简述感觉阈限与感受性的关系。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学题目总结",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "高频",
+      "基础理论"
+    ],
+    "answer": "感觉阈限与感受性成反比关系。阈限越低，感受性越高；阈限越高，感受性越低。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出反比关系；说明阈限高低与感受性变化。从复习角度看，常与绝对阈限、差别阈限联动考查。作答时可以先概括本题的中心观点，再围绕教材中的关键术语分点展开，避免只列名词而缺少解释。如果时间允许，最好在结尾用一句话概括这些要点之间的关系，这样答案会更完整，也更符合主观题评分习惯。",
+    "scoringPoints": [
+      "写出反比关系",
+      "说明阈限高低与感受性变化"
+    ],
+    "analysis": "常与绝对阈限、差别阈限联动考查。",
+    "relatedFocusPointIds": [
+      "fp_gp_sensation_01"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_sensation_01"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_perception_001",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_perception",
+    "type": "简答题",
+    "title": "知觉的基本特性",
+    "stem": "简述知觉的基本特性。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学题目总结",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "高频",
+      "骨架题"
+    ],
+    "answer": "知觉的基本特性包括选择性、整体性、理解性和恒常性。它们反映了知觉对对象进行组织、解释和保持相对稳定性的特点。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出四个基本特性；作出简要解释。从复习角度看，是知觉章最核心的结构题。作答时可以先概括本题的中心观点，再围绕教材中的关键术语分点展开，避免只列名词而缺少解释。",
+    "scoringPoints": [
+      "写出四个基本特性",
+      "作出简要解释"
+    ],
+    "analysis": "是知觉章最核心的结构题。",
+    "relatedFocusPointIds": [
+      "fp_gp_perception_01"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_perception_002",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_perception",
+    "type": "论述题",
+    "title": "知觉组织规律",
+    "stem": "试述知觉组织的主要规律。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学题目总结",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "高频",
+      "论述题",
+      "格式塔"
+    ],
+    "answer": "知觉组织规律主要包括接近律、相似律、连续律、闭合律等。它们说明个体在知觉过程中会自发地将刺激组织成具有结构和意义的整体。论述题不能只停留在列点层面，最好先给出总述，再分层展开各个理论点，最后再回到题目要求作总结。如果题目中带有“比较”“启示”“影响因素”“应用”这类要求，必须在主体部分专门分出相应段落，不宜只写定义。本题写作时建议至少覆盖：写出主要组织规律；概括各规律含义；指出其体现整体组织倾向。从训练角度看，这类题很能体现知觉章的理论味。在考场中，这类题通常需要写出较完整的层次：先交代基本概念或总体观点，再按逻辑展开主体内容，最后补一句概括性结论，这样更接近阅卷习惯。论述题作答时，首先要交代题目涉及的总体观点或基本框架，再按逻辑顺序展开各个分论点，使答案形成完整论证，而不是若干零散条目。如果题目要求写“启示”“影响”或“应用”，则应在主体理论写完之后，专门分出一个层次进行延伸，不能把应用要求省略掉。从考场表达看，论述题更强调层次感和展开度，通常需要做到“先总述、再分点、后总结”，这样既有理论性，也更接近实际阅卷标准。写作时还应注意把教材中的关键术语写准确，必要时可用一两句话解释术语之间的联系，这样比单纯罗列名词更有论述题的完整度。",
+    "scoringPoints": [
+      "写出主要组织规律",
+      "概括各规律含义",
+      "指出其体现整体组织倾向"
+    ],
+    "analysis": "这类题很能体现知觉章的理论味。",
+    "relatedFocusPointIds": [
+      "fp_gp_perception_02"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "500-700字",
+    "recommendedTime": "15-22分钟",
+    "answerLevel": "expanded"
+  },
+  {
+    "id": "q_gp_emotion_002",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_emotion",
+    "type": "简答题",
+    "title": "情绪的成分",
+    "stem": "简述情绪的主要成分。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学题目总结",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "高频",
+      "基础题"
+    ],
+    "answer": "情绪的主要成分包括主观体验、生理唤醒和外部表现。三者共同构成完整的情绪反应。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出三种主要成分；概括其基本含义。从复习角度看，适合和情绪功能一起构成章节基础卷。作答时可以先概括本题的中心观点，再围绕教材中的关键术语分点展开，避免只列名词而缺少解释。如果时间允许，最好在结尾用一句话概括这些要点之间的关系，这样答案会更完整，也更符合主观题评分习惯。",
+    "scoringPoints": [
+      "写出三种主要成分",
+      "概括其基本含义"
+    ],
+    "analysis": "适合和情绪功能一起构成章节基础卷。",
+    "relatedFocusPointIds": [
+      "fp_gp_emotion_02"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_emotion_003",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_emotion",
+    "type": "名词解释",
+    "title": "心境",
+    "stem": "请解释心境。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学题目总结",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "概念题",
+      "情绪状态"
+    ],
+    "answer": "心境是一种微弱、平静而持久的情绪状态，往往影响个体一段时间内的心理活动和行为。作答时一般应先给出概念的核心定义，再点出其关键属性、适用范围或与相关概念的区别。结合复习要求看，适合与激情、应激构成辨析组。",
+    "scoringPoints": [
+      "指出其较弱且持久",
+      "指出会影响一段时间内活动"
+    ],
+    "analysis": "适合与激情、应激构成辨析组。",
+    "relatedFocusPointIds": [
+      "fp_gp_emotion_03"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_emotion_02"
+    ],
+    "status": "active",
+    "recommendedWords": "80-120字",
+    "recommendedTime": "3-5分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_sensation_003",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_sensation",
+    "type": "辨析题",
+    "title": "绝对阈限与差别阈限辨析",
+    "stem": "辨析绝对阈限与差别阈限。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学题目总结",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "高频",
+      "辨析题",
+      "阈限"
+    ],
+    "answer": "绝对阈限是刚刚能引起感觉的最小刺激量，差别阈限是刚刚能觉察到两个刺激差异的最小差别量。两者都属于感觉阈限，但前者对应感觉是否产生，后者对应差异是否被觉察。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：准确给出两个概念定义；指出二者共同属于感觉阈限；说明研究对象不同：刺激存在 vs 刺激差异。复习时尤其要注意，这是感觉章很典型的辨析题。",
+    "scoringPoints": [
+      "准确给出两个概念定义",
+      "指出二者共同属于感觉阈限",
+      "说明研究对象不同：刺激存在 vs 刺激差异"
+    ],
+    "analysis": "这是感觉章很典型的辨析题。",
+    "relatedFocusPointIds": [
+      "fp_gp_sensation_01"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_sensation_01"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_perception_003",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_perception",
+    "type": "辨析题",
+    "title": "知觉恒常性与错觉辨析",
+    "stem": "辨析知觉恒常性与错觉。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学题目总结",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "辨析题",
+      "知觉"
+    ],
+    "answer": "知觉恒常性是指当知觉条件变化时，个体对客观对象仍保持相对稳定知觉的特性；错觉是在特定条件下对客观事物产生歪曲知觉。两者都与知觉结果有关，但恒常性通常具有适应意义，而错觉体现知觉偏差。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：写出知觉恒常性的含义；写出错觉的含义；比较适应性与偏差性差异。复习时尤其要注意，适合配合知觉特性题一起练。",
+    "scoringPoints": [
+      "写出知觉恒常性的含义",
+      "写出错觉的含义",
+      "比较适应性与偏差性差异"
+    ],
+    "analysis": "适合配合知觉特性题一起练。",
+    "relatedFocusPointIds": [
+      "fp_gp_perception_01"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_perception_01"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_memory_006",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_memory",
+    "type": "辨析题",
+    "title": "痕迹衰退说与干扰说",
+    "stem": "辨析痕迹衰退说与干扰说。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学题目总结",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "高频",
+      "辨析题",
+      "遗忘理论"
+    ],
+    "answer": "痕迹衰退说认为遗忘是由于记忆痕迹随时间推移而自然消退；干扰说认为遗忘是由于前后学习材料相互干扰所致。二者都解释遗忘机制，但一个突出时间因素，一个突出材料间相互作用。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：概括两种理论核心观点；说明一个强调时间，一个强调干扰；最好举出前摄或倒摄干扰。复习时尤其要注意，是记忆章非常适合做辨析的经典内容。",
+    "scoringPoints": [
+      "概括两种理论核心观点",
+      "说明一个强调时间，一个强调干扰",
+      "最好举出前摄或倒摄干扰"
+    ],
+    "analysis": "是记忆章非常适合做辨析的经典内容。",
+    "relatedFocusPointIds": [
+      "fp_gp_memory_02"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_memory_03"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_memory_007",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_memory",
+    "type": "论述题",
+    "title": "遗忘规律及其启示",
+    "stem": "结合遗忘规律，谈谈如何提高复习效果。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学题目总结",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "高频",
+      "论述题",
+      "应用题"
+    ],
+    "answer": "可结合艾宾浩斯遗忘规律说明遗忘先快后慢，并据此提出及时复习、分散复习、理解记忆、合理组织材料等策略，从而提高复习效果。论述题不能只停留在列点层面，最好先给出总述，再分层展开各个理论点，最后再回到题目要求作总结。如果题目中带有“比较”“启示”“影响因素”“应用”这类要求，必须在主体部分专门分出相应段落，不宜只写定义。本题写作时建议至少覆盖：指出遗忘先快后慢的基本规律；结合规律提出复习策略；体现心理学理论到学习实践的转化。从训练角度看，很适合考研专业课的理论联系实际题。在考场中，这类题通常需要写出较完整的层次：先交代基本概念或总体观点，再按逻辑展开主体内容，最后补一句概括性结论，这样更接近阅卷习惯。论述题作答时，首先要交代题目涉及的总体观点或基本框架，再按逻辑顺序展开各个分论点，使答案形成完整论证，而不是若干零散条目。如果题目要求写“启示”“影响”或“应用”，则应在主体理论写完之后，专门分出一个层次进行延伸，不能把应用要求省略掉。从考场表达看，论述题更强调层次感和展开度，通常需要做到“先总述、再分点、后总结”，这样既有理论性，也更接近实际阅卷标准。写作时还应注意把教材中的关键术语写准确，必要时可用一两句话解释术语之间的联系，这样比单纯罗列名词更有论述题的完整度。",
+    "scoringPoints": [
+      "指出遗忘先快后慢的基本规律",
+      "结合规律提出复习策略",
+      "体现心理学理论到学习实践的转化"
+    ],
+    "analysis": "很适合考研专业课的理论联系实际题。",
+    "relatedFocusPointIds": [
+      "fp_gp_memory_04"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "500-700字",
+    "recommendedTime": "15-22分钟",
+    "answerLevel": "expanded"
+  },
+  {
+    "id": "q_gp_thinking_005",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_thinking",
+    "type": "辨析题",
+    "title": "聚合思维与发散思维",
+    "stem": "辨析聚合思维与发散思维。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学题目总结",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "高频",
+      "辨析题",
+      "创造性思维"
+    ],
+    "answer": "聚合思维强调依据已有条件收敛到一个较优答案，发散思维强调从多方向探索并提出多种可能答案。二者都是问题解决的重要方式，但目标取向与思维展开方式不同。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：概括二者基本定义；比较答案指向与展开方式差异；指出发散思维与创造性的关系。复习时尤其要注意，适合与创造性思维题串联。",
+    "scoringPoints": [
+      "概括二者基本定义",
+      "比较答案指向与展开方式差异",
+      "指出发散思维与创造性的关系"
+    ],
+    "analysis": "适合与创造性思维题串联。",
+    "relatedFocusPointIds": [
+      "fp_gp_thinking_03"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_thinking_01"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_emotion_004",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_emotion",
+    "type": "辨析题",
+    "title": "心境、激情与应激",
+    "stem": "辨析心境、激情与应激。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学题目总结",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "高频",
+      "辨析题",
+      "情绪状态"
+    ],
+    "answer": "心境是一种微弱而持久的情绪状态；激情是一种强烈、短暂而爆发性的情绪状态；应激是个体在紧张情境下产生的适应性反应状态。三者都属于情绪状态，但在强度、持续时间和诱发情境上存在差异。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：分别写出三者定义；比较强度和持续时间差异；指出应激的情境性。复习时尤其要注意，是情绪章很标准的比较型题目。",
+    "scoringPoints": [
+      "分别写出三者定义",
+      "比较强度和持续时间差异",
+      "指出应激的情境性"
+    ],
+    "analysis": "是情绪章很标准的比较型题目。",
+    "relatedFocusPointIds": [
+      "fp_gp_emotion_03"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_emotion_02"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_emotion_005",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_emotion",
+    "type": "论述题",
+    "title": "情绪的功能",
+    "stem": "试述情绪的主要功能。",
+    "difficulty": "hard",
+    "importance": "medium",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学题目总结",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "论述题",
+      "功能题"
+    ],
+    "answer": "情绪具有适应功能、动机功能、组织功能和信号交流功能等。它既能帮助个体快速应对环境，也会影响认知加工、行为选择和人际互动。论述题不能只停留在列点层面，最好先给出总述，再分层展开各个理论点，最后再回到题目要求作总结。如果题目中带有“比较”“启示”“影响因素”“应用”这类要求，必须在主体部分专门分出相应段落，不宜只写定义。本题写作时建议至少覆盖：写出主要功能；对各功能作基本说明；可适当结合实例。从训练角度看，这类题比较适合做情绪章的大题收口。在考场中，这类题通常需要写出较完整的层次：先交代基本概念或总体观点，再按逻辑展开主体内容，最后补一句概括性结论，这样更接近阅卷习惯。论述题作答时，首先要交代题目涉及的总体观点或基本框架，再按逻辑顺序展开各个分论点，使答案形成完整论证，而不是若干零散条目。如果题目要求写“启示”“影响”或“应用”，则应在主体理论写完之后，专门分出一个层次进行延伸，不能把应用要求省略掉。从考场表达看，论述题更强调层次感和展开度，通常需要做到“先总述、再分点、后总结”，这样既有理论性，也更接近实际阅卷标准。写作时还应注意把教材中的关键术语写准确，必要时可用一两句话解释术语之间的联系，这样比单纯罗列名词更有论述题的完整度。",
+    "scoringPoints": [
+      "写出主要功能",
+      "对各功能作基本说明",
+      "可适当结合实例"
+    ],
+    "analysis": "这类题比较适合做情绪章的大题收口。",
+    "relatedFocusPointIds": [
+      "fp_gp_emotion_02"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "500-700字",
+    "recommendedTime": "15-22分钟",
+    "answerLevel": "expanded"
+  },
+  {
+    "id": "q_gp_sensation_004",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_sensation",
+    "type": "选择题",
+    "title": "感觉阈限",
+    "stem": "下列关于感觉阈限与感受性关系的表述，正确的是：",
+    "difficulty": "easy",
+    "importance": "high",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学客观题整理",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "选择题",
+      "高频",
+      "基础概念"
+    ],
+    "options": [
+      "A. 阈限越高，感受性越高",
+      "B. 阈限越低，感受性越低",
+      "C. 阈限越低，感受性越高",
+      "D. 阈限与感受性无关"
+    ],
+    "answer": "C. 阈限越低，感受性越高",
+    "scoringPoints": [
+      "掌握阈限与感受性的反比关系"
+    ],
+    "analysis": "阈限与感受性呈反比，这是感觉章节最基础的客观题考点。",
+    "relatedFocusPointIds": [
+      "fp_gp_sensation_01"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_sensation_01"
+    ],
+    "status": "active",
+    "recommendedWords": "20-60字",
+    "recommendedTime": "1-2分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_sensation_005",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_sensation",
+    "type": "判断题",
+    "title": "感觉适应判断",
+    "stem": "同一刺激持续作用于感觉器官时，感受性可能发生变化，这种现象称为感觉适应。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学客观题整理",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "判断题",
+      "基础概念"
+    ],
+    "answer": "正确",
+    "scoringPoints": [
+      "识别感觉适应定义"
+    ],
+    "analysis": "这是感觉适应的标准定义表述。",
+    "relatedFocusPointIds": [
+      "fp_gp_sensation_02"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "20-60字",
+    "recommendedTime": "1-2分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_perception_004",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_perception",
+    "type": "选择题",
+    "title": "知觉基本特性",
+    "stem": "下列不属于知觉基本特性的是：",
+    "difficulty": "easy",
+    "importance": "high",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学客观题整理",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "选择题",
+      "高频"
+    ],
+    "options": [
+      "A. 选择性",
+      "B. 整体性",
+      "C. 恒常性",
+      "D. 随意性"
+    ],
+    "answer": "D. 随意性",
+    "scoringPoints": [
+      "掌握知觉四大基本特性"
+    ],
+    "analysis": "知觉的四大基本特性是选择性、整体性、理解性和恒常性。",
+    "relatedFocusPointIds": [
+      "fp_gp_perception_01"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "20-60字",
+    "recommendedTime": "1-2分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_perception_005",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_perception",
+    "type": "判断题",
+    "title": "错觉判断",
+    "stem": "错觉是在客观刺激作用下产生的一种歪曲知觉。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学客观题整理",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "判断题",
+      "知觉"
+    ],
+    "answer": "正确",
+    "scoringPoints": [
+      "识别错觉定义"
+    ],
+    "analysis": "错觉不同于幻觉，它是在客观刺激基础上发生的歪曲知觉。",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": [
+      "cp_gp_perception_01"
+    ],
+    "status": "active",
+    "recommendedWords": "20-60字",
+    "recommendedTime": "1-2分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_memory_008",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_memory",
+    "type": "选择题",
+    "title": "短时记忆特点",
+    "stem": "下列关于短时记忆的表述，正确的是：",
+    "difficulty": "easy",
+    "importance": "high",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学客观题整理",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "选择题",
+      "高频",
+      "记忆类型"
+    ],
+    "options": [
+      "A. 容量无限",
+      "B. 保持时间较长",
+      "C. 容量有限",
+      "D. 不受复述影响"
+    ],
+    "answer": "C. 容量有限",
+    "scoringPoints": [
+      "掌握短时记忆的容量特点"
+    ],
+    "analysis": "短时记忆容量有限，是记忆章节经典客观题。",
+    "relatedFocusPointIds": [
+      "fp_gp_memory_01"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_memory_01"
+    ],
+    "status": "active",
+    "recommendedWords": "20-60字",
+    "recommendedTime": "1-2分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_memory_009",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_memory",
+    "type": "判断题",
+    "title": "再认判断",
+    "stem": "再认属于记忆提取的一种方式。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学客观题整理",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "判断题",
+      "提取方式"
+    ],
+    "answer": "正确",
+    "scoringPoints": [
+      "识别再认的性质"
+    ],
+    "analysis": "再认与回忆都属于记忆提取方式。",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": [
+      "cp_gp_memory_02"
+    ],
+    "status": "active",
+    "recommendedWords": "20-60字",
+    "recommendedTime": "1-2分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_thinking_006",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_thinking",
+    "type": "选择题",
+    "title": "问题解决的一般过程",
+    "stem": "思维最基本的两个特征是：",
+    "difficulty": "easy",
+    "importance": "high",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学客观题整理",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "选择题",
+      "高频",
+      "思维特征"
+    ],
+    "options": [
+      "A. 形象性与情绪性",
+      "B. 间接性与概括性",
+      "C. 选择性与恒常性",
+      "D. 流畅性与独创性"
+    ],
+    "answer": "B. 间接性与概括性",
+    "scoringPoints": [
+      "掌握思维基本特征"
+    ],
+    "analysis": "间接性与概括性是思维最基本的特征。",
+    "relatedFocusPointIds": [
+      "fp_gp_thinking_02"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "20-60字",
+    "recommendedTime": "1-2分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_thinking_007",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_thinking",
+    "type": "判断题",
+    "title": "发散思维判断",
+    "stem": "发散思维强调从不同方向探索问题并寻求多种可能答案。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学客观题整理",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "判断题",
+      "创造性思维"
+    ],
+    "answer": "正确",
+    "scoringPoints": [
+      "识别发散思维定义"
+    ],
+    "analysis": "这是发散思维最常见的定义式客观题。",
+    "relatedFocusPointIds": [
+      "fp_gp_thinking_03"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_thinking_01"
+    ],
+    "status": "active",
+    "recommendedWords": "20-60字",
+    "recommendedTime": "1-2分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_emotion_006",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_emotion",
+    "type": "选择题",
+    "title": "情绪成分",
+    "stem": "下列不属于情绪主要成分的是：",
+    "difficulty": "easy",
+    "importance": "high",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学客观题整理",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "选择题",
+      "高频",
+      "基础概念"
+    ],
+    "options": [
+      "A. 主观体验",
+      "B. 生理唤醒",
+      "C. 外部表现",
+      "D. 智力水平"
+    ],
+    "answer": "D. 智力水平",
+    "scoringPoints": [
+      "掌握情绪主要成分"
+    ],
+    "analysis": "情绪三成分是情绪章节的基础客观题。",
+    "relatedFocusPointIds": [
+      "fp_gp_emotion_02"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "20-60字",
+    "recommendedTime": "1-2分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_emotion_007",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_emotion",
+    "type": "判断题",
+    "title": "心境判断",
+    "stem": "心境通常表现为较微弱但持续时间较长的情绪状态。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "sourceType": "题目总结",
+    "sourceDetail": "普通心理学客观题整理",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "判断题",
+      "情绪状态"
+    ],
+    "answer": "正确",
+    "scoringPoints": [
+      "识别心境特征"
+    ],
+    "analysis": "心境是微弱而持久的情绪状态。",
+    "relatedFocusPointIds": [
+      "fp_gp_emotion_03"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_emotion_02"
+    ],
+    "status": "active",
+    "recommendedWords": "20-60字",
+    "recommendedTime": "1-2分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_ep_variables_001",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_variables",
+    "type": "简答题",
+    "title": "实验变量的类型",
+    "stem": "简述实验中自变量、因变量和控制变量的含义。",
+    "difficulty": "easy",
+    "importance": "high",
+    "sourceType": "题目总结",
+    "sourceDetail": "实验心理学题目总结",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "高频",
+      "基础题"
+    ],
+    "answer": "自变量是研究者主动操纵的变量，因变量是随着自变量变化而被测量的结果变量，控制变量是为防止无关因素干扰而加以控制的变量。",
+    "scoringPoints": [
+      "分别写出三类变量定义",
+      "体现操纵、测量与控制三种角色"
+    ],
+    "analysis": "是实验设计题的基础。",
+    "relatedFocusPointIds": [
+      "fp_ep_variables_01"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_ep_variables_002",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_variables",
+    "type": "实验设计题",
+    "title": "组间设计与组内设计比较",
+    "stem": "结合实例比较组间设计与组内设计的优缺点。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "题目总结",
+    "sourceDetail": "实验心理学题目总结",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "高频",
+      "设计题"
+    ],
+    "answer": "组间设计避免顺序效应，但个体差异较大；组内设计可减少个体差异影响，提高效率，但易产生顺序效应和练习效应。答题时可结合具体实验场景比较。",
+    "scoringPoints": [
+      "说明两种设计的被试安排方式",
+      "比较各自优点与局限",
+      "可结合实例说明"
+    ],
+    "analysis": "是实验心理学非常典型的大题。",
+    "relatedFocusPointIds": [
+      "fp_ep_variables_02"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_ep_variables_01"
+    ],
+    "status": "active",
+    "recommendedWords": "350-500字",
+    "recommendedTime": "12-18分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_ep_reaction_001",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_reaction_time",
+    "type": "简答题",
+    "title": "减法反应时技术",
+    "stem": "简述减法反应时技术的基本思想。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "题目总结",
+    "sourceDetail": "实验心理学题目总结",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "高频",
+      "方法题"
+    ],
+    "answer": "减法反应时技术通过比较包含不同加工阶段任务的反应时差异，推断某一心理加工阶段所需时间，其前提是各加工阶段相对独立并可叠加。",
+    "scoringPoints": [
+      "说明通过反应时差异推断加工阶段",
+      "指出独立插入假设"
+    ],
+    "analysis": "反应时法章节的核心题。",
+    "relatedFocusPointIds": [
+      "fp_ep_reaction_01"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_ep_psychophysics_001",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_psychophysics",
+    "type": "论述题",
+    "title": "三种经典心理物理法比较",
+    "stem": "试比较极限法、恒定刺激法和平均差误法。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "题目总结",
+    "sourceDetail": "实验心理学题目总结",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "高频",
+      "论述题",
+      "比较题"
+    ],
+    "answer": "三种经典心理物理法都用于测量感觉阈限，但在刺激呈现方式、实验效率、结果精度与操作复杂度上不同。极限法较简便，恒定刺激法较精确，平均差误法强调被试主动调节。",
+    "scoringPoints": [
+      "写出三种方法核心程序",
+      "比较优缺点",
+      "指出适用情境差异"
+    ],
+    "analysis": "是实验心理学的高频比较题。",
+    "relatedFocusPointIds": [
+      "fp_ep_psychophysics_01"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_ep_psychophysics_01"
+    ],
+    "status": "active",
+    "recommendedWords": "500-700字",
+    "recommendedTime": "15-22分钟",
+    "answerLevel": "expanded"
+  },
+  {
+    "id": "q_ep_memory_001",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_memory_experiment",
+    "type": "简答题",
+    "title": "记忆实验范式",
+    "stem": "简述实验心理学中常见的几种记忆实验范式。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "题目总结",
+    "sourceDetail": "实验心理学题目总结",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "实验范式",
+      "应用题"
+    ],
+    "answer": "常见记忆实验范式包括节省法、对偶联合法和自由回忆法等。它们分别从不同角度研究记忆保持、联结学习和提取表现。",
+    "scoringPoints": [
+      "写出常见实验范式名称",
+      "概括各自研究重点"
+    ],
+    "analysis": "适合作为实验心理学章节扩展题。",
+    "relatedFocusPointIds": [
+      "fp_ep_memory_01"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_ep_variables_003",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_variables",
+    "type": "选择题",
+    "title": "控制变量识别",
+    "stem": "在实验中，为防止无关因素干扰而加以控制的变量称为：",
+    "difficulty": "easy",
+    "importance": "high",
+    "sourceType": "题目总结",
+    "sourceDetail": "实验心理学客观题整理",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "选择题",
+      "基础概念"
+    ],
+    "options": [
+      "A. 自变量",
+      "B. 因变量",
+      "C. 控制变量",
+      "D. 无关变量"
+    ],
+    "answer": "C. 控制变量",
+    "scoringPoints": [
+      "识别控制变量概念"
+    ],
+    "analysis": "是实验变量章节的基础客观题。",
+    "relatedFocusPointIds": [
+      "fp_ep_variables_01"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "20-60字",
+    "recommendedTime": "1-2分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_ep_reaction_002",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_reaction_time",
+    "type": "判断题",
+    "title": "减法反应时判断",
+    "stem": "减法反应时技术通过比较不同任务的反应时差异来推断心理加工过程。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "sourceType": "题目总结",
+    "sourceDetail": "实验心理学客观题整理",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "判断题",
+      "方法题"
+    ],
+    "answer": "正确",
+    "scoringPoints": [
+      "理解减法反应时技术基本逻辑"
+    ],
+    "analysis": "是反应时法章节标准判断题。",
+    "relatedFocusPointIds": [
+      "fp_ep_reaction_01"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "20-60字",
+    "recommendedTime": "1-2分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_sensation_006",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_sensation",
+    "type": "选择题",
+    "title": "感觉适应识别",
+    "stem": "刚进入花店时觉得香味很浓，过一会儿觉得不明显了，这种现象属于：",
+    "difficulty": "easy",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第三章 感觉",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "客观题",
+      "现象识别"
+    ],
+    "options": [
+      "A. 联觉",
+      "B. 感觉适应",
+      "C. 感觉后像",
+      "D. 感觉对比"
+    ],
+    "answer": "B. 感觉适应",
+    "scoringPoints": [
+      "识别持续刺激作用下感受性变化"
+    ],
+    "analysis": "适合做基础现象判断题。",
+    "relatedFocusPointIds": [
+      "fp_gp_sensation_04"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_sensation_02"
+    ],
+    "status": "active",
+    "recommendedWords": "20-60字",
+    "recommendedTime": "1-2分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_consciousness_001",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_consciousness",
+    "type": "名词解释",
+    "title": "意识",
+    "stem": "什么是意识？",
+    "difficulty": "easy",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第五章 意识",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "基础概念"
+    ],
+    "answer": "意识是个体对自身和周围环境的觉知状态，是心理活动得以整合和调节的重要形式。作答时一般应先给出概念的核心定义，再点出其关键属性、适用范围或与相关概念的区别。结合复习要求看，是意识章节最基础的概念题。",
+    "scoringPoints": [
+      "写出觉知状态",
+      "体现对自身和环境的意识"
+    ],
+    "analysis": "是意识章节最基础的概念题。",
+    "relatedFocusPointIds": [
+      "fp_gp_consciousness_01"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "80-120字",
+    "recommendedTime": "3-5分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_consciousness_002",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_consciousness",
+    "type": "简答题",
+    "title": "意识状态变化",
+    "stem": "简述意识状态的常见变化形式。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第五章 意识",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "意识状态"
+    ],
+    "answer": "意识状态的变化可表现为清醒、睡眠、做梦以及催眠等不同状态。不同状态下，个体对外界和自身的觉知水平、反应方式和心理活动组织形式存在差异。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：列出常见意识状态变化形式；说明其在觉知水平上的差异。从复习角度看，适合做意识章节的简答题。作答时可以先概括本题的中心观点，再围绕教材中的关键术语分点展开，避免只列名词而缺少解释。",
+    "scoringPoints": [
+      "列出常见意识状态变化形式",
+      "说明其在觉知水平上的差异"
+    ],
+    "analysis": "适合做意识章节的简答题。",
+    "relatedFocusPointIds": [
+      "fp_gp_consciousness_02"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_consciousness_01"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_consciousness_003",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_consciousness",
+    "type": "选择题",
+    "title": "梦的状态识别",
+    "stem": "梦通常属于哪一类心理状态内容？",
+    "difficulty": "easy",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第五章 意识",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "客观题"
+    ],
+    "options": [
+      "A. 稳定人格特质",
+      "B. 意识状态变化",
+      "C. 智力差异",
+      "D. 动机冲突"
+    ],
+    "answer": "B. 意识状态变化",
+    "scoringPoints": [
+      "识别梦与意识状态变化的对应关系"
+    ],
+    "analysis": "基础客观题。",
+    "relatedFocusPointIds": [
+      "fp_gp_consciousness_02"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "20-60字",
+    "recommendedTime": "1-2分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_language_001",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_language",
+    "type": "名词解释",
+    "title": "语言",
+    "stem": "什么是语言？",
+    "difficulty": "easy",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第八章 语言",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "基础概念"
+    ],
+    "answer": "语言是以语音或文字为物质外壳、以词汇为建筑材料并以语法为结构规律而构成的社会交际工具和思维工具。作答时一般应先给出概念的核心定义，再点出其关键属性、适用范围或与相关概念的区别。结合复习要求看，是语言章节基础定义题。",
+    "scoringPoints": [
+      "写出社会交际工具",
+      "体现思维工具作用"
+    ],
+    "analysis": "是语言章节基础定义题。",
+    "relatedFocusPointIds": [
+      "fp_gp_language_01"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_language_01"
+    ],
+    "status": "active",
+    "recommendedWords": "80-120字",
+    "recommendedTime": "3-5分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_language_002",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_language",
+    "type": "简答题",
+    "title": "语言与言语的关系",
+    "stem": "简述语言与言语的关系。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第八章 语言",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "高频",
+      "比较题"
+    ],
+    "answer": "语言和言语既有联系又有区别。语言是社会约定俗成的符号系统，是交际和思维的工具；言语是个体运用语言进行交际和表达思想的活动过程。语言是言语活动的基础，言语则是语言的具体运用形式。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：说明语言的定义；说明言语的定义；写出二者联系。从复习角度看，语言章节最典型的比较型主观题。",
+    "scoringPoints": [
+      "说明语言的定义",
+      "说明言语的定义",
+      "写出二者联系"
+    ],
+    "analysis": "语言章节最典型的比较型主观题。",
+    "relatedFocusPointIds": [
+      "fp_gp_language_01"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_language_01"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_language_003",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_language",
+    "type": "选择题",
+    "title": "言语类型识别",
+    "stem": "个体在头脑中默默思考时所使用的言语形式通常属于：",
+    "difficulty": "easy",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第八章 语言",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "客观题"
+    ],
+    "options": [
+      "A. 外部言语",
+      "B. 内部言语",
+      "C. 书面言语",
+      "D. 对话言语"
+    ],
+    "answer": "B. 内部言语",
+    "scoringPoints": [
+      "识别内部言语"
+    ],
+    "analysis": "语言章节基础客观题。",
+    "relatedFocusPointIds": [
+      "fp_gp_language_02"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "20-60字",
+    "recommendedTime": "1-2分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_motivation_001",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_motivation",
+    "type": "名词解释",
+    "title": "动机",
+    "stem": "什么是动机？",
+    "difficulty": "easy",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第九章 动机",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "基础概念"
+    ],
+    "answer": "动机是激发、维持个体活动并使活动朝向一定目标的内部动力。作答时一般应先给出概念的核心定义，再点出其关键属性、适用范围或与相关概念的区别。结合复习要求看，动机章节最基础定义题。书写时不宜只写一个同义替换式短句，最好把“是什么、有什么特点、在何处使用”交代清楚。",
+    "scoringPoints": [
+      "写出激发功能",
+      "写出维持与定向作用"
+    ],
+    "analysis": "动机章节最基础定义题。",
+    "relatedFocusPointIds": [
+      "fp_gp_motivation_01"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_motivation_01"
+    ],
+    "status": "active",
+    "recommendedWords": "80-120字",
+    "recommendedTime": "3-5分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_motivation_002",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_motivation",
+    "type": "简答题",
+    "title": "动机的功能",
+    "stem": "简述动机的主要功能。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第九章 动机",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "高频",
+      "基础骨架"
+    ],
+    "answer": "动机的主要功能包括激活功能、指向功能和维持调节功能。它能够引发行为，使行为指向一定目标，并在活动过程中维持行为的持续进行。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出激活功能；写出指向功能；写出维持调节功能。从复习角度看，是动机章最常见的简答题。作答时可以先概括本题的中心观点，再围绕教材中的关键术语分点展开，避免只列名词而缺少解释。",
+    "scoringPoints": [
+      "写出激活功能",
+      "写出指向功能",
+      "写出维持调节功能"
+    ],
+    "analysis": "是动机章最常见的简答题。",
+    "relatedFocusPointIds": [
+      "fp_gp_motivation_01"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_motivation_003",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_motivation",
+    "type": "选择题",
+    "title": "动机冲突识别",
+    "stem": "两个都具有吸引力的目标不能同时获得而必须择其一时，这属于：",
+    "difficulty": "easy",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第九章 动机",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "客观题"
+    ],
+    "options": [
+      "A. 趋近—趋近冲突",
+      "B. 回避—回避冲突",
+      "C. 趋近—回避冲突",
+      "D. 双重回避冲突"
+    ],
+    "answer": "A. 趋近—趋近冲突",
+    "scoringPoints": [
+      "识别动机冲突类型"
+    ],
+    "analysis": "典型动机冲突客观题。",
+    "relatedFocusPointIds": [
+      "fp_gp_motivation_02"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "20-60字",
+    "recommendedTime": "1-2分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_intelligence_001",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intelligence",
+    "type": "名词解释",
+    "title": "智力",
+    "stem": "什么是智力？",
+    "difficulty": "easy",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十一章 智力",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "基础概念"
+    ],
+    "answer": "智力是个体在认识活动中表现出来的综合能力，通常表现为理解、学习、适应和解决问题的能力水平。作答时一般应先给出概念的核心定义，再点出其关键属性、适用范围或与相关概念的区别。结合复习要求看，智力章节基础名词解释。",
+    "scoringPoints": [
+      "写出综合能力属性",
+      "体现理解、学习或解决问题能力"
+    ],
+    "analysis": "智力章节基础名词解释。",
+    "relatedFocusPointIds": [
+      "fp_gp_intelligence_01"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_intelligence_01"
+    ],
+    "status": "active",
+    "recommendedWords": "80-120字",
+    "recommendedTime": "3-5分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_intelligence_002",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intelligence",
+    "type": "简答题",
+    "title": "影响智力发展的因素",
+    "stem": "简述影响智力发展的主要因素。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十一章 智力",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "影响智力发展的因素主要包括遗传素质、成长环境、教育训练以及个体主观努力等。智力发展是多因素共同作用的结果，不能简单归因于单一因素。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出遗传因素；写出环境或教育因素；体现多因素共同作用。从复习角度看，是智力章节常见简答题。作答时可以先概括本题的中心观点，再围绕教材中的关键术语分点展开，避免只列名词而缺少解释。",
+    "scoringPoints": [
+      "写出遗传因素",
+      "写出环境或教育因素",
+      "体现多因素共同作用"
+    ],
+    "analysis": "是智力章节常见简答题。",
+    "relatedFocusPointIds": [
+      "fp_gp_intelligence_02"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_intelligence_003",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intelligence",
+    "type": "选择题",
+    "title": "智力知识区别识别",
+    "stem": "下列关于智力与知识关系的说法，正确的是：",
+    "difficulty": "easy",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十一章 智力",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "客观题"
+    ],
+    "options": [
+      "A. 智力就是知识的总和",
+      "B. 知识越多，智力必然越高",
+      "C. 智力与知识有关，但二者不等同",
+      "D. 智力与知识完全无关"
+    ],
+    "answer": "C. 智力与知识有关，但二者不等同",
+    "scoringPoints": [
+      "识别智力与知识的关系"
+    ],
+    "analysis": "是智力概念比较的基础客观题。",
+    "relatedFocusPointIds": [
+      "fp_gp_intelligence_01"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_intelligence_01"
+    ],
+    "status": "active",
+    "recommendedWords": "20-60字",
+    "recommendedTime": "1-2分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_personality_001",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_personality",
+    "type": "名词解释",
+    "title": "人格",
+    "stem": "什么是人格？",
+    "difficulty": "easy",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十二章 人格",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "基础概念"
+    ],
+    "answer": "人格是一个人比较稳定的、具有一定倾向性的各种心理特征的总和。作答时一般应先给出概念的核心定义，再点出其关键属性、适用范围或与相关概念的区别。结合复习要求看，人格章节最基础概念题。书写时不宜只写一个同义替换式短句，最好把“是什么、有什么特点、在何处使用”交代清楚。",
+    "scoringPoints": [
+      "写出稳定性",
+      "写出心理特征总和"
+    ],
+    "analysis": "人格章节最基础概念题。",
+    "relatedFocusPointIds": [
+      "fp_gp_personality_01"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "80-120字",
+    "recommendedTime": "3-5分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_personality_002",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_personality",
+    "type": "简答题",
+    "title": "人格的基本特征",
+    "stem": "简述人格的基本特征。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十二章 人格",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "高频",
+      "基础骨架"
+    ],
+    "answer": "人格通常具有独特性、稳定性、整体性和社会制约性等基本特征。不同个体人格各不相同，同时人格在一定时期内相对稳定，并表现为多种心理特征的有机统一。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出至少三项人格基本特征；体现人格的整体统一性。从复习角度看，是人格章节的常见简答题。作答时可以先概括本题的中心观点，再围绕教材中的关键术语分点展开，避免只列名词而缺少解释。",
+    "scoringPoints": [
+      "写出至少三项人格基本特征",
+      "体现人格的整体统一性"
+    ],
+    "analysis": "是人格章节的常见简答题。",
+    "relatedFocusPointIds": [
+      "fp_gp_personality_01"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_personality_003",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_personality",
+    "type": "辨析题",
+    "title": "气质与性格比较",
+    "stem": "辨析气质与性格。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十二章 人格",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "辨析题",
+      "高频"
+    ],
+    "answer": "气质与性格都属于人格结构的重要组成部分，但二者性质不同。气质主要体现心理活动的动力特征，与高级神经活动类型关系密切；性格则主要体现个体对现实的态度和习惯化的行为方式，更受社会生活条件和教育影响。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：指出二者同属人格结构；说明气质的动力特征；说明性格的社会性和态度特征。复习时尤其要注意，是人格章节最典型的比较题。",
+    "scoringPoints": [
+      "指出二者同属人格结构",
+      "说明气质的动力特征",
+      "说明性格的社会性和态度特征"
+    ],
+    "analysis": "是人格章节最典型的比较题。",
+    "relatedFocusPointIds": [
+      "fp_gp_personality_02"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_personality_01"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_learning_001",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_learning",
+    "type": "名词解释",
+    "title": "学习",
+    "stem": "什么是学习？",
+    "difficulty": "easy",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十三章 学习",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "基础概念"
+    ],
+    "answer": "学习是在经验作用下发生的、比较持久的行为或行为潜能变化。作答时一般应先给出概念的核心定义，再点出其关键属性、适用范围或与相关概念的区别。结合复习要求看，学习章节最基础定义题。书写时不宜只写一个同义替换式短句，最好把“是什么、有什么特点、在何处使用”交代清楚。",
+    "scoringPoints": [
+      "写出经验作用",
+      "写出持久变化"
+    ],
+    "analysis": "学习章节最基础定义题。",
+    "relatedFocusPointIds": [
+      "fp_gp_learning_01"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "80-120字",
+    "recommendedTime": "3-5分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_learning_002",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_learning",
+    "type": "简答题",
+    "title": "经典条件作用与操作条件作用比较",
+    "stem": "简述经典条件作用与操作条件作用的区别。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十三章 学习",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "高频",
+      "比较题"
+    ],
+    "answer": "经典条件作用主要强调条件刺激与无条件刺激的配对，通过建立刺激之间的联结形成条件反应；操作条件作用则强调行为的结果对行为的塑造作用，通过强化或惩罚改变行为发生概率。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：说明经典条件作用核心机制；说明操作条件作用核心机制；写出二者一个关键差异。从复习角度看，是学习章节最典型的理论比较题。",
+    "scoringPoints": [
+      "说明经典条件作用核心机制",
+      "说明操作条件作用核心机制",
+      "写出二者一个关键差异"
+    ],
+    "analysis": "是学习章节最典型的理论比较题。",
+    "relatedFocusPointIds": [
+      "fp_gp_learning_02"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_learning_01"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_learning_003",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_learning",
+    "type": "选择题",
+    "title": "学习定义识别",
+    "stem": "下列最符合心理学中“学习”定义的是：",
+    "difficulty": "easy",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十三章 学习",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "客观题"
+    ],
+    "options": [
+      "A. 任何短暂行为变化",
+      "B. 生理成熟导致的自然变化",
+      "C. 经验作用下较持久的行为变化",
+      "D. 先天反射行为"
+    ],
+    "answer": "C. 经验作用下较持久的行为变化",
+    "scoringPoints": [
+      "识别学习定义"
+    ],
+    "analysis": "学习概念基础客观题。",
+    "relatedFocusPointIds": [
+      "fp_gp_learning_01"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "20-60字",
+    "recommendedTime": "1-2分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_lifespan_001",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_lifespan",
+    "type": "名词解释",
+    "title": "心理发展",
+    "stem": "什么是心理发展？",
+    "difficulty": "easy",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十四章 人生全程发展",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "基础概念"
+    ],
+    "answer": "心理发展是个体从出生到衰老过程中，心理机能和心理特征不断变化并日趋复杂和完善的过程。作答时一般应先给出概念的核心定义，再点出其关键属性、适用范围或与相关概念的区别。结合复习要求看，发展章节基础名词解释。",
+    "scoringPoints": [
+      "写出一生过程",
+      "体现变化与发展完善"
+    ],
+    "analysis": "发展章节基础名词解释。",
+    "relatedFocusPointIds": [
+      "fp_gp_lifespan_01"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_lifespan_01"
+    ],
+    "status": "active",
+    "recommendedWords": "80-120字",
+    "recommendedTime": "3-5分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_lifespan_002",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_lifespan",
+    "type": "简答题",
+    "title": "人生全程发展的基本特点",
+    "stem": "简述人生全程发展的基本特点。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十四章 人生全程发展",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "高频"
+    ],
+    "answer": "人生全程发展具有连续性与阶段性统一、发展的方向性与顺序性、不平衡性以及个别差异性等基本特点。个体心理发展贯穿一生，并在不同阶段表现出不同重点和速度。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出连续性与阶段性；写出不平衡性或个别差异性；体现发展贯穿一生。从复习角度看，是发展章节主干简答题。",
+    "scoringPoints": [
+      "写出连续性与阶段性",
+      "写出不平衡性或个别差异性",
+      "体现发展贯穿一生"
+    ],
+    "analysis": "是发展章节主干简答题。",
+    "relatedFocusPointIds": [
+      "fp_gp_lifespan_01"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_lifespan_003",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_lifespan",
+    "type": "论述题",
+    "title": "影响心理发展的因素",
+    "stem": "试述遗传、环境和教育在心理发展中的作用。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十四章 人生全程发展",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "论述题"
+    ],
+    "answer": "心理发展受遗传、环境和教育等多种因素共同作用。遗传提供发展的生物学基础，环境为发展提供现实条件，教育在有目的、有计划地促进个体发展方面具有重要作用。答题时应强调三者相互联系、共同作用，而非孤立决定。论述题不能只停留在列点层面，最好先给出总述，再分层展开各个理论点，最后再回到题目要求作总结。如果题目中带有“比较”“启示”“影响因素”“应用”这类要求，必须在主体部分专门分出相应段落，不宜只写定义。本题写作时建议至少覆盖：说明遗传作用；说明环境作用；说明教育作用并强调三者共同作用。从训练角度看，是发展章节最典型的综合题。在考场中，这类题通常需要写出较完整的层次：先交代基本概念或总体观点，再按逻辑展开主体内容，最后补一句概括性结论，这样更接近阅卷习惯。论述题作答时，首先要交代题目涉及的总体观点或基本框架，再按逻辑顺序展开各个分论点，使答案形成完整论证，而不是若干零散条目。如果题目要求写“启示”“影响”或“应用”，则应在主体理论写完之后，专门分出一个层次进行延伸，不能把应用要求省略掉。从考场表达看，论述题更强调层次感和展开度，通常需要做到“先总述、再分点、后总结”，这样既有理论性，也更接近实际阅卷标准。",
+    "scoringPoints": [
+      "说明遗传作用",
+      "说明环境作用",
+      "说明教育作用并强调三者共同作用"
+    ],
+    "analysis": "是发展章节最典型的综合题。",
+    "relatedFocusPointIds": [
+      "fp_gp_lifespan_02"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_lifespan_01"
+    ],
+    "status": "active",
+    "recommendedWords": "500-700字",
+    "recommendedTime": "15-22分钟",
+    "answerLevel": "expanded"
+  },
+  {
+    "id": "q_gp_intro_001",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intro_methods",
+    "type": "简答题",
+    "title": "心理学的研究对象",
+    "stem": "简述心理学的研究对象。",
+    "difficulty": "easy",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第一章 心理学的研究对象和方法",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "基础骨架"
+    ],
+    "answer": "心理学是研究心理现象及其发生、发展规律的科学。心理现象通常包括心理过程和个性心理两个方面，其中前者包括认知、情绪情感和意志等过程，后者体现个体较稳定的心理特征。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出心理学研究心理现象及规律；指出心理过程和个性心理。从复习角度看，第一章最核心的基础题。",
+    "scoringPoints": [
+      "写出心理学研究心理现象及规律",
+      "指出心理过程和个性心理"
+    ],
+    "analysis": "第一章最核心的基础题。",
+    "relatedFocusPointIds": [
+      "fp_gp_intro_01"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_intro_002",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intro_methods",
+    "type": "辨析题",
+    "title": "观察法与实验法比较",
+    "stem": "辨析观察法与实验法。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第一章 心理学的研究对象和方法",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "辨析题"
+    ],
+    "answer": "观察法和实验法都是心理学研究的重要方法。观察法是在自然条件下有目的、有计划地观察并记录心理现象和行为表现；实验法则是在控制条件下操纵某些变量，考察其对心理和行为的影响。观察法较自然，实验法更有利于揭示因果关系。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：分别说明两种方法定义；比较自然性与控制性；指出实验法更利于因果分析。复习时尤其要注意，绪论部分的典型比较题。",
+    "scoringPoints": [
+      "分别说明两种方法定义",
+      "比较自然性与控制性",
+      "指出实验法更利于因果分析"
+    ],
+    "analysis": "绪论部分的典型比较题。",
+    "relatedFocusPointIds": [
+      "fp_gp_intro_02"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_intro_01"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_intro_003",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intro_methods",
+    "type": "选择题",
+    "title": "研究方法识别",
+    "stem": "在自然条件下有目的、有计划地考察和记录行为表现的方法，通常称为：",
+    "difficulty": "easy",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第一章 心理学的研究对象和方法",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "客观题"
+    ],
+    "options": [
+      "A. 实验法",
+      "B. 观察法",
+      "C. 测验法",
+      "D. 个案法"
+    ],
+    "answer": "B. 观察法",
+    "scoringPoints": [
+      "识别观察法"
+    ],
+    "analysis": "第一章基础客观题。",
+    "relatedFocusPointIds": [
+      "fp_gp_intro_02"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_intro_01"
+    ],
+    "status": "active",
+    "recommendedWords": "20-60字",
+    "recommendedTime": "1-2分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_brain_001",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_brain_basis",
+    "type": "名词解释",
+    "title": "反射",
+    "stem": "什么是反射？",
+    "difficulty": "easy",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第二章 心理与行为的脑神经基础",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "基础概念"
+    ],
+    "answer": "反射是在神经系统参与下，机体对内外刺激所作出的规律性反应。作答时一般应先给出概念的核心定义，再点出其关键属性、适用范围或与相关概念的区别。结合复习要求看，第二章基础名词解释。书写时不宜只写一个同义替换式短句，最好把“是什么、有什么特点、在何处使用”交代清楚。",
+    "scoringPoints": [
+      "写出神经系统参与",
+      "写出对刺激的规律性反应"
+    ],
+    "analysis": "第二章基础名词解释。",
+    "relatedFocusPointIds": [
+      "fp_gp_brain_02"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "80-120字",
+    "recommendedTime": "3-5分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_brain_002",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_brain_basis",
+    "type": "简答题",
+    "title": "神经系统的组成",
+    "stem": "简述神经系统的基本组成。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第二章 心理与行为的脑神经基础",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "结构题"
+    ],
+    "answer": "神经系统通常由中枢神经系统和周围神经系统组成。中枢神经系统包括脑和脊髓，是整合和调节机体活动的中枢；周围神经系统包括脑神经、脊神经等，负责在中枢与身体各部分之间传递信息。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出两大组成部分；说明中枢神经系统组成；说明周围神经系统功能。从复习角度看，第二章的基础结构题。",
+    "scoringPoints": [
+      "写出两大组成部分",
+      "说明中枢神经系统组成",
+      "说明周围神经系统功能"
+    ],
+    "analysis": "第二章的基础结构题。",
+    "relatedFocusPointIds": [
+      "fp_gp_brain_01"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_brain_01"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_brain_003",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_brain_basis",
+    "type": "选择题",
+    "title": "神经系统结构识别",
+    "stem": "下列属于中枢神经系统组成部分的是：",
+    "difficulty": "easy",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第二章 心理与行为的脑神经基础",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "客观题"
+    ],
+    "options": [
+      "A. 脑和脊髓",
+      "B. 脑神经和脊神经",
+      "C. 感觉神经和运动神经",
+      "D. 交感神经和副交感神经"
+    ],
+    "answer": "A. 脑和脊髓",
+    "scoringPoints": [
+      "识别中枢神经系统构成"
+    ],
+    "analysis": "第二章基础客观题。",
+    "relatedFocusPointIds": [
+      "fp_gp_brain_01"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_brain_01"
+    ],
+    "status": "active",
+    "recommendedWords": "20-60字",
+    "recommendedTime": "1-2分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_consciousness_004",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_consciousness",
+    "type": "简答题",
+    "title": "睡眠的基本阶段",
+    "stem": "简述睡眠的基本阶段及其特点。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第五章 意识",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "结构题"
+    ],
+    "answer": "睡眠通常经历若干阶段，包括由浅入深的不同非快速眼动睡眠阶段以及快速眼动睡眠阶段。不同阶段在脑电活动、肌张力和梦境出现频率等方面存在差异。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：指出睡眠分阶段；体现不同阶段特点不同；提到快速眼动睡眠。从复习角度看，意识章节常见结构题。作答时可以先概括本题的中心观点，再围绕教材中的关键术语分点展开，避免只列名词而缺少解释。",
+    "scoringPoints": [
+      "指出睡眠分阶段",
+      "体现不同阶段特点不同",
+      "提到快速眼动睡眠"
+    ],
+    "analysis": "意识章节常见结构题。",
+    "relatedFocusPointIds": [
+      "fp_gp_consciousness_03"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_consciousness_02"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_consciousness_005",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_consciousness",
+    "type": "判断题",
+    "title": "梦与意识状态判断",
+    "stem": "梦属于意识状态变化相关内容。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第五章 意识",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "判断题"
+    ],
+    "answer": "正确",
+    "scoringPoints": [
+      "理解梦与意识状态变化的关系"
+    ],
+    "analysis": "基础判断题。",
+    "relatedFocusPointIds": [
+      "fp_gp_consciousness_02"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_consciousness_02"
+    ],
+    "status": "active",
+    "recommendedWords": "20-60字",
+    "recommendedTime": "1-2分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_language_004",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_language",
+    "type": "辨析题",
+    "title": "内部言语与外部言语比较",
+    "stem": "辨析内部言语与外部言语。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第八章 语言",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "辨析题"
+    ],
+    "answer": "内部言语和外部言语都属于言语活动形式。内部言语主要服务于个体内部思维过程，具有隐蔽性和简缩性；外部言语则用于现实交际和表达，具有外显性和较完整的结构。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：指出二者同属言语形式；说明内部言语特点；说明外部言语特点。复习时尤其要注意，语言章节比较型主观题。规范写法通常是先指出二者的联系，再重点写区别，最后用一句话概括为什么不能把二者混同。",
+    "scoringPoints": [
+      "指出二者同属言语形式",
+      "说明内部言语特点",
+      "说明外部言语特点"
+    ],
+    "analysis": "语言章节比较型主观题。",
+    "relatedFocusPointIds": [
+      "fp_gp_language_03"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_language_02"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_language_005",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_language",
+    "type": "简答题",
+    "title": "语言在思维中的作用",
+    "stem": "简述语言在思维中的作用。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第八章 语言",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "语言是思维的重要工具。它有助于概念形成、经验概括、思想表达和问题解决，使个体能够借助符号系统进行更高水平的抽象思维和社会交流。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出语言是思维工具；说明对概括、表达或问题解决的作用。从复习角度看，语言章节主干简答题。作答时可以先概括本题的中心观点，再围绕教材中的关键术语分点展开，避免只列名词而缺少解释。",
+    "scoringPoints": [
+      "写出语言是思维工具",
+      "说明对概括、表达或问题解决的作用"
+    ],
+    "analysis": "语言章节主干简答题。",
+    "relatedFocusPointIds": [
+      "fp_gp_language_02"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_motivation_004",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_motivation",
+    "type": "辨析题",
+    "title": "内在动机与外在动机比较",
+    "stem": "辨析内在动机与外在动机。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第九章 动机",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "辨析题"
+    ],
+    "answer": "内在动机和外在动机都能推动个体行为，但来源不同。内在动机主要来自活动本身的兴趣、满足和价值体验；外在动机则来自奖励、惩罚、评价或外部要求。前者更有利于持续主动投入，后者在行为启动与规范方面也具有重要作用。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：指出二者都能推动行为；说明来源差异；写出作用特点差异。复习时尤其要注意，动机章节常见比较题。",
+    "scoringPoints": [
+      "指出二者都能推动行为",
+      "说明来源差异",
+      "写出作用特点差异"
+    ],
+    "analysis": "动机章节常见比较题。",
+    "relatedFocusPointIds": [
+      "fp_gp_motivation_03"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_motivation_02"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_motivation_005",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_motivation",
+    "type": "简答题",
+    "title": "内在动机与外在动机的区别",
+    "stem": "简述内在动机与外在动机的区别。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第九章 动机",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "内在动机来自活动本身，个体因为兴趣、好奇或成就满足而进行活动；外在动机则来自活动之外的外部条件，如奖励、惩罚、评价和要求。二者都能推动行为，但动力来源不同。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出内在动机来源；写出外在动机来源；说明二者差异在于动力来源。从复习角度看，适合作为动机章基础比较题。",
+    "scoringPoints": [
+      "写出内在动机来源",
+      "写出外在动机来源",
+      "说明二者差异在于动力来源"
+    ],
+    "analysis": "适合作为动机章基础比较题。",
+    "relatedFocusPointIds": [
+      "fp_gp_motivation_03"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_motivation_02"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_intelligence_004",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intelligence",
+    "type": "简答题",
+    "title": "智力的个体差异",
+    "stem": "简述智力的个体差异表现。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十一章 智力",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "智力的个体差异主要表现在水平差异、结构差异以及表现早晚差异等方面。不同个体不仅总体智力水平不同，而且在不同能力成分上的优势也可能不同。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出水平差异；写出结构差异；可补充发展早晚差异。从复习角度看，是智力章节常见简答题。作答时可以先概括本题的中心观点，再围绕教材中的关键术语分点展开，避免只列名词而缺少解释。",
+    "scoringPoints": [
+      "写出水平差异",
+      "写出结构差异",
+      "可补充发展早晚差异"
+    ],
+    "analysis": "是智力章节常见简答题。",
+    "relatedFocusPointIds": [
+      "fp_gp_intelligence_03"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_intelligence_005",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intelligence",
+    "type": "辨析题",
+    "title": "智力与能力比较",
+    "stem": "辨析智力与能力。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十一章 智力",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "辨析题"
+    ],
+    "answer": "智力与能力联系密切，但不能等同。智力通常指个体在认知活动中表现出来的综合能力，主要涉及理解、学习和解决问题；能力则是更广泛的概念，既包括一般智力，也包括音乐、绘画等特殊能力。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：指出二者联系密切；说明智力的认知综合能力特点；说明能力概念更广。复习时尤其要注意，智力章节重要比较题。",
+    "scoringPoints": [
+      "指出二者联系密切",
+      "说明智力的认知综合能力特点",
+      "说明能力概念更广"
+    ],
+    "analysis": "智力章节重要比较题。",
+    "relatedFocusPointIds": [
+      "fp_gp_intelligence_03"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_intelligence_02"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_personality_004",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_personality",
+    "type": "简答题",
+    "title": "人格形成与发展的因素",
+    "stem": "简述影响人格形成与发展的主要因素。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十二章 人格",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "人格形成与发展受多种因素共同影响，主要包括遗传素质、家庭和社会环境、教育以及个体的社会实践活动等。人格既有先天基础，也在后天生活过程中逐步形成和发展。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出遗传因素；写出环境或教育因素；体现多因素共同作用。从复习角度看，人格章常见简答题。作答时可以先概括本题的中心观点，再围绕教材中的关键术语分点展开，避免只列名词而缺少解释。",
+    "scoringPoints": [
+      "写出遗传因素",
+      "写出环境或教育因素",
+      "体现多因素共同作用"
+    ],
+    "analysis": "人格章常见简答题。",
+    "relatedFocusPointIds": [
+      "fp_gp_personality_03"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_personality_005",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_personality",
+    "type": "选择题",
+    "title": "人格概念识别",
+    "stem": "下列更能体现人格特点的是：",
+    "difficulty": "easy",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十二章 人格",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "客观题"
+    ],
+    "options": [
+      "A. 一次偶然的情绪波动",
+      "B. 短时注意分散",
+      "C. 稳定的待人方式和行为倾向",
+      "D. 一时的疲劳状态"
+    ],
+    "answer": "C. 稳定的待人方式和行为倾向",
+    "scoringPoints": [
+      "识别人格的稳定性特征"
+    ],
+    "analysis": "人格基础概念客观题。",
+    "relatedFocusPointIds": [
+      "fp_gp_personality_01"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_personality_02"
+    ],
+    "status": "active",
+    "recommendedWords": "20-60字",
+    "recommendedTime": "1-2分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_learning_004",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_learning",
+    "type": "简答题",
+    "title": "强化与惩罚的作用",
+    "stem": "简述强化与惩罚在学习中的作用。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十三章 学习",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "在学习过程中，强化能够增加某种行为再次发生的概率，惩罚则会降低某种行为再次发生的概率。二者都是通过行为结果来调节行为的重要机制。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出强化增加行为概率；写出惩罚降低行为概率；说明二者都调节行为。从复习角度看，学习章典型机制题。作答时可以先概括本题的中心观点，再围绕教材中的关键术语分点展开，避免只列名词而缺少解释。",
+    "scoringPoints": [
+      "写出强化增加行为概率",
+      "写出惩罚降低行为概率",
+      "说明二者都调节行为"
+    ],
+    "analysis": "学习章典型机制题。",
+    "relatedFocusPointIds": [
+      "fp_gp_learning_03"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_learning_02"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_learning_005",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_learning",
+    "type": "辨析题",
+    "title": "强化与惩罚比较",
+    "stem": "辨析强化与惩罚。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十三章 学习",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "辨析题"
+    ],
+    "answer": "强化与惩罚都属于行为结果对行为的调节方式，但作用方向不同。强化的作用是增加某行为未来出现的概率，惩罚的作用是减少某行为未来出现的概率。二者都不是简单的“好”或“坏”刺激，而要看其对行为概率的影响。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：指出二者共同点；说明强化作用方向；说明惩罚作用方向。复习时尤其要注意，学习章节高频比较题。",
+    "scoringPoints": [
+      "指出二者共同点",
+      "说明强化作用方向",
+      "说明惩罚作用方向"
+    ],
+    "analysis": "学习章节高频比较题。",
+    "relatedFocusPointIds": [
+      "fp_gp_learning_03"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_learning_02"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_intro_004",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intro_methods",
+    "type": "简答题",
+    "title": "心理学的学科性质",
+    "stem": "简述心理学的学科性质及其主要分支。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第一章 心理学的研究对象和方法",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "心理学是一门研究心理现象及其规律的科学，兼具自然科学和社会科学的某些特点。其学科体系通常包括基础心理学和应用心理学等主要分支，前者着重研究一般心理规律，后者强调将心理学原理应用于现实领域。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出学科性质的综合性；写出基础心理学；写出应用心理学。从复习角度看，第一章常见概括题。",
+    "scoringPoints": [
+      "写出学科性质的综合性",
+      "写出基础心理学",
+      "写出应用心理学"
+    ],
+    "analysis": "第一章常见概括题。",
+    "relatedFocusPointIds": [
+      "fp_gp_intro_03"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_intro_02"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_intro_005",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intro_methods",
+    "type": "选择题",
+    "title": "学科分支识别",
+    "stem": "下列更符合应用心理学特点的是：",
+    "difficulty": "easy",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第一章 心理学的研究对象和方法",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "客观题"
+    ],
+    "options": [
+      "A. 揭示一般记忆规律",
+      "B. 研究知觉的基本机制",
+      "C. 将心理学原理用于教育、管理和临床实践",
+      "D. 探讨心理过程的普遍结构"
+    ],
+    "answer": "C. 将心理学原理用于教育、管理和临床实践",
+    "scoringPoints": [
+      "识别应用心理学特征"
+    ],
+    "analysis": "第一章基础客观题。",
+    "relatedFocusPointIds": [
+      "fp_gp_intro_03"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_intro_02"
+    ],
+    "status": "active",
+    "recommendedWords": "20-60字",
+    "recommendedTime": "1-2分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_lifespan_004",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_lifespan",
+    "type": "简答题",
+    "title": "不同发展阶段的主要任务",
+    "stem": "简述人生全程发展中不同阶段的主要发展任务。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十四章 人生全程发展",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "人生全程发展的不同阶段具有不同的发展任务。婴幼儿期侧重基本动作和言语的发展，儿童期侧重认知与社会性发展，青少年期突出自我意识与同伴关系，成年期强调职业与家庭责任，老年期则更多面对适应衰老与维持生活质量等任务。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：概括多个阶段；指出各阶段至少一个核心任务；体现发展任务的阶段差异。从复习角度看，发展章节常见概括题。",
+    "scoringPoints": [
+      "概括多个阶段",
+      "指出各阶段至少一个核心任务",
+      "体现发展任务的阶段差异"
+    ],
+    "analysis": "发展章节常见概括题。",
+    "relatedFocusPointIds": [
+      "fp_gp_lifespan_03"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_lifespan_02"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_lifespan_005",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_lifespan",
+    "type": "辨析题",
+    "title": "连续性与阶段性比较",
+    "stem": "辨析人生全程发展中的连续性与阶段性。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十四章 人生全程发展",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "辨析题"
+    ],
+    "answer": "连续性与阶段性都是人生全程发展的重要特点。连续性强调发展过程在时间上的持续推进和累积性变化；阶段性强调在不同年龄阶段，个体心理发展会表现出相对稳定的特征和任务。二者并不矛盾，而是统一于个体的一生发展过程中。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：分别解释连续性和阶段性；说明二者不是对立关系；写出统一于发展全过程。复习时尤其要注意，发展章节典型比较题。",
+    "scoringPoints": [
+      "分别解释连续性和阶段性",
+      "说明二者不是对立关系",
+      "写出统一于发展全过程"
+    ],
+    "analysis": "发展章节典型比较题。",
+    "relatedFocusPointIds": [
+      "fp_gp_lifespan_01",
+      "fp_gp_lifespan_03"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_lifespan_02"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_brain_004",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_brain_basis",
+    "type": "简答题",
+    "title": "大脑皮层机能分区",
+    "stem": "简述大脑皮层机能分区的基本情况。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第二章 心理与行为的脑神经基础",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "结构题"
+    ],
+    "answer": "大脑皮层具有不同的机能分区，通常包括感觉区、运动区以及与言语活动相关的区域等。不同区域在信息加工和行为调节中承担不同功能，相互联系，共同支持复杂心理活动的实现。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出感觉区和运动区；可补充言语相关区域；体现不同区域功能分工。从复习角度看，第二章结构型简答题。",
+    "scoringPoints": [
+      "写出感觉区和运动区",
+      "可补充言语相关区域",
+      "体现不同区域功能分工"
+    ],
+    "analysis": "第二章结构型简答题。",
+    "relatedFocusPointIds": [
+      "fp_gp_brain_03"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_brain_005",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_brain_basis",
+    "type": "辨析题",
+    "title": "反射与反射弧比较",
+    "stem": "辨析反射与反射弧。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第二章 心理与行为的脑神经基础",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "辨析题"
+    ],
+    "answer": "反射与反射弧相互联系但并不相同。反射是机体在神经系统参与下对刺激所作出的规律性反应；反射弧则是完成这一反应所依赖的神经结构基础，包括感受器、传入神经、中枢、传出神经和效应器等环节。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：分别说明反射与反射弧定义；说明反射弧是反射的结构基础；可列出反射弧基本环节。复习时尤其要注意，第二章典型比较题。",
+    "scoringPoints": [
+      "分别说明反射与反射弧定义",
+      "说明反射弧是反射的结构基础",
+      "可列出反射弧基本环节"
+    ],
+    "analysis": "第二章典型比较题。",
+    "relatedFocusPointIds": [
+      "fp_gp_brain_02"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_brain_02"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_consciousness_006",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_consciousness",
+    "type": "简答题",
+    "title": "生物节律与意识状态关系",
+    "stem": "简述生物节律与意识状态变化的关系。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第五章 意识",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "生物节律会影响个体的觉醒水平、注意状态和睡眠—清醒周期，因此与意识状态变化密切相关。尤其是昼夜节律，会使个体在不同时间段表现出不同的清醒程度和心理活动效率。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出生物节律影响觉醒水平；体现与睡眠—清醒周期关系；可提到昼夜节律。从复习角度看，意识章节扩展型简答题。",
+    "scoringPoints": [
+      "写出生物节律影响觉醒水平",
+      "体现与睡眠—清醒周期关系",
+      "可提到昼夜节律"
+    ],
+    "analysis": "意识章节扩展型简答题。",
+    "relatedFocusPointIds": [
+      "fp_gp_consciousness_04"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_consciousness_03"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_consciousness_007",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_consciousness",
+    "type": "辨析题",
+    "title": "意识状态变化与意识内容变化比较",
+    "stem": "辨析意识状态变化与意识内容变化。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第五章 意识",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "辨析题"
+    ],
+    "answer": "意识状态变化与意识内容变化都属于意识研究的内容，但层面不同。前者强调个体整体觉醒水平和心理活动组织形式的变化，如睡眠、清醒和催眠；后者则强调意识中具体对象、经验内容和体验内容的变化。二者相关但不能混同。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：指出二者研究层面不同；举出状态变化例子；说明内容变化强调具体经验对象。复习时尤其要注意，有助于把意识章节写得更细。",
+    "scoringPoints": [
+      "指出二者研究层面不同",
+      "举出状态变化例子",
+      "说明内容变化强调具体经验对象"
+    ],
+    "analysis": "有助于把意识章节写得更细。",
+    "relatedFocusPointIds": [
+      "fp_gp_consciousness_01",
+      "fp_gp_consciousness_04"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_consciousness_03"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_language_006",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_language",
+    "type": "简答题",
+    "title": "口头言语与书面言语的区别",
+    "stem": "简述口头言语与书面言语的区别。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第八章 语言",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "口头言语和书面言语都属于外部言语，但表达方式不同。口头言语依赖声音和即时交流情境，具有较强情境性和灵活性；书面言语依赖文字，结构通常更完整、严谨，也更便于保存和反复加工。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：指出都属外部言语；说明口头言语特点；说明书面言语特点。从复习角度看，语言章节结构型简答题。",
+    "scoringPoints": [
+      "指出都属外部言语",
+      "说明口头言语特点",
+      "说明书面言语特点"
+    ],
+    "analysis": "语言章节结构型简答题。",
+    "relatedFocusPointIds": [
+      "fp_gp_language_04"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_language_03"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_language_007",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_language",
+    "type": "选择题",
+    "title": "书面言语特点识别",
+    "stem": "与口头言语相比，书面言语通常更具有：",
+    "difficulty": "easy",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第八章 语言",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "客观题"
+    ],
+    "options": [
+      "A. 即时情境依赖性",
+      "B. 外显声音特征",
+      "C. 结构完整性和可保存性",
+      "D. 随意省略和简缩性"
+    ],
+    "answer": "C. 结构完整性和可保存性",
+    "scoringPoints": [
+      "识别书面言语特点"
+    ],
+    "analysis": "语言章节基础客观题。",
+    "relatedFocusPointIds": [
+      "fp_gp_language_04"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_language_03"
+    ],
+    "status": "active",
+    "recommendedWords": "20-60字",
+    "recommendedTime": "1-2分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_motivation_006",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_motivation",
+    "type": "名词解释",
+    "title": "成就动机",
+    "stem": "什么是成就动机？",
+    "difficulty": "easy",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第九章 动机",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "名词解释"
+    ],
+    "answer": "成就动机是个体追求重要而有价值的工作成就，并力求获得成功的内部动力。作答时一般应先给出概念的核心定义，再点出其关键属性、适用范围或与相关概念的区别。结合复习要求看，动机章节常见名词解释。",
+    "scoringPoints": [
+      "写出追求成就",
+      "写出获得成功的内部动力"
+    ],
+    "analysis": "动机章节常见名词解释。",
+    "relatedFocusPointIds": [
+      "fp_gp_motivation_04"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_motivation_03"
+    ],
+    "status": "active",
+    "recommendedWords": "80-120字",
+    "recommendedTime": "3-5分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_motivation_007",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_motivation",
+    "type": "简答题",
+    "title": "成就动机的成分",
+    "stem": "简述成就动机的主要成分。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第九章 动机",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "成就动机通常可以从趋向成功和避免失败两个方面来理解。前者使个体主动追求挑战和成就，后者则使个体在任务选择中表现出回避风险、减少失败可能的倾向。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出趋向成功；写出避免失败；说明二者对行为选择的影响。从复习角度看，有助于加厚动机章节。作答时可以先概括本题的中心观点，再围绕教材中的关键术语分点展开，避免只列名词而缺少解释。",
+    "scoringPoints": [
+      "写出趋向成功",
+      "写出避免失败",
+      "说明二者对行为选择的影响"
+    ],
+    "analysis": "有助于加厚动机章节。",
+    "relatedFocusPointIds": [
+      "fp_gp_motivation_04"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_motivation_03"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_personality_006",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_personality",
+    "type": "简答题",
+    "title": "人格结构的基本组成",
+    "stem": "简述人格结构的基本组成。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十二章 人格",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "人格结构通常包括气质、性格、能力以及自我意识等方面。这些因素相互联系、相互作用，共同构成个体比较稳定的心理特征系统。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出至少三项人格结构成分；说明其共同构成人格系统。从复习角度看，人格章节总括型简答题。作答时可以先概括本题的中心观点，再围绕教材中的关键术语分点展开，避免只列名词而缺少解释。",
+    "scoringPoints": [
+      "写出至少三项人格结构成分",
+      "说明其共同构成人格系统"
+    ],
+    "analysis": "人格章节总括型简答题。",
+    "relatedFocusPointIds": [
+      "fp_gp_personality_04"
+    ],
+    "relatedConfusionPointIds": [],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_personality_007",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_personality",
+    "type": "辨析题",
+    "title": "人格特质与人格类型比较",
+    "stem": "辨析人格特质与人格类型。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十二章 人格",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "辨析题"
+    ],
+    "answer": "人格特质与人格类型都是研究人格差异的方式，但角度不同。人格特质强调个体在某些稳定心理特征上的连续性差异，如外向程度高低；人格类型则强调依据若干典型特征把个体划分为某种类型。前者更重程度差异，后者更重类别归属。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：指出二者都用于解释人格差异；说明特质是连续维度；说明类型是类别划分。复习时尤其要注意，人格章节扩展比较题。",
+    "scoringPoints": [
+      "指出二者都用于解释人格差异",
+      "说明特质是连续维度",
+      "说明类型是类别划分"
+    ],
+    "analysis": "人格章节扩展比较题。",
+    "relatedFocusPointIds": [
+      "fp_gp_personality_04"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_personality_03"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_intelligence_006",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intelligence",
+    "type": "简答题",
+    "title": "智力测验的作用与局限",
+    "stem": "简述智力测验的主要作用及其局限。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十一章 智力",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "智力测验有助于了解个体智力发展的总体水平，为教育、选拔和心理辅导提供参考。但智力测验结果会受到测验工具、文化背景、教育经验和情境因素影响，不能把分数绝对化，更不能把智力测验结果等同于一个人的全部能力。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出测验的参考作用；写出测验受多种因素影响；指出不能绝对化解释测验结果。从复习角度看，智力章节应用型简答题。",
+    "scoringPoints": [
+      "写出测验的参考作用",
+      "写出测验受多种因素影响",
+      "指出不能绝对化解释测验结果"
+    ],
+    "analysis": "智力章节应用型简答题。",
+    "relatedFocusPointIds": [
+      "fp_gp_intelligence_04"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_intelligence_03"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_intelligence_007",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intelligence",
+    "type": "辨析题",
+    "title": "智商高是否等于智力全面发展",
+    "stem": "辨析“智商高就等于智力全面发展”。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十一章 智力",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "辨析题"
+    ],
+    "answer": "这一说法不准确。较高智商通常说明个体在某种测验中表现出较高的总体认知水平，但并不意味着其所有能力成分都发展得同样充分。智力具有结构差异和个体差异，因此不能把较高智商简单等同于智力全面发展。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：先表明说法不准确；说明智商与测验分数关系；指出智力具有结构差异。复习时尤其要注意，智力章节很适合出的辨析题。",
+    "scoringPoints": [
+      "先表明说法不准确",
+      "说明智商与测验分数关系",
+      "指出智力具有结构差异"
+    ],
+    "analysis": "智力章节很适合出的辨析题。",
+    "relatedFocusPointIds": [
+      "fp_gp_intelligence_04"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_intelligence_03"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_learning_006",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_learning",
+    "type": "名词解释",
+    "title": "观察学习",
+    "stem": "什么是观察学习？",
+    "difficulty": "easy",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十三章 学习",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "名词解释"
+    ],
+    "answer": "观察学习是个体通过观察他人的行为及其结果，而习得新行为方式或行为倾向的学习过程。作答时一般应先给出概念的核心定义，再点出其关键属性、适用范围或与相关概念的区别。结合复习要求看，学习章节常见名词解释。",
+    "scoringPoints": [
+      "写出通过观察他人行为",
+      "写出习得新行为方式"
+    ],
+    "analysis": "学习章节常见名词解释。",
+    "relatedFocusPointIds": [
+      "fp_gp_learning_04"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_learning_03"
+    ],
+    "status": "active",
+    "recommendedWords": "80-120字",
+    "recommendedTime": "3-5分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_learning_007",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_learning",
+    "type": "辨析题",
+    "title": "观察学习与机械模仿比较",
+    "stem": "辨析观察学习与机械模仿。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十三章 学习",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "辨析题"
+    ],
+    "answer": "观察学习与机械模仿都可能表现为模仿他人行为，但内在机制不同。观察学习强调通过观察榜样行为及其结果，经过认知加工而习得新行为方式，并不一定要求立即外显反应；机械模仿则更多表现为对外显动作的表面复制。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：指出二者都可能表现为模仿；说明观察学习包含认知加工；说明机械模仿偏表面重复。复习时尤其要注意，学习章节扩展比较题。",
+    "scoringPoints": [
+      "指出二者都可能表现为模仿",
+      "说明观察学习包含认知加工",
+      "说明机械模仿偏表面重复"
+    ],
+    "analysis": "学习章节扩展比较题。",
+    "relatedFocusPointIds": [
+      "fp_gp_learning_04"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_learning_03"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_intro_006",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intro_methods",
+    "type": "简答题",
+    "title": "相关关系与因果关系",
+    "stem": "简述相关关系与因果关系的区别。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第一章 心理学的研究对象和方法",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "相关关系是指两个变量之间存在共同变化的关系，而因果关系则强调一个变量的变化导致另一个变量变化。心理学研究中发现相关，并不能直接说明二者存在因果关系，还需要进一步控制条件和验证。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出相关关系含义；写出因果关系含义；指出相关不等于因果。从复习角度看，绪论方法意识补强题。",
+    "scoringPoints": [
+      "写出相关关系含义",
+      "写出因果关系含义",
+      "指出相关不等于因果"
+    ],
+    "analysis": "绪论方法意识补强题。",
+    "relatedFocusPointIds": [
+      "fp_gp_intro_04"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_intro_03"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_intro_007",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intro_methods",
+    "type": "辨析题",
+    "title": "相关不等于因果",
+    "stem": "辨析“两个变量相关，就说明一个变量引起了另一个变量”。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第一章 心理学的研究对象和方法",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "辨析题"
+    ],
+    "answer": "这一说法不准确。相关仅表示两个变量之间存在共同变化的关系，但并不能直接说明其中一个变量是另一个变量变化的原因。因果推断需要控制无关变量并通过更严格的研究设计加以验证。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：先指出说法不准确；说明相关的含义；说明因果推断需要控制与验证。复习时尤其要注意，方法论辨析题。",
+    "scoringPoints": [
+      "先指出说法不准确",
+      "说明相关的含义",
+      "说明因果推断需要控制与验证"
+    ],
+    "analysis": "方法论辨析题。",
+    "relatedFocusPointIds": [
+      "fp_gp_intro_04"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_intro_03"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_brain_006",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_brain_basis",
+    "type": "简答题",
+    "title": "条件反射与无条件反射的区别",
+    "stem": "简述条件反射与无条件反射的区别。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第二章 心理与行为的脑神经基础",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "无条件反射是机体先天具有的、较稳定的反射活动，如食物引起唾液分泌；条件反射则是在后天生活过程中，在无条件反射基础上通过学习建立起来的反射活动。二者都属于反射，但形成方式不同。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：说明无条件反射是先天的；说明条件反射是后天形成的；指出条件反射建立在无条件反射基础上。从复习角度看，第二章基础比较题。",
+    "scoringPoints": [
+      "说明无条件反射是先天的",
+      "说明条件反射是后天形成的",
+      "指出条件反射建立在无条件反射基础上"
+    ],
+    "analysis": "第二章基础比较题。",
+    "relatedFocusPointIds": [
+      "fp_gp_brain_04"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_brain_03"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_brain_007",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_brain_basis",
+    "type": "选择题",
+    "title": "反射分类识别",
+    "stem": "个体在后天生活过程中建立起来的反射活动通常属于：",
+    "difficulty": "easy",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第二章 心理与行为的脑神经基础",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "客观题"
+    ],
+    "options": [
+      "A. 无条件反射",
+      "B. 条件反射",
+      "C. 定向反射",
+      "D. 本能行为"
+    ],
+    "answer": "B. 条件反射",
+    "scoringPoints": [
+      "识别条件反射"
+    ],
+    "analysis": "第二章基础客观题。",
+    "relatedFocusPointIds": [
+      "fp_gp_brain_04"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_brain_03"
+    ],
+    "status": "active",
+    "recommendedWords": "20-60字",
+    "recommendedTime": "1-2分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_lifespan_006",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_lifespan",
+    "type": "简答题",
+    "title": "遗传、环境与教育的关系",
+    "stem": "简述遗传、环境与教育在心理发展中的关系。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十四章 人生全程发展",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "遗传、环境和教育都是影响心理发展的重要因素。遗传提供发展的生物学前提，环境提供现实生活条件，教育则通过有目的、有计划的方式促进个体发展。三者不是彼此割裂的，而是在相互作用中共同影响发展。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出遗传作用；写出环境作用；写出教育作用并强调共同作用。从复习角度看，发展章节主干简答题。",
+    "scoringPoints": [
+      "写出遗传作用",
+      "写出环境作用",
+      "写出教育作用并强调共同作用"
+    ],
+    "analysis": "发展章节主干简答题。",
+    "relatedFocusPointIds": [
+      "fp_gp_lifespan_04"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_lifespan_03"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_lifespan_007",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_lifespan",
+    "type": "辨析题",
+    "title": "遗传决定论与环境决定论比较",
+    "stem": "辨析遗传决定论与环境决定论。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十四章 人生全程发展",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "辨析题"
+    ],
+    "answer": "遗传决定论与环境决定论都试图用单一因素解释心理发展，因此都具有片面性。前者过分强调遗传和生物成熟的决定作用，后者则过分强调环境和教育的塑造作用。更合理的观点是把心理发展理解为遗传、环境和教育等多因素共同作用的结果。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：说明遗传决定论观点；说明环境决定论观点；指出二者共同片面性并给出多因素观点。",
+    "scoringPoints": [
+      "说明遗传决定论观点",
+      "说明环境决定论观点",
+      "指出二者共同片面性并给出多因素观点"
+    ],
+    "analysis": "发展章节典型辨析题。",
+    "relatedFocusPointIds": [
+      "fp_gp_lifespan_04"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_lifespan_03"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_sensation_007",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_sensation",
+    "type": "简答题",
+    "title": "绝对感受性与差别感受性",
+    "stem": "简述绝对感受性与差别感受性的区别。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第三章 感觉",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "绝对感受性是指刚刚能够觉察最小刺激的能力，差别感受性则是指刚刚能够分辨两个同类刺激之间最小差异的能力。二者都反映感觉能力，但适用对象和对应阈限不同。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出绝对感受性的含义；写出差别感受性的含义；指出二者对应阈限不同。从复习角度看，感觉章节基础比较题。",
+    "scoringPoints": [
+      "写出绝对感受性的含义",
+      "写出差别感受性的含义",
+      "指出二者对应阈限不同"
+    ],
+    "analysis": "感觉章节基础比较题。",
+    "relatedFocusPointIds": [
+      "fp_gp_sensation_03"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_sensation_03"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_perception_006",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_perception",
+    "type": "简答题",
+    "title": "知觉的主要种类",
+    "stem": "简述空间知觉、时间知觉和运动知觉。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第四章 知觉",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "结构题"
+    ],
+    "answer": "空间知觉是对物体方位、距离、大小和形状等空间属性的反映；时间知觉是对事件延续、顺序和节奏等时间属性的反映；运动知觉则是对物体位移和运动状态的反映。三者都属于复杂知觉形式。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：分别解释空间知觉；解释时间知觉；解释运动知觉。从复习角度看，知觉章结构型简答题。",
+    "scoringPoints": [
+      "分别解释空间知觉",
+      "解释时间知觉",
+      "解释运动知觉"
+    ],
+    "analysis": "知觉章结构型简答题。",
+    "relatedFocusPointIds": [
+      "fp_gp_perception_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_perception_03"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_perception_007",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_perception",
+    "type": "选择题",
+    "title": "知觉种类识别",
+    "stem": "对事件先后顺序和持续长短的反映，主要属于：",
+    "difficulty": "easy",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第四章 知觉",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "客观题"
+    ],
+    "options": [
+      "A. 空间知觉",
+      "B. 时间知觉",
+      "C. 运动知觉",
+      "D. 错觉"
+    ],
+    "answer": "B. 时间知觉",
+    "scoringPoints": [
+      "识别时间知觉"
+    ],
+    "analysis": "知觉种类客观题。",
+    "relatedFocusPointIds": [
+      "fp_gp_perception_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_perception_03"
+    ],
+    "status": "active",
+    "recommendedWords": "20-60字",
+    "recommendedTime": "1-2分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_personality_008",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_personality",
+    "type": "简答题",
+    "title": "人格测量的主要方式",
+    "stem": "简述人格测量的主要方式。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十二章 人格",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "人格测量的主要方式包括问卷法、投射法、观察法和评定法等。问卷法通过结构化题项了解个体的人格特征，投射法通过意义不明确的刺激材料分析个体内在心理特征，观察法和评定法则通过外显行为与他人评价把握人格表现。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出问卷法；写出投射法；写出观察法或评定法并说明其作用。从复习角度看，人格章节高频应用型简答题。",
+    "scoringPoints": [
+      "写出问卷法",
+      "写出投射法",
+      "写出观察法或评定法并说明其作用"
+    ],
+    "analysis": "人格章节高频应用型简答题。",
+    "relatedFocusPointIds": [
+      "fp_gp_personality_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_personality_04"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_personality_009",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_personality",
+    "type": "辨析题",
+    "title": "问卷法与投射法比较",
+    "stem": "辨析人格测量中的问卷法与投射法。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十二章 人格",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "辨析题"
+    ],
+    "answer": "问卷法与投射法都是人格测量的重要方法，但二者测量思路不同。问卷法主要依靠被试对结构化项目的直接反应，便于量化和比较；投射法则借助意义不明确的刺激材料，引出个体潜在的内在心理特征。二者各有优势与局限，不能相互替代。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：指出二者同属人格测量方法；说明问卷法特点；说明投射法特点并指出二者不能简单替代。",
+    "scoringPoints": [
+      "指出二者同属人格测量方法",
+      "说明问卷法特点",
+      "说明投射法特点并指出二者不能简单替代"
+    ],
+    "analysis": "人格章节典型辨析题。",
+    "relatedFocusPointIds": [
+      "fp_gp_personality_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_personality_04"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_learning_008",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_learning",
+    "type": "简答题",
+    "title": "经典条件作用与操作条件作用的区别",
+    "stem": "简述经典条件作用与操作条件作用的主要区别。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十三章 学习",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "经典条件作用主要研究条件刺激与无条件刺激之间建立联结，从而使个体对原本中性的刺激作出条件反应；操作条件作用则强调行为结果，特别是强化和惩罚对行为概率的影响。前者更偏向刺激联结，后者更强调行为后果对行为塑造。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：说明经典条件作用强调刺激联结；说明操作条件作用强调强化与惩罚；指出二者机制不同。从复习角度看，学习章节主干比较题。",
+    "scoringPoints": [
+      "说明经典条件作用强调刺激联结",
+      "说明操作条件作用强调强化与惩罚",
+      "指出二者机制不同"
+    ],
+    "analysis": "学习章节主干比较题。",
+    "relatedFocusPointIds": [
+      "fp_gp_learning_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_learning_04"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_learning_009",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_learning",
+    "type": "论述题",
+    "title": "学习理论中的两种条件作用",
+    "stem": "试述经典条件作用与操作条件作用的联系与区别。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十三章 学习",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "论述题"
+    ],
+    "answer": "经典条件作用与操作条件作用都属于行为主义学习理论的重要内容，都试图说明个体如何通过经验获得新的行为方式或反应倾向。二者的共同点在于都强调环境条件对学习形成的重要作用。区别在于：经典条件作用强调刺激之间建立联结，个体形成的是对刺激的条件反应；操作条件作用强调行为后果，尤其是强化和惩罚对反应概率的塑造，个体形成的是在特定情境中更可能出现的操作行为。总体来看，二者都解释学习，但机制重点不同。论述题不能只停留在列点层面，最好先给出总述，再分层展开各个理论点，最后再回到题目要求作总结。如果题目中带有“比较”“启示”“影响因素”“应用”这类要求，必须在主体部分专门分出相应段落，不宜只写定义。本题写作时建议至少覆盖：写出共同点；写出经典条件作用特点；写出操作条件作用特点；总结二者机制重点差异。从训练角度看，学习章节很典型的综合论述题。在考场中，这类题通常需要写出较完整的层次：先交代基本概念或总体观点，再按逻辑展开主体内容，最后补一句概括性结论，这样更接近阅卷习惯。论述题作答时，首先要交代题目涉及的总体观点或基本框架，再按逻辑顺序展开各个分论点，使答案形成完整论证，而不是若干零散条目。如果题目要求写“启示”“影响”或“应用”，则应在主体理论写完之后，专门分出一个层次进行延伸，不能把应用要求省略掉。",
+    "scoringPoints": [
+      "写出共同点",
+      "写出经典条件作用特点",
+      "写出操作条件作用特点",
+      "总结二者机制重点差异"
+    ],
+    "analysis": "学习章节很典型的综合论述题。",
+    "relatedFocusPointIds": [
+      "fp_gp_learning_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_learning_04"
+    ],
+    "status": "active",
+    "recommendedWords": "500-700字",
+    "recommendedTime": "15-22分钟",
+    "answerLevel": "expanded"
+  },
+  {
+    "id": "q_gp_emotion_008",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_emotion",
+    "type": "简答题",
+    "title": "情绪的基本成分",
+    "stem": "简述情绪的基本成分。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十章 情绪",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "情绪通常包括主观体验、生理唤醒和外部表现三个基本成分。主观体验是个体对情绪状态的内在感受，生理唤醒表现为机体内部生理变化，外部表现则体现为表情、动作和语调等可观察反应。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出主观体验；写出生理唤醒；写出外部表现。从复习角度看，情绪章节高频主干简答题。",
+    "scoringPoints": [
+      "写出主观体验",
+      "写出生理唤醒",
+      "写出外部表现"
+    ],
+    "analysis": "情绪章节高频主干简答题。",
+    "relatedFocusPointIds": [
+      "fp_gp_emotion_06"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_emotion_04"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_emotion_009",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_emotion",
+    "type": "辨析题",
+    "title": "情绪与情感比较",
+    "stem": "辨析情绪与情感。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十章 情绪",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "辨析题"
+    ],
+    "answer": "情绪与情感都属于情感过程，但二者并不完全相同。情绪通常与具体情境刺激相联系，具有较强的情境性、冲动性和短暂性；情感则较稳定，更体现个体对客观事物的长期态度，并具有更明显的社会性和深刻性。二者既有联系，也有区别。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：指出二者同属情感过程；说明情绪特点；说明情感特点。复习时尤其要注意，情绪章节典型辨析题。",
+    "scoringPoints": [
+      "指出二者同属情感过程",
+      "说明情绪特点",
+      "说明情感特点"
+    ],
+    "analysis": "情绪章节典型辨析题。",
+    "relatedFocusPointIds": [
+      "fp_gp_emotion_06"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_emotion_04"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_intelligence_008",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intelligence",
+    "type": "简答题",
+    "title": "流体智力与晶体智力的区别",
+    "stem": "简述流体智力与晶体智力的区别。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十一章 智力",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "流体智力是指个体在新情境中进行抽象推理、关系发现和问题解决的能力，它更多依赖神经系统的成熟；晶体智力则是个体通过教育和经验获得的知识、技能和语言理解能力，更受文化和学习经历影响。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：说明流体智力含义；说明晶体智力含义；指出二者影响因素不同。从复习角度看，智力章节高频比较题。",
+    "scoringPoints": [
+      "说明流体智力含义",
+      "说明晶体智力含义",
+      "指出二者影响因素不同"
+    ],
+    "analysis": "智力章节高频比较题。",
+    "relatedFocusPointIds": [
+      "fp_gp_intelligence_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_intelligence_04"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_intelligence_009",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intelligence",
+    "type": "辨析题",
+    "title": "流体智力与晶体智力比较",
+    "stem": "辨析流体智力与晶体智力。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十一章 智力",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "辨析题"
+    ],
+    "answer": "流体智力与晶体智力都是智力的重要组成，但二者所反映的能力内容不同。流体智力主要体现为在新情境中进行推理和解决问题的能力，与神经系统成熟联系较紧；晶体智力则主要体现为通过教育和经验形成的知识与技能，与文化背景和学习积累关系更密切。二者彼此联系，但不能混同。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：指出二者同属智力组成；说明流体智力特点；说明晶体智力特点并指出二者不能混同。",
+    "scoringPoints": [
+      "指出二者同属智力组成",
+      "说明流体智力特点",
+      "说明晶体智力特点并指出二者不能混同"
+    ],
+    "analysis": "智力章节高频辨析题。",
+    "relatedFocusPointIds": [
+      "fp_gp_intelligence_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_intelligence_04"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_consciousness_008",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_consciousness",
+    "type": "简答题",
+    "title": "睡眠与梦的关系",
+    "stem": "简述睡眠与梦的关系。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第五章 意识",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "睡眠是一种周期性出现的意识状态变化，梦则是在睡眠过程中出现的特殊心理活动体验。二者密切相关，但并不等同。睡眠包含多个阶段，而梦主要出现在某些睡眠阶段中，因此不能把梦简单等同于睡眠本身。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：说明睡眠是意识状态变化；说明梦是睡眠中的特殊心理活动；指出二者相关但不等同。从复习角度看，意识章节高频基础比较题。",
+    "scoringPoints": [
+      "说明睡眠是意识状态变化",
+      "说明梦是睡眠中的特殊心理活动",
+      "指出二者相关但不等同"
+    ],
+    "analysis": "意识章节高频基础比较题。",
+    "relatedFocusPointIds": [
+      "fp_gp_consciousness_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_consciousness_04"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_consciousness_009",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_consciousness",
+    "type": "辨析题",
+    "title": "睡眠是否等于梦",
+    "stem": "辨析“睡眠就是做梦”。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第五章 意识",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "辨析题"
+    ],
+    "answer": "这一说法不准确。睡眠是一种整体性的意识状态变化，具有周期性和阶段性；梦则是睡眠过程中出现的一种特殊心理活动体验。梦常发生于睡眠中，但不能用梦来代替睡眠，更不能认为所有睡眠都等于做梦。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：先指出说法不准确；说明睡眠特点；说明梦与睡眠的关系。复习时尤其要注意，意识章节典型辨析题。",
+    "scoringPoints": [
+      "先指出说法不准确",
+      "说明睡眠特点",
+      "说明梦与睡眠的关系"
+    ],
+    "analysis": "意识章节典型辨析题。",
+    "relatedFocusPointIds": [
+      "fp_gp_consciousness_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_consciousness_04"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_language_008",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_language",
+    "type": "简答题",
+    "title": "语言与思维关系概述",
+    "stem": "简述语言与思维的关系。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第八章 语言",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "语言与思维关系密切。思维常借助语言来进行，语言是思维的重要工具；同时，思维内容也会通过语言表达出来。但二者并不等同。语言是社会符号系统和交际工具，思维则是对客观事物间接概括的反映过程。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出语言是思维的重要工具；写出思维内容可借语言表达；指出二者并不等同。从复习角度看，语言章节主干简答题。",
+    "scoringPoints": [
+      "写出语言是思维的重要工具",
+      "写出思维内容可借语言表达",
+      "指出二者并不等同"
+    ],
+    "analysis": "语言章节主干简答题。",
+    "relatedFocusPointIds": [
+      "fp_gp_language_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_language_04"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_language_009",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_language",
+    "type": "辨析题",
+    "title": "语言与思维能否等同",
+    "stem": "辨析“语言就是思维”。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第八章 语言",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "辨析题"
+    ],
+    "answer": "这一说法不准确。语言与思维联系非常密切，思维往往借助语言进行，语言也能够表达思维成果。但语言本身是社会符号系统和交际工具，思维则是高级认知过程，二者在性质和功能上并不相同，因此不能简单等同。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：先指出说法不准确；说明语言与思维联系密切；说明二者性质不同。复习时尤其要注意，语言章节高频辨析题。",
+    "scoringPoints": [
+      "先指出说法不准确",
+      "说明语言与思维联系密切",
+      "说明二者性质不同"
+    ],
+    "analysis": "语言章节高频辨析题。",
+    "relatedFocusPointIds": [
+      "fp_gp_language_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_language_04"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_motivation_008",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_motivation",
+    "type": "简答题",
+    "title": "内在动机与外在动机的区别",
+    "stem": "简述内在动机与外在动机的区别。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第九章 动机",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "内在动机是由个体对活动本身的兴趣、好奇和满足感所引发的动机，行为本身就是目的；外在动机则主要由活动之外的奖赏、评价、要求或压力所引发，行为更多是一种达到外部结果的手段。二者都能推动行为，但动力来源不同。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：说明内在动机含义；说明外在动机含义；指出二者驱动来源不同。从复习角度看，动机章节高频主干比较题。",
+    "scoringPoints": [
+      "说明内在动机含义",
+      "说明外在动机含义",
+      "指出二者驱动来源不同"
+    ],
+    "analysis": "动机章节高频主干比较题。",
+    "relatedFocusPointIds": [
+      "fp_gp_motivation_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_motivation_04"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_motivation_009",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_motivation",
+    "type": "辨析题",
+    "title": "内在动机与外在动机比较",
+    "stem": "辨析内在动机与外在动机。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第九章 动机",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "辨析题"
+    ],
+    "answer": "内在动机与外在动机都是推动个体行为的重要动力，但二者的来源不同。内在动机主要来自个体对活动本身的兴趣和满足感，活动本身具有吸引力；外在动机则主要来自活动之外的奖赏、评价和要求等外部因素。二者既可相互配合，也不能简单对立。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：指出二者同属动机形式；说明内在动机特点；说明外在动机特点并指出二者并非绝对对立。",
+    "scoringPoints": [
+      "指出二者同属动机形式",
+      "说明内在动机特点",
+      "说明外在动机特点并指出二者并非绝对对立"
+    ],
+    "analysis": "动机章节典型辨析题。",
+    "relatedFocusPointIds": [
+      "fp_gp_motivation_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_motivation_04"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_lifespan_008",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_lifespan",
+    "type": "简答题",
+    "title": "心理发展的基本规律概述",
+    "stem": "简述心理发展的基本规律。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十四章 人生全程发展",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "心理发展具有方向性和顺序性，也表现出阶段性、连续性以及不平衡性等特点。个体的发展既不是完全跳跃的，也不是绝对均匀的，而是在一定规律中逐步推进，并受遗传、环境和教育等多种因素影响。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出方向性或顺序性；写出阶段性或连续性；写出不平衡性并指出发展具有规律性。从复习角度看，发展章节主干简答题。",
+    "scoringPoints": [
+      "写出方向性或顺序性",
+      "写出阶段性或连续性",
+      "写出不平衡性并指出发展具有规律性"
+    ],
+    "analysis": "发展章节主干简答题。",
+    "relatedFocusPointIds": [
+      "fp_gp_lifespan_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_lifespan_04"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_lifespan_009",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_lifespan",
+    "type": "辨析题",
+    "title": "心理发展的阶段性与连续性",
+    "stem": "辨析心理发展的阶段性与连续性。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十四章 人生全程发展",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "辨析题"
+    ],
+    "answer": "心理发展的阶段性与连续性并不是彼此对立的。阶段性强调个体在不同年龄阶段会表现出相对稳定的心理特征，连续性则强调发展是一个前后相继、不断积累的过程。个体的发展既有阶段差异，也有前后延续，因此应把二者统一起来理解。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：指出二者不是对立关系；说明阶段性的含义；说明连续性的含义并指出二者统一。复习时尤其要注意，发展章节高频辨析题。",
+    "scoringPoints": [
+      "指出二者不是对立关系",
+      "说明阶段性的含义",
+      "说明连续性的含义并指出二者统一"
+    ],
+    "analysis": "发展章节高频辨析题。",
+    "relatedFocusPointIds": [
+      "fp_gp_lifespan_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_lifespan_04"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_perception_008",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_perception",
+    "type": "简答题",
+    "title": "知觉的基本特性概述",
+    "stem": "简述知觉的基本特性。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第四章 知觉",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "知觉的基本特性主要包括整体性、选择性、理解性和恒常性。整体性是指人对客体整体的反映，选择性是指人在复杂刺激中优先反映某些对象，理解性是指知觉总是与已有知识经验相联系，恒常性则是指在一定范围内知觉映象保持相对稳定。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出整体性；写出选择性；写出理解性和恒常性。从复习角度看，知觉章节主干简答题。",
+    "scoringPoints": [
+      "写出整体性",
+      "写出选择性",
+      "写出理解性和恒常性"
+    ],
+    "analysis": "知觉章节主干简答题。",
+    "relatedFocusPointIds": [
+      "fp_gp_perception_06"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_perception_04"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_perception_009",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_perception",
+    "type": "辨析题",
+    "title": "感觉与知觉比较",
+    "stem": "辨析感觉与知觉。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第四章 知觉",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "辨析题"
+    ],
+    "answer": "感觉与知觉都属于认识过程，但二者反映内容不同。感觉主要反映事物的个别属性，如颜色、声音、冷热等；知觉则反映事物整体及其相互关系。知觉以感觉为基础，但并不是感觉的简单总和，而是在感觉基础上形成的更高水平的整体反映。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：指出二者同属认识过程；说明感觉特点；说明知觉特点并指出知觉高于感觉。复习时尤其要注意，知觉章节高频辨析题。",
+    "scoringPoints": [
+      "指出二者同属认识过程",
+      "说明感觉特点",
+      "说明知觉特点并指出知觉高于感觉"
+    ],
+    "analysis": "知觉章节高频辨析题。",
+    "relatedFocusPointIds": [
+      "fp_gp_perception_06"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_perception_04"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_thinking_008",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_thinking",
+    "type": "简答题",
+    "title": "发散思维与聚合思维的区别",
+    "stem": "简述发散思维与聚合思维的区别。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第七章 思维",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "发散思维是从不同方向、不同角度探索问题并产生多种可能答案的思维活动，强调灵活性、变通性和独创性；聚合思维则是在已有条件基础上集中分析，求得相对确定答案的思维活动。二者在问题解决和创造活动中往往相互配合。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：说明发散思维特点；说明聚合思维特点；指出二者可相互配合。从复习角度看，思维章节高频比较题。",
+    "scoringPoints": [
+      "说明发散思维特点",
+      "说明聚合思维特点",
+      "指出二者可相互配合"
+    ],
+    "analysis": "思维章节高频比较题。",
+    "relatedFocusPointIds": [
+      "fp_gp_thinking_06"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_thinking_03"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_thinking_009",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_thinking",
+    "type": "辨析题",
+    "title": "发散思维与聚合思维比较",
+    "stem": "辨析发散思维与聚合思维。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第七章 思维",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "辨析题"
+    ],
+    "answer": "发散思维与聚合思维都是思维活动的重要形式，但目标和路径不同。发散思维强调从多个方向寻求多种可能答案，体现思维的灵活性和创造性；聚合思维强调根据已有条件和规则逐步分析，求得较为确定的答案。二者不是绝对对立的，在创造性活动中常常相互结合。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：指出二者同属思维形式；说明发散思维特点；说明聚合思维特点并指出二者可结合。",
+    "scoringPoints": [
+      "指出二者同属思维形式",
+      "说明发散思维特点",
+      "说明聚合思维特点并指出二者可结合"
+    ],
+    "analysis": "思维章节高频辨析题。",
+    "relatedFocusPointIds": [
+      "fp_gp_thinking_06"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_thinking_03"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_sensation_008",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_sensation",
+    "type": "简答题",
+    "title": "感觉适应",
+    "stem": "什么是感觉适应？请作简要说明。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第三章 感觉",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "感觉适应是指在同一刺激物持续作用下，感受性发生变化的现象。通常表现为对持续存在的刺激逐渐不敏感，也可能在某些条件下表现为感受性提高。感觉适应说明感觉系统会随刺激持续作用而发生调整。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出持续刺激作用；写出感受性变化；说明这是感觉系统的调整现象。从复习角度看，感觉章节高频基础简答题。",
+    "scoringPoints": [
+      "写出持续刺激作用",
+      "写出感受性变化",
+      "说明这是感觉系统的调整现象"
+    ],
+    "analysis": "感觉章节高频基础简答题。",
+    "relatedFocusPointIds": [
+      "fp_gp_sensation_06"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_sensation_04"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_sensation_009",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_sensation",
+    "type": "辨析题",
+    "title": "感觉适应与感觉后像比较",
+    "stem": "辨析感觉适应与感觉后像。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第三章 感觉",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "辨析题"
+    ],
+    "answer": "感觉适应与感觉后像都与刺激作用有关，但并不相同。感觉适应是指刺激持续作用下感受性发生变化；感觉后像则是在刺激停止后，感觉印象仍暂时保留的现象。前者强调持续刺激作用中的感受性调整，后者强调刺激结束后的感觉残留。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：指出二者都与刺激作用有关；说明感觉适应特点；说明感觉后像特点并指出区别。复习时尤其要注意，感觉章节典型辨析题。",
+    "scoringPoints": [
+      "指出二者都与刺激作用有关",
+      "说明感觉适应特点",
+      "说明感觉后像特点并指出区别"
+    ],
+    "analysis": "感觉章节典型辨析题。",
+    "relatedFocusPointIds": [
+      "fp_gp_sensation_06"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_sensation_04"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_brain_008",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_brain_basis",
+    "type": "简答题",
+    "title": "神经元的结构与功能",
+    "stem": "简述神经元的基本结构及其功能。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第二章 心理与行为的脑神经基础",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "神经元是神经系统结构和功能的基本单位。其基本结构包括细胞体、树突和轴突。细胞体是代谢和整合中心，树突主要接受来自其他神经元的信息，轴突主要将神经冲动传向其他细胞。神经元的功能是接受、整合和传递信息。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出细胞体；写出树突与轴突；说明接受整合传递信息的功能。从复习角度看，脑神经基础章节核心简答题。",
+    "scoringPoints": [
+      "写出细胞体",
+      "写出树突与轴突",
+      "说明接受整合传递信息的功能"
+    ],
+    "analysis": "脑神经基础章节核心简答题。",
+    "relatedFocusPointIds": [
+      "fp_gp_brain_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_brain_04"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_brain_009",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_brain_basis",
+    "type": "辨析题",
+    "title": "树突与轴突比较",
+    "stem": "辨析树突与轴突。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第二章 心理与行为的脑神经基础",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "辨析题"
+    ],
+    "answer": "树突与轴突都是神经元的重要组成部分，但二者在形态和功能上有明显区别。树突通常较短、分支较多，主要负责接受来自其他神经元的信息；轴突通常较长，一般只有一条，主要负责将神经冲动传向其他神经元或效应器。二者共同参与神经信息传递。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：指出二者同属神经元组成部分；说明树突特点；说明轴突特点并指出功能区别。",
+    "scoringPoints": [
+      "指出二者同属神经元组成部分",
+      "说明树突特点",
+      "说明轴突特点并指出功能区别"
+    ],
+    "analysis": "脑神经基础章节高频辨析题。",
+    "relatedFocusPointIds": [
+      "fp_gp_brain_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_brain_04"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_intro_008",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intro_methods",
+    "type": "简答题",
+    "title": "心理学研究的主要方法概述",
+    "stem": "简述心理学研究的主要方法。",
+    "difficulty": "medium",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第一章 心理学的研究对象和方法",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "简答题"
+    ],
+    "answer": "心理学研究的主要方法包括观察法、实验法、调查法、测验法和个案法等。观察法主要是在自然条件下考察行为表现，实验法通过有目的地控制条件探讨变量关系，调查法则通过问卷、访谈等方式收集资料。不同方法各有适用范围，应结合研究目的选择。作答时可以先用一句话点明本题的总体结论，再按条目展开，每一点都尽量写出概念含义和简要说明。如果题目本身涉及比较、过程或功能，建议按照“定义—分点—总结”的方式组织答案。本题至少应覆盖以下要点：写出观察法；写出实验法；写出调查法或其他常见方法并说明用途。从复习角度看，绪论章节主干方法题。",
+    "scoringPoints": [
+      "写出观察法",
+      "写出实验法",
+      "写出调查法或其他常见方法并说明用途"
+    ],
+    "analysis": "绪论章节主干方法题。",
+    "relatedFocusPointIds": [
+      "fp_gp_intro_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_intro_04"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-12分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_intro_009",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intro_methods",
+    "type": "辨析题",
+    "title": "观察法与实验法比较",
+    "stem": "辨析观察法与实验法。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第一章 心理学的研究对象和方法",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "辨析题"
+    ],
+    "answer": "观察法与实验法都是心理学研究的重要方法，但二者并不相同。观察法主要是在自然条件下对行为进行系统考察，情境较自然，但较难有效控制变量；实验法则是在有目的地控制条件下考察变量之间关系，更有利于探讨因果关系。二者各有优缺点，应根据研究目的加以选择。辨析题作答时，通常要先明确表态或先指出二者既有联系也有区别，不能只分别下定义。随后可从概念性质、适用对象、作用机制或表现形式等方面展开比较，最后再用一句话收束结论。答题时要尽量覆盖：指出二者同属研究方法；说明观察法特点；说明实验法特点并指出二者适用差异。",
+    "scoringPoints": [
+      "指出二者同属研究方法",
+      "说明观察法特点",
+      "说明实验法特点并指出二者适用差异"
+    ],
+    "analysis": "绪论章节高频辨析题。",
+    "relatedFocusPointIds": [
+      "fp_gp_intro_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_intro_04"
+    ],
+    "status": "active",
+    "recommendedWords": "220-320字",
+    "recommendedTime": "8-10分钟",
+    "answerLevel": "standard"
+  },
+  {
+    "id": "q_gp_intelligence_010",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intelligence",
+    "type": "论述题",
+    "title": "智力的差异与测量",
+    "stem": "试述智力差异的表现及智力测量应注意的问题。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十一章 智力",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "论述题"
+    ],
+    "answer": "个体智力差异可表现在智力发展水平、智力结构和发展速度等多个方面。有的人总体智力水平较高，有的人则在某些具体能力上更突出；不同个体在语言、空间、推理等能力结构上也可能存在差异。智力测量有助于了解个体智力发展的总体状况，但在使用时应注意：不能把智力测验分数绝对化，不能忽视文化背景、教育经验和情境因素的影响，也不能把测验结果等同于个体全部能力。论述题不能只停留在列点层面，最好先给出总述，再分层展开各个理论点，最后再回到题目要求作总结。如果题目中带有“比较”“启示”“影响因素”“应用”这类要求，必须在主体部分专门分出相应段落，不宜只写定义。本题写作时建议至少覆盖：写出智力差异的主要表现；说明智力结构与发展速度差异；说明智力测量的作用与局限。从训练角度看，智力章节综合论述题。在考场中，这类题通常需要写出较完整的层次：先交代基本概念或总体观点，再按逻辑展开主体内容，最后补一句概括性结论，这样更接近阅卷习惯。论述题作答时，首先要交代题目涉及的总体观点或基本框架，再按逻辑顺序展开各个分论点，使答案形成完整论证，而不是若干零散条目。如果题目要求写“启示”“影响”或“应用”，则应在主体理论写完之后，专门分出一个层次进行延伸，不能把应用要求省略掉。",
+    "scoringPoints": [
+      "写出智力差异的主要表现",
+      "说明智力结构与发展速度差异",
+      "说明智力测量的作用与局限"
+    ],
+    "analysis": "智力章节综合论述题。",
+    "relatedFocusPointIds": [
+      "fp_gp_intelligence_04",
+      "fp_gp_intelligence_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_intelligence_03",
+      "cp_gp_intelligence_04"
+    ],
+    "status": "active",
+    "recommendedWords": "500-700字",
+    "recommendedTime": "15-22分钟",
+    "answerLevel": "expanded"
+  },
+  {
+    "id": "q_gp_personality_010",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_personality",
+    "type": "论述题",
+    "title": "人格形成与人格测量",
+    "stem": "试述人格形成的影响因素及人格测量的主要方式。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十二章 人格",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "论述题"
+    ],
+    "answer": "人格的形成受遗传素质、家庭环境、学校教育、社会文化和个体实践活动等多种因素共同影响。遗传为人格发展提供一定生物基础，环境和教育则在人格形成过程中发挥重要塑造作用。人格测量的主要方式包括问卷法、投射法、观察法和评定法等。问卷法便于量化比较，投射法有助于揭示较深层的人格特征，观察法和评定法则可从行为表现和他人评价角度把握人格。论述题不能只停留在列点层面，最好先给出总述，再分层展开各个理论点，最后再回到题目要求作总结。如果题目中带有“比较”“启示”“影响因素”“应用”这类要求，必须在主体部分专门分出相应段落，不宜只写定义。本题写作时建议至少覆盖：写出人格形成的主要影响因素；说明遗传与环境教育的共同作用；写出人格测量的主要方式及特点。从训练角度看，人格章节综合论述题。在考场中，这类题通常需要写出较完整的层次：先交代基本概念或总体观点，再按逻辑展开主体内容，最后补一句概括性结论，这样更接近阅卷习惯。论述题作答时，首先要交代题目涉及的总体观点或基本框架，再按逻辑顺序展开各个分论点，使答案形成完整论证，而不是若干零散条目。如果题目要求写“启示”“影响”或“应用”，则应在主体理论写完之后，专门分出一个层次进行延伸，不能把应用要求省略掉。",
+    "scoringPoints": [
+      "写出人格形成的主要影响因素",
+      "说明遗传与环境教育的共同作用",
+      "写出人格测量的主要方式及特点"
+    ],
+    "analysis": "人格章节综合论述题。",
+    "relatedFocusPointIds": [
+      "fp_gp_personality_04",
+      "fp_gp_personality_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_personality_03",
+      "cp_gp_personality_04"
+    ],
+    "status": "active",
+    "recommendedWords": "500-700字",
+    "recommendedTime": "15-22分钟",
+    "answerLevel": "expanded"
+  },
+  {
+    "id": "q_gp_motivation_010",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_motivation",
+    "type": "论述题",
+    "title": "动机的类型及其作用",
+    "stem": "试述动机的主要类型及动机在行为中的作用。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第九章 动机",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "论述题"
+    ],
+    "answer": "动机是推动个体活动并使活动朝向一定目标的内部动力。动机可从不同角度进行分类，如生理性动机与社会性动机、内在动机与外在动机等。不同类型的动机在行为发生、行为维持和行为方向上都发挥重要作用。动机不仅决定个体为什么行动，还影响行为投入程度、坚持性以及活动效果。理解动机类型及其作用，有助于把握行为调节的心理机制。论述题不能只停留在列点层面，最好先给出总述，再分层展开各个理论点，最后再回到题目要求作总结。如果题目中带有“比较”“启示”“影响因素”“应用”这类要求，必须在主体部分专门分出相应段落，不宜只写定义。本题写作时建议至少覆盖：说明动机的基本含义；写出动机的主要类型；说明动机对行为方向、强度和维持的作用。从训练角度看，动机章节综合论述题。在考场中，这类题通常需要写出较完整的层次：先交代基本概念或总体观点，再按逻辑展开主体内容，最后补一句概括性结论，这样更接近阅卷习惯。论述题作答时，首先要交代题目涉及的总体观点或基本框架，再按逻辑顺序展开各个分论点，使答案形成完整论证，而不是若干零散条目。如果题目要求写“启示”“影响”或“应用”，则应在主体理论写完之后，专门分出一个层次进行延伸，不能把应用要求省略掉。",
+    "scoringPoints": [
+      "说明动机的基本含义",
+      "写出动机的主要类型",
+      "说明动机对行为方向、强度和维持的作用"
+    ],
+    "analysis": "动机章节综合论述题。",
+    "relatedFocusPointIds": [
+      "fp_gp_motivation_04",
+      "fp_gp_motivation_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_motivation_03",
+      "cp_gp_motivation_04"
+    ],
+    "status": "active",
+    "recommendedWords": "500-700字",
+    "recommendedTime": "15-22分钟",
+    "answerLevel": "expanded"
+  },
+  {
+    "id": "q_gp_language_010",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_language",
+    "type": "论述题",
+    "title": "语言的功能及其与思维的关系",
+    "stem": "试述语言的主要功能及语言与思维的关系。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第八章 语言",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "论述题"
+    ],
+    "answer": "语言是人类特有的社会符号系统，具有交际、概括和调节行为等多种功能。通过语言，人们能够交换信息、表达思想情感，并借助词语对客观事物进行概括。语言与思维关系密切，思维常借助语言进行，语言也能表达思维成果。但语言不等于思维，语言是符号系统和交际工具，思维则是对客观事物间接概括的反映过程。二者既相互依存，又有本质区别。论述题不能只停留在列点层面，最好先给出总述，再分层展开各个理论点，最后再回到题目要求作总结。如果题目中带有“比较”“启示”“影响因素”“应用”这类要求，必须在主体部分专门分出相应段落，不宜只写定义。本题写作时建议至少覆盖：写出语言的主要功能；说明语言是思维的重要工具；指出语言与思维的区别与联系。从训练角度看，语言章节综合论述题。在考场中，这类题通常需要写出较完整的层次：先交代基本概念或总体观点，再按逻辑展开主体内容，最后补一句概括性结论，这样更接近阅卷习惯。论述题作答时，首先要交代题目涉及的总体观点或基本框架，再按逻辑顺序展开各个分论点，使答案形成完整论证，而不是若干零散条目。如果题目要求写“启示”“影响”或“应用”，则应在主体理论写完之后，专门分出一个层次进行延伸，不能把应用要求省略掉。",
+    "scoringPoints": [
+      "写出语言的主要功能",
+      "说明语言是思维的重要工具",
+      "指出语言与思维的区别与联系"
+    ],
+    "analysis": "语言章节综合论述题。",
+    "relatedFocusPointIds": [
+      "fp_gp_language_03",
+      "fp_gp_language_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_language_03",
+      "cp_gp_language_04"
+    ],
+    "status": "active",
+    "recommendedWords": "500-700字",
+    "recommendedTime": "15-22分钟",
+    "answerLevel": "expanded"
+  },
+  {
+    "id": "q_gp_intro_010",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intro_methods",
+    "type": "论述题",
+    "title": "心理学研究方法及其特点",
+    "stem": "试述心理学研究的主要方法及其各自特点。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第一章 心理学的研究对象和方法",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "论述题"
+    ],
+    "answer": "心理学研究常用的方法包括观察法、实验法、调查法、测验法和个案法等。观察法主要是在自然条件下系统考察行为表现，优点是情境较自然，但较难控制变量；实验法通过有目的地操纵和控制条件来探讨变量关系，更有利于揭示因果关系；调查法借助问卷、访谈等方式收集资料，适合研究较大范围人群；测验法可较系统地测量个体心理特征；个案法则适合深入分析个体的特殊情况。不同方法各有优缺点，应依据研究目的和研究对象综合选择。论述题不能只停留在列点层面，最好先给出总述，再分层展开各个理论点，最后再回到题目要求作总结。如果题目中带有“比较”“启示”“影响因素”“应用”这类要求，必须在主体部分专门分出相应段落，不宜只写定义。本题写作时建议至少覆盖：写出主要研究方法；说明各方法的基本特点；指出不同方法应结合研究目的选择。从训练角度看，绪论章节综合论述题。在考场中，这类题通常需要写出较完整的层次：先交代基本概念或总体观点，再按逻辑展开主体内容，最后补一句概括性结论，这样更接近阅卷习惯。论述题作答时，首先要交代题目涉及的总体观点或基本框架，再按逻辑顺序展开各个分论点，使答案形成完整论证，而不是若干零散条目。如果题目要求写“启示”“影响”或“应用”，则应在主体理论写完之后，专门分出一个层次进行延伸，不能把应用要求省略掉。",
+    "scoringPoints": [
+      "写出主要研究方法",
+      "说明各方法的基本特点",
+      "指出不同方法应结合研究目的选择"
+    ],
+    "analysis": "绪论章节综合论述题。",
+    "relatedFocusPointIds": [
+      "fp_gp_intro_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_intro_04"
+    ],
+    "status": "active",
+    "recommendedWords": "500-700字",
+    "recommendedTime": "15-22分钟",
+    "answerLevel": "expanded"
+  },
+  {
+    "id": "q_gp_brain_010",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_brain_basis",
+    "type": "论述题",
+    "title": "神经元与神经活动基础",
+    "stem": "试述神经元的基本结构、功能及其在神经活动中的作用。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第二章 心理与行为的脑神经基础",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "论述题"
+    ],
+    "answer": "神经元是神经系统结构和功能的基本单位，其基本结构包括细胞体、树突和轴突。细胞体是代谢和整合中心，树突主要负责接受来自其他神经元的信息，轴突则主要负责将神经冲动传向其他神经元或效应器。神经元的基本功能是接受、整合和传递信息。正是大量神经元通过复杂联系构成神经系统，才使机体能够对外界刺激作出反应，并为心理活动和行为调节提供生理基础。论述题不能只停留在列点层面，最好先给出总述，再分层展开各个理论点，最后再回到题目要求作总结。如果题目中带有“比较”“启示”“影响因素”“应用”这类要求，必须在主体部分专门分出相应段落，不宜只写定义。本题写作时建议至少覆盖：写出神经元基本结构；说明各部分的主要功能；说明神经元在神经活动中的基础作用。从训练角度看，脑神经基础章节综合论述题。在考场中，这类题通常需要写出较完整的层次：先交代基本概念或总体观点，再按逻辑展开主体内容，最后补一句概括性结论，这样更接近阅卷习惯。论述题作答时，首先要交代题目涉及的总体观点或基本框架，再按逻辑顺序展开各个分论点，使答案形成完整论证，而不是若干零散条目。如果题目要求写“启示”“影响”或“应用”，则应在主体理论写完之后，专门分出一个层次进行延伸，不能把应用要求省略掉。",
+    "scoringPoints": [
+      "写出神经元基本结构",
+      "说明各部分的主要功能",
+      "说明神经元在神经活动中的基础作用"
+    ],
+    "analysis": "脑神经基础章节综合论述题。",
+    "relatedFocusPointIds": [
+      "fp_gp_brain_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_brain_04"
+    ],
+    "status": "active",
+    "recommendedWords": "500-700字",
+    "recommendedTime": "15-22分钟",
+    "answerLevel": "expanded"
+  },
+  {
+    "id": "q_gp_sensation_010",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_sensation",
+    "type": "论述题",
+    "title": "感觉现象及其规律",
+    "stem": "试述感觉的主要现象及其基本规律。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第三章 感觉",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "论述题"
+    ],
+    "answer": "感觉是人脑对直接作用于感觉器官的客观事物个别属性的反映。感觉活动中包含多种基本现象和规律，如感觉阈限与感受性之间的反比关系、感觉适应、感觉后像以及感觉对比等。感觉阈限反映个体对刺激觉察和差异分辨的界限，感觉适应说明在持续刺激作用下感受性会发生变化，后像说明刺激停止后感觉印象仍可短时保留。上述规律共同体现了感觉活动的动态性和条件性。论述题不能只停留在列点层面，最好先给出总述，再分层展开各个理论点，最后再回到题目要求作总结。如果题目中带有“比较”“启示”“影响因素”“应用”这类要求，必须在主体部分专门分出相应段落，不宜只写定义。本题写作时建议至少覆盖：说明感觉的基本含义；写出感觉阈限与感受性的关系；写出感觉适应、后像等主要现象并作简要说明。从训练角度看，感觉章节综合论述题。在考场中，这类题通常需要写出较完整的层次：先交代基本概念或总体观点，再按逻辑展开主体内容，最后补一句概括性结论，这样更接近阅卷习惯。论述题作答时，首先要交代题目涉及的总体观点或基本框架，再按逻辑顺序展开各个分论点，使答案形成完整论证，而不是若干零散条目。如果题目要求写“启示”“影响”或“应用”，则应在主体理论写完之后，专门分出一个层次进行延伸，不能把应用要求省略掉。",
+    "scoringPoints": [
+      "说明感觉的基本含义",
+      "写出感觉阈限与感受性的关系",
+      "写出感觉适应、后像等主要现象并作简要说明"
+    ],
+    "analysis": "感觉章节综合论述题。",
+    "relatedFocusPointIds": [
+      "fp_gp_sensation_03",
+      "fp_gp_sensation_06"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_sensation_03",
+      "cp_gp_sensation_04"
+    ],
+    "status": "active",
+    "recommendedWords": "500-700字",
+    "recommendedTime": "15-22分钟",
+    "answerLevel": "expanded"
+  },
+  {
+    "id": "q_gp_consciousness_010",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_consciousness",
+    "type": "论述题",
+    "title": "意识状态变化及其表现",
+    "stem": "试述意识状态的变化及其主要表现。",
+    "difficulty": "hard",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第五章 意识",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "论述题"
+    ],
+    "answer": "意识并不是固定不变的，它会随着机体状态和外界条件变化而表现出不同形态。意识状态变化的常见表现包括清醒状态、睡眠状态以及梦、催眠等特殊状态。睡眠是一种周期性发生的意识状态变化，梦是在睡眠中出现的特殊心理活动体验；催眠则是在暗示条件下出现的特殊意识状态。不同意识状态反映了个体对外界刺激反应水平和内部心理活动方式的变化，说明意识具有动态性和可变性。论述题不能只停留在列点层面，最好先给出总述，再分层展开各个理论点，最后再回到题目要求作总结。如果题目中带有“比较”“启示”“影响因素”“应用”这类要求，必须在主体部分专门分出相应段落，不宜只写定义。本题写作时建议至少覆盖：指出意识状态会变化；写出睡眠、梦、催眠等主要表现；说明这些状态体现意识的动态性。从训练角度看，意识章节综合论述题。在考场中，这类题通常需要写出较完整的层次：先交代基本概念或总体观点，再按逻辑展开主体内容，最后补一句概括性结论，这样更接近阅卷习惯。论述题作答时，首先要交代题目涉及的总体观点或基本框架，再按逻辑顺序展开各个分论点，使答案形成完整论证，而不是若干零散条目。如果题目要求写“启示”“影响”或“应用”，则应在主体理论写完之后，专门分出一个层次进行延伸，不能把应用要求省略掉。",
+    "scoringPoints": [
+      "指出意识状态会变化",
+      "写出睡眠、梦、催眠等主要表现",
+      "说明这些状态体现意识的动态性"
+    ],
+    "analysis": "意识章节综合论述题。",
+    "relatedFocusPointIds": [
+      "fp_gp_consciousness_04",
+      "fp_gp_consciousness_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_consciousness_03",
+      "cp_gp_consciousness_04"
+    ],
+    "status": "active",
+    "recommendedWords": "500-700字",
+    "recommendedTime": "15-22分钟",
+    "answerLevel": "expanded"
+  },
+  {
+    "id": "q_gp_intro_011",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_intro_methods",
+    "type": "名词解释",
+    "title": "观察法",
+    "stem": "什么是观察法？",
+    "difficulty": "easy",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第一章 心理学的研究对象和方法",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "名词解释"
+    ],
+    "answer": "观察法是研究者在较自然的条件下，有目的、有计划地对个体行为进行系统观察和记录，以了解心理活动规律的一种研究方法。作答时一般应先给出概念的核心定义，再点出其关键属性、适用范围或与相关概念的区别。",
+    "scoringPoints": [
+      "写出自然条件下观察",
+      "写出有目的有计划",
+      "写出用于了解心理活动规律"
+    ],
+    "analysis": "绪论章节标准名词解释题。",
+    "relatedFocusPointIds": [
+      "fp_gp_intro_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_intro_04"
+    ],
+    "status": "active",
+    "recommendedWords": "80-120字",
+    "recommendedTime": "3-5分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_perception_010",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_perception",
+    "type": "名词解释",
+    "title": "知觉恒常性",
+    "stem": "什么是知觉恒常性？",
+    "difficulty": "easy",
+    "importance": "high",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第四章 知觉",
+    "isPastExamStyle": true,
+    "isHighFrequency": true,
+    "tags": [
+      "名词解释"
+    ],
+    "answer": "知觉恒常性是指当知觉条件在一定范围内发生变化时，人对客体的知觉映象仍保持相对稳定的特性。作答时一般应先给出概念的核心定义，再点出其关键属性、适用范围或与相关概念的区别。结合复习要求看，知觉章节标准名词解释题。",
+    "scoringPoints": [
+      "写出条件变化",
+      "写出知觉映象相对稳定"
+    ],
+    "analysis": "知觉章节标准名词解释题。",
+    "relatedFocusPointIds": [
+      "fp_gp_perception_06"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_perception_04"
+    ],
+    "status": "active",
+    "recommendedWords": "80-120字",
+    "recommendedTime": "3-5分钟",
+    "answerLevel": "basic"
+  },
+  {
+    "id": "q_gp_lifespan_010",
+    "subjectId": "general_psychology",
+    "chapterId": "gp_lifespan",
+    "type": "选择题",
+    "title": "心理发展规律识别",
+    "stem": "下列最能体现心理发展阶段性特征的是：",
+    "difficulty": "easy",
+    "importance": "medium",
+    "sourceType": "教材整理",
+    "sourceDetail": "普通心理学第十四章 人生全程发展",
+    "isPastExamStyle": true,
+    "isHighFrequency": false,
+    "tags": [
+      "客观题"
+    ],
+    "options": [
+      "A. 个体发展始终以同一速度进行",
+      "B. 不同年龄阶段会表现出相对稳定的心理特征",
+      "C. 心理发展完全由遗传决定",
+      "D. 心理发展与环境无关"
+    ],
+    "answer": "B. 不同年龄阶段会表现出相对稳定的心理特征",
+    "scoringPoints": [
+      "识别阶段性"
+    ],
+    "analysis": "发展章节基础客观题。",
+    "relatedFocusPointIds": [
+      "fp_gp_lifespan_05"
+    ],
+    "relatedConfusionPointIds": [
+      "cp_gp_lifespan_04"
+    ],
+    "status": "active",
+    "recommendedWords": "20-60字",
+    "recommendedTime": "1-2分钟",
+    "answerLevel": "basic"
+  }
+]
