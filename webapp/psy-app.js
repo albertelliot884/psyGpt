@@ -339,7 +339,7 @@ function renderChapter({ subjects, chapters, focusPoints, confusionPoints, quest
   };
 }
 
-function renderPapers({ subjects, questions, chapters, progress }) {
+function renderPapers({ subjects, questions, chapters, focusPoints, confusionPoints, progress }) {
   const subjectSelect = document.getElementById('paperSubject');
   const chapterSelect = document.getElementById('paperChapter');
   const difficultySelect = document.getElementById('paperDifficulty');

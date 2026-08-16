@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>五线谱识谱学习站 - 使用说明</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  <style>
+    :root {
+      --bg: #f8f4ec;
+      --card: rgba(255,255,248,.96);
+      --text: #2f2a24;
+      --muted: #746b60;
+      --primary: #314a68;
+      --teal: #7a8f72;
+      --accent: #9a5b52;
+      --shadow: 0 12px 28px rgba(79,63,44,.08);
+      --radius: 16px;
+      --border: 1px solid rgba(219,210,194,.95);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(154,91,82,.08), transparent 26%),
+        radial-gradient(circle at top right, rgba(122,143,114,.08), transparent 24%),
+        linear-gradient(180deg, #f3ede2 0%, #f8f4ec 100%);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 18px;
+    }
+    .wrap { max-width: 980px; margin: 0 auto; display: grid; gap: 16px; }
+    .card { background: var(--card); border-radius: var(--radius); padding: 24px; box-shadow: var(--shadow); border: var(--border); }
+    h1,h2,h3,p { margin-top: 0; }
+    h1 { letter-spacing: .02em; }
+    h2 { color: #2f2a24; }
+    h3 { color: #3f392f; }
+    .muted { color: var(--muted); line-height: 1.75; }
+    .top-nav { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+    .nav-link { display: inline-flex; align-items: center; justify-content: center; min-height: 42px; padding: 10px 14px; border-radius: 12px; text-decoration: none; font-weight: 700; background: #ebe3d6; color: #5a5248; border: 1px solid #ddd3c3; box-shadow: inset 0 1px 0 rgba(255,255,255,.45); }
+    .nav-link.active { background: #e7ddbf; color: #314a68; border-color: #d3c494; box-shadow: inset 0 1px 0 rgba(255,255,255,.45), 0 4px 10px rgba(122,106,74,.06); }
+    .cta-row, .grid { display: grid; gap: 12px; }
+    .cta-row { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+    .grid { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+    .panel { border-radius: 16px; padding: 16px; background: rgba(255,253,248,.95); border: var(--border); position: relative; overflow: hidden; }
+    .panel::before { content: ""; position: absolute; left: 0; top: 0; width: 100%; height: 4px; background: #314a68; opacity: .9; }
+    .grid .panel:nth-child(2n)::before { background: #7a8f72; }
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { color: var(--accent); }
+    .cta { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; border-radius: 12px; font-weight: 700; text-decoration: none; border: 1px solid transparent; }
+    .cta.primary { background: var(--primary); color: white; box-shadow: 0 8px 18px rgba(49,74,104,.16); }
+    .cta.secondary { background: #efe7da; color: #4a443c; border-color: #d8cbb7; }
+    .cta.teal { background: var(--teal); color: white; box-shadow: 0 8px 18px rgba(122,143,114,.16); }
+    code { background: #efe7da; padding: 2px 6px; border-radius: 6px; color: #5a5045; }
+    ul { line-height: 1.8; margin: 0; padding-left: 18px; }
+    @media (max-width: 720px) { body { padding: 12px; } .card { padding: 18px; } .cta-row { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="top-nav">
+        <a class="nav-link" href="./home.html">学习站首页</a>
+        <a class="nav-link" href="./index.html">识谱训练器</a>
+        <a class="nav-link" href="./learn.html">乐理教学</a>
+        <a class="nav-link active" href="./README.html">使用说明</a>
+      </div>
+    </div>
+
+    <div class="card" style="position:relative; overflow:hidden; background: linear-gradient(180deg, rgba(255,253,248,.98) 0%, rgba(247,240,227,.96) 100%); padding-top:26px;">
+      <div style="position:absolute; left:22px; top:18px; width:72px; height:3px; border-radius:999px; background:linear-gradient(90deg,#314a68 0%, #9a5b52 100%); opacity:.75;"></div>
+      <div class="muted" style="font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:#8a7a63; margin-bottom:8px;">Manual · Setup · Workflow</div>
+      <h1>五线谱识谱学习站 - 使用说明</h1>
+      <p class="muted">这是一个纯前端静态学习小站，把识谱训练器、乐理教学、章节小测和学习进度整合在一起。可以直接本地打开，也可以部署到任意静态托管平台。</p>
+      <div class="cta-row">
+        <a class="cta secondary" href="./home.html">返回学习站首页</a>
+        <a class="cta primary" href="./index.html">开始识谱训练</a>
+        <a class="cta teal" href="./learn.html">开始乐理学习</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>当前站点包含</h2>
+      <div class="grid">
+        <div class="panel">
+          <h3>训练器</h3>
+          <ul>
+            <li>训练模式 / 考试模式</li>
+            <li>高音、低音、混合谱号</li>
+            <li>自然音、升号、降号、混合</li>
+            <li>线 / 间专项、中央 C、加线强化、八度强化</li>
+            <li>钢琴键盘输入、快捷键输入、题目发声</li>
+            <li>错题本、重练错题、练习报告导出</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>教学页</h3>
+          <ul>
+            <li>音程、五度圈、调号与调性</li>
+            <li>三和弦、和弦功能、终止式、七和弦</li>
+            <li>节奏与拍号、音阶与调式</li>
+            <li>交互式五度圈、音程判定工具</li>
+            <li>固定小测、随机小练习、本地学习进度</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>课程联动</h3>
+          <ul>
+            <li>教学页可跳回训练器并携带 <code>lesson</code> 参数</li>
+            <li>训练器会自动载入对应章节推荐配置</li>
+            <li>支持恢复默认配置继续自由练习</li>
+            <li>章节状态可标记、统计、重置</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>推荐使用方式</h2>
+      <ul>
+        <li><strong>初学者：</strong>先从 <code>home.html</code> 进入课程地图，再去 <code>learn.html</code> 按顺序学习。</li>
+        <li><strong>正在练琴的人：</strong>直接进 <code>index.html</code> 做识谱训练，遇到概念不稳再去教学页查缺补漏。</li>
+        <li><strong>考前复习：</strong>优先用考试模式和练习报告，再按错题返回对应章节复习。</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>本地使用</h2>
+      <ul>
+        <li>直接双击打开 <code>home.html</code>、<code>index.html</code> 或 <code>learn.html</code> 即可。</li>
+        <li>推荐使用现代浏览器（Chrome / Edge / Safari）。</li>
+        <li>首次播放声音时，浏览器可能要求先点击页面一次来解锁音频。</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>部署方式</h2>
+      <ul>
+        <li>把整个 <code>webapp/</code> 文件夹上传到任意静态托管服务。</li>
+        <li>例如：GitHub Pages、Vercel、Netlify、静态 Nginx 目录。</li>
+        <li>如果希望对外作为学习站展示，建议把 <code>home.html</code> 作为导航入口一起提供。</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>训练器快捷键</h2>
+      <ul>
+        <li><code>A~G</code>：作答</li>
+        <li><code>N</code>：下一题</li>
+        <li><code>R</code>：重置</li>
+        <li><code>P</code>：播放当前音</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

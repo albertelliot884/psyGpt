@@ -1,0 +1,2831 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>乐理教学 - 五线谱识谱训练器 Pro</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  <style>
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", sans-serif; background: linear-gradient(180deg, #f3ede2 0%, #f8f4ec 100%); color: #2f2a24; }
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 24px; }
+    .top-nav { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+    .nav-link { display: inline-flex; align-items: center; justify-content: center; min-height: 42px; padding: 10px 14px; border-radius: 12px; text-decoration: none; font-weight: 700; background: #ebe3d6; color: #5a5248; border: 1px solid #ddd3c3; }
+    .nav-link.active { background: #e7ddbf; color: #314a68; border-color: #d3c494; }
+    .hero, .card { background: rgba(255,253,248,.96); border-radius: 16px; box-shadow: 0 10px 24px rgba(79, 63, 44, 0.06); padding: 24px; margin-bottom: 16px; border: 1px solid rgba(219,210,194,.95); }
+    .hero h1, .card h2 { margin-top: 0; color: #2f2a24; }
+    .hero {
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(180deg, rgba(255,253,248,.98) 0%, rgba(247,240,227,.96) 100%);
+      padding-top: 28px;
+    }
+    .hero::before {
+      content: "COURSE NOTES";
+      position: absolute;
+      right: 22px;
+      top: 18px;
+      font-size: 12px;
+      letter-spacing: 0.18em;
+      color: #a08f78;
+      font-weight: 800;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      left: 22px;
+      top: 18px;
+      width: 72px;
+      height: 3px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, #314a68 0%, #9a5b52 100%);
+      opacity: .75;
+    }
+    .hero h1 {
+      font-size: 34px;
+      letter-spacing: 0.02em;
+      margin-bottom: 10px;
+    }
+    .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+    .topic-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+    .topic { border: 1px solid #e5e7eb; border-radius: 14px; padding: 16px; background: #fbfdff; }
+    .muted { color: #746b60; line-height: 1.75; }
+    a { color: #314a68; text-decoration: none; }
+    a:hover { color: #9a5b52; }
+    ul, ol { line-height: 1.82; }
+    .card h2 {
+      margin-top: 0;
+      color: #2f2a24;
+      font-size: 28px;
+      letter-spacing: 0.01em;
+      margin-bottom: 12px;
+    }
+    .card h3 {
+      color: #3f392f;
+      font-size: 17px;
+      letter-spacing: 0.01em;
+      margin-bottom: 8px;
+    }
+    .pill { display: inline-block; padding: 6px 10px; border-radius: 999px; background: #ece4d4; color: #314a68; font-size: 13px; font-weight: 700; margin-right: 8px; margin-bottom: 8px; border: 1px solid #ddd1bb; }
+    .circle { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; margin-top: 14px; }
+    .circle div { background: #f4eee4; border-radius: 14px; padding: 14px 8px; text-align: center; font-weight: 700; color: #314a68; cursor: pointer; border: 1px solid #e0d5c3; }
+    .circle div:hover, .circle .active { background: #e7ddbf; color: #314a68; }
+    .interactive-box, .tool-box, .quiz-box, .info-box, .practice-box, .progress-box, .mini-trainer, .chapter-exam { margin-top: 14px; border: 1px solid #e3d9ca; border-radius: 14px; padding: 14px; background: #fffdf8; }
+    .compact-list {
+      display: grid;
+      gap: 8px;
+      margin-top: 12px;
+    }
+    .compact-item {
+      padding: 10px 12px;
+      border-radius: 12px;
+      border: 1px solid #ddd4c4;
+      background: #fbf6ee;
+      line-height: 1.6;
+      position: relative;
+    }
+    .compact-item::before {
+      content: "批注";
+      display: inline-block;
+      margin-right: 8px;
+      color: #9a5b52;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+    }
+    .compact-item strong {
+      color: #0f172a;
+    }
+    .info-box {
+      position: relative;
+      background: #fcf8f1;
+      border-color: #e2d7c6;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.7);
+    }
+    .info-box::before {
+      content: "理论笔记";
+      display: inline-block;
+      margin-bottom: 10px;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: #e7ddcf;
+      color: #314a68;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+    }
+    .info-box h3 {
+      font-size: 15px;
+      margin-bottom: 8px;
+      color: #0f172a;
+    }
+    .info-box ul, .info-box ol {
+      margin: 8px 0 0 18px;
+    }
+    .info-box li + li {
+      margin-top: 4px;
+    }
+    .interactive-box { background: #fbfdff; }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+    .cta { display: inline-flex; align-items: center; justify-content: center; padding: 10px 14px; border-radius: 12px; background: #314a68; color: white; font-weight: 700; text-decoration: none; border: 1px solid #314a68; cursor: pointer; box-shadow: 0 8px 18px rgba(49,74,104,.16); }
+    .cta.secondary { background: #7a8f72; border-color: #7a8f72; box-shadow: 0 8px 18px rgba(122,143,114,.16); }
+    .cta.ghost { background: #efe7da; color: #4a443c; border-color: #d8cbb7; }
+    .quiz-q { font-weight: 700; margin-bottom: 8px; }
+    .quiz-options { display: grid; gap: 8px; margin-top: 10px; }
+    .quiz-btn { border: 1px solid #ddd3c2; background: #fcf8f2; border-radius: 10px; padding: 10px 12px; cursor: pointer; text-align: left; font-weight: 600; color: #3f392f; }
+    .quiz-btn:hover { background: #f4ebdc; }
+    .quiz-result { margin-top: 10px; font-weight: 700; }
+    .tool-grid { display: grid; grid-template-columns: 1fr 1fr auto; gap: 10px; align-items: end; }
+    .interval-table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+    .interval-table th, .interval-table td { border: 1px solid #e5e7eb; padding: 10px 12px; text-align: left; }
+    .interval-table th { background: #f8fafc; }
+    .practice-list { display: grid; gap: 8px; margin-top: 10px; }
+    .practice-box, .tool-box, .mastery-box, .audio-box, .ear-exam-box {
+      position: relative;
+      overflow: hidden;
+    }
+    .practice-box::before, .tool-box::before, .mastery-box::before, .audio-box::before, .ear-exam-box::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 4px;
+      background: #7a8f72;
+    }
+    .tool-box::before, .audio-box::before { background: #314a68; }
+    .mastery-box::before, .ear-exam-box::before { background: #9a5b52; }
+    .progress-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+    .stat { background: #f8fbff; border-radius: 12px; padding: 12px; border: 1px solid #dbeafe; }
+    .stat strong { display: block; font-size: 22px; margin-top: 4px; color: #1d4ed8; }
+    .mini-question { font-weight: 700; margin-bottom: 10px; }
+    .mini-status { margin-top: 10px; font-weight: 700; }
+    .exam-question { margin-top: 12px; padding-top: 12px; border-top: 1px dashed #dbe3f0; }
+    .exam-question:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+    .exam-title { font-weight: 700; margin-bottom: 8px; }
+    .exam-result { margin-top: 12px; font-weight: 700; }
+    .exam-review { margin-top: 12px; display: grid; gap: 8px; }
+    .exam-review-item { border-radius: 10px; padding: 10px 12px; border: 1px solid #e5e7eb; background: #f8fbff; line-height: 1.7; }
+    .back-to-top-btn {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      z-index: 30;
+      border: none;
+      border-radius: 999px;
+      padding: 12px 16px;
+      background: #334155;
+      color: #fff;
+      box-shadow: 0 10px 24px rgba(15, 23, 42, 0.18);
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 700;
+      display: none;
+    }
+    .back-to-top-btn.show { display: inline-flex; align-items: center; gap: 6px; }
+    .back-to-top-btn:hover { background: #1e293b; }
+    .mastery-box { margin-top: 14px; border: 1px solid #d8cdbd; border-radius: 14px; padding: 16px; background: linear-gradient(180deg,#faf6ef 0%,#f2ebdf 100%); }
+    .lesson-shell { display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 18px; align-items: start; margin-bottom: 16px; }
+    .lesson-sidebar {
+      position: sticky;
+      top: 16px;
+      align-self: start;
+      background: rgba(255,251,244,.96);
+      border-radius: 18px;
+      box-shadow: 0 10px 22px rgba(79, 63, 44, 0.05);
+      border: 1px solid rgba(220,210,194,.95);
+      padding: 16px;
+    }
+    .lesson-sidebar-header { display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom: 10px; }
+    .lesson-sidebar-title { margin: 0; font-size: 18px; letter-spacing: 0.04em; color: #4a4339; }
+    .lesson-nav {
+      display:grid;
+      gap:8px;
+      margin-top: 10px;
+      max-height: calc(100vh - 190px);
+      overflow-y: auto;
+      padding-right: 6px;
+      scrollbar-width: thin;
+      scrollbar-color: #94a3b8 #e2e8f0;
+    }
+    .lesson-nav-group {
+      margin-top: 10px;
+      padding: 8px 10px;
+      border-left: 3px solid #9a5b52;
+      border-bottom: 1px dashed #d8cab6;
+      font-size: 12px;
+      font-weight: 800;
+      color: #4a4339;
+      background: rgba(245, 238, 226, 0.98);
+      border-radius: 10px 10px 4px 4px;
+    }
+    .lesson-nav-group-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    .lesson-nav-group-count {
+      font-size: 11px;
+      font-weight: 800;
+      color: #314a68;
+      background: #e9dfcf;
+      border-radius: 999px;
+      padding: 2px 8px;
+      white-space: nowrap;
+    }
+    .lesson-nav-group small {
+      display: block;
+      margin-top: 2px;
+      color: #64748b;
+      font-size: 11px;
+      font-weight: 600;
+    }
+    .lesson-nav::-webkit-scrollbar { width: 8px; }
+    .lesson-nav::-webkit-scrollbar-track { background: #e2e8f0; border-radius: 999px; }
+    .lesson-nav::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 999px; }
+    .lesson-nav-link {
+      display:block;
+      padding: 11px 12px;
+      border-radius: 10px;
+      background: #fcf8f2;
+      border: 1px solid #e2d6c4;
+      color: #2f2a24;
+      font-weight: 700;
+      line-height: 1.48;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.6);
+    }
+    .lesson-nav-link small { display:block; color:#7a7064; font-weight: 500; margin-top: 5px; font-size: 12px; }
+    .lesson-nav-tags { display:flex; flex-wrap:wrap; gap:6px; margin-top: 8px; }
+    .lesson-nav-tag {
+      display:inline-flex;
+      align-items:center;
+      border-radius: 999px;
+      padding: 2px 8px;
+      font-size: 11px;
+      font-weight: 700;
+      background: #e8dfd1;
+      color: #5a5045;
+    }
+    .lesson-nav-tag.theory { background: #e7ddcf; color: #314a68; }
+    .lesson-nav-tag.tool { background: #e0e8db; color: #5a7053; }
+    .lesson-nav-tag.quiz { background: #f3e6b9; color: #8b6b21; }
+    .lesson-nav-tag.exam { background: #ead8d3; color: #8a4f47; }
+    .lesson-nav-tag.mixed { background: #e8dfd6; color: #6d5744; }
+    .lesson-nav-prereq {
+      margin-top: 7px;
+      font-size: 10.5px;
+      color: #8e857a;
+      line-height: 1.5;
+      padding-left: 8px;
+      border-left: 2px solid #e0d3bf;
+    }
+    .lesson-nav-prereq strong { color: #6e655b; }
+    .lesson-nav-progress { display:flex; align-items:center; gap:8px; margin-top: 9px; }
+    .lesson-nav-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 999px;
+      background: #cbd5e1;
+      box-shadow: inset 0 0 0 1px rgba(15, 23, 42, 0.08);
+      flex: 0 0 auto;
+    }
+    .lesson-nav-dot.started { background: #8fa78a; }
+    .lesson-nav-dot.testing { background: #d2ae55; }
+    .lesson-nav-dot.passed { background: #7a8f72; }
+    .lesson-nav-progress-text { font-size: 11px; color: #7b7368; font-weight: 600; }
+    .lesson-nav-link.active { background:#f1e6bf; color:#314a68; border-color:#d6c48d; box-shadow: inset 4px 0 0 #9a5b52, 0 4px 10px rgba(122, 106, 74, 0.08); }
+    .lesson-content { min-width: 0; }
+    .badge-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 14px; }
+    .badge-card { border-radius: 14px; border: 1px solid #ded2c1; padding: 14px; background: #fcf8f2; }
+    .badge-card.active { border-color: #b9c7b1; background: #f2f6ef; }
+    .overview-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 14px; margin-top: 14px; }
+    .overview-panel { border: 1px solid #dfd3c2; border-radius: 14px; padding: 14px; background: #faf6ef; }
+    .progress-bar { height: 12px; border-radius: 999px; background: #e7dccd; overflow: hidden; margin-top: 10px; }
+    .progress-bar > span { display: block; height: 100%; background: linear-gradient(90deg, #314a68 0%, #7a8f72 100%); }
+    .stage-list { display: grid; gap: 8px; margin-top: 12px; }
+    .stage-item { border-radius: 12px; border: 1px solid #dbeafe; padding: 10px 12px; background: white; }
+    .stage-item.active { border-color: #86efac; background: #f0fdf4; }
+    .lesson-gate { margin-top: 12px; border-radius: 12px; border: 1px solid #ddd2c0; background: #faf5ec; padding: 12px 14px; }
+    .lesson-gate.ready { border-color: #b9c7b1; background: #f2f6ef; }
+    .lesson-gate.warn { border-color: #dec3aa; background: #faf0e4; }
+    .lesson-gate strong { display:block; margin-bottom: 6px; }
+    .tap-pad { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 12px; }
+    .tap-btn { min-height: 54px; border: 1px solid #cbd5e1; border-radius: 12px; background: #fff; font-weight: 700; cursor: pointer; }
+    .tap-btn.active { background: #dbeafe; border-color: #60a5fa; }
+    .ear-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 12px; }
+    .ear-card { border: 1px solid #dbeafe; border-radius: 14px; padding: 14px; background: #f8fbff; }
+    .audio-box { margin-top: 14px; border: 1px solid #dbeafe; border-radius: 14px; padding: 16px; background: linear-gradient(180deg,#f8fbff 0%,#eef6ff 100%); }
+    .level-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    .ear-exam-box { margin-top: 14px; border: 1px solid #dbeafe; border-radius: 14px; padding: 16px; background: #fff; }
+    select, button { font: inherit; }
+    select { width: 100%; border-radius: 12px; border: 1px solid #dbe3f0; background: white; padding: 10px 12px; color: #334155; }
+    code { background: #eff6ff; padding: 2px 6px; border-radius: 8px; }
+    @media (max-width: 900px) {
+      .grid, .topic-grid, .circle, .tool-grid, .progress-grid, .lesson-shell { grid-template-columns: 1fr; }
+      .wrap { padding: 14px; }
+      .lesson-sidebar { position: static; width: auto; padding: 14px; }
+      .lesson-nav { max-height: none; overflow: visible; padding-right: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="card">
+      <div class="top-nav">
+        <a class="nav-link" href="./home.html">学习站首页</a>
+        <a class="nav-link" href="./index.html">识谱训练器</a>
+        <a class="nav-link active" href="./learn.html">乐理教学</a>
+        <a class="nav-link" href="./README.html">使用说明</a>
+      </div>
+    </section>
+
+    <section class="hero">
+      <div class="muted" style="font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:#8a7a63; margin-bottom:8px;">Lecture · Theory · Practice</div>
+      <h1>乐理教学板块</h1>
+      <p class="muted">这里是训练器配套的学习区。现在已经可以<strong>看教学</strong>、<strong>做交互小测</strong>、<strong>做随机小练习</strong>，并且会把本地学习进度记下来。</p>
+      <p><a href="./index.html">← 开始识谱训练</a></p>
+      <div>
+        <span class="pill">识谱基础</span>
+        <span class="pill">音程</span>
+        <span class="pill">五度圈</span>
+        <span class="pill">调号</span>
+        <span class="pill">和弦</span>
+        <span class="pill">节奏与拍号</span>
+        <span class="pill">音阶与调式</span>
+        <span class="pill">和弦功能</span>
+        <span class="pill">终止式</span>
+        <span class="pill">七和弦</span>
+      </div>
+      <div class="progress-box">
+        <h3 style="margin-top:0;">学习进度</h3>
+        <div class="progress-grid">
+          <div class="stat">已完成章节<strong id="progressChapters">0</strong></div>
+          <div class="stat">完成小测<strong id="progressQuizzes">0</strong></div>
+          <div class="stat">随机练习答对<strong id="progressMini">0</strong></div>
+        </div>
+        <div class="overview-grid" id="courseOverviewGrid">
+          <div class="overview-panel">
+            <strong>课程总进度</strong>
+            <div class="muted" id="courseOverviewText" style="margin-top:8px;">正在统计中...</div>
+            <div class="progress-bar"><span id="courseProgressBar" style="width:0%"></span></div>
+            <div class="stage-list" id="stageChecklist"></div>
+          </div>
+          <div class="overview-panel">
+            <strong>当前推荐下一步</strong>
+            <div class="muted" id="nextStepText" style="margin-top:8px;">正在分析中...</div>
+          </div>
+        </div>
+        <div class="badge-grid" id="badgeGrid">
+          <div class="badge-card" data-badge="starter"><strong>阶段徽章：入门启动</strong><div class="muted">完成 2 个章节后点亮。</div></div>
+          <div class="badge-card" data-badge="reader"><strong>阶段徽章：识谱稳定</strong><div class="muted">随机练习累计答对 8 题后点亮。</div></div>
+          <div class="badge-card" data-badge="theory"><strong>阶段徽章：乐理进阶</strong><div class="muted">通过 4 组章节测验后点亮。</div></div>
+          <div class="badge-card" data-badge="listener"><strong>阶段徽章：听感起步</strong><div class="muted">完成听感训练引导并完成三类基础练耳后点亮。</div></div>
+          <div class="badge-card" data-badge="earBasic"><strong>阶段徽章：练耳初级通关</strong><div class="muted">通过初级练耳阶段考试后点亮。</div></div>
+          <div class="badge-card" data-badge="earIntermediate"><strong>阶段徽章：练耳中级通关</strong><div class="muted">通过中级练耳阶段考试后点亮。</div></div>
+          <div class="badge-card" data-badge="earAdvanced"><strong>阶段徽章：练耳进阶通关</strong><div class="muted">通过进阶练耳阶段考试后点亮。</div></div>
+          <div class="badge-card" data-badge="mastery"><strong>阶段徽章：综合通关</strong><div class="muted">通过综合测试与节奏练习后点亮。</div></div>
+        </div>
+        <div class="overview-panel" id="mistakeNotebookPanel">
+          <strong>错题本 / 再练错题</strong>
+          <div class="muted" id="mistakeNotebookSummary" style="margin-top:8px;">正在统计错题...</div>
+          <div class="cta-row" id="mistakeFilterRow" style="row-gap:8px;">
+            <button class="cta secondary mistake-filter-btn active" data-mistake-filter="all">全部</button>
+            <button class="cta ghost mistake-filter-btn" data-mistake-filter="随机小练习">小练习</button>
+            <button class="cta ghost mistake-filter-btn" data-mistake-filter="章节测验">章节测验</button>
+            <button class="cta ghost mistake-filter-btn" data-mistake-filter="综合测试">综合测试</button>
+          </div>
+          <div class="cta-row" id="mistakeTopicRow" style="row-gap:8px;">
+            <button class="cta secondary mistake-topic-btn active" data-mistake-topic="all">全部章节</button>
+            <button class="cta ghost mistake-topic-btn" data-mistake-topic="intervals">音程</button>
+            <button class="cta ghost mistake-topic-btn" data-mistake-topic="circle">五度圈</button>
+            <button class="cta ghost mistake-topic-btn" data-mistake-topic="keys">调号</button>
+            <button class="cta ghost mistake-topic-btn" data-mistake-topic="chords">和弦</button>
+            <button class="cta ghost mistake-topic-btn" data-mistake-topic="rhythm">节奏</button>
+            <button class="cta ghost mistake-topic-btn" data-mistake-topic="scales">音阶</button>
+            <button class="cta ghost mistake-topic-btn" data-mistake-topic="functions">功能</button>
+            <button class="cta ghost mistake-topic-btn" data-mistake-topic="cadence">终止式</button>
+            <button class="cta ghost mistake-topic-btn" data-mistake-topic="seventh">七和弦</button>
+            <button class="cta ghost mistake-topic-btn" data-mistake-topic="modulation">转调</button>
+            <button class="cta ghost mistake-topic-btn" data-mistake-topic="borrowed">借用/副属</button>
+          </div>
+          <div class="stage-list" id="mistakeNotebookList"></div>
+          <div class="cta-row">
+            <button class="cta secondary" id="retryMistakesBtn">再练当前筛选错题</button>
+            <button class="cta ghost" id="clearMistakesBtn">清空错题本</button>
+          </div>
+          <div class="exam-result" id="mistakeNotebookResult"></div>
+          <div class="exam-review" id="mistakeNotebookReview"></div>
+        </div>
+        <div class="cta-row">
+          <button class="cta ghost" id="resetLearnProgressBtn">重置学习进度</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>课程地图总览</h2>
+      <div class="topic-grid">
+        <div class="topic"><h3>阶段 1：识谱入门</h3><p class="muted">先把高音 / 低音谱号、中央 C、线与间的基础认熟。</p></div>
+        <div class="topic"><h3>阶段 2：音程与调号</h3><p class="muted">进入音程、五度圈、调号与调性，开始建立横向关系。</p></div>
+        <div class="topic"><h3>阶段 3：和弦与功能</h3><p class="muted">从三和弦走到功能和声，再理解终止式和七和弦。</p></div>
+        <div class="topic"><h3>阶段 4：节奏与调式</h3><p class="muted">补上节奏、拍号、音阶与调式，让读谱不只剩“认音名”。</p></div>
+        <div class="topic"><h3>推荐起点</h3><p class="muted">如果你是初学者，建议先从音程 → 五度圈 → 调号 → 和弦功能开始。</p></div>
+        <div class="topic"><h3>练习策略</h3><p class="muted">每学一章，先做本页小测，再点“开始本章练习”回训练器验证。</p></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>你可以怎么学</h2>
+      <div class="grid">
+        <div>
+          <h3>路线 A：先读谱再补理论</h3>
+          <ol>
+            <li>先在训练器里把高音谱号自然音刷熟</li>
+            <li>再练低音谱号和中央 C 专项</li>
+            <li>最后回来补音程、调号和五度圈</li>
+          </ol>
+        </div>
+        <div>
+          <h3>路线 B：边练边懂</h3>
+          <ol>
+            <li>练一个主题</li>
+            <li>立刻看对应教学卡片</li>
+            <li>做一个小测或随机练习</li>
+            <li>再回训练器里验证自己是不是真的会了</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <div class="lesson-shell">
+      <aside class="lesson-sidebar" id="lessonSidebar">
+        <div class="lesson-sidebar-header">
+          <h2 class="lesson-sidebar-title">主题导航</h2>
+        </div>
+        <p class="muted lesson-sidebar-tip">左侧会跟随滚动，方便快速切换主题、查看阶段进度。</p>
+        <nav class="lesson-nav" id="lessonSideNav">
+          <div class="lesson-nav-group"><div class="lesson-nav-group-head"><span>基础理解</span><span class="lesson-nav-group-count" data-group-count="foundation">0 / 3</span></div><small>先把音程、节奏、音阶这些基础模块站稳。</small></div>
+          <a class="lesson-nav-link" href="#intervals" data-target="intervals"><span>音程</span><small>距离判断与升降号</small><div class="lesson-nav-tags"><span class="lesson-nav-tag theory">理论</span><span class="lesson-nav-tag tool">工具</span><span class="lesson-nav-tag quiz">小测</span></div><div class="lesson-nav-prereq"><strong>前置建议：</strong>可直接开始，建议先配合高低音谱基础。</div><div class="lesson-nav-progress"><span class="lesson-nav-dot" data-nav-dot="intervals"></span><span class="lesson-nav-progress-text" data-nav-text="intervals">未开始</span></div></a>
+          <a class="lesson-nav-link" href="#rhythm" data-target="rhythm"><span>节奏与拍号</span><small>拍感、强弱与时值</small><div class="lesson-nav-tags"><span class="lesson-nav-tag theory">理论</span><span class="lesson-nav-tag tool">工具</span><span class="lesson-nav-tag exam">章节测验</span></div><div class="lesson-nav-prereq"><strong>前置建议：</strong>可并行学习，适合尽早补，不必等和声章节。</div><div class="lesson-nav-progress"><span class="lesson-nav-dot" data-nav-dot="rhythm"></span><span class="lesson-nav-progress-text" data-nav-text="rhythm">未开始</span></div></a>
+          <a class="lesson-nav-link" href="#scales" data-target="scales"><span>音阶与调式</span><small>大调、小调、五声音阶</small><div class="lesson-nav-tags"><span class="lesson-nav-tag theory">理论</span><span class="lesson-nav-tag quiz">小测</span><span class="lesson-nav-tag exam">章节测验</span></div><div class="lesson-nav-prereq"><strong>前置建议：</strong>先有音程概念后，再看音阶结构会更稳。</div><div class="lesson-nav-progress"><span class="lesson-nav-dot" data-nav-dot="scales"></span><span class="lesson-nav-progress-text" data-nav-text="scales">未开始</span></div></a>
+          <div class="lesson-nav-group"><div class="lesson-nav-group-head"><span>调性与和声</span><span class="lesson-nav-group-count" data-group-count="harmony">0 / 5</span></div><small>开始理解调号、和弦和功能之间如何连起来。</small></div>
+          <a class="lesson-nav-link" href="#circle" data-target="circle"><span>五度圈</span><small>调性地图与升降号顺序</small><div class="lesson-nav-tags"><span class="lesson-nav-tag theory">理论</span><span class="lesson-nav-tag tool">工具</span><span class="lesson-nav-tag exam">章节测验</span></div><div class="lesson-nav-prereq"><strong>前置建议：</strong>先会基础音名与简单音程更顺手。</div><div class="lesson-nav-progress"><span class="lesson-nav-dot" data-nav-dot="circle"></span><span class="lesson-nav-progress-text" data-nav-text="circle">未开始</span></div></a>
+          <a class="lesson-nav-link" href="#keys" data-target="keys"><span>调号与调性</span><small>调号、主音与关系调</small><div class="lesson-nav-tags"><span class="lesson-nav-tag theory">理论</span><span class="lesson-nav-tag quiz">小测</span><span class="lesson-nav-tag exam">章节测验</span></div><div class="lesson-nav-prereq"><strong>前置建议：</strong>建议先学五度圈，再来看调号与中心感。</div><div class="lesson-nav-progress"><span class="lesson-nav-dot" data-nav-dot="keys"></span><span class="lesson-nav-progress-text" data-nav-text="keys">未开始</span></div></a>
+          <a class="lesson-nav-link" href="#chords" data-target="chords"><span>三和弦</span><small>大小增减与叠三度</small><div class="lesson-nav-tags"><span class="lesson-nav-tag theory">理论</span><span class="lesson-nav-tag quiz">小测</span><span class="lesson-nav-tag exam">章节测验</span></div><div class="lesson-nav-prereq"><strong>前置建议：</strong>建议先学音程，再看和弦结构会清楚很多。</div><div class="lesson-nav-progress"><span class="lesson-nav-dot" data-nav-dot="chords"></span><span class="lesson-nav-progress-text" data-nav-text="chords">未开始</span></div></a>
+          <a class="lesson-nav-link" href="#functions" data-target="functions"><span>和弦功能</span><small>T / S / D 的方向感</small><div class="lesson-nav-tags"><span class="lesson-nav-tag theory">理论</span><span class="lesson-nav-tag quiz">小测</span><span class="lesson-nav-tag exam">章节测验</span></div><div class="lesson-nav-prereq"><strong>前置建议：</strong>建议先学调号与调性、三和弦。</div><div class="lesson-nav-progress"><span class="lesson-nav-dot" data-nav-dot="functions"></span><span class="lesson-nav-progress-text" data-nav-text="functions">未开始</span></div></a>
+          <a class="lesson-nav-link" href="#cadence" data-target="cadence"><span>终止式</span><small>落地感与句末判断</small><div class="lesson-nav-tags"><span class="lesson-nav-tag theory">理论</span><span class="lesson-nav-tag quiz">小测</span><span class="lesson-nav-tag exam">章节测验</span></div><div class="lesson-nav-prereq"><strong>前置建议：</strong>建议先学和弦功能，再看终止会更自然。</div><div class="lesson-nav-progress"><span class="lesson-nav-dot" data-nav-dot="cadence"></span><span class="lesson-nav-progress-text" data-nav-text="cadence">未开始</span></div></a>
+          <div class="lesson-nav-group"><div class="lesson-nav-group-head"><span>进阶和声</span><span class="lesson-nav-group-count" data-group-count="advanced">0 / 3</span></div><small>开始区分更复杂的色彩、推动和中心变化。</small></div>
+          <a class="lesson-nav-link" href="#seventh" data-target="seventh"><span>七和弦</span><small>更密集的和声色彩</small><div class="lesson-nav-tags"><span class="lesson-nav-tag theory">理论</span><span class="lesson-nav-tag quiz">小测</span><span class="lesson-nav-tag exam">章节测验</span></div><div class="lesson-nav-prereq"><strong>前置建议：</strong>建议先学三和弦，再看七和弦更不容易乱。</div><div class="lesson-nav-progress"><span class="lesson-nav-dot" data-nav-dot="seventh"></span><span class="lesson-nav-progress-text" data-nav-text="seventh">未开始</span></div></a>
+          <a class="lesson-nav-link" href="#modulation" data-target="modulation"><span>转调</span><small>重心移动与新中心</small><div class="lesson-nav-tags"><span class="lesson-nav-tag theory">理论</span><span class="lesson-nav-tag quiz">小测</span><span class="lesson-nav-tag exam">章节测验</span></div><div class="lesson-nav-prereq"><strong>前置建议：</strong>建议先学五度圈、调号与调性、终止式。</div><div class="lesson-nav-progress"><span class="lesson-nav-dot" data-nav-dot="modulation"></span><span class="lesson-nav-progress-text" data-nav-text="modulation">未开始</span></div></a>
+          <a class="lesson-nav-link" href="#borrowed" data-target="borrowed"><span>借用 / 副属</span><small>偏离原调的色彩</small><div class="lesson-nav-tags"><span class="lesson-nav-tag theory">理论</span><span class="lesson-nav-tag quiz">小测</span><span class="lesson-nav-tag exam">章节测验</span></div><div class="lesson-nav-prereq"><strong>前置建议：</strong>建议先学和弦功能、七和弦、转调判断。</div><div class="lesson-nav-progress"><span class="lesson-nav-dot" data-nav-dot="borrowed"></span><span class="lesson-nav-progress-text" data-nav-text="borrowed">未开始</span></div></a>
+          <div class="lesson-nav-group"><div class="lesson-nav-group-head"><span>综合与导学</span><span class="lesson-nav-group-count" data-group-count="summary">0 / 3</span></div><small>用综合训练验收，再用误区与导学回补薄弱点。</small></div>
+          <a class="lesson-nav-link" href="#mastery" data-target="mastery"><span>综合训练</span><small>跨章节混合判断</small><div class="lesson-nav-tags"><span class="lesson-nav-tag mixed">综合</span><span class="lesson-nav-tag tool">练耳</span><span class="lesson-nav-tag exam">总测</span></div><div class="lesson-nav-prereq"><strong>前置建议：</strong>建议至少先学完 4-6 个核心章节后再来验收。</div><div class="lesson-nav-progress"><span class="lesson-nav-dot" data-nav-dot="mastery"></span><span class="lesson-nav-progress-text" data-nav-text="mastery">未开始</span></div></a>
+          <a class="lesson-nav-link" href="#pitfalls" data-target="pitfalls"><span>常见误区</span><small>初学易混点排雷</small><div class="lesson-nav-tags"><span class="lesson-nav-tag theory">理论</span></div><div class="lesson-nav-prereq"><strong>前置建议：</strong>随时可读，卡住时优先回来排错。</div><div class="lesson-nav-progress"><span class="lesson-nav-dot" data-nav-dot="pitfalls"></span><span class="lesson-nav-progress-text" data-nav-text="pitfalls">建议先读</span></div></a>
+          <a class="lesson-nav-link" href="#plan" data-target="plan"><span>学习建议</span><small>推荐顺序与练习路线</small><div class="lesson-nav-tags"><span class="lesson-nav-tag theory">导学</span></div><div class="lesson-nav-prereq"><strong>前置建议：</strong>第一次进入建议先看这里，再决定练习顺序。</div><div class="lesson-nav-progress"><span class="lesson-nav-dot passed" data-nav-dot="plan"></span><span class="lesson-nav-progress-text" data-nav-text="plan">导航参考</span></div></a>
+        </nav>
+      </aside>
+      <div class="lesson-content">
+
+    <section class="card" id="intervals" data-lesson="intervals">
+      <h2><span class="pill">01</span> 音程：音与音之间的距离</h2>
+      <p class="muted">音程包含两个维度：<strong>度数</strong>和<strong>性质</strong>。这次把小工具升级成了支持升降号的版本，已经能判断更多常见情况。</p>
+      <div class="lesson-gate" id="intervalsGate"></div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">概念速读</h3>
+        <p class="muted">音程要同时看两个维度：<strong>字母名跨了几度</strong>，以及<strong>实际半音数是多少</strong>。前者决定“二度 / 三度 / 四度”，后者决定“大 / 小 / 纯 / 增 / 减”。只看其中一个，后面和弦、调性、听感判断都会跟着乱。</p>
+        <h3>判断步骤</h3>
+        <ol>
+          <li>先数音名跨度，确定度数。</li>
+          <li>再数半音数，确定性质。</li>
+          <li>最后再把两部分合并成完整名称。</li>
+        </ol>
+        <h3>常见误区</h3>
+        <ul>
+          <li>把度数直接当半音数，这是最常见的起步错误。</li>
+          <li>忽略升降号，导致 C→E 和 C→Eb 都被粗暴看成同一种音程。</li>
+          <li>看到黑键就慌，其实仍然按“度数 + 半音数”两步走就行。</li>
+        </ul>
+        <h3>例子拆解</h3>
+        <p class="muted">E 到 F 是二度框架，但只有 1 个半音，所以是<strong>小二度</strong>；F 到 B 是四度框架，但半音数比纯四度更大，因此更接近<strong>增四度</strong>。</p>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">这一章和后面内容的关系</h3>
+        <ul>
+          <li><strong>音程 → 三和弦：</strong>三和弦本质上是多个音程叠起来的结构，不会音程，和弦判断会一直靠背。</li>
+          <li><strong>音程 → 音阶与调式：</strong>音阶为什么像大调、小调、五声音阶，本质都和音程排列有关。</li>
+          <li><strong>音程 → 听感训练：</strong>很多练耳其实是在听不同音程带来的张力差别。</li>
+        </ul>
+        <p class="muted">可以把音程理解成后面大量内容的“最小单位”。这一章站稳，后面很多地方都会轻松很多。</p>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">速记口诀 / 一眼判断法</h3>
+        <ul>
+          <li><strong>先看几度，再看半音。</strong></li>
+          <li><strong>字母名决定框架，升降号决定细节。</strong></li>
+          <li><strong>不要跳过中间步骤直接猜大、小、纯。</strong></li>
+        </ul>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">学完这章你应该会什么</h3>
+        <ul>
+          <li>能把常见音程拆成“度数 + 性质”来判断。</li>
+          <li>能解释为什么同样是三度，还会分大三度和小三度。</li>
+          <li>做和弦和音阶题时，不再把音程当成模糊感觉。</li>
+        </ul>
+      </div>
+      <div class="tool-box">
+        <h3>音程判定小工具（支持升降号）</h3>
+        <div class="tool-grid">
+          <div>
+            <div class="muted" style="font-size:13px; margin-bottom:6px;">起始音</div>
+            <select id="intervalFrom"><option>C</option><option>C#</option><option>Db</option><option>D</option><option>D#</option><option>Eb</option><option>E</option><option>F</option><option>F#</option><option>Gb</option><option>G</option><option>G#</option><option>Ab</option><option>A</option><option>A#</option><option>Bb</option><option>B</option><option>Cb</option></select>
+          </div>
+          <div>
+            <div class="muted" style="font-size:13px; margin-bottom:6px;">结束音</div>
+            <select id="intervalTo"><option>C</option><option>C#</option><option>Db</option><option>D</option><option>D#</option><option>Eb</option><option>E</option><option>F</option><option>F#</option><option>Gb</option><option>G</option><option>G#</option><option>Ab</option><option>A</option><option>A#</option><option>Bb</option><option>B</option><option>Cb</option></select>
+          </div>
+          <button class="cta" id="intervalCheckBtn">判断音程</button>
+        </div>
+        <div class="info-box" id="intervalResult">选择两个音后，点击“判断音程”。支持常见升降号写法。</div>
+      </div>
+      <table class="interval-table">
+        <thead><tr><th>音程</th><th>半音数</th><th>例子</th><th>常见感觉</th></tr></thead>
+        <tbody>
+          <tr><td>小二度</td><td>1</td><td>E-F / C-C#</td><td>紧张、靠得很近</td></tr>
+          <tr><td>大二度</td><td>2</td><td>C-D</td><td>自然、常见级进</td></tr>
+          <tr><td>小三度</td><td>3</td><td>A-C / C-Eb</td><td>偏暗、常见于小三和弦</td></tr>
+          <tr><td>大三度</td><td>4</td><td>C-E</td><td>明亮、常见于大三和弦</td></tr>
+          <tr><td>纯四度</td><td>5</td><td>C-F</td><td>稳定但略带张力</td></tr>
+          <tr><td>纯五度</td><td>7</td><td>C-G</td><td>稳定、空旷、很核心</td></tr>
+        </tbody>
+      </table>
+      <div class="mini-trainer" data-mini="intervals"></div>
+      <div class="practice-box">
+        <strong>本章练习建议</strong>
+        <div class="practice-list">
+          <div>先用工具试 <code>C → E</code>、<code>C → Eb</code>、<code>G → D</code> 这三组。</div>
+          <div>再回训练器用自然音模式刷音名熟悉度。</div>
+          <button class="cta secondary lesson-done-btn" data-lesson-done="intervals">标记本章已学习</button>
+          <div class="muted" id="intervalsStatus">本章状态：未完成</div>
+          <a class="cta secondary lesson-link" data-preset="intervals" href="./index.html?lesson=intervals&clef=treble&accidentalMode=natural&positionMode=mixed&theoryMode=normal&rangeMin=C4&rangeMax=A5">开始本章练习：回训练器练识谱</a>
+        </div>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">下一步建议</h3>
+        <p class="muted">如果音程已经顺了，下一步最推荐去看<strong>三和弦</strong>，因为和弦结构本质上就是把音程叠起来；如果你想继续理解调性感，可以先去看<strong>五度圈</strong>。</p>
+        <div class="cta-row">
+          <a class="cta ghost" href="#chords">下一站：三和弦</a>
+          <a class="cta ghost" href="#circle">并行补充：五度圈</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="circle" data-lesson="circle">
+      <h2><span class="pill">02</span> 五度圈：调性地图</h2>
+      <p class="muted">从 C 开始，每次向上纯五度走，会得到：C → G → D → A → E → B → F♯ → C♯。现在你可以点击调名查看更完整的信息。</p>
+      <div class="lesson-gate" id="circleGate"></div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">概念速读</h3>
+        <p class="muted">五度圈不是单纯背图，而是一张“调性距离图”。往右通常升号增加，往左通常降号增加。离得近的调，常常更容易互相转调、借用或形成自然的和声连接。</p>
+        <h3>判断步骤</h3>
+        <ol>
+          <li>先找到当前调在圈上的位置。</li>
+          <li>再判断目标调在左边还是右边，相差几步。</li>
+          <li>最后把位置关系翻译成调号数量和调性远近。</li>
+        </ol>
+        <h3>常见误区</h3>
+        <ul>
+          <li>只背调号数量，却不知道左右方向代表什么。</li>
+          <li>把五度圈当成静态表格，没有用它去判断“近关系”。</li>
+          <li>遇到转调题时，不会利用五度圈先缩小判断范围。</li>
+        </ul>
+        <h3>例子拆解</h3>
+        <p class="muted">C 右边一步是 G，所以 G 大调比 C 多一个升号；C 左边一步是 F，所以 F 大调比 C 多一个降号。C、G、F 因为彼此相邻，所以在乐曲里互相靠近会更自然。</p>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">这一章和后面内容的关系</h3>
+        <ul>
+          <li><strong>五度圈 → 调号与调性：</strong>它能帮你更快理解为什么某些调号彼此接近。</li>
+          <li><strong>五度圈 → 转调：</strong>近关系转调通常更常见、更自然，很多判断都能先从圈上距离入手。</li>
+          <li><strong>五度圈 → 借用 / 副属：</strong>有些“突然变味”的和弦，其实就是在靠近其他中心或强化某个邻近方向。</li>
+        </ul>
+        <p class="muted">如果说音程是最小单位，五度圈就像后面调性内容的总地图。</p>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">速记口诀 / 一眼判断法</h3>
+        <ul>
+          <li><strong>往右升号多，往左降号多。</strong></li>
+          <li><strong>先找 C，再判断目标在左还是右。</strong></li>
+          <li><strong>相邻调先当近关系看，远距离再提高警惕。</strong></li>
+        </ul>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">学完这章你应该会什么</h3>
+        <ul>
+          <li>能看出常见大调在五度圈上的左右位置。</li>
+          <li>能快速判断升号 / 降号的大致变化方向。</li>
+          <li>遇到近关系调、常见转调时，脑中会先有一张地图。</li>
+        </ul>
+      </div>
+      <div class="circle" id="circleGrid">
+        <div data-keyinfo="C|0个升降号|关系小调：Am|近关系调：G、F|升号顺序：无|降号顺序：无|最基础的中心位置">C</div>
+        <div data-keyinfo="G|1个升号（F♯）|关系小调：Em|近关系调：D、C|升号顺序：F♯|降号顺序：无|常见入门升号调">G</div>
+        <div data-keyinfo="D|2个升号（F♯、C♯）|关系小调：Bm|近关系调：A、G|升号顺序：F♯ → C♯|降号顺序：无|比 G 大调再亮一点">D</div>
+        <div data-keyinfo="A|3个升号|关系小调：F♯m|近关系调：E、D|升号顺序：F♯ → C♯ → G♯|降号顺序：无|常见于器乐作品">A</div>
+        <div data-keyinfo="E|4个升号|关系小调：C♯m|近关系调：B、A|升号顺序：F♯ → C♯ → G♯ → D♯|降号顺序：无|升号继续增加">E</div>
+        <div data-keyinfo="B|5个升号|关系小调：G♯m|近关系调：F♯、E|升号顺序：F♯ → C♯ → G♯ → D♯ → A♯|降号顺序：无|写谱上开始更复杂">B</div>
+        <div data-keyinfo="F|1个降号（B♭）|关系小调：Dm|近关系调：C、B♭|升号顺序：无|降号顺序：B♭|最常见入门降号调">F</div>
+        <div data-keyinfo="B♭|2个降号|关系小调：Gm|近关系调：F、E♭|升号顺序：无|降号顺序：B♭ → E♭|合唱和管乐常见">B♭</div>
+        <div data-keyinfo="E♭|3个降号|关系小调：Cm|近关系调：B♭、A♭|升号顺序：无|降号顺序：B♭ → E♭ → A♭|较柔和圆润">E♭</div>
+        <div data-keyinfo="A♭|4个降号|关系小调：Fm|近关系调：E♭、D♭|升号顺序：无|降号顺序：B♭ → E♭ → A♭ → D♭|降号继续增加">A♭</div>
+        <div data-keyinfo="D♭|5个降号|关系小调：B♭m|近关系调：A♭、G♭|升号顺序：无|降号顺序：B♭ → E♭ → A♭ → D♭ → G♭|写法更复杂">D♭</div>
+        <div data-keyinfo="G♭|6个降号|关系小调：E♭m|近关系调：D♭、C♭|升号顺序：无|降号顺序：B♭ → E♭ → A♭ → D♭ → G♭ → C♭|较少见但很典型">G♭</div>
+      </div>
+      <div class="info-box" id="circleInfo">点击上面的调名，我会在这里显示它的调号信息、关系小调、近关系调和升降号顺序。</div>
+      <div class="quiz-box" data-answer="1个升号（F♯）" data-track="circle">
+        <div class="quiz-q">小测：G 大调一般有几个升号？</div>
+        <div class="quiz-options">
+          <button class="quiz-btn">没有升降号</button>
+          <button class="quiz-btn">1个升号（F♯）</button>
+          <button class="quiz-btn">2个升号（F♯、C♯）</button>
+        </div>
+        <div class="quiz-result"></div>
+      </div>
+      <div class="mini-trainer" data-mini="circle"></div>
+      <div class="chapter-exam" data-exam="circle">
+        <h3 style="margin-top:0;">章节测验：五度圈与调号</h3>
+        <div class="muted">这一组会混合调号、关系小调和升降号顺序。</div>
+      </div>
+      <div class="practice-box">
+        <strong>本章练习建议</strong>
+        <div class="practice-list">
+          <div>先点开 C、G、D、F 四个调，比较它们的调号和关系小调。</div>
+          <div>再尝试不看答案，说出“升号顺序”和“降号顺序”。</div>
+          <button class="cta secondary lesson-done-btn" data-lesson-done="circle">标记本章已学习</button>
+          <div class="muted" id="circleStatus">本章状态：未完成</div>
+          <a class="cta secondary lesson-link" data-preset="circle" href="./index.html?lesson=circle&clef=mixed&accidentalMode=mixed&positionMode=mixed&theoryMode=normal&rangeMin=C3&rangeMax=C5">开始本章练习：回训练器练高低音与升降号</a>
+        </div>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">下一步建议</h3>
+        <p class="muted">如果你已经能看懂五度圈的位置关系，下一步最适合去学<strong>调号与调性</strong>；后面遇到转调时，也可以再回来把这张地图当成总索引。</p>
+        <div class="cta-row">
+          <a class="cta ghost" href="#keys">下一站：调号与调性</a>
+          <a class="cta ghost" href="#modulation">进阶预告：转调</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="keys" data-lesson="keys">
+      <h2><span class="pill">03</span> 调号与调性</h2>
+      <p class="muted">调号回答的是“这首曲子默认会带哪些升降号”，调性回答的是“这组音最终围绕哪个中心稳定下来”。同样的调号，可能对应一组关系大小调；真正判断调性时，还要看旋律收束点、主和弦和乐句重心。</p>
+      <div class="lesson-gate" id="keysGate"></div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">概念速读</h3>
+        <p class="muted">调号告诉你“这首曲子默认用哪些升降号”，调性告诉你“这组音真正围绕哪个中心稳定下来”。同一个调号，可能对应关系大小调；同一个主音，也可能有大小调两种不同色彩。</p>
+        <h3>判断步骤</h3>
+        <ol>
+          <li>先看调号，把可能范围缩小。</li>
+          <li>再看旋律收束点、主和弦和乐句落点。</li>
+          <li>最后区分是关系大小调，还是同主音大小调。</li>
+        </ol>
+        <h3>常见误区</h3>
+        <ul>
+          <li>把“调号相同”误以为“主音相同”。</li>
+          <li>把“主音相同”误以为“调号也一样”。</li>
+          <li>只看调号，不看真正的音乐收束中心。</li>
+        </ul>
+        <h3>例子拆解</h3>
+        <p class="muted">C 大调和 a 小调都没有升降号，但中心不同；C 大调和 c 小调都围绕 C，却因为调号和音阶材料不同，听感会明显分开。</p>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">这一章和后面内容的关系</h3>
+        <ul>
+          <li><strong>调号与调性 → 和弦功能：</strong>不先知道当前调，就不知道哪个和弦才是主功能、属功能。</li>
+          <li><strong>调号与调性 → 终止式：</strong>“有没有真正回家”一定是相对于当前调来说的。</li>
+          <li><strong>调号与调性 → 转调：</strong>判断是不是转调，本质就是看中心是否真的变了。</li>
+        </ul>
+        <p class="muted">这一章是在告诉你：后面所有和声判断，都不是脱离调性单独成立的。</p>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">速记口诀 / 一眼判断法</h3>
+        <ul>
+          <li><strong>先看调号，再看落点。</strong></li>
+          <li><strong>调号是范围，中心才是答案。</strong></li>
+          <li><strong>不要把“同调号”误判成“同主音”。</strong></li>
+        </ul>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">学完这章你应该会什么</h3>
+        <ul>
+          <li>能区分“调号”和“调性中心”不是同一回事。</li>
+          <li>能分清关系大小调与同主音大小调。</li>
+          <li>看到和声或旋律收束时，会主动拿来辅助判断调性。</li>
+        </ul>
+      </div>
+      <ul>
+        <li><strong>调号</strong>是写在谱号后面的固定升降号集合。</li>
+        <li><strong>调性中心</strong>常通过结束音、主和弦、旋律重心体现。</li>
+        <li><strong>关系大小调</strong>共享同一组调号，但主音不同、听感不同。</li>
+      </ul>
+      <div class="mini-trainer" data-mini="keys"></div>
+      <div class="chapter-exam" data-exam="keys">
+        <h3 style="margin-top:0;">章节测验：调号与调性</h3>
+        <div class="muted">这一组重点检查你是否分得清“调号相同”和“调性相同”不是一回事。</div>
+      </div>
+      <div class="practice-box">
+        <strong>本章练习建议</strong>
+        <div class="practice-list">
+          <div>先比较 C 大调 / A 小调、G 大调 / E 小调这两组关系调。</div>
+          <button class="cta secondary lesson-done-btn" data-lesson-done="keys">标记本章已学习</button>
+          <div class="muted" id="keysStatus">本章状态：未完成</div>
+          <a class="cta secondary lesson-link" data-preset="keys" href="./index.html?lesson=keys&clef=mixed&accidentalMode=mixed&positionMode=mixed&theoryMode=normal&rangeMin=B2&rangeMax=D5">开始本章练习：回到训练器</a>
+        </div>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">下一步建议</h3>
+        <p class="muted">这一章学完后，最推荐马上接<strong>和弦功能</strong>，因为“这些和弦在调里干什么”才是后面和声判断真正开始的地方；如果调性感还不稳，可以先补<strong>五度圈</strong>和<strong>调号与调性</strong>。</p>
+        <div class="cta-row">
+          <a class="cta ghost" href="#functions">下一站：和弦功能</a>
+          <a class="cta ghost" href="#circle">回看：五度圈</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="chords" data-lesson="chords">
+      <h2><span class="pill">04</span> 三和弦入门</h2>
+      <p class="muted">三和弦可以理解成“隔一个音叠一个音”的最基础和声材料。你先不用一下子记太多理论名词，先抓住它们的构成和听感差异就够了。</p>
+      <div class="lesson-gate" id="chordsGate"></div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">概念速读</h3>
+        <p class="muted">三和弦的核心不是死记三个音名，而是看它内部由两层什么三度组成。只要会拆结构，大三和弦、小三和弦、减三和弦、增三和弦就会变得很清楚。</p>
+        <h3>判断步骤</h3>
+        <ol>
+          <li>先把音整理成叠三度结构，而不是按出现顺序乱看。</li>
+          <li>判断根音到三音、三音到五音分别是什么三度。</li>
+          <li>再根据内部结构判断和弦类型。</li>
+        </ol>
+        <h3>常见误区</h3>
+        <ul>
+          <li>没有先整理根音位置，遇到转位就直接看乱。</li>
+          <li>只看最低音和最高音，不看中间关键结构。</li>
+          <li>把“听感偏暗”就都粗暴归成小三和弦。</li>
+        </ul>
+        <h3>例子拆解</h3>
+        <p class="muted">A-C-E：A→C 是小三度，C→E 是大三度，所以是<strong>小三和弦</strong>；C-E-G#：上下都是大三度，所以是<strong>增三和弦</strong>。</p>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">这一章和后面内容的关系</h3>
+        <ul>
+          <li><strong>三和弦 → 和弦功能：</strong>先知道和弦是什么，才谈得上它在调里扮演什么角色。</li>
+          <li><strong>三和弦 → 七和弦：</strong>七和弦不是另起炉灶，而是在三和弦上继续叠一层。</li>
+          <li><strong>三和弦 → 终止式：</strong>终止式里的和弦连接，首先仍然是和弦类型与根音关系的问题。</li>
+        </ul>
+        <p class="muted">很多人觉得和声难，是因为没有把“三和弦识别”练成基本功。</p>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">速记口诀 / 一眼判断法</h3>
+        <ul>
+          <li><strong>先排成三度，再判断类型。</strong></li>
+          <li><strong>先看内部结构，不要只看外壳。</strong></li>
+          <li><strong>遇到转位，先还原根音位置。</strong></li>
+        </ul>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">学完这章你应该会什么</h3>
+        <ul>
+          <li>能把常见三和弦按内部三度结构分清。</li>
+          <li>遇到转位时，知道先整理根音再判断。</li>
+          <li>为后面的功能、终止式、七和弦打下结构基础。</li>
+        </ul>
+      </div>
+      <ul>
+        <li><strong>大三和弦</strong>：大三度 + 小三度，例如 C-E-G，听感常偏稳定明亮。</li>
+        <li><strong>小三和弦</strong>：小三度 + 大三度，例如 A-C-E，听感常偏内敛。</li>
+        <li><strong>减三和弦</strong>：小三度 + 小三度，张力更强。</li>
+        <li><strong>增三和弦</strong>：大三度 + 大三度，色彩更漂浮。</li>
+      </ul>
+      <div class="mini-trainer" data-mini="chords"></div>
+      <div class="chapter-exam" data-exam="chords">
+        <h3 style="margin-top:0;">章节测验：三和弦入门</h3>
+        <div class="muted">先判断构成，再判断和弦类型，会比死背名字更稳。</div>
+      </div>
+      <div class="practice-box">
+        <strong>本章练习建议</strong>
+        <div class="practice-list">
+          <div>先把 C-E-G、A-C-E、B-D-F 拆开看清楚是怎么叠出来的。</div>
+          <button class="cta secondary lesson-done-btn" data-lesson-done="chords">标记本章已学习</button>
+          <div class="muted" id="chordsStatus">本章状态：未完成</div>
+          <a class="cta secondary lesson-link" data-preset="chords" href="./index.html?lesson=chords&clef=treble&accidentalMode=natural&positionMode=mixed&theoryMode=middleC&rangeMin=B3&rangeMax=E4">开始本章练习：回到训练器</a>
+        </div>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">下一步建议</h3>
+        <p class="muted">如果你已经能区分调号和调性中心，接下来更适合去看<strong>和弦功能</strong>或<strong>终止式</strong>，因为后面的和声判断都会建立在“当前调是什么”这个前提上。</p>
+        <div class="cta-row">
+          <a class="cta ghost" href="#functions">下一站：和弦功能</a>
+          <a class="cta ghost" href="#cadence">并行补充：终止式</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="rhythm" data-lesson="rhythm">
+      <h2><span class="pill">05</span> 节奏与拍号</h2>
+      <p class="muted">如果说音高决定“唱什么音”，那节奏决定“什么时候唱、唱多久”。很多人识谱慢，并不只是音高问题，而是拍子没有站稳。</p>
+      <div class="lesson-gate" id="rhythmGate"></div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">概念速读</h3>
+        <p class="muted">节奏解决的是“什么时候发生、持续多久”，拍号解决的是“这些时值如何按拍子组织”。很多识谱慢并不是音认不出，而是拍感不稳，导致看到音符时不知道该怎么在时间里安放。</p>
+        <h3>判断步骤</h3>
+        <ol>
+          <li>先看拍号，判断一小节有几拍、以什么音符为一拍。</li>
+          <li>再看每个音符和休止符占多少时值。</li>
+          <li>最后把强弱关系和时值一起带进拍感里读。</li>
+        </ol>
+        <h3>常见误区</h3>
+        <ul>
+          <li>只数音符个数，不数拍子。</li>
+          <li>把 3/4 和 4/4 都按“平均四拍”去感受。</li>
+          <li>知道时值名称，却不会把它们放进真实拍感里。</li>
+        </ul>
+        <h3>例子拆解</h3>
+        <p class="muted">4/4 最基础的强弱关系常是<strong>强 弱 次强 弱</strong>；如果把它读成三拍型，节奏就会塌掉。识谱时先站稳拍子，再看音高，效率会高很多。</p>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">学完这章你应该会什么</h3>
+        <ul>
+          <li>能先站稳拍号，再去读音符时值。</li>
+          <li>能区分“知道音符名字”和“真的有拍感”是两回事。</li>
+          <li>识谱时不再只盯音高，开始同时关注时间组织。</li>
+        </ul>
+      </div>
+      <ul>
+        <li><strong>拍号</strong>通常写在谱号和调号后面，例如 4/4、3/4、6/8。</li>
+        <li><strong>上面的数字</strong>表示每小节有几拍。</li>
+        <li><strong>下面的数字</strong>表示以什么音符为一拍。</li>
+      </ul>
+      <div class="mini-trainer" data-mini="rhythm"></div>
+      <div class="chapter-exam" data-exam="rhythm">
+        <h3 style="margin-top:0;">章节测验：节奏与拍号</h3>
+        <div class="muted">做完 3 题再统一提交，更接近真正的小考。</div>
+      </div>
+      <div class="practice-box">
+        <strong>本章练习建议</strong>
+        <div class="practice-list">
+          <div>先口头数 4/4、3/4、6/8 的拍感差异。</div>
+          <button class="cta secondary lesson-done-btn" data-lesson-done="rhythm">标记本章已学习</button>
+          <div class="muted" id="rhythmStatus">本章状态：未完成</div>
+          <a class="cta secondary lesson-link" data-preset="rhythm" href="./index.html?lesson=rhythm&clef=treble&accidentalMode=natural&positionMode=mixed&theoryMode=normal&rangeMin=C4&rangeMax=C5&timeMode=4&autoPlay=1">开始本章练习：回到训练器</a>
+        </div>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">下一步建议</h3>
+        <p class="muted">节奏这一章更像识谱地基。学完后建议继续去做<strong>节奏点击训练</strong>和本章练习；如果你想回到音高体系，可以并行看<strong>音阶与调式</strong>，把时间感和音高感一起补稳。</p>
+        <div class="cta-row">
+          <a class="cta ghost" href="#mastery">去综合区练节奏 / 练耳</a>
+          <a class="cta ghost" href="#scales">下一站：音阶与调式</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="scales" data-lesson="scales">
+      <h2><span class="pill">06</span> 音阶与调式</h2>
+      <p class="muted">音阶是按照一定规则排列的一组音。调式则更像是“这些音在什么气质下被组织起来”。</p>
+      <div class="lesson-gate" id="scalesGate"></div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">概念速读</h3>
+        <p class="muted">音阶是按规则组织起来的音集合，调式则更像“这些音围绕哪个中心、呈现什么气质”。同样是一组音，不同中心、不同层级关系，会让听感完全不同。</p>
+        <h3>判断步骤</h3>
+        <ol>
+          <li>先看使用了哪一组音材料。</li>
+          <li>再看哪个音最像中心、落点和稳定点。</li>
+          <li>最后判断它更接近大调、小调、五声音阶还是其他调式感觉。</li>
+        </ol>
+        <h3>常见误区</h3>
+        <ul>
+          <li>把音阶当成机械上下行，不理解中心感。</li>
+          <li>只记“大调亮、小调暗”，却不会落回到具体音材料。</li>
+          <li>看见五声音阶就只想到民族风，而忽略它在流行旋律中的普遍性。</li>
+        </ul>
+        <h3>例子拆解</h3>
+        <p class="muted">五声音阶常让人感觉更顺口，一个重要原因是它减少了部分半音摩擦；而大调、小调除了音程结构不同，更重要的是它们的中心感和稳定音层级不同。</p>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">学完这章你应该会什么</h3>
+        <ul>
+          <li>能把“音阶材料”和“调式中心感”区分开来。</li>
+          <li>能理解为什么大调、小调、五声音阶听感不同。</li>
+          <li>做旋律与调式判断题时，不会只靠模糊印象猜。</li>
+        </ul>
+      </div>
+      <ul>
+        <li><strong>大调音阶：</strong>听感通常更明亮、稳定。</li>
+        <li><strong>自然小调：</strong>听感常偏内敛、暗一些。</li>
+        <li><strong>五声音阶：</strong>中国音乐、民谣、流行旋律里都很常见。</li>
+      </ul>
+      <div class="mini-trainer" data-mini="scales"></div>
+      <div class="chapter-exam" data-exam="scales">
+        <h3 style="margin-top:0;">章节测验：音阶与调式</h3>
+        <div class="muted">建议先做完本章随机练习，再来做这组综合题。</div>
+      </div>
+      <div class="practice-box">
+        <strong>本章练习建议</strong>
+        <div class="practice-list">
+          <div>先比较 C 大调 与 A 自然小调的音集合和主音重心。</div>
+          <button class="cta secondary lesson-done-btn" data-lesson-done="scales">标记本章已学习</button>
+          <div class="muted" id="scalesStatus">本章状态：未完成</div>
+          <a class="cta secondary lesson-link" data-preset="scales" href="./index.html?lesson=scales&clef=treble&accidentalMode=natural&positionMode=mixed&theoryMode=normal&rangeMin=C4&rangeMax=C6">开始本章练习：回到训练器</a>
+        </div>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">下一步建议</h3>
+        <p class="muted">如果音阶和调式已经能分出基本听感，接下来可以去看<strong>调号与调性</strong>或<strong>转调</strong>，因为它们都会用到“音材料 + 中心感”这个思路。</p>
+        <div class="cta-row">
+          <a class="cta ghost" href="#keys">回看：调号与调性</a>
+          <a class="cta ghost" href="#modulation">下一站：转调</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="functions" data-lesson="functions">
+      <h2><span class="pill">07</span> 和弦功能</h2>
+      <p class="muted">在基础和声里，最常见的三个功能是：主功能、下属功能、属功能。你可以把它们理解为“稳定 — 推动 — 回归”的关系。</p>
+      <div class="lesson-gate" id="functionsGate"></div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">概念速读</h3>
+        <p class="muted">功能和声最关键的不是记缩写，而是理解“稳定 — 推动 — 回归”的关系。主功能像家，下属功能像离开家，属功能像最强烈地想回家。</p>
+        <h3>判断步骤</h3>
+        <ol>
+          <li>先确定当前调的主和弦。</li>
+          <li>再看给出的和弦更像稳定、过渡还是强推进。</li>
+          <li>把它放进前后和弦关系里一起判断，不要孤立看单个和弦。</li>
+        </ol>
+        <h3>常见误区</h3>
+        <ul>
+          <li>把所有有张力的和弦都误判成属功能。</li>
+          <li>只背级数，不理解和声流向。</li>
+          <li>忘了功能判断永远依赖“当前调”这个前提。</li>
+        </ul>
+        <h3>例子拆解</h3>
+        <p class="muted">在 C 大调里，C 和弦最稳定，F 会把音乐往外推，G 则最想回到 C。所以 C / F / G 不是三个平行名字，而是三种不同的方向角色。</p>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">这一章和后面内容的关系</h3>
+        <ul>
+          <li><strong>和弦功能 → 终止式：</strong>终止式其实就是功能关系在句末最典型的表现。</li>
+          <li><strong>和弦功能 → 七和弦：</strong>属七和弦之所以重要，是因为它强化了属功能的推动。</li>
+          <li><strong>和弦功能 → 转调：</strong>一旦新的属—主关系稳定建立，常常就是转调开始真正成立的时候。</li>
+        </ul>
+        <p class="muted">功能是把单个和弦连成“会走路的句子”的关键一步。</p>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">速记口诀 / 一眼判断法</h3>
+        <ul>
+          <li><strong>T 像家，S 像离开，D 像最想回家。</strong></li>
+          <li><strong>先定调，再谈功能。</strong></li>
+          <li><strong>不要孤立看一个和弦，要看它往哪走。</strong></li>
+        </ul>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">学完这章你应该会什么</h3>
+        <ul>
+          <li>能把主 / 下属 / 属功能和“稳定—推动—回归”连起来。</li>
+          <li>看和弦连接时，会主动去想它在往哪里走。</li>
+          <li>后面遇到终止式、属七、转调时不再完全割裂。</li>
+        </ul>
+      </div>
+      <ul>
+        <li><strong>主功能（T）</strong>：最稳定，像“家”。在 C 大调里常见是 C 和弦。</li>
+        <li><strong>下属功能（S）</strong>：有离开主音中心的趋势。在 C 大调里常见是 F 和弦。</li>
+        <li><strong>属功能（D）</strong>：最有推动和解决需求。在 C 大调里常见是 G 或 G7。</li>
+      </ul>
+      <div class="quiz-box" data-answer="G 或 G7" data-track="functions">
+        <div class="quiz-q">小测：在 C 大调里，哪个和弦最常承担属功能？</div>
+        <div class="quiz-options">
+          <button class="quiz-btn">F 或 Fmaj7</button>
+          <button class="quiz-btn">G 或 G7</button>
+          <button class="quiz-btn">Am 或 Am7</button>
+        </div>
+        <div class="quiz-result"></div>
+      </div>
+      <div class="mini-trainer" data-mini="functions"></div>
+      <div class="chapter-exam" data-exam="functions">
+        <h3 style="margin-top:0;">章节测验：和弦功能</h3>
+        <div class="muted">提交后会显示总分，并计入本地学习进度。</div>
+      </div>
+      <div class="practice-box">
+        <strong>本章练习建议</strong>
+        <div class="practice-list">
+          <div>先口头说出 C 大调里 T、S、D 分别常见是谁。</div>
+          <div>再回训练器练 G、F、C 相关音位的熟悉度。</div>
+          <button class="cta secondary lesson-done-btn" data-lesson-done="functions">标记本章已学习</button>
+          <div class="muted" id="functionsStatus">本章状态：未完成</div>
+          <a class="cta secondary lesson-link" data-preset="functions" href="./index.html?lesson=functions&clef=treble&accidentalMode=natural&positionMode=mixed&theoryMode=middleC&rangeMin=B3&rangeMax=G4">开始本章练习：回到训练器</a>
+        </div>
+      </div>
+      <div class="cta-row"><a class="cta lesson-link" data-preset="functions" href="./index.html?lesson=functions&clef=treble&accidentalMode=natural&positionMode=mixed&theoryMode=middleC&rangeMin=B3&rangeMax=G4">回训练器继续练</a></div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">下一步建议</h3>
+        <p class="muted">和弦功能学完后，最自然的下一步就是看<strong>终止式</strong>，因为终止式就是功能关系在句末的集中体现；如果你已经对属功能有感觉，也可以继续去看<strong>七和弦</strong>。</p>
+        <div class="cta-row">
+          <a class="cta ghost" href="#cadence">下一站：终止式</a>
+          <a class="cta ghost" href="#seventh">并行进阶：七和弦</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="cadence" data-lesson="cadence">
+      <h2><span class="pill">08</span> 终止式：音乐句子如何“收住”</h2>
+      <p class="muted">终止式可以理解成音乐里的“句号”或“逗号”。它不只是和弦顺序问题，更会直接影响你听到的是“真的结束了”还是“先停一下”。</p>
+      <div class="lesson-gate" id="cadenceGate"></div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">概念速读</h3>
+        <p class="muted">终止式关心的是“句子最后落在哪里”。如果真正回到主功能，常像句号；如果停在属功能，常像逗号；如果明明快落地却转去别处，就会有被拐开的感觉。</p>
+        <h3>判断步骤</h3>
+        <ol>
+          <li>先看最后两个和弦是什么。</li>
+          <li>再判断最后有没有真正回到主和弦。</li>
+          <li>最后区分是完全终止、半终止、变格终止还是阻碍终止。</li>
+        </ol>
+        <h3>常见误区</h3>
+        <ul>
+          <li>只要感觉“结束了”就都叫完全终止。</li>
+          <li>把停在 V 和 V→I 混成同一种收束。</li>
+          <li>忽略 IV→I 这种较柔和但很典型的结束方式。</li>
+        </ul>
+        <h3>例子拆解</h3>
+        <p class="muted">V→I 常像真正落地；停在 V 更像还没说完；IV→I 则常带一点柔和、补充式的收束感。学会这个差别后，终止式题就不只是背名字了。</p>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">这一章和后面内容的关系</h3>
+        <ul>
+          <li><strong>终止式 → 调性判断：</strong>很多时候你是靠终止位置确认“这首到底回到了哪”。</li>
+          <li><strong>终止式 → 转调：</strong>如果后面在新主音上形成稳定终止，就很像真的转过去了。</li>
+          <li><strong>终止式 → 借用 / 副属：</strong>有些色彩和弦会影响你对句末方向的判断，需要放到整体收束里看。</li>
+        </ul>
+        <p class="muted">学终止式，实际上是在学“音乐如何说完一句话”。</p>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">速记口诀 / 一眼判断法</h3>
+        <ul>
+          <li><strong>先看最后两个和弦。</strong></li>
+          <li><strong>回到 I 更像句号，停在 V 更像逗号。</strong></li>
+          <li><strong>别只听“像结束”，要看落在哪。</strong></li>
+        </ul>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">学完这章你应该会什么</h3>
+        <ul>
+          <li>能用“句号 / 逗号”的感觉理解不同终止式。</li>
+          <li>能先看最后和弦关系，再判断结束类型。</li>
+          <li>在调性与转调判断中开始利用收束感做证据。</li>
+        </ul>
+      </div>
+      <ul>
+        <li><strong>完全终止</strong>：通常最像真正落地，常见为 V → I。</li>
+        <li><strong>半终止</strong>：停在属功能上，像句子还没说完。</li>
+        <li><strong>变格终止</strong>：常见 IV → I，像比较柔和的收尾。</li>
+        <li><strong>阻碍终止</strong>：本来以为要回 I，却转去别处，制造“没落稳”的感觉。</li>
+      </ul>
+      <div class="mini-trainer" data-mini="cadence"></div>
+      <div class="chapter-exam" data-exam="cadence">
+        <h3 style="margin-top:0;">章节测验：终止式</h3>
+        <div class="muted">重点不是背名字，而是分清“落地感”和“悬着”的区别。</div>
+      </div>
+      <div class="practice-box">
+        <strong>本章练习建议</strong>
+        <div class="practice-list">
+          <div>先把 V → I、IV → I、V → vi 这三种收尾感觉分开。</div>
+          <button class="cta secondary lesson-done-btn" data-lesson-done="cadence">标记本章已学习</button>
+          <div class="muted" id="cadenceStatus">本章状态：未完成</div>
+          <a class="cta secondary lesson-link" data-preset="cadence" href="./index.html?lesson=cadence&clef=treble&accidentalMode=natural&positionMode=mixed&theoryMode=middleC&rangeMin=B3&rangeMax=G4">开始本章练习：回到训练器</a>
+        </div>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">下一步建议</h3>
+        <p class="muted">终止式顺了之后，建议接着看<strong>七和弦</strong>或<strong>转调</strong>。前者会让你理解为什么属方向更强，后者会把“落地到哪”扩展成“是不是已经换了一个家”。</p>
+        <div class="cta-row">
+          <a class="cta ghost" href="#seventh">下一站：七和弦</a>
+          <a class="cta ghost" href="#modulation">进阶预告：转调</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="seventh" data-lesson="seventh">
+      <h2><span class="pill">09</span> 七和弦：比三和弦更丰富一步</h2>
+      <p class="muted">在三和弦上继续往上叠一个三度，就得到七和弦。你可以把它理解成“在原本稳定骨架上再加一层色彩和张力”。属七和弦尤其重要，因为它最常承担推动回主功能的任务。</p>
+      <div class="lesson-gate" id="seventhGate"></div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">概念速读</h3>
+        <p class="muted">七和弦是在三和弦上继续叠一个三度得到的。它比三和弦更密集，也更容易带出色彩和张力。入门时最重要的是先抓住“它比三和弦多了哪一层感觉”。</p>
+        <h3>判断步骤</h3>
+        <ol>
+          <li>先确认底层三和弦属于哪一类。</li>
+          <li>再看顶部叠出的七度是大七、小七还是别的变化。</li>
+          <li>最后结合当前调，判断它的色彩和解决方向。</li>
+        </ol>
+        <h3>常见误区</h3>
+        <ul>
+          <li>一看到四个音就慌，忘了它本质还是“在三和弦上继续叠三度”。</li>
+          <li>把属七和弦当成所有七和弦的唯一代表。</li>
+          <li>不结合当前调去判断解决方向，只盯着名字看。</li>
+        </ul>
+        <h3>例子拆解</h3>
+        <p class="muted">G7 在 C 大调里最常回到 C，因为它不只是“四个音叠起来”，而是在当前调中承担最典型的属功能推动。理解“为什么它想回去”，比背名字更重要。</p>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">这一章和后面内容的关系</h3>
+        <ul>
+          <li><strong>七和弦 → 和弦功能：</strong>七度的加入常会强化原本的功能方向，尤其是属功能。</li>
+          <li><strong>七和弦 → 终止式：</strong>属七进入主和弦，是很多句末强收束的重要来源。</li>
+          <li><strong>七和弦 → 转调 / 副属：</strong>很多副属和弦会以七和弦形式出现，让方向感更明显。</li>
+        </ul>
+        <p class="muted">学七和弦，不是把三和弦推翻，而是让你看到和声为什么会更“会说话”。</p>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">学完这章你应该会什么</h3>
+        <ul>
+          <li>能理解七和弦是在三和弦基础上增加的一层色彩与张力。</li>
+          <li>能区分“只是四个音”与“有明确解决方向”的差别。</li>
+          <li>为副属和弦、强属功能判断打下基础。</li>
+        </ul>
+      </div>
+      <ul>
+        <li><strong>大七和弦</strong>：大三和弦 + 大七度，色彩细腻。</li>
+        <li><strong>属七和弦</strong>：大三和弦 + 小七度，解决倾向很强。</li>
+        <li><strong>小七和弦</strong>：小三和弦 + 小七度，流行和爵士里很常见。</li>
+        <li><strong>半减七和弦</strong>：比普通三和弦更不稳定，常用于导向。</li>
+      </ul>
+      <div class="mini-trainer" data-mini="seventh"></div>
+      <div class="chapter-exam" data-exam="seventh">
+        <h3 style="margin-top:0;">章节测验：七和弦</h3>
+        <div class="muted">先区分属七和弦，再扩展到其他常见七和弦类型。</div>
+      </div>
+      <div class="practice-box">
+        <strong>本章练习建议</strong>
+        <div class="practice-list">
+          <div>先盯住 G7 在 C 大调里的推动感，再去看其他七和弦。</div>
+          <button class="cta secondary lesson-done-btn" data-lesson-done="seventh">标记本章已学习</button>
+          <div class="muted" id="seventhStatus">本章状态：未完成</div>
+          <a class="cta secondary lesson-link" data-preset="seventh" href="./index.html?lesson=seventh&clef=mixed&accidentalMode=natural&positionMode=mixed&theoryMode=middleC&rangeMin=B2&rangeMax=D5">开始本章练习：回到训练器</a>
+        </div>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">下一步建议</h3>
+        <p class="muted">七和弦学完之后，最值得继续去看<strong>转调</strong>和<strong>借用 / 副属</strong>，因为很多更强的方向感、色彩感，都会在这两章里真正连起来。</p>
+        <div class="cta-row">
+          <a class="cta ghost" href="#modulation">下一站：转调</a>
+          <a class="cta ghost" href="#borrowed">并行补充：借用 / 副属</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="modulation" data-lesson="modulation">
+      <h2><span class="pill">10</span> 转调入门：音乐为什么会“换了一个家”</h2>
+      <p class="muted">转调不是简单出现一个临时升降号，而是音乐重心真的逐渐搬到了另一个调性中心。很多初学者会把“有变化音”误以为“已经转调”，但真正的转调通常会伴随新的主音重心、新的属功能和更明确的落地感。</p>
+      <div class="lesson-gate" id="modulationGate"></div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">概念速读</h3>
+        <p class="muted">转调不是“出现一个变化音”这么简单，而是音乐的重心真的开始向新主音搬移。也就是说，新的中心、属功能和收束感会逐步建立起来，而不是只在表面多了一个升降号。</p>
+        <h3>判断步骤</h3>
+        <ol>
+          <li>先看变化音是不是持续出现，还是只是一闪而过。</li>
+          <li>再看有没有新的属—主关系在建立。</li>
+          <li>最后确认音乐是否真的在新中心落地，而不只是短暂借色。</li>
+        </ol>
+        <h3>常见误区</h3>
+        <ul>
+          <li>只要看到临时升降号就立刻判成转调。</li>
+          <li>把借用和弦、副属和弦也全都误判成正式转调。</li>
+          <li>不看后续收束，只看单个瞬间和弦。</li>
+        </ul>
+        <h3>例子拆解</h3>
+        <p class="muted">从 C 大调转向 G 大调时，如果后面不断强化 D→G、G 的稳定感，并在 G 上落地，那才更像真正转过去；只出现一个 F#，通常还不够下结论。</p>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">这一章和后面内容的关系</h3>
+        <ul>
+          <li><strong>转调 → 调号与调性：</strong>它是“调性中心变化”这件事最动态的版本。</li>
+          <li><strong>转调 → 五度圈：</strong>很多常见转调都能先用五度圈判断远近和自然程度。</li>
+          <li><strong>转调 → 借用 / 副属：</strong>这几者最容易混淆，关键是看有没有真正搬到新中心。</li>
+        </ul>
+        <p class="muted">这一章会把前面学到的调性、功能、终止感全部串起来，是综合度很高的一章。</p>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">速记口诀 / 一眼判断法</h3>
+        <ul>
+          <li><strong>有变化音，不等于已转调。</strong></li>
+          <li><strong>要看新属音、新主音、新落地。</strong></li>
+          <li><strong>先找“有没有真的搬家”，再下结论。</strong></li>
+        </ul>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">学完这章你应该会什么</h3>
+        <ul>
+          <li>不会再把所有变化音都直接判成转调。</li>
+          <li>会看新中心、新属功能和新落地是否真正建立。</li>
+          <li>能把转调和借用 / 副属区分得更清楚。</li>
+        </ul>
+      </div>
+      <ul>
+        <li><strong>临时变化音</strong>可能只是装饰、经过或短暂色彩，不一定构成转调。</li>
+        <li><strong>真正转调</strong>通常会出现新调的属和弦、主和弦或更稳定的收束。</li>
+        <li><strong>近关系转调</strong>最常见，因为听感更自然，例如 C 大调转到 G 大调、F 大调或 A 小调。</li>
+      </ul>
+      <div class="mini-trainer" data-mini="modulation"></div>
+      <div class="chapter-exam" data-exam="modulation">
+        <h3 style="margin-top:0;">章节测验：转调入门</h3>
+        <div class="muted">重点先分清“临时变化”和“真正重心改变”。</div>
+      </div>
+      <div class="practice-box">
+        <strong>本章练习建议</strong>
+        <div class="practice-list">
+          <div>先比较“只出现一个变化音”和“最后真的落到新主音”这两种情况。</div>
+          <button class="cta secondary lesson-done-btn" data-lesson-done="modulation">标记本章已学习</button>
+          <div class="muted" id="modulationStatus">本章状态：未完成</div>
+          <a class="cta secondary lesson-link" data-preset="modulation" href="./index.html?lesson=modulation&clef=mixed&accidentalMode=mixed&positionMode=mixed&theoryMode=normal&rangeMin=C3&rangeMax=E5">开始本章练习：回到训练器</a>
+        </div>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">下一步建议</h3>
+        <p class="muted">转调这一章已经比较综合了。学完后建议去看<strong>借用 / 副属</strong>，专门练“颜色变化但未必真的换家”的判断；然后回到<strong>综合训练</strong>做跨章节验收。</p>
+        <div class="cta-row">
+          <a class="cta ghost" href="#borrowed">下一站：借用 / 副属</a>
+          <a class="cta ghost" href="#mastery">去综合训练验收</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="borrowed" data-lesson="borrowed">
+      <h2><span class="pill">11</span> 借用和弦 / 副属和弦入门</h2>
+      <p class="muted">当你听到某个和弦突然让颜色更浓、方向更强，往往已经开始碰到借用和弦或副属和弦了。入门阶段不用一次把所有标记背完，先抓住“它为什么突然更有味道”。</p>
+      <div class="lesson-gate" id="borrowedGate"></div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">概念速读</h3>
+        <p class="muted">借用和弦、副属和弦都属于“暂时偏离原调”的常见手法。它们的关键不是把你完全带到新调，而是给原本的和声骨架增加颜色或方向感。</p>
+        <h3>判断步骤</h3>
+        <ol>
+          <li>先确认原调基准还在不在。</li>
+          <li>再看这个和弦是从同主音大小调借来的，还是在临时加强某个目标和弦。</li>
+          <li>最后判断它是“加色彩”还是“真的搬家”。</li>
+        </ol>
+        <h3>常见误区</h3>
+        <ul>
+          <li>看到陌生和弦就直接判成转调。</li>
+          <li>只记符号，不理解它为什么会让颜色突然变浓。</li>
+          <li>没有原调基准，导致借用和副属都失去参照物。</li>
+        </ul>
+        <h3>例子拆解</h3>
+        <p class="muted">C 大调里出现 Fm，常被理解为从同主音小调借来的 iv；D7→G 则更像是临时强化 G 的副属方向。它们都会“变味”，但并不一定意味着已经正式转调。</p>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">这一章和前面内容的关系</h3>
+        <ul>
+          <li><strong>借用 / 副属 → 调性：</strong>它们都建立在“原调还存在”这个前提上。</li>
+          <li><strong>借用 / 副属 → 功能：</strong>很多副属和弦本质是在临时加强某个目标和弦的功能方向。</li>
+          <li><strong>借用 / 副属 → 转调：</strong>它们最容易和转调混淆，所以一定要看有没有真正的新中心建立。</li>
+        </ul>
+        <p class="muted">学到这里，你已经开始从“单章知识”走向“综合判断”了。</p>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">速记口诀 / 一眼判断法</h3>
+        <ul>
+          <li><strong>颜色变了，不一定搬家了。</strong></li>
+          <li><strong>副属常是“临时推一下”，借用常是“临时染个色”。</strong></li>
+          <li><strong>先守住原调，再判断是不是偏离。</strong></li>
+        </ul>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">学完这章你应该会什么</h3>
+        <ul>
+          <li>能理解借用和弦 / 副属和弦是在原调框架里加色彩或加推动。</li>
+          <li>遇到“突然变味”的和弦时，不会立刻误判成正式转调。</li>
+          <li>开始具备更接近真实音乐分析的综合判断视角。</li>
+        </ul>
+      </div>
+      <ul>
+        <li><strong>借用和弦</strong>：从同主音大小调借来的和弦，例如 C 大调里借 iv（Fm）。</li>
+        <li><strong>副属和弦</strong>：暂时把某个非主和弦当目标，对它先做一个“属功能推动”。</li>
+        <li><strong>学习重点</strong>：先听出“色彩变化”和“临时导向”，再去熟悉名称。</li>
+      </ul>
+      <div class="mini-trainer" data-mini="borrowed"></div>
+      <div class="chapter-exam" data-exam="borrowed">
+        <h3 style="margin-top:0;">章节测验：借用和弦 / 副属和弦</h3>
+        <div class="muted">先会区分“借来颜色”与“临时导向”这两种逻辑。</div>
+      </div>
+      <div class="practice-box">
+        <strong>本章练习建议</strong>
+        <div class="practice-list">
+          <div>先盯住 C 大调里的 Fm（借用）和 D7 → G（副属导向）这两类典型例子。</div>
+          <button class="cta secondary lesson-done-btn" data-lesson-done="borrowed">标记本章已学习</button>
+          <div class="muted" id="borrowedStatus">本章状态：未完成</div>
+          <a class="cta secondary lesson-link" data-preset="borrowed" href="./index.html?lesson=borrowed&clef=treble&accidentalMode=mixed&positionMode=mixed&theoryMode=middleC&rangeMin=B3&rangeMax=F4">开始本章练习：回到训练器</a>
+        </div>
+      </div>
+      <div class="info-box">
+        <h3 style="margin-top:0;">下一步建议</h3>
+        <p class="muted">这一章学完后，最推荐直接去做<strong>综合训练</strong>和错题回练，因为借用 / 副属最怕只会名词，不会放进整体调性里判断。</p>
+        <div class="cta-row">
+          <a class="cta ghost" href="#mastery">去综合训练验收</a>
+          <a class="cta ghost" href="#mistakeNotebookPanel">去错题本再练</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="mastery">
+      <h2><span class="pill">12</span> 阶段性综合测试</h2>
+      <p class="muted">这不是单章小测，而是把音程、调号、和弦、终止式、转调这些概念混在一起，看你是不是已经能跨章节判断。</p>
+      <div class="mastery-box" id="earTrainingBox">
+        <h3 style="margin-top:0;">听感训练引导</h3>
+        <div class="muted">这一组先不要求你真的听音频，而是训练你在脑中建立“应该注意什么”的听感关注点。</div>
+      </div>
+      <div class="audio-box" id="intervalEarBox">
+        <h3 style="margin-top:0;">音程提示音练耳</h3>
+        <div class="muted">点击播放两个音，先判断它更接近哪一种音程。使用浏览器 Web Audio 直接发声。</div>
+      </div>
+      <div class="audio-box" id="chordEarBox">
+        <h3 style="margin-top:0;">和弦听感训练</h3>
+        <div class="muted">先听和弦整体色彩，再判断更像大三和弦、小三和弦还是属七和弦。</div>
+      </div>
+      <div class="audio-box" id="cadenceEarBox">
+        <h3 style="margin-top:0;">终止式听感训练</h3>
+        <div class="muted">先听一个两和弦进行，再判断更像真终止、半终止还是阻碍终止。</div>
+      </div>
+      <div class="ear-exam-box" id="earExamBox">
+        <h3 style="margin-top:0;">练耳阶段考试</h3>
+        <div class="muted">按当前练耳等级随机抽 3 题，混合音程 / 和弦 / 终止式，做一次小验收。</div>
+      </div>
+      <div class="mastery-box" id="masteryExamBox"></div>
+      <div class="mastery-box" id="rhythmTapBox">
+        <h3 style="margin-top:0;">节奏点击练习</h3>
+        <div class="muted">看提示点击 4 格节奏型。● 表示强拍 / 需要点击，○ 表示留空。答对后会记入本地进度。</div>
+      </div>
+    </section>
+
+    <section class="card" id="pitfalls">
+      <h2>识谱常见误区</h2>
+      <div class="compact-list">
+        <div class="compact-item"><strong>1. 线和间混着背：</strong>更稳的做法是分开记，高音谱号先记线再记间，低音谱号也一样。</div>
+        <div class="compact-item"><strong>2. 中央 C 反应慢：</strong>把中央 C 当桥梁定位点，一认出来，附近音就能顺着数出来。</div>
+        <div class="compact-item"><strong>3. 只背音名不看走向：</strong>识谱不只是认单点，还要看旋律是在上行、下行还是跳进。</div>
+        <div class="compact-item"><strong>4. 忘记调号默认升降：</strong>例如 G 大调里的 F 默认就是 F♯，不要每次从零判断。</div>
+        <div class="compact-item"><strong>5. 临时记号作用范围记错：</strong>通常只在当前小节、同音名且同八度位置内生效。</div>
+      </div>
+      <div class="practice-box">
+        <strong>纠偏建议</strong>
+        <div class="practice-list">
+          <div>先固定一个谱号和较小范围，把位置感练熟，再扩到混合位置。</div>
+          <div>调号总是犹豫时，先固定当前调练 1-2 轮，再切近关系轮换。</div>
+          <div>如果总把加线音看错，建议单独切到“加线”区域模式做短轮训练。</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="plan">
+      <h2>推荐学习顺序</h2>
+      <div class="compact-list">
+        <div class="compact-item"><strong>识谱基础：</strong>高音谱号自然音 → 低音谱号自然音 → 中央 C 专项 → 线 / 间专项 → 八度强化。</div>
+        <div class="compact-item"><strong>升降号过渡：</strong>升号 / 降号练熟后，再进入调号与调性感。</div>
+        <div class="compact-item"><strong>乐理主线：</strong>音程入门 → 节奏与拍号 → 音阶与调式 → 调号与五度圈 → 三和弦与和弦功能。</div>
+      </div>
+      <p class="muted">这条顺序更稳，不容易出现“会做题但不知道为什么”的情况。</p>
+    </section>
+      </div>
+    </div>
+    <button class="back-to-top-btn" id="backToTopBtn" type="button" aria-label="回到顶部">↑ 回到顶部</button>
+  </div>
+
+  <script>
+    const STORAGE_KEY = 'note-trainer-learn-progress-v1';
+    const noteSemitones = {
+      'C': 0, 'C#': 1, 'Db': 1, 'D': 2, 'D#': 3, 'Eb': 3, 'E': 4, 'Fb': 4,
+      'E#': 5, 'F': 5, 'F#': 6, 'Gb': 6, 'G': 7, 'G#': 8, 'Ab': 8,
+      'A': 9, 'A#': 10, 'Bb': 10, 'B': 11, 'Cb': 11, 'B#': 0
+    };
+    const letters = ['C','D','E','F','G','A','B'];
+    const degreeNames = ['一度','二度','三度','四度','五度','六度','七度'];
+    const miniData = {
+      intervals: [
+        { q: 'C 到 E 是什么音程？', options: ['大三度', '小三度', '纯四度'], answer: '大三度' },
+        { q: 'C 到 Eb 是什么音程？', options: ['小三度', '大三度', '纯五度'], answer: '小三度' },
+        { q: 'C 到 G 是什么音程？', options: ['纯四度', '纯五度', '大六度'], answer: '纯五度' },
+        { q: 'D 到 A 是什么音程？', options: ['纯五度', '纯四度', '大六度'], answer: '纯五度' },
+        { q: 'E 到 F 更接近什么音程？', options: ['小二度', '大二度', '小三度'], answer: '小二度' },
+        { q: 'A 到 C# 更接近什么音程？', options: ['大三度', '小三度', '纯四度'], answer: '大三度' },
+        { q: 'G 到 C 更接近什么音程？', options: ['纯四度', '纯五度', '小六度'], answer: '纯四度' },
+        { q: 'B 到 D 更接近什么音程？', options: ['小三度', '大三度', '纯四度'], answer: '小三度' },
+        { q: 'F 到 B 更接近什么音程？', options: ['增四度', '纯四度', '纯五度'], answer: '增四度' },
+        { q: 'C 到 B 更接近什么音程？', options: ['大七度', '小七度', '大六度'], answer: '大七度' }
+      ],
+      circle: [
+        { q: 'F 大调通常有几个降号？', options: ['没有', '1个降号', '2个降号'], answer: '1个降号' },
+        { q: 'D 大调通常有几个升号？', options: ['1个升号', '2个升号', '3个升号'], answer: '2个升号' },
+        { q: 'C 大调的关系小调是？', options: ['Am', 'Em', 'Dm'], answer: 'Am' },
+        { q: 'Bb 大调通常有几个降号？', options: ['1个降号', '2个降号', '3个降号'], answer: '2个降号' },
+        { q: 'A 大调通常有几个升号？', options: ['2个升号', '3个升号', '4个升号'], answer: '3个升号' },
+        { q: '五度圈上 C 大调右边紧邻通常是？', options: ['G 大调', 'F 大调', 'D 大调'], answer: 'G 大调' },
+        { q: '五度圈上 C 大调左边紧邻通常是？', options: ['F 大调', 'Bb 大调', 'G 大调'], answer: 'F 大调' },
+        { q: 'E 大调通常有几个升号？', options: ['3个升号', '4个升号', '5个升号'], answer: '4个升号' },
+        { q: 'Eb 大调通常有几个降号？', options: ['2个降号', '3个降号', '4个降号'], answer: '3个降号' },
+        { q: 'G 大调的关系小调通常是？', options: ['Em', 'Bm', 'Am'], answer: 'Em' }
+      ],
+      keys: [
+        { q: 'C 大调和 A 小调的关系更接近？', options: ['关系大小调', '同主音大小调', '完全不同系统'], answer: '关系大小调' },
+        { q: '判断调性时，最不能只看什么？', options: ['只看调号', '旋律结束音', '和弦重心'], answer: '只看调号' },
+        { q: 'G 大调与 E 小调的共同点是？', options: ['调号相同', '主音相同', '属功能相同'], answer: '调号相同' },
+        { q: 'C 大调与 C 小调更接近哪种关系？', options: ['同主音大小调', '关系大小调', '完全无关调'], answer: '同主音大小调' },
+        { q: '同样看到一个升号，最稳妥的判断是？', options: ['可能是 G 大调或 E 小调', '一定是 G 大调', '一定是 E 小调'], answer: '可能是 G 大调或 E 小调' },
+        { q: '真正决定“家在哪”的更关键因素是？', options: ['主音重心', '谱子长度', '拍号大小'], answer: '主音重心' },
+        { q: 'D 大调与 B 小调的关系更接近？', options: ['关系大小调', '同主音大小调', '转调关系'], answer: '关系大小调' },
+        { q: 'A 小调与 A 大调更接近？', options: ['同主音大小调', '关系大小调', '完全无关'], answer: '同主音大小调' },
+        { q: '如果旋律反复收在 A，和声也围绕 A 落稳，更可能是？', options: ['A 是主音中心', '一定还是 C 大调', '不能判断'], answer: 'A 是主音中心' },
+        { q: '调号相同但主音不同，最容易形成什么现象？', options: ['关系大小调', '拍号变化', '终止式消失'], answer: '关系大小调' }
+      ],
+      chords: [
+        { q: 'C-E-G 更常见是什么和弦？', options: ['大三和弦', '小三和弦', '减三和弦'], answer: '大三和弦' },
+        { q: 'A-C-E 更常见是什么和弦？', options: ['小三和弦', '大三和弦', '增三和弦'], answer: '小三和弦' },
+        { q: 'B-D-F 的张力通常比大小三和弦更？', options: ['更强', '更弱', '完全一样'], answer: '更强' },
+        { q: 'C-E-G# 更接近什么和弦？', options: ['增三和弦', '减三和弦', '小三和弦'], answer: '增三和弦' },
+        { q: '大三和弦最典型的内部堆叠是？', options: ['大三度 + 小三度', '小三度 + 大三度', '小三度 + 小三度'], answer: '大三度 + 小三度' },
+        { q: '减三和弦往往给人的感觉更接近？', options: ['紧张不稳定', '非常安稳', '没有方向'], answer: '紧张不稳定' },
+        { q: 'D-F#-A 更常见属于？', options: ['大三和弦', '小三和弦', '减三和弦'], answer: '大三和弦' },
+        { q: 'E-G-B 更常见属于？', options: ['小三和弦', '大三和弦', '增三和弦'], answer: '小三和弦' },
+        { q: '两个小三度叠起来更接近？', options: ['减三和弦', '大三和弦', '增三和弦'], answer: '减三和弦' },
+        { q: '两个大三度叠起来更接近？', options: ['增三和弦', '减三和弦', '小三和弦'], answer: '增三和弦' }
+      ],
+      functions: [
+        { q: '在 C 大调里，F 更常见属于什么功能？', options: ['主功能', '下属功能', '属功能'], answer: '下属功能' },
+        { q: '在 C 大调里，G7 更常见属于什么功能？', options: ['属功能', '主功能', '下属功能'], answer: '属功能' },
+        { q: 'T → S → D → T 里最后回到哪里？', options: ['下属', '主功能', '属功能'], answer: '主功能' },
+        { q: '最像“回家”的功能通常是？', options: ['主功能', '属功能', '下属功能'], answer: '主功能' },
+        { q: '最像“想回家”的功能通常是？', options: ['属功能', '主功能', '下属功能'], answer: '属功能' },
+        { q: '在 C 大调里，Dm 更常常归到？', options: ['下属方向', '属方向', '主方向'], answer: '下属方向' },
+        { q: '在 G 大调里，D 或 D7 更常见属于？', options: ['属功能', '主功能', '下属功能'], answer: '属功能' },
+        { q: '在 C 大调里，Am 更常被感受到更靠近哪一边？', options: ['主功能方向', '属功能方向', '完全无关'], answer: '主功能方向' },
+        { q: 'T → D 之后最常期待什么？', options: ['回到主功能', '继续远离中心', '拍号变化'], answer: '回到主功能' },
+        { q: '下属功能常在功能链里起什么作用？', options: ['把音乐从主功能推出去', '直接完成最终收束', '取消调性'], answer: '把音乐从主功能推出去' }
+      ],
+      rhythm: [
+        { q: '4/4 表示什么？', options: ['每小节4拍，以四分音符为一拍', '每小节4拍，以八分音符为一拍', '每小节3拍'], answer: '每小节4拍，以四分音符为一拍' },
+        { q: '3/4 常见感受更接近哪种？', options: ['三拍子', '两拍子', '没有拍感'], answer: '三拍子' },
+        { q: '2/4 更常见的基础感觉是？', options: ['强 弱', '强 弱 弱', '弱 强 弱'], answer: '强 弱' },
+        { q: '6/8 初学时更适合理解成？', options: ['两大拍里的三连分感', '和 3/4 完全一样', '没有强弱'], answer: '两大拍里的三连分感' },
+        { q: '拍号上面的数字通常表示？', options: ['每小节有几拍', '用什么音高开始', '速度多快'], answer: '每小节有几拍' },
+        { q: '拍号下面的数字通常表示？', options: ['以什么音符作一拍', '一共有多少个小节', '调号数量'], answer: '以什么音符作一拍' },
+        { q: '3/4 与 6/8 初学时最容易混在哪？', options: ['都可能被误听成三拍摆动', '都没有重音', '都只用于进行曲'], answer: '都可能被误听成三拍摆动' },
+        { q: '如果一小节里明显有两大拍，每拍再分三小份，更像？', options: ['6/8', '3/4', '2/4'], answer: '6/8' },
+        { q: '4/4 最基础的强弱关系更常接近？', options: ['强 弱 次强 弱', '强 弱 弱', '强 强 弱 弱'], answer: '强 弱 次强 弱' },
+        { q: '节奏学习的第一关注点更应该是？', options: ['时间组织和拍感', '调号多少', '和弦转位'], answer: '时间组织和拍感' }
+      ],
+      scales: [
+        { q: 'C 大调与 A 自然小调的共同点是？', options: ['升降号相同', '主音相同', '完全同一个调'], answer: '升降号相同' },
+        { q: '大调通常给人的感觉更接近？', options: ['明亮稳定', '更紧张不安', '没有中心'], answer: '明亮稳定' },
+        { q: '五声音阶常见特点更接近？', options: ['省略部分半音冲突，旋律更顺口', '一定包含所有七个音级', '只能用于古典音乐'], answer: '省略部分半音冲突，旋律更顺口' },
+        { q: '自然小调整体气质更常被描述为？', options: ['偏暗一些', '比大调更明亮', '完全无中心'], answer: '偏暗一些' },
+        { q: '同主音大小调的主音关系是？', options: ['主音相同', '调号相同', '属音相同'], answer: '主音相同' },
+        { q: '音阶练习的核心之一是？', options: ['感受音级之间的稳定与倾向', '只背指法不听', '忽略主音'], answer: '感受音级之间的稳定与倾向' },
+        { q: 'G 大调与 E 小调最容易让人混淆，因为？', options: ['调号相同但主音不同', '主音相同', '拍号相同'], answer: '调号相同但主音不同' },
+        { q: '五声音阶常被觉得更“顺口”，常见原因是？', options: ['少了部分半音摩擦', '一定更快', '没有主音'], answer: '少了部分半音摩擦' },
+        { q: '如果主音相同但色彩明暗变化明显，更可能是？', options: ['同主音大小调切换', '关系大小调', '拍号变化'], answer: '同主音大小调切换' },
+        { q: '音阶不只是音名表，它还帮助你理解什么？', options: ['旋律材料与主音中心', '页面排版', '速度记号'], answer: '旋律材料与主音中心' }
+      ],
+      cadence: [
+        { q: 'V → I 最常给人的感觉是？', options: ['真正落地', '只是悬住', '完全没有方向'], answer: '真正落地' },
+        { q: '停在属功能上更像哪类终止？', options: ['半终止', '完全终止', '变格终止'], answer: '半终止' },
+        { q: 'V → vi 更像哪种效果？', options: ['被“拐走”了，没按预期落地', '最稳定的结束', '和完全终止完全相同'], answer: '被“拐走”了，没按预期落地' },
+        { q: 'IV → I 更常被称作？', options: ['变格终止', '完全终止', '阻碍终止'], answer: '变格终止' },
+        { q: '终止式学习最重要的是先抓什么？', options: ['落地感和方向感', '复杂术语数量', '换调速度'], answer: '落地感和方向感' },
+        { q: '半终止最常停在哪里？', options: ['属功能', '主功能', '下属功能'], answer: '属功能' },
+        { q: '完全终止为什么最像“句号”？', options: ['因为属回主，方向最明确', '因为音更高', '因为节奏更快'], answer: '因为属回主，方向最明确' },
+        { q: '阻碍终止为什么让人意外？', options: ['因为预期回主却转去了别处', '因为主音消失', '因为拍号改变'], answer: '因为预期回主却转去了别处' },
+        { q: '变格终止更常给人的感觉是？', options: ['柔和收束', '最强悬念', '没有中心'], answer: '柔和收束' },
+        { q: '如果音乐停在属功能，最自然的下一步期待通常是？', options: ['继续回主', '彻底结束在属', '变成拍号练习'], answer: '继续回主' }
+      ],
+      seventh: [
+        { q: 'G7 在 C 大调里最常见的作用是？', options: ['推动回 C', '替代下属功能', '只是装饰没有方向'], answer: '推动回 C' },
+        { q: '七和弦相对三和弦通常会？', options: ['多一层色彩和张力', '更简单', '少一个音'], answer: '多一层色彩和张力' },
+        { q: '属七和弦最值得先熟悉的是？', options: ['解决倾向', '记更多稀有名称', '忽略它与调性的关系'], answer: '解决倾向' },
+        { q: '七和弦是在什么基础上继续叠出来的？', options: ['三和弦', '音阶', '拍号'], answer: '三和弦' },
+        { q: '属七和弦里更强的不稳定感来自？', options: ['多出的七度音与功能张力', '谱号变化', '节奏变慢'], answer: '多出的七度音与功能张力' },
+        { q: '学习七和弦第一步更适合先抓？', options: ['听它如何解决', '先背大量冷门分类', '忽略所在调性'], answer: '听它如何解决' },
+        { q: '在 C 大调里，哪一个最像典型属七和弦？', options: ['G-B-D-F', 'C-E-G-B', 'F-A-C-E'], answer: 'G-B-D-F' },
+        { q: '七和弦相比普通三和弦，常让人觉得？', options: ['更丰富也更不稳', '更空白', '与调性切断'], answer: '更丰富也更不稳' },
+        { q: '属七和弦最常见的目标和弦通常是？', options: ['主和弦', '下属和弦', '任意和弦都一样'], answer: '主和弦' },
+        { q: '学习七和弦如果只背名称不听解决，最大问题是？', options: ['很难形成真正的功能感觉', '会更容易', '不会有差别'], answer: '很难形成真正的功能感觉' }
+      ],
+      modulation: [
+        { q: '只出现一个临时变化音，就一定算转调吗？', options: ['不一定', '一定算', '只有在钢琴曲里才算'], answer: '不一定' },
+        { q: '真正转调更重要的特征是？', options: ['主音重心变了', '速度快了', '音符更多了'], answer: '主音重心变了' },
+        { q: 'C 大调转到 G 大调更接近哪类？', options: ['近关系转调', '完全无关转调', '不算转调'], answer: '近关系转调' },
+        { q: '如果只是短暂出现变化音，更稳妥的初步判断通常是？', options: ['可能只是临时变化', '一定已转调', '一定是终止'], answer: '可能只是临时变化' },
+        { q: '近关系转调通常更容易被接受，因为？', options: ['共享较多音与调号背景', '一定更短', '不用主音重心'], answer: '共享较多音与调号背景' },
+        { q: '判断转调时除了调号，更要观察？', options: ['收束和功能走向', '音符颜色', '页面布局'], answer: '收束和功能走向' },
+        { q: '如果新和弦反复强化、旋律也在新音中心收束，更可能是？', options: ['转调已经建立', '只是临时变化', '只是节奏改变'], answer: '转调已经建立' },
+        { q: 'C 到 Am 更常被叫做？', options: ['关系调切换', '完全无关调', '不可能发生'], answer: '关系调切换' },
+        { q: '看到变化音后最不稳妥的习惯是？', options: ['立刻断言已经转调', '继续观察语境', '结合收束判断'], answer: '立刻断言已经转调' },
+        { q: '转调判断的核心不是谱面更复杂，而是？', options: ['中心真的换了', '拍子变快了', '音更高了'], answer: '中心真的换了' }
+      ],
+      borrowed: [
+        { q: 'C 大调里突然出现 Fm，更常让人联想到？', options: ['借用和弦', '必须已经转调', '只是节拍变化'], answer: '借用和弦' },
+        { q: 'D7 → G 这种临时导向更接近？', options: ['副属和弦', '变格终止', '五声音阶'], answer: '副属和弦' },
+        { q: '借用和弦学习第一步更适合先抓什么？', options: ['色彩变化', '所有复杂标记', '忽略听感'], answer: '色彩变化' },
+        { q: '借用和弦最常从哪里“借”？', options: ['同主音大小调', '完全无关调', '拍号系统'], answer: '同主音大小调' },
+        { q: '副属和弦最常见的听感作用是？', options: ['临时加强目标和弦导向', '取消主音中心', '让节奏变快'], answer: '临时加强目标和弦导向' },
+        { q: '学习副属和弦时最值得先观察？', options: ['它想推向哪个和弦', '版面用了什么颜色', '是否写得更密'], answer: '它想推向哪个和弦' },
+        { q: '在 C 大调里 A7 → Dm 更常被看作？', options: ['Dm 的副属和弦', '完全终止', '转到 A 大调'], answer: 'Dm 的副属和弦' },
+        { q: '借用和弦为什么容易让人觉得“熟悉但变暗/变亮”？', options: ['因为仍依附原调背景，只是临时换色', '因为已经完全换调', '因为节奏变了'], answer: '因为仍依附原调背景，只是临时换色' },
+        { q: '副属和弦和真正转调的差别之一在于？', options: ['副属不一定建立新主音中心', '副属一定改变拍号', '副属没有目标'], answer: '副属不一定建立新主音中心' },
+        { q: '学习借用和弦如果完全忽略听感，最大问题是？', options: ['很难理解它为什么“偏色”', '会更简单', '不会有影响'], answer: '很难理解它为什么“偏色”' }
+      ]
+    };
+
+    const chapterExamData = {
+      circle: [
+        { q: 'G 大调通常有几个升号？', options: ['1 个升号', '2 个升号', '1 个降号'], answer: '1 个升号', explain: 'G 大调的调号只有一个升号 F♯，这是五度圈中从 C 往右第一步。', reason: '把 G 大调误记成两个升号，通常是把它和 D 大调混了。' },
+        { q: 'C 大调的关系小调是？', options: ['Am', 'Em', 'Dm'], answer: 'Am', explain: '关系大小调共用同一组调号；C 大调没有升降号，对应的关系小调是 A 小调。', reason: '错在把“关系小调”当成属调或下属调去猜。' },
+        { q: '升号顺序开头通常是？', options: ['F♯、C♯', 'B♭、E♭', 'G♯、D♯'], answer: 'F♯、C♯', explain: '升号顺序固定为 F♯、C♯、G♯、D♯、A♯、E♯、B♯。', reason: '常见错误是把升号顺序和降号顺序混写。' },
+        { q: 'Bb 大调通常有几个降号？', options: ['1 个降号', '2 个降号', '3 个降号'], answer: '2 个降号', explain: 'Bb 大调调号是 B♭、E♭ 两个降号。', reason: '容易把 Bb 大调和 F 大调 / Eb 大调挤在一起记混。' },
+        { q: '五度圈中 C 左边紧邻通常是？', options: ['F 大调', 'G 大调', 'Bb 大调'], answer: 'F 大调', explain: '从 C 往左是降号方向，第一步就是 F 大调。', reason: '如果选 G，大多是把五度圈左右方向记反了。' },
+        { q: 'D 大调的关系小调通常是？', options: ['Bm', 'Em', 'F#m'], answer: 'Bm', explain: 'D 大调有两个升号，对应关系小调是 B 小调。', reason: '错选 Em 或 F#m，通常是在用“相邻调”代替“关系调”。' },
+        { q: 'A 大调通常有几个升号？', options: ['2 个升号', '3 个升号', '4 个升号'], answer: '3 个升号', explain: 'A 大调调号是 F♯、C♯、G♯。', reason: '这题常错在把 A 大调和 D / E 大调的升号数量串台。' },
+        { q: 'Eb 大调通常有几个降号？', options: ['2 个降号', '3 个降号', '4 个降号'], answer: '3 个降号', explain: 'Eb 大调调号是 B♭、E♭、A♭。', reason: '如果选 2 个，多半是把它和 Bb 大调混了。' },
+        { q: '五度圈上 C 大调右边第二步通常是？', options: ['D 大调', 'A 大调', 'F 大调'], answer: 'D 大调', explain: '从 C 往右依次是 G、D、A……', reason: '容易因为只记住相邻一格，第二步就开始乱。' },
+        { q: 'F 大调的关系小调通常是？', options: ['Dm', 'Am', 'Gm'], answer: 'Dm', explain: 'F 大调有一个降号，对应关系小调是 D 小调。', reason: '常见错误是把关系小调错当成同主音或属调。' }
+      ],
+      keys: [
+        { q: '关系大小调最核心的共同点是？', options: ['调号相同', '主音相同', '终止式完全相同'], answer: '调号相同', explain: '关系大小调共享同一组升降号，但主音不同，所以听感中心也不同。', reason: '常见错误是把“关系大小调”和“同主音大小调”混成一类。' },
+        { q: '同样 0 个升降号，可能对应哪一组？', options: ['C 大调 / A 小调', 'G 大调 / E 小调', 'F 大调 / D 小调'], answer: 'C 大调 / A 小调', explain: '0 个升降号这组最基础的关系调就是 C 大调与 A 小调。', reason: '这题常错在没先锁定“0 个升降号”对应哪一组关系调。' },
+        { q: '判断真正调性时，更需要看？', options: ['主音重心与收束', '只看第一个音', '只看速度标记'], answer: '主音重心与收束', explain: '调号只是外壳，真正的调性要看音乐是否围绕某个主音落稳。', reason: '如果只盯调号或第一个音，容易把“材料”误当成“中心”。' },
+        { q: '同主音大小调最重要的共同点是？', options: ['主音相同', '调号相同', '关系调相同'], answer: '主音相同', explain: '同主音大小调主音一致，但升降号常不同。', reason: '最常见错因是把同主音误答成“调号相同”。' },
+        { q: '一个升号最常提示哪一组关系调？', options: ['G 大调 / E 小调', 'D 大调 / B 小调', 'F 大调 / D 小调'], answer: 'G 大调 / E 小调', explain: '一个升号通常对应 G 大调或 E 小调。', reason: '如果选 D/Bm，通常是把升号数量整体往后错推了一格。' },
+        { q: '判断调性时，为什么不能只看调号？', options: ['因为调号可能对应大小调两种中心', '因为调号只用于节奏', '因为调号和音高无关'], answer: '因为调号可能对应大小调两种中心', explain: '同一调号可能落在大调或关系小调，要结合主音重心判断。', reason: '错在没意识到“同调号 ≠ 同中心”。' },
+        { q: 'D 大调与 B 小调的关系更接近？', options: ['关系大小调', '同主音大小调', '转调关系'], answer: '关系大小调', explain: '它们共享两个升号，因此属于关系大小调。', reason: '若选同主音，说明把“共享调号”和“共享主音”混了。' },
+        { q: 'A 小调与 A 大调更接近？', options: ['同主音大小调', '关系大小调', '完全无关'], answer: '同主音大小调', explain: '两者主音都在 A，但调号与色彩不同。', reason: '这题常错在只看大小调，不看主音是否相同。' },
+        { q: '如果旋律反复收在 A，和声也围绕 A 落稳，更可能是？', options: ['A 是主音中心', '一定还是 C 大调', '不能判断'], answer: 'A 是主音中心', explain: '主音中心的核心证据是“哪里最像家”。', reason: '错选 C 大调，通常是被“无升降号”先入为主。' },
+        { q: '调号相同但主音不同，最容易形成什么现象？', options: ['关系大小调', '拍号变化', '终止式消失'], answer: '关系大小调', explain: '这正是关系大小调的典型定义。', reason: '如果没先抓定义，就容易被别的术语干扰。' }
+      ],
+      chords: [
+        { q: '大三和弦的内部堆叠通常是？', options: ['大三度 + 小三度', '小三度 + 大三度', '小三度 + 小三度'], answer: '大三度 + 小三度', explain: '大三和弦先是一个大三度，再叠一个小三度，这是最基础的构成。', reason: '如果选成“小三度 + 大三度”，通常是把大小三和弦的内部顺序倒过来了。' },
+        { q: '减三和弦的内部堆叠通常是？', options: ['小三度 + 小三度', '大三度 + 大三度', '大三度 + 小三度'], answer: '小三度 + 小三度', explain: '减三和弦由两个小三度叠成，因此比大小三和弦更不稳定。', reason: '错在没抓住减三和弦“两个小三度”的核心结构。' },
+        { q: 'A-C-E 更接近哪类和弦？', options: ['小三和弦', '大三和弦', '增三和弦'], answer: '小三和弦', explain: 'A 到 C 是小三度，C 到 E 是大三度，所以是小三和弦。', reason: '如果看成大三和弦，通常是只看了字母数量，没看半音结构。' },
+        { q: 'C-E-G# 更接近哪类和弦？', options: ['增三和弦', '减三和弦', '小三和弦'], answer: '增三和弦', explain: 'C 到 E 是大三度，E 到 G# 也是大三度。', reason: '这题常错在只记常见大小三和弦，忽略了增三和弦的对称结构。' },
+        { q: 'C-Eb-G 更接近哪类和弦？', options: ['小三和弦', '大三和弦', '减三和弦'], answer: '小三和弦', explain: 'C 到 Eb 是小三度，Eb 到 G 是大三度。', reason: '如果答成减三和弦，多半是看到降号就误以为更不稳定。' },
+        { q: '增三和弦通常给人的色彩更接近？', options: ['悬浮不稳定', '非常落地', '没有区别'], answer: '悬浮不稳定', explain: '增三和弦因为结构对称，常让人感觉漂浮而不稳定。', reason: '错在把“和弦名字”当成死记，而没建立实际听感联想。' },
+        { q: 'D-F#-A 更常见属于？', options: ['大三和弦', '小三和弦', '减三和弦'], answer: '大三和弦', explain: 'D 到 F# 是大三度，F# 到 A 是小三度。', reason: '这题常错在看见 F# 就紧张，忘了先算结构。' },
+        { q: 'E-G-B 更常见属于？', options: ['小三和弦', '大三和弦', '增三和弦'], answer: '小三和弦', explain: 'E 到 G 是小三度，G 到 B 是大三度。', reason: '如果答成大三和弦，通常是把“小三度 + 大三度”的顺序认反了。' },
+        { q: '两个小三度叠起来更接近？', options: ['减三和弦', '大三和弦', '增三和弦'], answer: '减三和弦', explain: '减三和弦由两个小三度组成。', reason: '这类题错因通常是没把三种三和弦的内部结构分清。' },
+        { q: '两个大三度叠起来更接近？', options: ['增三和弦', '减三和弦', '小三和弦'], answer: '增三和弦', explain: '增三和弦由两个大三度组成。', reason: '如果答成减三和弦，说明把“增 / 减”的结构方向记反了。' }
+      ],
+      rhythm: [
+        { q: '4/4 的正确理解是？', options: ['每小节 4 拍，以四分音符为一拍', '每小节 4 拍，以八分音符为一拍', '每小节 2 拍，以四分音符为一拍'], answer: '每小节 4 拍，以四分音符为一拍', explain: '上面的 4 表示每小节 4 拍，下面的 4 表示以四分音符为一拍。', reason: '常见错误是把上下两个数字的职责完全记反。' },
+        { q: '3/4 的常见强弱感更接近？', options: ['强 弱 弱', '强 弱', '弱 强 弱'], answer: '强 弱 弱', explain: '3/4 常见的基础拍感是第一拍强，后两拍弱。', reason: '如果答成两拍型，说明把 3/4 的律动误听成了 2/4。' },
+        { q: '6/8 在初学阶段更适合先理解成？', options: ['带有两大拍感觉的复拍子', '和 3/4 完全一样', '没有明显重音'], answer: '带有两大拍感觉的复拍子', explain: '6/8 往往更接近两大拍，每拍里再细分为三个八分音符。', reason: '最常见错因是把 6/8 直接等同于 3/4。' },
+        { q: '2/4 最基础的强弱规律更接近？', options: ['强 弱', '强 弱 弱', '弱 弱 强'], answer: '强 弱', explain: '2/4 常见为一强一弱，两拍一组。', reason: '如果选成三拍感觉，往往是把拍号和拍群感混了。' },
+        { q: '拍号下面写 8，通常表示？', options: ['以八分音符为一拍单位', '每小节八拍', '节奏更快'], answer: '以八分音符为一拍单位', explain: '拍号下面的数字说明哪种音符值代表“一拍”。', reason: '常见误区是把下面数字理解成“有几拍”。' },
+        { q: '学习拍号时最值得先抓的是？', options: ['拍感和强弱组织', '和弦颜色', '调号数量'], answer: '拍感和强弱组织', explain: '拍号的核心是时间组织，而不是音高内容。', reason: '如果答到和弦或调号，说明把节奏问题错归类到音高问题。' },
+        { q: '2/4 与 3/4 最直观的区别更接近？', options: ['强拍组织不同', '调号不同', '音域不同'], answer: '强拍组织不同', explain: '它们首先区别在拍数和强弱结构。', reason: '错在没抓住拍号的核心：一小节内部的时间组织。' },
+        { q: '如果一小节里明显有两大拍，每拍再分三小份，更像？', options: ['6/8', '3/4', '2/4'], answer: '6/8', explain: '这就是 6/8 最典型的入门感受。', reason: '如果选 3/4，通常是只看见“三连分感”，没看到“两大拍”。' },
+        { q: '4/4 最常见的基础强弱更接近？', options: ['强 弱 次强 弱', '强 弱 弱', '强 强 弱 弱'], answer: '强 弱 次强 弱', explain: '这是 4/4 最基础的拍感框架。', reason: '答错时通常是把 4/4 简化成了 2/4 或 3/4。' },
+        { q: '拍号学习为什么不能只背数字？', options: ['因为最终要落到实际拍感', '因为数字没有意义', '因为它只和和弦有关'], answer: '因为最终要落到实际拍感', explain: '拍号不是符号游戏，核心是你能不能感受到时间组织。', reason: '如果忽略拍感，拍号就会变成死背而不是会用。' }
+      ],
+      scales: [
+        { q: 'C 大调和 A 自然小调的关系更接近？', options: ['关系大小调', '同主音大小调', '转调关系'], answer: '关系大小调', explain: '它们共享同一组音和同一组调号，但主音不同，因此属于关系大小调。', reason: '如果答成同主音，说明把“共调号”和“同主音”混了。' },
+        { q: '大调听感通常更偏向？', options: ['明亮稳定', '悬而未决', '极度紧张'], answer: '明亮稳定', explain: '这是最常见的入门听感描述，帮助你先建立基本气质印象。', reason: '错因通常是没有建立大小调最基础的听感印象。' },
+        { q: '五声音阶常见于？', options: ['民谣、流行、中国风旋律', '只能用于爵士', '只能用于无调性音乐'], answer: '民谣、流行、中国风旋律', explain: '五声音阶旋律顺口、半音冲突少，因此在很多风格里都很常见。', reason: '如果选过窄的风格，说明把五声音阶的使用场景想得太死。' },
+        { q: '同主音大小调最明显的共同点是？', options: ['主音相同', '调号相同', '音级完全相同'], answer: '主音相同', explain: '比如 C 大调与 C 小调主音相同，但调号和音级结构不同。', reason: '最常见误区是把同主音直接误答成“调号相同”。' },
+        { q: '自然小调听感通常更接近？', options: ['偏暗一些', '更明亮', '没有中心'], answer: '偏暗一些', explain: '这是最常见的初步听感描述。', reason: '错因一般是没把大小调的基础色彩差异建立起来。' },
+        { q: '音阶学习除了背音名，更要抓什么？', options: ['稳定音与倾向音关系', '只看节奏型', '只看谱号'], answer: '稳定音与倾向音关系', explain: '这能帮助你把音阶和真实音乐语感连起来。', reason: '如果只盯符号不看功能关系，音阶知识会很空。' },
+        { q: 'G 大调与 E 小调最容易混淆，因为？', options: ['调号相同但主音不同', '主音相同', '拍号相同'], answer: '调号相同但主音不同', explain: '它们共享同一组升号，但中心不同。', reason: '错在没把“材料相同”和“中心相同”分开。' },
+        { q: '五声音阶常被觉得更顺口，常见原因是？', options: ['少了部分半音摩擦', '一定更快', '没有主音'], answer: '少了部分半音摩擦', explain: '它的音程结构让旋律更容易形成顺滑感。', reason: '如果选“更快”，说明把听感误当成速度问题。' },
+        { q: '如果主音相同但色彩明显变化，更可能是？', options: ['同主音大小调切换', '关系大小调', '拍号变化'], answer: '同主音大小调切换', explain: '主音相同、明暗改变，是同主音大小调最典型的现象。', reason: '常见错误是只看到大小调就答成关系调。' },
+        { q: '音阶不只是音名表，它还帮助你理解什么？', options: ['旋律材料与主音中心', '页面排版', '速度记号'], answer: '旋律材料与主音中心', explain: '学音阶是为了更好理解旋律材料怎么围绕中心组织。', reason: '如果忽略主音中心，音阶知识就会只剩静态背诵。' }
+      ],
+      functions: [
+        { q: '在 C 大调里，C 和弦最常属于？', options: ['主功能', '下属功能', '属功能'], answer: '主功能', explain: 'C 和弦就是 C 大调的主和弦，因此最能代表“家”的稳定感。', reason: '错因通常是还没把“主和弦 = 家”的概念建立起来。' },
+        { q: '在 C 大调里，F 和弦最常属于？', options: ['主功能', '下属功能', '属功能'], answer: '下属功能', explain: 'F 往往有离开主中心、推动到下一步的作用，所以常归为下属功能。', reason: '如果选属功能，通常是把“推进感”都误认成属功能。' },
+        { q: '最有“要回家”倾向的功能通常是？', options: ['属功能', '主功能', '下属功能'], answer: '属功能', explain: '属功能张力最大，最常把音乐推回主功能。', reason: '常见误区是把“最像家”和“最想回家”混成一件事。' },
+        { q: '主功能最常带来的感觉更接近？', options: ['稳定落地', '强烈悬念', '偏离中心'], answer: '稳定落地', explain: '主功能最像“家”，有稳定收束感。', reason: '如果选悬念，说明主/属功能感还没分开。' },
+        { q: '下属功能常被理解成？', options: ['离开主中心、准备推进', '已经完全收束', '没有方向'], answer: '离开主中心、准备推进', explain: '它常像从家里走出去，准备进入下一步。', reason: '错在把下属功能当成已经落地的状态。' },
+        { q: '功能进行里最经典的一种骨架是？', options: ['T → S → D → T', 'D → T → S → D', 'S → S → S'], answer: 'T → S → D → T', explain: '这是最常见的基础功能进行框架。', reason: '如果答错，通常是还没把“离家—张力—回家”的链条记清。' },
+        { q: '主功能最像什么？', options: ['家', '路上', '悬崖边'], answer: '家', explain: '这是功能入门最常用也最有效的比喻。', reason: '功能感如果没有比喻支撑，很容易只剩术语。' },
+        { q: '属功能更像什么？', options: ['马上要回家的张力点', '彻底落地', '完全静止'], answer: '马上要回家的张力点', explain: '属功能最像“快回家了但还没到”。', reason: '错因往往是把属功能误当成终点。' },
+        { q: '在 G 大调里，D 或 D7 更常见属于？', options: ['属功能', '主功能', '下属功能'], answer: '属功能', explain: 'D 是 G 大调的属音和弦，因此最常扮演属功能。', reason: '如果答成主功能，通常是没先确认当前调的主音。' },
+        { q: '下属功能在进行中常起到什么作用？', options: ['把音乐从主功能推出去', '直接终结乐句', '取消主音中心'], answer: '把音乐从主功能推出去', explain: '它经常是主功能与属功能之间的重要过渡。', reason: '如果答成终结作用，说明功能链条理解还没建立起来。' }
+      ],
+      cadence: [
+        { q: 'V → I 最接近哪类终止？', options: ['完全终止', '半终止', '阻碍终止'], answer: '完全终止', explain: 'V 到 I 最有明确回家的感觉，是最典型的完全终止。', reason: '这题常错在没把“属回主”的最强落地感抓住。' },
+        { q: '停在 V 上更接近哪类终止？', options: ['半终止', '变格终止', '完全终止'], answer: '半终止', explain: '停在属功能上会给人“还没说完”的悬置感。', reason: '如果答成完全终止，说明把“停在属”和“回到主”混了。' },
+        { q: 'V → vi 最常被理解为？', options: ['阻碍终止', '完全终止', '没有功能变化'], answer: '阻碍终止', explain: '你本来期待 V 回 I，却被转去 vi，所以叫阻碍终止。', reason: '这题常错在忽略了“预期被打断”这一点。' },
+        { q: 'IV → I 更常被叫做？', options: ['变格终止', '完全终止', '半终止'], answer: '变格终止', explain: 'IV 到 I 常有另一种较柔和的收束感。', reason: '错因通常是把一切“落地”都粗暴归进完全终止。' },
+        { q: '阻碍终止为什么会有“被拐走”的感觉？', options: ['因为本来期待回 I 却转去别处', '因为拍号改变了', '因为节奏停了'], answer: '因为本来期待回 I 却转去别处', explain: '它故意避开你预期的完全落地。', reason: '如果没抓预期，就很难真正理解阻碍终止。' },
+        { q: '终止式最适合先从什么感受入门？', options: ['落地感是否成立', '名称拼写难度', '调号数量'], answer: '落地感是否成立', explain: '先会听方向和落地，再记术语会更稳。', reason: '只背名字而不感受方向，会导致知识很空。' },
+        { q: '完全终止为什么最像句号？', options: ['因为属回主最明确', '因为音更长', '因为一定更快'], answer: '因为属回主最明确', explain: '完全终止的核心就是最强的回家感。', reason: '如果选节奏或时值，说明把和声方向感和表面现象混了。' },
+        { q: '变格终止的收束感更接近？', options: ['柔和收束', '强烈悬置', '完全没有中心'], answer: '柔和收束', explain: 'IV 到 I 常像另一种较柔和的落地。', reason: '常见错误是只记名字，不建立真实的听感差异。' },
+        { q: '如果音乐停在属功能，最自然的听觉期待通常是？', options: ['继续回主', '彻底结束在属', '转成节奏练习'], answer: '继续回主', explain: '属功能天然带着想回主功能的倾向。', reason: '如果觉得“停在属就结束”，说明属功能倾向感还不稳。' },
+        { q: '终止式最核心的问题之一其实是？', options: ['句子有没有真的落地', '调号一共有几个', '音域有多宽'], answer: '句子有没有真的落地', explain: '终止式本质上就是在判断乐句如何收束。', reason: '如果注意力跑去调号或音域，说明还没抓住终止式的本体。' }
+      ],
+      seventh: [
+        { q: '属七和弦最重要的听感之一是？', options: ['强烈解决倾向', '完全静止', '没有色彩变化'], answer: '强烈解决倾向', explain: '属七和弦里包含更强的不稳定因素，所以常明显推向主和弦。', reason: '如果答成静止，说明还没体会到属七和弦的张力。' },
+        { q: '七和弦相对三和弦是？', options: ['多叠了一个三度', '少了一个音', '换了谱号'], answer: '多叠了一个三度', explain: '七和弦就是在三和弦基础上继续叠一个三度。', reason: '常见错误是把七和弦当成“完全不同体系”的和弦。' },
+        { q: '在 C 大调里，G7 最常往哪里解决？', options: ['C', 'F', 'Dm'], answer: 'C', explain: 'G7 是 C 大调里最典型的属七和弦，通常解决到 C。', reason: '如果不先确认当前调，就很容易猜错目标和弦。' },
+        { q: '为什么属七和弦比普通属和弦更紧张？', options: ['多了一个带来不稳定感的七度音', '因为拍子更快', '因为一定更高音'], answer: '多了一个带来不稳定感的七度音', explain: '这个额外音会强化解决倾向。', reason: '错因一般是把紧张感归到表面现象，而不是结构本身。' },
+        { q: '学习七和弦时最适合先练哪种？', options: ['属七和弦', '所有稀有七和弦同时背', '先忽略解决'], answer: '属七和弦', explain: '属七和弦最常见、功能也最明显，适合作为入口。', reason: '如果一开始就平均背所有种类，通常会学得很散。' },
+        { q: '七和弦相对三和弦的第一直观体验更常是？', options: ['颜色更丰富也更不稳定', '更空白简单', '与调性无关'], answer: '颜色更丰富也更不稳定', explain: '多出的音让它比普通三和弦更有色彩。', reason: '如果答成“没区别”，说明还没建立三和弦和七和弦的层次差。' },
+        { q: '在 C 大调里，哪一个最像典型属七和弦？', options: ['G-B-D-F', 'C-E-G-B', 'F-A-C-E'], answer: 'G-B-D-F', explain: '它是 C 大调里最典型的 G7 结构。', reason: '这题常错在分不清主七、下属七和属七的功能位置。' },
+        { q: '七和弦相比普通三和弦，常让人觉得？', options: ['更丰富也更不稳', '更空白', '与调性切断'], answer: '更丰富也更不稳', explain: '额外的叠置音会增强色彩和张力。', reason: '如果答成“更空白”，说明完全没抓到七和弦的作用。' },
+        { q: '属七和弦最常见的目标和弦通常是？', options: ['主和弦', '下属和弦', '任意和弦都一样'], answer: '主和弦', explain: '属七和弦天然最强地导向主和弦。', reason: '错因一般是功能链条没立住。' },
+        { q: '学习七和弦如果只背名称不听解决，最大问题是？', options: ['很难形成真正的功能感觉', '会更容易', '不会有差别'], answer: '很难形成真正的功能感觉', explain: '七和弦最重要的不只是名字，而是它如何推向别处。', reason: '如果忽略解决倾向，七和弦知识会变成空标签。' }
+      ],
+      modulation: [
+        { q: '判断是否转调时，最关键之一是？', options: ['新的主音重心是否建立', '有没有更多十六分音符', '力度是否更大'], answer: '新的主音重心是否建立', explain: '真正转调的关键不是写法变复杂，而是音乐中心真的换了。', reason: '如果被音符多少或力度吸引，说明还没抓到调性判断的核心。' },
+        { q: '只出现一个临时升号，通常应先判断为？', options: ['可能只是临时变化', '一定已经转调', '一定是副属和弦'], answer: '可能只是临时变化', explain: '单个变化音可能只是经过、装饰或局部色彩，不能立刻断定转调。', reason: '最常见错因是把“出现变化音”直接等同于“已经转调”。' },
+        { q: 'C 大调转到 G 大调最常见于哪类？', options: ['近关系转调', '完全无关调突变', '与调号无关'], answer: '近关系转调', explain: 'C 与 G 在五度圈上相邻，因此属于很常见的近关系转调。', reason: '如果答成无关调，通常是五度圈邻接关系不熟。' },
+        { q: '真正转调与“临时变化”最关键的区别更接近？', options: ['是否建立了新中心', '是否用了更多音符', '是否换了速度'], answer: '是否建立了新中心', explain: '核心仍然是主音与功能重心是否真的换了。', reason: '错因是把调性问题当成表面复杂度问题。' },
+        { q: '近关系转调为什么更常见？', options: ['因为共享材料更多，过渡更自然', '因为一定更短', '因为不用和弦'], answer: '因为共享材料更多，过渡更自然', explain: '共享音和调号背景较多，因此听感更顺。', reason: '如果只看长度或速度，会错过近关系真正的原因。' },
+        { q: '看到变化音后最稳妥的习惯是？', options: ['先观察后续是否建立新收束', '立刻判成转调', '直接忽略'], answer: '先观察后续是否建立新收束', explain: '转调判断需要看后续语境，不是一眼下结论。', reason: '常见误区就是太早下结论。' },
+        { q: '如果新和弦反复强化、旋律也在新音中心收束，更可能是？', options: ['转调已经建立', '只是临时变化', '只是节奏改变'], answer: '转调已经建立', explain: '这说明新的中心已经不仅仅是一闪而过。', reason: '如果还答成临时变化，多半是忽略了“连续收束”的证据。' },
+        { q: 'C 到 Am 更常被叫做？', options: ['关系调切换', '完全无关调', '不可能发生'], answer: '关系调切换', explain: 'C 大调和 A 小调共享调号，是典型关系调。', reason: '错在没把关系调这个概念和真实例子连起来。' },
+        { q: '看到变化音后最不稳妥的习惯是？', options: ['立刻断言已经转调', '继续观察语境', '结合收束判断'], answer: '立刻断言已经转调', explain: '转调需要证据链，不是看到一个变化音就定案。', reason: '这题抓的就是最常见的入门误判习惯。' },
+        { q: '转调判断的核心不是谱面更复杂，而是？', options: ['中心真的换了', '拍子变快了', '音更高了'], answer: '中心真的换了', explain: '真正换调，就是听感中心真的变了。', reason: '如果把复杂度当核心，转调就会越学越乱。' }
+      ],
+      borrowed: [
+        { q: '借用和弦最常见的来源之一是？', options: ['同主音大小调', '任意完全无关调', '拍号变化'], answer: '同主音大小调', explain: '借用和弦常从同主音的大调 / 小调系统借来，因此色彩熟悉但又有变化。', reason: '如果答成无关调，通常是把借用和“随便换调”混成了一件事。' },
+        { q: '副属和弦最核心的作用是？', options: ['临时加强某个目标和弦的导向', '取消调性中心', '替代所有终止式'], answer: '临时加强某个目标和弦的导向', explain: '副属和弦本质上是在局部制造一个“临时属功能”，把听感推向目标和弦。', reason: '错因通常是没抓住副属的“临时导向”本质。' },
+        { q: 'C 大调里 D7 → G 更像哪类现象？', options: ['副属和弦导向', '完全终止', '关系大小调切换'], answer: '副属和弦导向', explain: 'D7 不是 C 大调的自然和弦，但它能强力导向 G，因此常被理解成 G 的副属。', reason: '这题常错在把“导向局部和弦”误答成“已经换调”。' },
+        { q: '借用和弦最适合先从什么角度理解？', options: ['色彩偏离但仍以原调为背景', '完全抛弃原调', '只看拍号'], answer: '色彩偏离但仍以原调为背景', explain: '借用常是在原调框架里临时染上一层新颜色。', reason: '如果答成完全抛弃原调，说明把借用和真转调混了。' },
+        { q: '副属和弦与真正转调的重要区别之一是？', options: ['副属更像局部强化，不一定建立新中心', '副属一定换主音', '副属和节奏有关'], answer: '副属更像局部强化，不一定建立新中心', explain: '它常只是短暂增强某个目标和弦。', reason: '这题最常见错因是把任何“陌生和弦”都判断成转调。' },
+        { q: '学习借用和副属时最值得先关注？', options: ['它让原本语境出现了什么偏离感', '页面配色', '音符数量'], answer: '它让原本语境出现了什么偏离感', explain: '先抓语境变化，再去记更细的名称会更稳。', reason: '如果忽略语境，借用和副属就会只剩死术语。' },
+        { q: '在 C 大调里 A7 → Dm 更常被看作？', options: ['Dm 的副属和弦', '完全终止', '转到 A 大调'], answer: 'Dm 的副属和弦', explain: 'A7 可以临时强化 Dm 的到来。', reason: '常见误区是看到升高音就直接判成转调。' },
+        { q: '借用和弦为什么容易让人觉得“熟悉但变暗 / 变亮”？', options: ['因为仍依附原调背景，只是临时换色', '因为已经完全换调', '因为节奏变了'], answer: '因为仍依附原调背景，只是临时换色', explain: '借用不是抛弃原调，而是在原调上临时染色。', reason: '如果答成完全换调，说明还没理解“借用”这个词的边界。' },
+        { q: '副属和弦和真正转调的差别之一在于？', options: ['副属不一定建立新主音中心', '副属一定改变拍号', '副属没有目标'], answer: '副属不一定建立新主音中心', explain: '副属常常只是局部加强，而不是整体改换中心。', reason: '错因一般是“看到新和弦就判新调”。' },
+        { q: '学习借用和弦如果完全忽略听感，最大问题是？', options: ['很难理解它为什么“偏色”', '会更简单', '不会有影响'], answer: '很难理解它为什么“偏色”', explain: '借用最值得体会的就是色彩偏移。', reason: '如果只背记号，不感受色彩，就很难真正会用。' }
+      ]
+    };
+
+    const masteryExamData = [
+      { type: 'intervals', q: 'C 到 E 更接近什么音程？', options: ['大三度', '小三度', '纯四度'], answer: '大三度', explain: 'C 到 E 是四个半音，对应大三度。', reason: '如果答成小三度，通常是没把半音数和度数对应起来。' },
+      { type: 'circle', q: 'G 大调通常有几个升号？', options: ['1 个升号', '2 个升号', '没有升号'], answer: '1 个升号', explain: 'G 大调只有一个升号 F♯。', reason: '最常见错因是把 G 大调和 D 大调的升号数量混了。' },
+      { type: 'chords', q: 'A-C-E 更接近哪类三和弦？', options: ['小三和弦', '大三和弦', '增三和弦'], answer: '小三和弦', explain: 'A-C 是小三度，C-E 是大三度，所以是小三和弦。', reason: '如果答错，通常是没先判断内部三度结构。' },
+      { type: 'cadence', q: 'V → I 最接近哪种终止感？', options: ['完全终止', '半终止', '阻碍终止'], answer: '完全终止', explain: 'V 回 I 最有明确落地感。', reason: '错因通常是把“停在属”和“回到主”混成了一类。' },
+      { type: 'modulation', q: '只出现一个临时变化音，最稳妥的初步判断是？', options: ['可能只是临时变化', '一定已经转调', '一定是借用和弦'], answer: '可能只是临时变化', explain: '单个变化音还不足以证明调性中心已经改变。', reason: '最常见误区就是看到变化音就立刻判成转调。' },
+      { type: 'circle', q: 'F 大调最典型的调号特征是？', options: ['1 个降号', '1 个升号', '没有升降号'], answer: '1 个降号', explain: 'F 大调只有一个降号 B♭。', reason: '如果答成无升降号，通常是把它和 C 大调混了。' },
+      { type: 'keys', q: '关系大小调最核心的共同点是？', options: ['调号相同', '主音相同', '拍号相同'], answer: '调号相同', explain: '关系大小调共享同一组升降号，但主音不同。', reason: '常见错误是把关系大小调当成同主音大小调。' },
+      { type: 'functions', q: '在 C 大调里，F 和弦更常见属于？', options: ['下属功能', '主功能', '属功能'], answer: '下属功能', explain: 'F 和弦最常被归入下属功能方向。', reason: '如果答成属功能，多半是把“推进感”都归给属功能了。' },
+      { type: 'cadence', q: '停在 V 上最接近哪类终止？', options: ['半终止', '完全终止', '变格终止'], answer: '半终止', explain: '停在属功能上通常有“还没结束”的感觉。', reason: '答错通常是还没区分“停在属”和“属回主”。' },
+      { type: 'seventh', q: '七和弦相对三和弦通常多了什么？', options: ['一个叠置三度带来的色彩', '一个拍号变化', '一个谱号变化'], answer: '一个叠置三度带来的色彩', explain: '七和弦是在三和弦上继续叠三度。', reason: '如果选拍号或谱号，说明把和声结构问题看偏了。' },
+      { type: 'modulation', q: 'C 大调转到 G 大调更常见于？', options: ['近关系转调', '完全无关转调', '不属于转调'], answer: '近关系转调', explain: 'C 与 G 在五度圈上相邻，属于常见近关系。', reason: '这题常错在五度圈相邻关系不熟。' },
+      { type: 'borrowed', q: 'C 大调里出现 Fm，更常见的理解是？', options: ['借用和弦', '一定已经转调', '只是节奏变化'], answer: '借用和弦', explain: 'Fm 常被理解为从同主音小调借来的色彩。', reason: '最常见错因是把任何陌生和弦都当成转调。' },
+      { type: 'circle', q: 'Bb 大调通常有几个降号？', options: ['1 个降号', '2 个降号', '3 个降号'], answer: '2 个降号', explain: 'Bb 大调的调号是 B♭、E♭。', reason: '如果答成 1 个，多半是把它和 F 大调混了。' },
+      { type: 'keys', q: '同主音大小调最核心的共同点是？', options: ['主音相同', '调号相同', '和弦完全相同'], answer: '主音相同', explain: '同主音大小调的关键在于主音一致，但色彩和调号常不同。', reason: '这题常错在把同主音误答成共享调号。' },
+      { type: 'chords', q: 'C-E-G# 更接近哪类三和弦？', options: ['增三和弦', '减三和弦', '小三和弦'], answer: '增三和弦', explain: '两个大三度叠置构成增三和弦。', reason: '错因通常是只熟悉大小三和弦，没把增三和弦纳入结构判断。' },
+      { type: 'rhythm', q: '在 4/4 中，最基础的强弱关系更常接近？', options: ['强 弱 次强 弱', '强 弱 弱', '强 强 弱 弱'], answer: '强 弱 次强 弱', explain: '这是 4/4 最基础的拍感组织。', reason: '如果答成三拍型，说明把拍号的时间组织搞混了。' },
+      { type: 'scales', q: '五声音阶常让人觉得更顺口，常见原因是？', options: ['少了部分半音摩擦', '一定更快', '完全没有主音'], answer: '少了部分半音摩擦', explain: '五声音阶结构中的半音冲突更少，所以旋律常更顺。', reason: '如果把顺口理解成速度快，说明把听感问题错看成速度问题。' },
+      { type: 'functions', q: '主功能最常带来的听感更接近？', options: ['稳定落地', '强烈悬念', '最想回家'], answer: '稳定落地', explain: '主功能最像“家”，因此最稳定。', reason: '常见误区是把主功能和属功能的感觉对调。' },
+      { type: 'cadence', q: 'IV → I 更常见于哪类终止？', options: ['变格终止', '完全终止', '半终止'], answer: '变格终止', explain: 'IV 到 I 更常形成较柔和的收束。', reason: '如果答成完全终止，通常是把所有“落地”都并成一类。' },
+      { type: 'seventh', q: 'G7 在 C 大调里最常往哪里解决？', options: ['C', 'F', 'Am'], answer: 'C', explain: 'G7 是 C 大调里的典型属七和弦，最常回到 C。', reason: '如果不先确认当前调，很容易把解决目标猜错。' },
+      { type: 'modulation', q: '看到一个变化音后，判断转调最稳妥的做法是？', options: ['先观察是否建立新中心', '立刻断定已转调', '直接忽略'], answer: '先观察是否建立新中心', explain: '转调判断依赖后续功能与收束证据。', reason: '最常见错因是过早下结论。' },
+      { type: 'borrowed', q: 'D7 → G 在 C 大调语境里更常被理解为？', options: ['副属和弦导向', '完全终止', '同主音切换'], answer: '副属和弦导向', explain: 'D7 会临时加强 G 的到来，所以常被理解成 G 的副属。', reason: '如果答成完全终止或转调，通常是把局部导向看得太重。' },
+      { type: 'intervals', q: 'E 到 F 更接近什么音程？', options: ['小二度', '大二度', '小三度'], answer: '小二度', explain: 'E 到 F 相差一个半音，对应小二度。', reason: '常见错误是只看字母数量，不看半音实际距离。' },
+      { type: 'circle', q: 'A 大调通常有几个升号？', options: ['2 个升号', '3 个升号', '4 个升号'], answer: '3 个升号', explain: 'A 大调调号为 F♯、C♯、G♯。', reason: '如果答成 2 或 4，多半是和相邻大调串了。' }
+    ];
+
+    function loadProgress() {
+      try {
+        return JSON.parse(localStorage.getItem(STORAGE_KEY)) || { lessons: {}, quizzes: {}, miniCorrect: 0, miniPassed: {}, exams: {}, badges: {}, masteryPassed: false, rhythmTapPassed: false, earTrainingDone: false, intervalEarPassed: false, chordEarPassed: false, cadenceEarPassed: false, rhythmPlaybackPassed: false, earLevel: 'basic', earExamPassed: {}, mistakes: [] };
+      } catch {
+        return { lessons: {}, quizzes: {}, miniCorrect: 0, miniPassed: {}, exams: {}, badges: {}, masteryPassed: false, rhythmTapPassed: false, earTrainingDone: false, intervalEarPassed: false, chordEarPassed: false, cadenceEarPassed: false, rhythmPlaybackPassed: false, earLevel: 'basic', earExamPassed: {}, mistakes: [] };
+      }
+    }
+
+    function saveProgress(progress) {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+    }
+
+    const progress = loadProgress();
+    progress.mistakes = Array.isArray(progress.mistakes) ? progress.mistakes : [];
+    progress.mistakeFilter = progress.mistakeFilter || 'all';
+    progress.mistakeTopic = progress.mistakeTopic || 'all';
+
+    function pushMistake(entry) {
+      if (!entry || !entry.q) return;
+      const existing = (progress.mistakes || []).find(item => item.id === `${entry.source || 'unknown'}::${entry.type || 'general'}::${entry.q}`);
+      const next = {
+        id: `${entry.source || 'unknown'}::${entry.type || 'general'}::${entry.q}`,
+        source: entry.source || 'unknown',
+        type: entry.type || 'general',
+        q: entry.q,
+        options: Array.isArray(entry.options) ? [...entry.options] : [],
+        answer: entry.answer || '',
+        explain: entry.explain || '',
+        reason: entry.reason || '',
+        userAnswer: entry.userAnswer || '未作答',
+        timestamp: Date.now(),
+        retryStreak: 0,
+        wrongCount: (existing?.wrongCount || 0) + 1,
+        correctedCount: existing?.correctedCount || 0
+      };
+      progress.mistakes = [next, ...progress.mistakes.filter(item => item.id !== next.id)].slice(0, 24);
+    }
+
+    function renderMistakeNotebook() {
+      const summary = document.getElementById('mistakeNotebookSummary');
+      const list = document.getElementById('mistakeNotebookList');
+      const result = document.getElementById('mistakeNotebookResult');
+      const review = document.getElementById('mistakeNotebookReview');
+      const retryBtn = document.getElementById('retryMistakesBtn');
+      const clearBtn = document.getElementById('clearMistakesBtn');
+      if (!summary || !list || !retryBtn || !clearBtn) return;
+      const mistakes = progress.mistakes || [];
+      const sourceFiltered = progress.mistakeFilter === 'all' ? mistakes : mistakes.filter(item => item.source === progress.mistakeFilter);
+      const filtered = progress.mistakeTopic === 'all' ? sourceFiltered : sourceFiltered.filter(item => item.type === progress.mistakeTopic);
+      summary.textContent = mistakes.length ? `最近累计 ${mistakes.length} 道错题，当前筛选命中 ${filtered.length} 道；同一道题需要连续答对 2 次才会移出错题本。` : '当前还没有记录错题，去做小测、章节测验或综合测试后会自动汇总到这里。';
+      list.innerHTML = filtered.slice(0, 6).map((item, index) => `<div class="stage-item"><strong>${index + 1}. ${item.q}</strong><div class="muted">来源：${item.source}｜章节：${getMistakeTopicLabel(item.type)}｜你的答案：${item.userAnswer}</div><div class="muted">正确答案：${item.answer}</div><div class="muted">累计错 ${item.wrongCount || 1} 次｜连续改对 ${item.retryStreak || 0} / 2 次</div>${item.reason ? `<div class="muted">错题原因：${item.reason}</div>` : ''}</div>`).join('') || '<div class="muted">当前筛选下暂无错题记录。</div>';
+      retryBtn.disabled = filtered.length === 0;
+      clearBtn.disabled = mistakes.length === 0;
+      document.querySelectorAll('.mistake-filter-btn').forEach(btn => {
+        const active = btn.dataset.mistakeFilter === progress.mistakeFilter;
+        btn.classList.toggle('active', active);
+        btn.classList.toggle('ghost', !active);
+        btn.classList.toggle('secondary', active);
+        btn.onclick = () => {
+          progress.mistakeFilter = btn.dataset.mistakeFilter;
+          saveProgress(progress);
+          renderMistakeNotebook();
+        };
+      });
+      document.querySelectorAll('.mistake-topic-btn').forEach(btn => {
+        const active = btn.dataset.mistakeTopic === progress.mistakeTopic;
+        btn.classList.toggle('active', active);
+        btn.classList.toggle('ghost', !active);
+        btn.classList.toggle('secondary', active);
+        btn.onclick = () => {
+          progress.mistakeTopic = btn.dataset.mistakeTopic;
+          saveProgress(progress);
+          renderMistakeNotebook();
+        };
+      });
+      retryBtn.onclick = () => renderMistakeRetry(filtered);
+      clearBtn.onclick = () => {
+        progress.mistakes = [];
+        saveProgress(progress);
+        if (result) {
+          result.textContent = '错题本已清空。';
+          result.style.color = '#16a34a';
+        }
+        if (review) review.innerHTML = '';
+        renderMistakeNotebook();
+      };
+    }
+
+    function getMistakeTopicLabel(type) {
+      return ({
+        intervals: '音程',
+        circle: '五度圈',
+        keys: '调号',
+        chords: '和弦',
+        rhythm: '节奏',
+        scales: '音阶',
+        functions: '功能',
+        cadence: '终止式',
+        seventh: '七和弦',
+        modulation: '转调',
+        borrowed: '借用/副属',
+        mastery: '综合测试'
+      })[type] || type || '未分类';
+    }
+
+    function renderMistakeRetry(filteredMistakes = null) {
+      const review = document.getElementById('mistakeNotebookReview');
+      const result = document.getElementById('mistakeNotebookResult');
+      if (!review || !result) return;
+      const sourceList = Array.isArray(filteredMistakes)
+        ? filteredMistakes
+        : (progress.mistakeFilter === 'all' ? (progress.mistakes || []) : (progress.mistakes || []).filter(item => item.source === progress.mistakeFilter));
+      const picked = pickRandomQuestions(sourceList, Math.min(6, sourceList.length));
+      if (!picked.length) {
+        result.textContent = '当前筛选下没有可再练的错题。';
+        result.style.color = '#6b7280';
+        review.innerHTML = '';
+        return;
+      }
+      review.innerHTML = `
+        <div class="muted">本次从错题本随机抽 ${picked.length} 题再练；同一道题需要连续答对 2 次才会移出错题本。</div>
+        ${picked.map((item, index) => `
+          <div class="exam-question">
+            <div class="exam-title">${index + 1}. ${item.q}</div>
+            <div class="quiz-options">
+              ${item.options.map(opt => `<label class="quiz-btn"><input type="radio" name="mistake-retry-${index}" value="${opt}" style="margin-right:8px;" />${opt}</label>`).join('')}
+            </div>
+          </div>
+        `).join('')}
+        <div class="cta-row">
+          <button class="cta" id="submitMistakeRetryBtn">提交错题再练</button>
+        </div>
+      `;
+      document.getElementById('submitMistakeRetryBtn')?.addEventListener('click', () => {
+        let score = 0;
+        const reviewHtml = [];
+        picked.forEach((item, index) => {
+          const checked = review.querySelector(`input[name="mistake-retry-${index}"]:checked`);
+          const userAnswer = checked ? checked.value : '未作答';
+          const isCorrect = checked && checked.value === item.answer;
+          if (isCorrect) {
+            score += 1;
+            const current = (progress.mistakes || []).find(saved => saved.id === item.id);
+            const nextStreak = (current?.retryStreak || 0) + 1;
+            if (nextStreak >= 2) {
+              progress.mistakes = (progress.mistakes || []).filter(saved => saved.id !== item.id);
+            } else {
+              progress.mistakes = (progress.mistakes || []).map(saved => saved.id === item.id ? { ...saved, retryStreak: nextStreak, correctedCount: (saved.correctedCount || 0) + 1, timestamp: Date.now(), userAnswer } : saved);
+            }
+          } else {
+            pushMistake({ ...item, userAnswer });
+            progress.mistakes = (progress.mistakes || []).map(saved => saved.id === item.id ? { ...saved, retryStreak: 0 } : saved);
+          }
+          const streakText = isCorrect
+            ? (() => {
+                const saved = (progress.mistakes || []).find(savedItem => savedItem.id === item.id);
+                return saved ? `已改对（连续 ${saved.retryStreak || 1} / 2）` : '已改对并移出错题本';
+              })()
+            : '仍答错，连续改对已重置';
+          reviewHtml.push(`<div class="exam-review-item" style="border-color:${isCorrect ? '#bbf7d0' : '#fecaca'}; background:${isCorrect ? '#f0fdf4' : '#fef2f2'};"><strong>第 ${index + 1} 题：</strong>${item.q}<br/>你的答案：${userAnswer}<br/>正确答案：${item.answer}<br/>结果：${streakText}<br/>${item.reason ? `错题原因：${item.reason}<br/>` : ''}提示：${item.explain || '回到对应章节再看一遍核心判断依据。'}</div>`);
+        });
+        saveProgress(progress);
+        result.textContent = `错题再练完成：${score} / ${picked.length}。同一道题需要连续答对 2 次才会从错题本移除。`;
+        result.style.color = score === picked.length ? '#16a34a' : '#dc2626';
+        review.innerHTML = reviewHtml.join('');
+        renderMistakeNotebook();
+      });
+    }
+
+    function bindBackToTopButton() {
+      const btn = document.getElementById('backToTopBtn');
+      if (!btn) return;
+      const toggle = () => {
+        btn.classList.toggle('show', window.scrollY > 320);
+      };
+      btn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+      window.addEventListener('scroll', toggle, { passive: true });
+      toggle();
+    }
+
+    function bindLessonSidebar() {
+      const sidebar = document.getElementById('lessonSidebar');
+      const links = Array.from(document.querySelectorAll('.lesson-nav-link'));
+      const sections = links.map(link => document.getElementById(link.dataset.target)).filter(Boolean);
+      if (!sidebar || !links.length) return;
+
+      const updateActive = () => {
+        const current = sections.findLast(section => window.scrollY + 140 >= section.offsetTop) || sections[0];
+        if (!current) return;
+        links.forEach(link => link.classList.toggle('active', link.dataset.target === current.id));
+      };
+
+      links.forEach(link => {
+        link.addEventListener('click', event => {
+          const target = document.getElementById(link.dataset.target);
+          if (!target) return;
+          event.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          links.forEach(item => item.classList.toggle('active', item === link));
+        });
+      });
+
+      window.addEventListener('scroll', updateActive, { passive: true });
+      updateActive();
+    }
+
+    function updateCourseOverview() {
+      const labels = ['intervals','circle','keys','chords','functions','rhythm','scales','cadence','seventh','modulation','borrowed'];
+      const lessonCount = labels.filter(key => progress.lessons[key]).length;
+      const examCount = labels.filter(key => (progress.exams || {})[key]).length;
+      const earPassedCount = ['basic','intermediate','advanced'].filter(key => (progress.earExamPassed || {})[key]).length;
+      const bigMilestones = [
+        { key: '阶段 1：课程章节', done: lessonCount >= 4, text: `${lessonCount} / ${labels.length} 个章节已标记学习` },
+        { key: '阶段 2：章节测验', done: examCount >= 4, text: `${examCount} 组章节测验已通过` },
+        { key: '阶段 3：练耳考试', done: earPassedCount >= 1, text: `${earPassedCount} / 3 个练耳等级已通过` },
+        { key: '阶段 4：综合训练', done: !!progress.masteryPassed && !!progress.rhythmTapPassed && !!progress.rhythmPlaybackPassed, text: `综合测试：${progress.masteryPassed ? '已通过' : '未通过'}｜节奏点击：${progress.rhythmTapPassed ? '已通过' : '未通过'}｜节奏复现：${progress.rhythmPlaybackPassed ? '已通过' : '未通过'}` }
+      ];
+      const completed = bigMilestones.filter(item => item.done).length;
+      const percent = Math.round((completed / bigMilestones.length) * 100);
+      const overviewText = document.getElementById('courseOverviewText');
+      const bar = document.getElementById('courseProgressBar');
+      const checklist = document.getElementById('stageChecklist');
+      const nextStep = document.getElementById('nextStepText');
+      if (overviewText) overviewText.textContent = `你当前完成了 ${completed} / ${bigMilestones.length} 个课程阶段，总体进度约 ${percent}%。`;
+      if (bar) bar.style.width = `${percent}%`;
+      if (checklist) {
+        checklist.innerHTML = bigMilestones.map(item => `<div class="stage-item ${item.done ? 'active' : ''}"><strong>${item.key}</strong><div class="muted">${item.text}</div></div>`).join('');
+      }
+      if (nextStep) {
+        if (lessonCount < 4) nextStep.textContent = '优先继续完成更多基础章节，建议先补满音程、五度圈、调号与和弦功能四块。';
+        else if (examCount < 4) nextStep.textContent = '建议优先把章节测验通过到 4 组，先形成跨章节判断。';
+        else if (earPassedCount < 1) nextStep.textContent = '建议切到练耳区，先通过至少一个等级的练耳阶段考试。';
+        else if (!progress.masteryPassed || !progress.rhythmTapPassed || !progress.rhythmPlaybackPassed) nextStep.textContent = '建议把综合测试和节奏练习补齐，完成真正的课程收束。';
+        else nextStep.textContent = '当前主线已经跑通，可以挑战更高等级练耳，或回训练器做更难的混合配置。';
+      }
+    }
+
+    function getLessonGateState(key) {
+      const done = lessonKey => !!progress.lessons[lessonKey];
+      const examDone = lessonKey => !!(progress.exams || {})[lessonKey];
+      const gates = {
+        intervals: { ready: true, title: '建议起点', text: '这是主线起点之一，适合先学后练。', next: '学完后建议继续五度圈、调号与三和弦。'},
+        circle: { ready: done('intervals'), title: done('intervals') ? '已解锁' : '建议先完成音程', text: done('intervals') ? '你已经有音程基础，可以开始建立调号地图。' : '先把音程距离感建立起来，再看五度圈会更稳。', next: '建议接着学习调号与调性。'},
+        keys: { ready: done('circle') || examDone('circle'), title: (done('circle') || examDone('circle')) ? '已解锁' : '建议先完成五度圈', text: (done('circle') || examDone('circle')) ? '你已经碰过调号关系，可以继续进入调性中心。' : '先熟悉五度圈里的升降号顺序，再看调号与调性。', next: '建议再配合固定调号训练器一起练。'},
+        chords: { ready: done('intervals'), title: done('intervals') ? '已解锁' : '建议先完成音程', text: done('intervals') ? '学过音程后，更容易看懂三度叠置。' : '三和弦本质上是叠三度，先把音程看熟更轻松。', next: '学完后建议继续和弦功能。'},
+        rhythm: { ready: done('intervals'), title: done('intervals') ? '已解锁' : '建议先完成音程', text: done('intervals') ? '现在可以补上拍感，让读谱不只剩音名。' : '先建立基本识谱信心，再进入节奏会更不乱。', next: '建议学完后做节奏点击和节奏复现。'},
+        scales: { ready: done('keys') || done('circle'), title: (done('keys') || done('circle')) ? '已解锁' : '建议先完成五度圈 / 调号', text: (done('keys') || done('circle')) ? '你已经有调号基础，可以开始把音集合和调性感连起来。' : '音阶和调式最好建立在调号认知之上。', next: '建议练固定调号连续内容。'},
+        functions: { ready: done('chords'), title: done('chords') ? '已解锁' : '建议先完成三和弦', text: done('chords') ? '先懂三和弦，再看功能关系会顺很多。' : '和弦功能建立在和弦构成上，建议先学三和弦。', next: '学完后建议继续终止式。'},
+        cadence: { ready: done('functions'), title: done('functions') ? '已解锁' : '建议先完成和弦功能', text: done('functions') ? '你已经知道 T / S / D，可以开始判断落地感。' : '终止式依赖功能感，先把主 / 属 / 下属分清。', next: '建议配合终止式听感训练。'},
+        seventh: { ready: done('chords') && done('functions'), title: (done('chords') && done('functions')) ? '已解锁' : '建议先完成三和弦 + 和弦功能', text: (done('chords') && done('functions')) ? '你已经具备基础和声骨架，可以进入更密集的七和弦。' : '七和弦最好建立在三和弦和功能感之上。', next: '建议先在近区域和固定调号里练。'},
+        modulation: { ready: done('keys') && done('functions'), title: (done('keys') && done('functions')) ? '已解锁' : '建议先完成调号与和弦功能', text: (done('keys') && done('functions')) ? '你已经有调性与功能基础，可以开始观察重心变化。' : '转调需要同时理解调号与功能推动，建议先补前置内容。', next: '建议练远距区域与较多升降号的调号语境。'},
+        borrowed: { ready: done('functions') && done('keys'), title: (done('functions') && done('keys')) ? '已解锁' : '建议先完成和弦功能 + 调号', text: (done('functions') && done('keys')) ? '你已经有原调骨架，可以开始感受借用与副属的偏离感。' : '借用和弦和副属和弦都需要原调基准，建议先把功能和调号打稳。', next: '建议先固定 C 大调，再逐步加入 mixed accidental。'}
+      };
+      return gates[key] || { ready: true, title: '可学习', text: '你可以直接开始这一章。', next: '保持当前节奏继续即可。' };
+    }
+
+    function updateLessonGates() {
+      const labels = ['intervals','circle','keys','chords','rhythm','scales','functions','cadence','seventh','modulation','borrowed'];
+      labels.forEach(key => {
+        const gate = document.getElementById(`${key}Gate`);
+        if (!gate) return;
+        const state = getLessonGateState(key);
+        gate.className = `lesson-gate ${state.ready ? 'ready' : 'warn'}`;
+        gate.innerHTML = `<strong>${state.title}</strong><div class="muted">${state.text}</div><div class="muted" style="margin-top:6px;">下一步建议：${state.next}</div><div class="muted" style="margin-top:6px;">即使当前建议先补前置内容，你仍然可以直接学习这一章。</div>`;
+      });
+    }
+
+    function renderLessonNavProgress() {
+      const labels = ['intervals','circle','keys','chords','functions','rhythm','scales','cadence','seventh','modulation','borrowed'];
+      labels.forEach(key => {
+        const dot = document.querySelector(`[data-nav-dot="${key}"]`);
+        const text = document.querySelector(`[data-nav-text="${key}"]`);
+        if (!dot || !text) return;
+        const lessonDone = !!progress.lessons[key];
+        const quizDone = !!progress.quizzes[key];
+        const miniDone = !!progress.miniPassed[key];
+        const examDone = !!(progress.exams || {})[key];
+        dot.className = 'lesson-nav-dot';
+        if (examDone) {
+          dot.classList.add('passed');
+          text.textContent = '已通过章节测验';
+        } else if (quizDone || miniDone) {
+          dot.classList.add('testing');
+          text.textContent = quizDone ? '已过小测，待测验' : '已开始练习';
+        } else if (lessonDone) {
+          dot.classList.add('started');
+          text.textContent = '已学习本章';
+        } else {
+          text.textContent = '未开始';
+        }
+      });
+
+      const masteryDot = document.querySelector('[data-nav-dot="mastery"]');
+      const masteryText = document.querySelector('[data-nav-text="mastery"]');
+      if (masteryDot && masteryText) {
+        masteryDot.className = 'lesson-nav-dot';
+        if (progress.masteryPassed) {
+          masteryDot.classList.add('passed');
+          masteryText.textContent = '综合测试已通过';
+        } else if ((progress.earExamPassed && Object.keys(progress.earExamPassed).length) || progress.rhythmTapPassed || progress.earTrainingDone) {
+          masteryDot.classList.add('testing');
+          masteryText.textContent = '综合训练进行中';
+        } else {
+          masteryText.textContent = '未开始';
+        }
+      }
+
+      const groups = {
+        foundation: ['intervals', 'rhythm', 'scales'],
+        harmony: ['circle', 'keys', 'chords', 'functions', 'cadence'],
+        advanced: ['seventh', 'modulation', 'borrowed'],
+        summary: ['mastery', 'pitfalls', 'plan']
+      };
+      Object.entries(groups).forEach(([groupKey, items]) => {
+        const node = document.querySelector(`[data-group-count="${groupKey}"]`);
+        if (!node) return;
+        const done = items.filter(key => {
+          if (key === 'mastery') return !!progress.masteryPassed;
+          if (key === 'pitfalls' || key === 'plan') return true;
+          return !!(progress.exams || {})[key] || !!progress.lessons[key];
+        }).length;
+        node.textContent = `${done} / ${items.length}`;
+      });
+    }
+
+    function updateProgressUI() {
+      document.getElementById('progressChapters').textContent = Object.keys(progress.lessons).filter(k => progress.lessons[k]).length;
+      const quizPassedCount = Object.keys(progress.quizzes).filter(k => progress.quizzes[k]).length;
+      const examPassedCount = Object.keys(progress.exams || {}).filter(k => progress.exams[k]).length;
+      document.getElementById('progressQuizzes').textContent = quizPassedCount + examPassedCount;
+      document.getElementById('progressMini').textContent = progress.miniCorrect || 0;
+      const labels = ['intervals','circle','keys','chords','functions','rhythm','scales','cadence','seventh','modulation','borrowed'];
+      labels.forEach(key => {
+        const node = document.getElementById(`${key}Status`);
+        if (!node) return;
+        const lessonDone = !!progress.lessons[key];
+        const quizDone = !!progress.quizzes[key];
+        const miniDone = !!progress.miniPassed[key];
+        const examDone = !!(progress.exams || {})[key];
+        node.textContent = `本章状态：${lessonDone ? '已学习' : '未完成'}｜小测：${quizDone ? '已通过' : '未通过'}｜随机练习：${miniDone ? '已答对' : '未完成'}｜章节测验：${examDone ? '已通过' : '未完成'}`;
+      });
+      renderLessonNavProgress();
+      updateCourseOverview();
+      updateLessonGates();
+      renderMistakeNotebook();
+    }
+
+    function bindLessonDoneButtons() {
+      document.querySelectorAll('.lesson-done-btn').forEach(btn => {
+        const key = btn.dataset.lessonDone;
+        if (progress.lessons[key]) btn.textContent = '本章已标记完成';
+        btn.addEventListener('click', () => {
+          progress.lessons[key] = true;
+          saveProgress(progress);
+          btn.textContent = '本章已标记完成';
+          updateProgressUI();
+        });
+      });
+      const resetBtn = document.getElementById('resetLearnProgressBtn');
+      if (resetBtn) {
+        resetBtn.addEventListener('click', () => {
+          progress.lessons = {};
+          progress.quizzes = {};
+          progress.miniCorrect = 0;
+          progress.miniPassed = {};
+          progress.exams = {};
+          progress.badges = {};
+          progress.masteryPassed = false;
+          progress.rhythmTapPassed = false;
+          progress.earTrainingDone = false;
+          progress.intervalEarPassed = false;
+          progress.chordEarPassed = false;
+          progress.cadenceEarPassed = false;
+          progress.rhythmPlaybackPassed = false;
+          progress.earLevel = 'basic';
+          progress.earExamPassed = {};
+          saveProgress(progress);
+          document.querySelectorAll('.lesson-done-btn').forEach(btn => btn.textContent = '标记本章已学习');
+          updateProgressUI();
+        });
+      }
+    }
+
+    function updateBadges() {
+      const lessonCount = Object.keys(progress.lessons).filter(k => progress.lessons[k]).length;
+      const examCount = Object.keys(progress.exams || {}).filter(k => progress.exams[k]).length;
+      progress.badges = progress.badges || {};
+      progress.badges.starter = lessonCount >= 2;
+      progress.badges.reader = (progress.miniCorrect || 0) >= 8;
+      progress.badges.theory = examCount >= 4;
+      progress.badges.listener = !!progress.earTrainingDone && !!progress.intervalEarPassed && !!progress.chordEarPassed && !!progress.cadenceEarPassed;
+      progress.badges.earBasic = !!(progress.earExamPassed || {}).basic;
+      progress.badges.earIntermediate = !!(progress.earExamPassed || {}).intermediate;
+      progress.badges.earAdvanced = !!(progress.earExamPassed || {}).advanced;
+      progress.badges.mastery = !!progress.masteryPassed && !!progress.rhythmTapPassed && !!progress.rhythmPlaybackPassed;
+      document.querySelectorAll('#badgeGrid .badge-card').forEach(card => {
+        const active = !!progress.badges[card.dataset.badge];
+        card.classList.toggle('active', active);
+      });
+      saveProgress(progress);
+    }
+
+    function bindCircleInfo() {
+      const info = document.getElementById('circleInfo');
+      const items = document.querySelectorAll('#circleGrid div');
+      items.forEach(item => {
+        item.addEventListener('click', () => {
+          items.forEach(el => el.classList.remove('active'));
+          item.classList.add('active');
+          const [key, accidentals, relativeMinor, related, sharps, flats, note] = item.dataset.keyinfo.split('|');
+          info.innerHTML = `<strong>${key} 大调</strong><br/>调号：${accidentals}<br/>${relativeMinor}<br/>${related}<br/>${sharps}<br/>${flats}<br/>提示：${note}`;
+        });
+      });
+    }
+
+    function bindQuizzes() {
+      document.querySelectorAll('.quiz-box').forEach(box => {
+        const answer = box.dataset.answer;
+        const track = box.dataset.track;
+        const result = box.querySelector('.quiz-result');
+        box.querySelectorAll('.quiz-btn').forEach(btn => {
+          btn.addEventListener('click', () => {
+            if (btn.textContent.trim() === answer.trim()) {
+              result.textContent = `答对了：${answer}`;
+              result.style.color = '#16a34a';
+              if (track) progress.quizzes[track] = true;
+            } else {
+              result.textContent = `再想想。正确答案是：${answer}`;
+              result.style.color = '#dc2626';
+            }
+            saveProgress(progress);
+            updateProgressUI();
+          });
+        });
+      });
+    }
+
+    function baseLetter(note) {
+      return note[0].toUpperCase();
+    }
+
+    function describeInterval(from, to) {
+      const fromLetter = baseLetter(from);
+      const toLetter = baseLetter(to);
+      const fromIdx = letters.indexOf(fromLetter);
+      const toIdx = letters.indexOf(toLetter);
+      const degree = ((toIdx - fromIdx + 7) % 7) + 1;
+      let semitone = noteSemitones[to] - noteSemitones[from];
+      while (semitone < 0) semitone += 12;
+      const qualityMap = {
+        '1-0': '纯一度', '1-1': '增一度',
+        '2-0': '减二度', '2-1': '小二度', '2-2': '大二度', '2-3': '增二度',
+        '3-2': '减三度', '3-3': '小三度', '3-4': '大三度', '3-5': '增三度',
+        '4-4': '减四度', '4-5': '纯四度', '4-6': '增四度',
+        '5-6': '减五度', '5-7': '纯五度', '5-8': '增五度',
+        '6-7': '减六度', '6-8': '小六度', '6-9': '大六度', '6-10': '增六度',
+        '7-9': '减七度', '7-10': '小七度', '7-11': '大七度'
+      };
+      const quality = qualityMap[`${degree}-${semitone}`] || `${degreeNames[degree - 1]}（当前超出基础判断范围）`;
+      return { degree, semitone, quality };
+    }
+
+    function bindIntervalTool() {
+      const fromEl = document.getElementById('intervalFrom');
+      const toEl = document.getElementById('intervalTo');
+      const btn = document.getElementById('intervalCheckBtn');
+      const result = document.getElementById('intervalResult');
+      btn.addEventListener('click', () => {
+        const from = fromEl.value;
+        const to = toEl.value;
+        const data = describeInterval(from, to);
+        result.innerHTML = `<strong>${from} → ${to}</strong><br/>度数：${degreeNames[data.degree - 1]}<br/>半音数：${data.semitone}<br/>判断：${data.quality}`;
+      });
+    }
+
+    function randomPick(arr) {
+      return arr[Math.floor(Math.random() * arr.length)];
+    }
+
+    function shuffleArray(arr) {
+      const copy = [...arr];
+      for (let i = copy.length - 1; i > 0; i -= 1) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [copy[i], copy[j]] = [copy[j], copy[i]];
+      }
+      return copy;
+    }
+
+    function pickRandomQuestions(arr, count) {
+      if (!Array.isArray(arr)) return [];
+      if (arr.length <= count) return shuffleArray(arr);
+      return shuffleArray(arr).slice(0, count);
+    }
+
+    function renderMiniTrainer(type, mount) {
+      const question = randomPick(miniData[type]);
+      mount.innerHTML = `
+        <h3 style="margin-top:0;">随机小练习</h3>
+        <div class="mini-question">${question.q}</div>
+        <div class="quiz-options">
+          ${question.options.map(opt => `<button class="quiz-btn mini-btn">${opt}</button>`).join('')}
+        </div>
+        <div class="mini-status"></div>
+        <div class="cta-row">
+          <button class="cta ghost mini-refresh">换一题</button>
+        </div>
+      `;
+      const status = mount.querySelector('.mini-status');
+      mount.querySelectorAll('.mini-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          if (btn.textContent.trim() === question.answer) {
+            status.innerHTML = `答对了：${question.answer}${question.explain ? `<br/><span class="muted">判断依据：${question.explain}</span>` : ''}`;
+            status.style.color = '#16a34a';
+            progress.miniCorrect = (progress.miniCorrect || 0) + 1;
+            progress.miniPassed[type] = true;
+            saveProgress(progress);
+            updateProgressUI();
+          } else {
+            pushMistake({ source: '随机小练习', type, q: question.q, options: question.options, answer: question.answer, explain: question.explain, reason: question.reason, userAnswer: btn.textContent.trim() });
+            saveProgress(progress);
+            renderMistakeNotebook();
+            status.innerHTML = `答错了，正确答案是：${question.answer}${question.reason ? `<br/><span class="muted">错题原因：${question.reason}</span>` : ''}${question.explain ? `<br/><span class="muted">判断依据：${question.explain}</span>` : ''}`;
+            status.style.color = '#dc2626';
+          }
+        });
+      });
+      mount.querySelector('.mini-refresh').addEventListener('click', () => renderMiniTrainer(type, mount));
+    }
+
+    function bindMiniTrainers() {
+      document.querySelectorAll('.mini-trainer').forEach(node => {
+        renderMiniTrainer(node.dataset.mini, node);
+      });
+    }
+
+    function renderChapterExam(type, mount) {
+      const questions = chapterExamData[type];
+      if (!questions) return;
+      const picked = pickRandomQuestions(questions, Math.min(6, questions.length));
+      const passScore = Math.max(4, picked.length - 1);
+      mount.innerHTML = `
+        <h3 style="margin-top:0;">章节测验：${({intervals:'音程',circle:'五度圈与调号',keys:'调号与调性',chords:'三和弦入门',rhythm:'节奏与拍号',scales:'音阶与调式',functions:'和弦功能',cadence:'终止式',seventh:'七和弦',modulation:'转调入门',borrowed:'借用和弦 / 副属和弦'})[type] || type}</h3>
+        <div class="muted">题池 ${questions.length} 题，本次随机抽 ${picked.length} 题；答对 ${passScore} 题及以上视为通过。</div>
+        ${picked.map((item, index) => `
+          <div class="exam-question">
+            <div class="exam-title">${index + 1}. ${item.q}</div>
+            <div class="quiz-options">
+              ${item.options.map(opt => `<label class="quiz-btn"><input type="radio" name="${type}-${index}" value="${opt}" style="margin-right:8px;" />${opt}</label>`).join('')}
+            </div>
+          </div>
+        `).join('')}
+        <div class="cta-row">
+          <button class="cta exam-submit">提交章节测验</button>
+          <button class="cta ghost exam-refresh">换一套题</button>
+        </div>
+        <div class="exam-result"></div>
+        <div class="exam-review"></div>
+      `;
+      const result = mount.querySelector('.exam-result');
+      const review = mount.querySelector('.exam-review');
+      mount.querySelector('.exam-submit').addEventListener('click', () => {
+        let score = 0;
+        const reviewHtml = [];
+        picked.forEach((item, index) => {
+          const checked = mount.querySelector(`input[name="${type}-${index}"]:checked`);
+          const userAnswer = checked ? checked.value : '未作答';
+          const isCorrect = checked && checked.value === item.answer;
+          if (isCorrect) score += 1;
+          if (!isCorrect) pushMistake({ source: '章节测验', type, q: item.q, options: item.options, answer: item.answer, explain: item.explain, reason: item.reason, userAnswer });
+          reviewHtml.push(`<div class="exam-review-item" style="border-color:${isCorrect ? '#bbf7d0' : '#fecaca'}; background:${isCorrect ? '#f0fdf4' : '#fef2f2'};"><strong>第 ${index + 1} 题：</strong>${item.q}<br/>你的答案：${userAnswer}<br/>正确答案：${item.answer}<br/>结果：${isCorrect ? '答对了' : '答错了'}<br/>${!isCorrect && item.reason ? `错题原因：${item.reason}<br/>` : ''}提示：${item.explain || '先回到本章定义，再看这个知识点的核心判断依据。'}</div>`);
+        });
+        const passed = score >= passScore;
+        progress.exams = progress.exams || {};
+        progress.exams[type] = passed;
+        saveProgress(progress);
+        updateProgressUI();
+        updateBadges();
+        renderMistakeNotebook();
+        result.textContent = passed ? `通过：${score} / ${picked.length}。这章已经基本掌握。` : `当前得分：${score} / ${picked.length}。建议先回看错题原因再试一次。`;
+        result.style.color = passed ? '#16a34a' : '#dc2626';
+        review.innerHTML = reviewHtml.join('');
+      });
+      mount.querySelector('.exam-refresh').addEventListener('click', () => renderChapterExam(type, mount));
+    }
+
+    function bindChapterExams() {
+      document.querySelectorAll('.chapter-exam').forEach(node => {
+        renderChapterExam(node.dataset.exam, node);
+      });
+    }
+
+    function renderEarTrainingGuide() {
+      const mount = document.getElementById('earTrainingBox');
+      if (!mount) return;
+      const tasks = [
+        { title: '音程听感', focus: '先分“贴得很近 / 很空旷 / 很稳定”', example: '小二度常紧张，纯五度常稳定空旷。' },
+        { title: '功能听感', focus: '先分“像在家 / 像离开 / 像想回家”', example: '主功能稳定，下属功能推进，属功能最想解决。' },
+        { title: '终止式听感', focus: '先分“真落地 / 先停住 / 被拐走”', example: 'V→I 像句号，停在 V 像逗号，V→vi 像转折。' }
+      ];
+      mount.innerHTML = `
+        <h3 style="margin-top:0;">听感训练引导</h3>
+        <div class="muted">先训练“应该听什么”，再去接真正的听辨会更稳。</div>
+        <div class="ear-grid">
+          ${tasks.map(item => `<div class="ear-card"><strong>${item.title}</strong><div class="muted" style="margin-top:8px;">关注点：${item.focus}</div><div class="muted">例子：${item.example}</div></div>`).join('')}
+        </div>
+        <div class="cta-row">
+          <button class="cta secondary" id="earGuideDoneBtn">我已完成这一轮听感观察</button>
+        </div>
+        <div class="exam-result" id="earGuideResult"></div>
+      `;
+      mount.querySelector('#earGuideDoneBtn').addEventListener('click', () => {
+        progress.earTrainingDone = true;
+        saveProgress(progress);
+        updateBadges();
+        const result = mount.querySelector('#earGuideResult');
+        result.textContent = '已记录：听感起步徽章条件已完成。下一步可以继续做综合测试或节奏练习。';
+        result.style.color = '#16a34a';
+      });
+    }
+
+    let learnAudioContext;
+    function ensureLearnAudioContext() {
+      if (!learnAudioContext) {
+        const Ctx = window.AudioContext || window.webkitAudioContext;
+        if (!Ctx) return null;
+        learnAudioContext = new Ctx();
+      }
+      return learnAudioContext;
+    }
+
+    async function unlockLearnAudio() {
+      const ctx = ensureLearnAudioContext();
+      if (!ctx) return null;
+      if (ctx.state === 'suspended') await ctx.resume();
+      return ctx;
+    }
+
+    function midiToFreq(midi) {
+      return 440 * Math.pow(2, (midi - 69) / 12);
+    }
+
+    async function playLearnTone(midi, duration = 0.42, delay = 0) {
+      const ctx = await unlockLearnAudio();
+      if (!ctx) return false;
+      const now = ctx.currentTime + delay;
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = 'triangle';
+      osc.frequency.setValueAtTime(midiToFreq(midi), now);
+      gain.gain.setValueAtTime(0.0001, now);
+      gain.gain.exponentialRampToValueAtTime(0.16, now + 0.02);
+      gain.gain.exponentialRampToValueAtTime(0.0001, now + duration);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start(now);
+      osc.stop(now + duration + 0.03);
+      return true;
+    }
+
+    async function playLearnChord(midis, duration = 0.8, delay = 0) {
+      const results = await Promise.all(midis.map(midi => playLearnTone(midi, duration, delay)));
+      return results.every(Boolean);
+    }
+
+    async function playLearnSequence(groups) {
+      for (const group of groups) {
+        if (group.type === 'chord') {
+          await playLearnChord(group.notes, group.duration || 0.75, group.delay || 0);
+        } else {
+          await playLearnTone(group.note, group.duration || 0.42, group.delay || 0);
+        }
+      }
+      return true;
+    }
+
+    function renderEarLevelControls() {
+      return `
+        <div class="level-row">
+          <button class="quiz-btn ear-level-btn" data-level="basic">初级</button>
+          <button class="quiz-btn ear-level-btn" data-level="intermediate">中级</button>
+          <button class="quiz-btn ear-level-btn" data-level="advanced">进阶</button>
+        </div>
+        <div class="muted" style="margin-top:8px;">当前练耳等级：${progress.earLevel === 'basic' ? '初级' : progress.earLevel === 'intermediate' ? '中级' : '进阶'}</div>
+      `;
+    }
+
+    function bindEarLevelButtons(mount, rerender) {
+      mount.querySelectorAll('.ear-level-btn').forEach(btn => {
+        if (btn.dataset.level === progress.earLevel) {
+          btn.style.background = '#dbeafe';
+          btn.style.borderColor = '#60a5fa';
+        }
+        btn.addEventListener('click', () => {
+          progress.earLevel = btn.dataset.level;
+          saveProgress(progress);
+          rerender();
+        });
+      });
+    }
+
+    function renderIntervalEarTrainer() {
+      const mount = document.getElementById('intervalEarBox');
+      if (!mount) return;
+      const banks = {
+        basic: [
+          { label: '小二度', semitones: 1, clue: '两个音非常贴近，常有明显紧张感。' },
+          { label: '大三度', semitones: 4, clue: '常有明亮稳定感，是大三和弦核心音程。' },
+          { label: '纯五度', semitones: 7, clue: '通常最空旷稳定，像很多调性骨架的核心。' }
+        ],
+        intermediate: [
+          { label: '大二度', semitones: 2, clue: '比小二度松一些，常见于旋律级进。' },
+          { label: '小三度', semitones: 3, clue: '比二度更开阔，色彩略暗。' },
+          { label: '纯四度', semitones: 5, clue: '稳定里带一点张力，像向上展开。' },
+          { label: '纯五度', semitones: 7, clue: '通常最空旷稳定。' }
+        ],
+        advanced: [
+          { label: '小二度', semitones: 1, clue: '紧张、贴近。' },
+          { label: '大二度', semitones: 2, clue: '旋律级进感明显。' },
+          { label: '小三度', semitones: 3, clue: '略暗。' },
+          { label: '大三度', semitones: 4, clue: '明亮。' },
+          { label: '纯四度', semitones: 5, clue: '稳定里带一点张力。' },
+          { label: '纯五度', semitones: 7, clue: '空旷稳定。' }
+        ]
+      };
+      const bank = banks[progress.earLevel] || banks.basic;
+      const current = bank[Math.floor(Math.random() * bank.length)];
+      const baseMidi = 60 + Math.floor(Math.random() * 8);
+      mount.innerHTML = `
+        <h3 style="margin-top:0;">音程提示音练耳</h3>
+        <div class="muted">先听两个音，再判断更接近哪一种音程。</div>
+        ${renderEarLevelControls()}
+        <div class="cta-row">
+          <button class="cta secondary" id="playIntervalEarBtn">播放两个音</button>
+          <button class="cta ghost" id="refreshIntervalEarBtn">换一组</button>
+        </div>
+        <div class="quiz-options">
+          ${bank.map(item => `<button class="quiz-btn interval-ear-btn" data-answer="${item.label}">${item.label}</button>`).join('')}
+        </div>
+        <div class="exam-result" id="intervalEarResult"></div>
+      `;
+      mount.querySelector('#playIntervalEarBtn').addEventListener('click', async () => {
+        const ok1 = await playLearnTone(baseMidi, 0.38, 0);
+        const ok2 = await playLearnTone(baseMidi + current.semitones, 0.46, 0.55);
+        if (!ok1 || !ok2) {
+          mount.querySelector('#intervalEarResult').textContent = '当前浏览器不支持 Web Audio 播放。';
+          mount.querySelector('#intervalEarResult').style.color = '#dc2626';
+        }
+      });
+      mount.querySelectorAll('.interval-ear-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const passed = btn.dataset.answer === current.label;
+          const result = mount.querySelector('#intervalEarResult');
+          result.textContent = passed ? `答对了：这是 ${current.label}。提示：${current.clue}` : `答错了。正确答案是 ${current.label}。提示：${current.clue}`;
+          result.style.color = passed ? '#16a34a' : '#dc2626';
+          if (passed) {
+            progress.intervalEarPassed = true;
+            saveProgress(progress);
+            updateBadges();
+          }
+        });
+      });
+      mount.querySelector('#refreshIntervalEarBtn').addEventListener('click', () => renderIntervalEarTrainer());
+      bindEarLevelButtons(mount, renderIntervalEarTrainer);
+    }
+
+    function renderChordEarTrainer() {
+      const mount = document.getElementById('chordEarBox');
+      if (!mount) return;
+      const base = 60 + Math.floor(Math.random() * 6);
+      const banks = {
+        basic: [
+          { label: '大三和弦', notes: [base, base + 4, base + 7], clue: '通常更明亮稳定。' },
+          { label: '小三和弦', notes: [base, base + 3, base + 7], clue: '通常更内收、偏暗一些。' }
+        ],
+        intermediate: [
+          { label: '大三和弦', notes: [base, base + 4, base + 7], clue: '通常更明亮稳定。' },
+          { label: '小三和弦', notes: [base, base + 3, base + 7], clue: '通常更内收、偏暗一些。' },
+          { label: '属七和弦', notes: [base, base + 4, base + 7, base + 10], clue: '更紧张，更想解决。' }
+        ],
+        advanced: [
+          { label: '大三和弦', notes: [base, base + 4, base + 7], clue: '明亮稳定。' },
+          { label: '小三和弦', notes: [base, base + 3, base + 7], clue: '偏暗。' },
+          { label: '属七和弦', notes: [base, base + 4, base + 7, base + 10], clue: '最有解决倾向。' }
+        ]
+      };
+      const bank = banks[progress.earLevel] || banks.basic;
+      const current = bank[Math.floor(Math.random() * bank.length)];
+      mount.innerHTML = `
+        <h3 style="margin-top:0;">和弦听感训练</h3>
+        <div class="muted">先听整体色彩，再判断更像哪一类和弦。</div>
+        ${renderEarLevelControls()}
+        <div class="cta-row">
+          <button class="cta secondary" id="playChordEarBtn">播放和弦</button>
+          <button class="cta ghost" id="refreshChordEarBtn">换一组</button>
+        </div>
+        <div class="quiz-options">
+          ${bank.map(item => `<button class="quiz-btn chord-ear-btn" data-answer="${item.label}">${item.label}</button>`).join('')}
+        </div>
+        <div class="exam-result" id="chordEarResult"></div>
+      `;
+      mount.querySelector('#playChordEarBtn').addEventListener('click', async () => {
+        const ok = await playLearnChord(current.notes, 0.95, 0);
+        if (!ok) {
+          const result = mount.querySelector('#chordEarResult');
+          result.textContent = '当前浏览器不支持 Web Audio 播放。';
+          result.style.color = '#dc2626';
+        }
+      });
+      mount.querySelectorAll('.chord-ear-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const passed = btn.dataset.answer === current.label;
+          const result = mount.querySelector('#chordEarResult');
+          result.textContent = passed ? `答对了：这是 ${current.label}。提示：${current.clue}` : `答错了。正确答案是 ${current.label}。提示：${current.clue}`;
+          result.style.color = passed ? '#16a34a' : '#dc2626';
+          if (passed) {
+            progress.chordEarPassed = true;
+            saveProgress(progress);
+            updateBadges();
+          }
+        });
+      });
+      mount.querySelector('#refreshChordEarBtn').addEventListener('click', () => renderChordEarTrainer());
+      bindEarLevelButtons(mount, renderChordEarTrainer);
+    }
+
+    function renderCadenceEarTrainer() {
+      const mount = document.getElementById('cadenceEarBox');
+      if (!mount) return;
+      const tonic = 60 + Math.floor(Math.random() * 4);
+      const banks = {
+        basic: [
+          { label: '真终止', groups: [{ type: 'chord', notes: [tonic + 7, tonic + 11, tonic + 14], duration: 0.7 }, { type: 'chord', notes: [tonic, tonic + 4, tonic + 7], duration: 0.9, delay: 0.85 }], clue: '属到主，通常最像真正落地。' },
+          { label: '半终止', groups: [{ type: 'chord', notes: [tonic + 5, tonic + 9, tonic + 12], duration: 0.7 }, { type: 'chord', notes: [tonic + 7, tonic + 11, tonic + 14], duration: 0.9, delay: 0.85 }], clue: '最后停在属功能，像句子还没讲完。' }
+        ],
+        intermediate: [
+          { label: '真终止', groups: [{ type: 'chord', notes: [tonic + 7, tonic + 11, tonic + 14], duration: 0.7 }, { type: 'chord', notes: [tonic, tonic + 4, tonic + 7], duration: 0.9, delay: 0.85 }], clue: '属到主，通常最像真正落地。' },
+          { label: '半终止', groups: [{ type: 'chord', notes: [tonic + 5, tonic + 9, tonic + 12], duration: 0.7 }, { type: 'chord', notes: [tonic + 7, tonic + 11, tonic + 14], duration: 0.9, delay: 0.85 }], clue: '最后停在属功能。' },
+          { label: '阻碍终止', groups: [{ type: 'chord', notes: [tonic + 7, tonic + 11, tonic + 14], duration: 0.7 }, { type: 'chord', notes: [tonic + 9, tonic + 12, tonic + 16], duration: 0.9, delay: 0.85 }], clue: '本来像要回主，却被带去别处。' }
+        ],
+        advanced: [
+          { label: '真终止', groups: [{ type: 'chord', notes: [tonic + 7, tonic + 11, tonic + 14], duration: 0.7 }, { type: 'chord', notes: [tonic, tonic + 4, tonic + 7], duration: 0.9, delay: 0.85 }], clue: '最像落地。' },
+          { label: '半终止', groups: [{ type: 'chord', notes: [tonic + 5, tonic + 9, tonic + 12], duration: 0.7 }, { type: 'chord', notes: [tonic + 7, tonic + 11, tonic + 14], duration: 0.9, delay: 0.85 }], clue: '像没讲完。' },
+          { label: '阻碍终止', groups: [{ type: 'chord', notes: [tonic + 7, tonic + 11, tonic + 14], duration: 0.7 }, { type: 'chord', notes: [tonic + 9, tonic + 12, tonic + 16], duration: 0.9, delay: 0.85 }], clue: '像被拐走。' }
+        ]
+      };
+      const bank = banks[progress.earLevel] || banks.basic;
+      const current = bank[Math.floor(Math.random() * bank.length)];
+      mount.innerHTML = `
+        <h3 style="margin-top:0;">终止式听感训练</h3>
+        <div class="muted">先听两组和弦进行，再判断它更像哪种终止。</div>
+        ${renderEarLevelControls()}
+        <div class="cta-row">
+          <button class="cta secondary" id="playCadenceEarBtn">播放终止式</button>
+          <button class="cta ghost" id="refreshCadenceEarBtn">换一组</button>
+        </div>
+        <div class="quiz-options">
+          ${bank.map(item => `<button class="quiz-btn cadence-ear-btn" data-answer="${item.label}">${item.label}</button>`).join('')}
+        </div>
+        <div class="exam-result" id="cadenceEarResult"></div>
+      `;
+      mount.querySelector('#playCadenceEarBtn').addEventListener('click', async () => {
+        const ok = await playLearnSequence(current.groups);
+        if (!ok) {
+          const result = mount.querySelector('#cadenceEarResult');
+          result.textContent = '当前浏览器不支持 Web Audio 播放。';
+          result.style.color = '#dc2626';
+        }
+      });
+      mount.querySelectorAll('.cadence-ear-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const passed = btn.dataset.answer === current.label;
+          const result = mount.querySelector('#cadenceEarResult');
+          result.textContent = passed ? `答对了：这是 ${current.label}。提示：${current.clue}` : `答错了。正确答案是 ${current.label}。提示：${current.clue}`;
+          result.style.color = passed ? '#16a34a' : '#dc2626';
+          if (passed) {
+            progress.cadenceEarPassed = true;
+            saveProgress(progress);
+            updateBadges();
+          }
+        });
+      });
+      mount.querySelector('#refreshCadenceEarBtn').addEventListener('click', () => renderCadenceEarTrainer());
+      bindEarLevelButtons(mount, renderCadenceEarTrainer);
+    }
+
+    function buildEarExamQuestion(kind) {
+      const base = 60 + Math.floor(Math.random() * 6);
+      if (kind === 'interval') {
+        const banks = {
+          basic: [
+            { label: '小二度', semitones: 1, clue: '紧张、贴近。' },
+            { label: '大三度', semitones: 4, clue: '明亮。' },
+            { label: '纯五度', semitones: 7, clue: '空旷稳定。' }
+          ],
+          intermediate: [
+            { label: '大二度', semitones: 2, clue: '旋律级进。' },
+            { label: '小三度', semitones: 3, clue: '偏暗。' },
+            { label: '纯四度', semitones: 5, clue: '稳定中带张力。' },
+            { label: '纯五度', semitones: 7, clue: '空旷稳定。' }
+          ],
+          advanced: [
+            { label: '小二度', semitones: 1, clue: '紧张、贴近。' },
+            { label: '大二度', semitones: 2, clue: '旋律级进。' },
+            { label: '小三度', semitones: 3, clue: '偏暗。' },
+            { label: '大三度', semitones: 4, clue: '明亮。' },
+            { label: '纯四度', semitones: 5, clue: '稳定中带张力。' },
+            { label: '纯五度', semitones: 7, clue: '空旷稳定。' }
+          ]
+        };
+        const bank = banks[progress.earLevel] || banks.basic;
+        const current = bank[Math.floor(Math.random() * bank.length)];
+        return { kind, question: '请判断这是哪一种音程？', answer: current.label, clue: current.clue, options: bank.map(item => item.label), play: () => Promise.all([playLearnTone(base, 0.38, 0), playLearnTone(base + current.semitones, 0.46, 0.55)]) };
+      }
+      if (kind === 'chord') {
+        const banks = {
+          basic: [
+            { label: '大三和弦', notes: [base, base + 4, base + 7], clue: '更明亮稳定。' },
+            { label: '小三和弦', notes: [base, base + 3, base + 7], clue: '更内收偏暗。' }
+          ],
+          intermediate: [
+            { label: '大三和弦', notes: [base, base + 4, base + 7], clue: '更明亮稳定。' },
+            { label: '小三和弦', notes: [base, base + 3, base + 7], clue: '更内收偏暗。' },
+            { label: '属七和弦', notes: [base, base + 4, base + 7, base + 10], clue: '更紧张、更想解决。' }
+          ],
+          advanced: [
+            { label: '大三和弦', notes: [base, base + 4, base + 7], clue: '明亮稳定。' },
+            { label: '小三和弦', notes: [base, base + 3, base + 7], clue: '偏暗。' },
+            { label: '属七和弦', notes: [base, base + 4, base + 7, base + 10], clue: '解决倾向最强。' }
+          ]
+        };
+        const bank = banks[progress.earLevel] || banks.basic;
+        const current = bank[Math.floor(Math.random() * bank.length)];
+        return { kind, question: '请判断这是哪一种和弦听感？', answer: current.label, clue: current.clue, options: bank.map(item => item.label), play: () => playLearnChord(current.notes, 0.95, 0) };
+      }
+      const tonic = 60 + Math.floor(Math.random() * 4);
+      const banks = {
+        basic: [
+          { label: '真终止', groups: [{ type: 'chord', notes: [tonic + 7, tonic + 11, tonic + 14], duration: 0.7 }, { type: 'chord', notes: [tonic, tonic + 4, tonic + 7], duration: 0.9, delay: 0.85 }], clue: '最像真正落地。' },
+          { label: '半终止', groups: [{ type: 'chord', notes: [tonic + 5, tonic + 9, tonic + 12], duration: 0.7 }, { type: 'chord', notes: [tonic + 7, tonic + 11, tonic + 14], duration: 0.9, delay: 0.85 }], clue: '像还没讲完。' }
+        ],
+        intermediate: [
+          { label: '真终止', groups: [{ type: 'chord', notes: [tonic + 7, tonic + 11, tonic + 14], duration: 0.7 }, { type: 'chord', notes: [tonic, tonic + 4, tonic + 7], duration: 0.9, delay: 0.85 }], clue: '最像真正落地。' },
+          { label: '半终止', groups: [{ type: 'chord', notes: [tonic + 5, tonic + 9, tonic + 12], duration: 0.7 }, { type: 'chord', notes: [tonic + 7, tonic + 11, tonic + 14], duration: 0.9, delay: 0.85 }], clue: '像还没讲完。' },
+          { label: '阻碍终止', groups: [{ type: 'chord', notes: [tonic + 7, tonic + 11, tonic + 14], duration: 0.7 }, { type: 'chord', notes: [tonic + 9, tonic + 12, tonic + 16], duration: 0.9, delay: 0.85 }], clue: '像被拐走。' }
+        ],
+        advanced: [
+          { label: '真终止', groups: [{ type: 'chord', notes: [tonic + 7, tonic + 11, tonic + 14], duration: 0.7 }, { type: 'chord', notes: [tonic, tonic + 4, tonic + 7], duration: 0.9, delay: 0.85 }], clue: '最像落地。' },
+          { label: '半终止', groups: [{ type: 'chord', notes: [tonic + 5, tonic + 9, tonic + 12], duration: 0.7 }, { type: 'chord', notes: [tonic + 7, tonic + 11, tonic + 14], duration: 0.9, delay: 0.85 }], clue: '像没讲完。' },
+          { label: '阻碍终止', groups: [{ type: 'chord', notes: [tonic + 7, tonic + 11, tonic + 14], duration: 0.7 }, { type: 'chord', notes: [tonic + 9, tonic + 12, tonic + 16], duration: 0.9, delay: 0.85 }], clue: '像被拐走。' }
+        ]
+      };
+      const bank = banks[progress.earLevel] || banks.basic;
+      const current = bank[Math.floor(Math.random() * bank.length)];
+      return { kind, question: '请判断这是哪一种终止式听感？', answer: current.label, clue: current.clue, options: bank.map(item => item.label), play: () => playLearnSequence(current.groups) };
+    }
+
+    function renderEarExam() {
+      const mount = document.getElementById('earExamBox');
+      if (!mount) return;
+      const kinds = ['interval', 'chord', 'cadence'];
+      const questions = kinds.map(kind => buildEarExamQuestion(kind));
+      mount.innerHTML = `
+        <h3 style="margin-top:0;">练耳阶段考试</h3>
+        <div class="muted">当前等级：${progress.earLevel === 'basic' ? '初级' : progress.earLevel === 'intermediate' ? '中级' : '进阶'}。共 3 题，每题先播放再判断。</div>
+        ${questions.map((item, index) => `
+          <div class="exam-question">
+            <div class="exam-title">${index + 1}. ${item.question}</div>
+            <div class="cta-row"><button class="cta secondary ear-exam-play" data-index="${index}">播放本题</button></div>
+            <div class="quiz-options">
+              ${item.options.map(opt => `<label class="quiz-btn"><input type="radio" name="ear-${index}" value="${opt}" style="margin-right:8px;" />${opt}</label>`).join('')}
+            </div>
+          </div>
+        `).join('')}
+        <div class="cta-row"><button class="cta" id="submitEarExamBtn">提交练耳考试</button></div>
+        <div class="exam-result" id="earExamResult"></div>
+        <div class="exam-review" id="earExamReview"></div>
+      `;
+      mount.querySelectorAll('.ear-exam-play').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const q = questions[Number(btn.dataset.index)];
+          q.play();
+        });
+      });
+      mount.querySelector('#submitEarExamBtn').addEventListener('click', () => {
+        let score = 0;
+        const reviewHtml = [];
+        questions.forEach((item, index) => {
+          const checked = mount.querySelector(`input[name="ear-${index}"]:checked`);
+          const userAnswer = checked ? checked.value : '未作答';
+          const isCorrect = checked && checked.value === item.answer;
+          if (isCorrect) score += 1;
+          reviewHtml.push(`<div class="exam-review-item" style="border-color:${isCorrect ? '#bbf7d0' : '#fecaca'}; background:${isCorrect ? '#f0fdf4' : '#fef2f2'};"><strong>第 ${index + 1} 题：</strong>${item.question}<br/>你的答案：${userAnswer}<br/>正确答案：${item.answer}<br/>提示：${item.clue}</div>`);
+        });
+        const passed = score >= 2;
+        progress.earExamPassed = progress.earExamPassed || {};
+        progress.earExamPassed[progress.earLevel] = passed;
+        saveProgress(progress);
+        const result = mount.querySelector('#earExamResult');
+        const review = mount.querySelector('#earExamReview');
+        result.textContent = passed ? `练耳阶段考试通过：${score} / 3。` : `练耳阶段考试得分：${score} / 3。建议继续在当前等级多练几轮。`;
+        result.style.color = passed ? '#16a34a' : '#dc2626';
+        review.innerHTML = reviewHtml.join('');
+      });
+    }
+
+    function renderMasteryExam() {
+      const mount = document.getElementById('masteryExamBox');
+      if (!mount) return;
+      const picked = pickRandomQuestions(masteryExamData, Math.min(8, masteryExamData.length));
+      const passScore = Math.max(5, Math.ceil(picked.length * 0.65));
+      mount.innerHTML = `
+        <h3 style="margin-top:0;">综合测试：跨章节判断</h3>
+        <div class="muted">题池 ${masteryExamData.length} 题，本次随机抽 ${picked.length} 题；答对 ${passScore} 题及以上视为通过，建议学完至少 4-5 章后再做。</div>
+        ${picked.map((item, index) => `
+          <div class="exam-question">
+            <div class="exam-title">${index + 1}. ${item.q}</div>
+            <div class="quiz-options">
+              ${item.options.map(opt => `<label class="quiz-btn"><input type="radio" name="mastery-${index}" value="${opt}" style="margin-right:8px;" />${opt}</label>`).join('')}
+            </div>
+          </div>
+        `).join('')}
+        <div class="cta-row">
+          <button class="cta" id="masterySubmitBtn">提交综合测试</button>
+          <button class="cta ghost" id="masteryRefreshBtn">换一套题</button>
+        </div>
+        <div class="exam-result" id="masteryResult"></div>
+        <div class="exam-review" id="masteryReview"></div>
+      `;
+      mount.querySelector('#masterySubmitBtn').addEventListener('click', () => {
+        let score = 0;
+        const reviewHtml = [];
+        picked.forEach((item, index) => {
+          const checked = mount.querySelector(`input[name="mastery-${index}"]:checked`);
+          const userAnswer = checked ? checked.value : '未作答';
+          const isCorrect = checked && checked.value === item.answer;
+          if (isCorrect) score += 1;
+          if (!isCorrect) pushMistake({ source: '综合测试', type: 'mastery', q: item.q, options: item.options, answer: item.answer, explain: item.explain, reason: item.reason, userAnswer });
+          reviewHtml.push(`<div class="exam-review-item" style="border-color:${isCorrect ? '#bbf7d0' : '#fecaca'}; background:${isCorrect ? '#f0fdf4' : '#fef2f2'};"><strong>第 ${index + 1} 题：</strong>${item.q}<br/>你的答案：${userAnswer}<br/>正确答案：${item.answer}<br/>${!isCorrect && item.reason ? `错题原因：${item.reason}<br/>` : ''}提示：${item.explain}</div>`);
+        });
+        const result = mount.querySelector('#masteryResult');
+        const review = mount.querySelector('#masteryReview');
+        const passed = score >= passScore;
+        progress.masteryPassed = passed;
+        saveProgress(progress);
+        updateBadges();
+        renderMistakeNotebook();
+        result.textContent = passed ? `综合测试通过：${score} / ${picked.length}。你已经开始能跨章节判断了。` : `综合测试得分：${score} / ${picked.length}。建议回看错题对应章节和错题原因再测一次。`;
+        result.style.color = passed ? '#16a34a' : '#dc2626';
+        review.innerHTML = reviewHtml.join('');
+      });
+      mount.querySelector('#masteryRefreshBtn').addEventListener('click', renderMasteryExam);
+    }
+
+    function renderRhythmTapTrainer() {
+      const mount = document.getElementById('rhythmTapBox');
+      if (!mount) return;
+      const patterns = [
+        { label: '● ○ ● ○', answer: [1,0,1,0], tip: '点击第 1、3 拍，留空第 2、4 拍。' },
+        { label: '● ● ○ ●', answer: [1,1,0,1], tip: '先连点前两拍，第三拍留空，第四拍再点。' },
+        { label: '● ○ ○ ●', answer: [1,0,0,1], tip: '首尾有点击，中间两拍留空。' }
+      ];
+      const pattern = patterns[Math.floor(Math.random() * patterns.length)];
+      const state = [0,0,0,0];
+      mount.innerHTML = `
+        <h3 style="margin-top:0;">节奏点击练习</h3>
+        <div class="muted">目标节奏：<strong>${pattern.label}</strong></div>
+        <div class="tap-pad">
+          ${state.map((_,i) => `<button class="tap-btn" data-index="${i}">第 ${i+1} 拍<br/>○</button>`).join('')}
+        </div>
+        <div class="cta-row">
+          <button class="cta secondary" id="playTapPatternBtn">先播放节奏</button>
+          <button class="cta secondary" id="checkTapBtn">检查节奏</button>
+          <button class="cta ghost" id="refreshTapBtn">换一个节奏</button>
+        </div>
+        <div class="exam-result" id="tapResult"></div>
+      `;
+      mount.querySelectorAll('.tap-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const index = Number(btn.dataset.index);
+          state[index] = state[index] ? 0 : 1;
+          btn.classList.toggle('active', !!state[index]);
+          btn.innerHTML = `第 ${index+1} 拍<br/>${state[index] ? '●' : '○'}`;
+        });
+      });
+      mount.querySelector('#playTapPatternBtn').addEventListener('click', async () => {
+        for (let i = 0; i < pattern.answer.length; i += 1) {
+          const midi = pattern.answer[i] ? 76 : 64;
+          await playLearnTone(midi, 0.18, i * 0.3);
+        }
+      });
+      mount.querySelector('#checkTapBtn').addEventListener('click', () => {
+        const passed = JSON.stringify(state) === JSON.stringify(pattern.answer);
+        const result = mount.querySelector('#tapResult');
+        if (passed) {
+          result.textContent = `节奏正确：${pattern.label}。这组拍感过关。`;
+        } else {
+          const wrongBeats = pattern.answer.map((v,i) => v !== state[i] ? i + 1 : null).filter(Boolean);
+          result.textContent = `还不对。错在第 ${wrongBeats.join('、')} 拍。提示：${pattern.tip}`;
+        }
+        result.style.color = passed ? '#16a34a' : '#dc2626';
+        if (passed) {
+          progress.rhythmTapPassed = true;
+          progress.rhythmPlaybackPassed = true;
+          saveProgress(progress);
+          updateBadges();
+        }
+      });
+      mount.querySelector('#refreshTapBtn').addEventListener('click', () => renderRhythmTapTrainer());
+    }
+
+    [
+      bindLessonDoneButtons,
+      bindCircleInfo,
+      bindQuizzes,
+      bindIntervalTool,
+      bindMiniTrainers,
+      bindBackToTopButton,
+      bindLessonSidebar,
+      bindChapterExams,
+      renderEarTrainingGuide,
+      renderIntervalEarTrainer,
+      renderChordEarTrainer,
+      renderCadenceEarTrainer,
+      renderEarExam,
+      renderMasteryExam,
+      renderRhythmTapTrainer,
+      updateProgressUI,
+      updateBadges
+    ].forEach(fn => {
+      try {
+        fn();
+      } catch (error) {
+        console.error('learn.html init failed:', fn.name, error);
+      }
+    });
+  </script>
+</body>
+</html>
