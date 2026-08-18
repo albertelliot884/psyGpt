@@ -131,6 +131,13 @@ h3 { font-size: 20px; }
 .form-grid { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
 .two-col { display: grid; grid-template-columns: 1.15fr .85fr; gap: 16px; }
 .dashboard-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 16px; }
+.manage-layout { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(340px, .85fr); gap: 16px; align-items: start; }
+.manage-editor { position: sticky; top: 16px; }
+.manage-form-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.manage-form-grid label { align-self: start; }
+.manage-form-grid textarea { min-height: 110px; }
+.manage-list-panel { max-height: 78vh; overflow: auto; }
+.manage-list-panel .note-card { margin-bottom: 10px; }
 .stat, .subject-card, .chapter-item, .note-card, .question-card, .dashboard-card {
   background: var(--panel);
   border: 1px solid var(--line);
@@ -512,7 +519,9 @@ select {
   margin-top: 8px;
 }
 @media (max-width: 860px) {
-  .hero, .two-col, .dashboard-grid { grid-template-columns: 1fr; }
+  .hero, .two-col, .dashboard-grid, .manage-layout { grid-template-columns: 1fr; }
+  .manage-editor { position: static; }
+  .manage-list-panel { max-height: none; overflow: visible; }
 }
 @media (max-width: 720px) {
   body { padding: 12px; }

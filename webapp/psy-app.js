@@ -24,6 +24,22 @@ function writeProgress(progress) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
 }
 
+function getChapterAnswers(progress) {
+  return progress.chapterAnswers || {};
+}
+
+function getChapterAnswer(progress, questionId) {
+  return getChapterAnswers(progress)[questionId] || '';
+}
+
+function setChapterAnswer(progress, questionId, value) {
+  progress.chapterAnswers = {
+    ...getChapterAnswers(progress),
+    [questionId]: value
+  };
+  writeProgress(progress);
+}
+
 function isWrongQuestion(progress, questionId) {
   return (progress.wrongQuestionIds || []).includes(questionId);
 }
@@ -219,20 +235,27 @@ function renderSubject({ subjects, chapters, focusPoints, confusionPoints, progr
     document.getElementById('chapterList').innerHTML = subjectChapters.length ? subjectChapters.map(renderChapterItem).join('') : '<div class="empty">当前学科还没有接入章节内容。</div>';
   }
 
-  document.getElementById('focusList').innerHTML = subjectFocus.length ? subjectFocus.slice(0, 6).map(item => `
-    <div class="note-card">
-      <h4>${item.title}</h4>
-      <p class="muted">${item.summary}</p>
-      <div class="meta-row">${item.keywords.map(word => pill(word)).join('')}</div>
-    </div>
-  `).join('') : '<div class="empty">暂无重点数据。</div>';
+  const focusListNode = document.getElementById('focusList');
+  const confusionListNode = document.getElementById('confusionList');
 
-  document.getElementById('confusionList').innerHTML = subjectConfusions.length ? subjectConfusions.slice(0, 6).map(item => `
-    <div class="note-card">
-      <h4>${item.title}</h4>
-      <p class="muted">${item.summary}</p>
-    </div>
-  `).join('') : '<div class="empty">暂无易混点数据。</div>';
+  if (focusListNode) {
+    focusListNode.innerHTML = subjectFocus.length ? subjectFocus.slice(0, 6).map(item => `
+      <div class="note-card">
+        <h4>${item.title}</h4>
+        <p class="muted">${item.content || item.summary || ''}</p>
+        <div class="meta-row">${(item.keywords || item.tags || []).map(word => pill(word)).join('')}</div>
+      </div>
+    `).join('') : '<div class="empty">暂无重点数据。</div>';
+  }
+
+  if (confusionListNode) {
+    confusionListNode.innerHTML = subjectConfusions.length ? subjectConfusions.slice(0, 6).map(item => `
+      <div class="note-card">
+        <h4>${item.title}</h4>
+        <p class="muted">${item.content || item.summary || ''}</p>
+      </div>
+    `).join('') : '<div class="empty">暂无易混点数据。</div>';
+  }
 }
 
 function renderChapter({ subjects, chapters, focusPoints, confusionPoints, questions, progress }) {
@@ -293,7 +316,14 @@ function renderChapter({ subjects, chapters, focusPoints, confusionPoints, quest
         <div class="meta-row">${pill(item.type, true)}${item.isHighFrequency ? pill('高频') : ''}${pill(item.difficulty)}${item.recommendedWords ? pill(`建议字数 ${item.recommendedWords}`) : ''}${item.recommendedTime ? pill(`建议用时 ${item.recommendedTime}`) : ''}${isWrongQuestion(progress, item.id) ? pill('错题', true) : ''}</div>
         <h4>${item.title}</h4>
         <p>${item.stem}</p>
-        ${Array.isArray(item.options) ? `<ul class="bullet-list">${item.options.map(op => `<li>${op}</li>`).join('')}</ul>` : ''}
+        ${item.type === '选择题' ? `<div class="stack">${(item.options || []).map((op, idx) => {
+          const value = String.fromCharCode(65 + idx);
+          return `<label class="checkbox-row"><input type="radio" name="chapter_answer_${item.id}" value="${value}" ${getChapterAnswer(progress, item.id) === value ? 'checked' : ''} /> <span>${op}</span></label>`;
+        }).join('')}</div>` : Array.isArray(item.options) ? `<ul class="bullet-list">${item.options.map(op => `<li>${op}</li>`).join('')}</ul>` : ''}
+        ${item.type === '判断题' ? `<div class="stack">
+          <label class="checkbox-row"><input type="radio" name="chapter_answer_${item.id}" value="正确" ${getChapterAnswer(progress, item.id) === '正确' ? 'checked' : ''} /> <span>正确</span></label>
+          <label class="checkbox-row"><input type="radio" name="chapter_answer_${item.id}" value="错误" ${getChapterAnswer(progress, item.id) === '错误' ? 'checked' : ''} /> <span>错误</span></label>
+        </div>` : ''}
         ${(relatedFocus.length || relatedConfusions.length) ? `
           <div class="relation-block">
             ${relatedFocus.length ? `<div class="relation-group"><div class="relation-title">关联重点</div><div class="meta-row">${relatedFocus.map(fp => pill(fp.title)).join('')}</div></div>` : ''}
@@ -303,7 +333,7 @@ function renderChapter({ subjects, chapters, focusPoints, confusionPoints, quest
         ${isSubjective ? `
           <div class="panel">
             <div class="eyebrow">作答区</div>
-            <textarea class="paper-answer-input chapter-answer-input" data-question-id="${item.id}" rows="7" placeholder="${item.recommendedWords ? `建议按 ${item.recommendedWords} 组织答案，先写必写点，再补充拓展点。` : '请先写出主干答案，再补充可展开内容。'}"></textarea>
+            <textarea class="paper-answer-input chapter-answer-input" data-question-id="${item.id}" rows="7" placeholder="${item.recommendedWords ? `建议按 ${item.recommendedWords} 组织答案，先写必写点，再补充拓展点。` : '请先写出主干答案，再补充可展开内容。'}">${getChapterAnswer(progress, item.id)}</textarea>
           </div>
         ` : ''}
         <div class="cta-row">
@@ -384,6 +414,18 @@ function renderChapter({ subjects, chapters, focusPoints, confusionPoints, quest
       alert(added ? '已加入错题本' : '已移出错题本');
       renderChapter({ subjects, chapters, focusPoints, confusionPoints, questions, progress });
     };
+  });
+
+  document.querySelectorAll('.chapter-answer-input').forEach(node => {
+    node.addEventListener('input', () => {
+      setChapterAnswer(progress, node.dataset.questionId, node.value);
+    });
+  });
+
+  document.querySelectorAll('input[type="radio"][name^="chapter_answer_"]').forEach(node => {
+    node.addEventListener('change', () => {
+      setChapterAnswer(progress, node.name.replace('chapter_answer_', ''), node.value);
+    });
   });
 
   document.getElementById('markReviewedBtn').onclick = () => {
@@ -1323,7 +1365,7 @@ function renderManage({ subjects, chapters, questions, focusPoints, confusionPoi
       return `
       <label>
         <span>${label}</span>
-        ${useTextarea ? `<textarea id="manage_${key}" rows="4">${value}</textarea>` : `<input type="text" id="manage_${key}" value="${value}" />`}
+        ${useTextarea ? `<textarea id="manage_${key}" rows="${['stem','answer','analysis','summary'].includes(key) ? 6 : 4}">${value}</textarea>` : `<input type="text" id="manage_${key}" value="${value}" />`}
       </label>
     `;
     }).join('') + extraQuestionControls;

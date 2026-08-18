@@ -1606,40 +1606,61 @@
     "id": "fp_dp_overview_01",
     "subjectId": "developmental_psychology",
     "chapterId": "dp_overview",
-    "title": "发展心理学概述的核心问题",
+    "title": "发展心理学的研究对象与任务",
     "content": "发展心理学概述复习时应先抓研究对象、阶段任务、代表性理论和高频发展现象，再展开具体机制。",
     "order": 1,
     "tags": [
       "主干",
       "高频"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "发展心理学研究个体从出生到死亡全过程中心理发生、发展及其规律，核心任务是揭示年龄特征、发展规律、个体差异及其影响因素。",
+    "keywords": [
+      "研究对象",
+      "发展规律",
+      "年龄特征",
+      "影响因素"
+    ]
   },
   {
     "id": "fp_dp_overview_02",
     "subjectId": "developmental_psychology",
     "chapterId": "dp_overview",
-    "title": "发展心理学概述的理论与阶段特征",
+    "title": "心理发展的基本特征",
     "content": "发展心理学概述中常见命题方式是“理论观点 + 阶段特征 + 教育启示 / 实践意义”的综合考法。",
     "order": 2,
     "tags": [
       "理论",
       "综合"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "心理发展具有连续性与阶段性、定向性与顺序性、不平衡性以及个别差异等基本特征，这些特征共同说明发展既有普遍规律又有个体差别。",
+    "keywords": [
+      "连续性",
+      "阶段性",
+      "不平衡性",
+      "个别差异"
+    ]
   },
   {
     "id": "fp_dp_infancy_01",
     "subjectId": "developmental_psychology",
     "chapterId": "dp_infancy",
-    "title": "婴儿期心理发展的核心问题",
+    "title": "婴儿期心理发展的主要特点",
     "content": "婴儿期心理发展复习时应先抓研究对象、阶段任务、代表性理论和高频发展现象，再展开具体机制。",
     "order": 1,
     "tags": [
       "主干",
       "高频"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "婴儿期心理发展主要表现为感知觉迅速发展、动作发展明显、言语开始发生、依恋关系形成以及认知活动逐步由直观行动向表象水平过渡。",
+    "keywords": [
+      "感知觉",
+      "动作发展",
+      "言语发生",
+      "依恋"
+    ]
   },
   {
     "id": "fp_dp_infancy_02",
@@ -1652,20 +1673,34 @@
       "理论",
       "综合"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "婴儿期心理发展可结合成熟势力说、认知发展理论和社会性发展理论加以理解，其阶段特征主要表现为感知动作活动占主导、依恋形成和最初言语发生。",
+    "keywords": [
+      "成熟势力说",
+      "认知发展",
+      "依恋",
+      "感知动作"
+    ]
   },
   {
     "id": "fp_dp_early_childhood_01",
     "subjectId": "developmental_psychology",
     "chapterId": "dp_early_childhood",
-    "title": "幼儿期心理发展的核心问题",
+    "title": "幼儿期认知发展的主要特点",
     "content": "幼儿期心理发展复习时应先抓研究对象、阶段任务、代表性理论和高频发展现象，再展开具体机制。",
     "order": 1,
     "tags": [
       "主干",
       "高频"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "幼儿期认知发展主要表现为具体形象思维占优势，言语能力迅速提高，想象活动活跃，游戏成为促进认知和社会性发展的重要活动形式。",
+    "keywords": [
+      "具体形象思维",
+      "言语发展",
+      "想象",
+      "游戏"
+    ]
   },
   {
     "id": "fp_dp_early_childhood_02",
@@ -1678,20 +1713,34 @@
       "理论",
       "综合"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "幼儿期心理发展主要表现为表象和具体形象思维迅速发展，游戏活动成为主导形式，自我意识和社会交往能力不断提高。",
+    "keywords": [
+      "幼儿期",
+      "表象",
+      "游戏活动",
+      "自我意识"
+    ]
   },
   {
     "id": "fp_dp_middle_childhood_01",
     "subjectId": "developmental_psychology",
     "chapterId": "dp_middle_childhood",
-    "title": "童年期心理发展的核心问题",
+    "title": "童年期心理发展的主要特点",
     "content": "童年期心理发展复习时应先抓研究对象、阶段任务、代表性理论和高频发展现象，再展开具体机制。",
     "order": 1,
     "tags": [
       "主干",
       "高频"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "童年期心理发展主要表现为学习活动成为主导活动，逻辑思维和随意心理过程逐步发展，自我评价更加具体稳定，同伴关系的重要性进一步增强。",
+    "keywords": [
+      "学习活动",
+      "逻辑思维",
+      "随意性",
+      "同伴关系"
+    ]
   },
   {
     "id": "fp_dp_middle_childhood_02",
@@ -1704,20 +1753,34 @@
       "理论",
       "综合"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "童年期心理发展以学习活动为中心，认知活动逐渐系统化，规则意识、自我控制和社会责任感不断发展。",
+    "keywords": [
+      "童年期",
+      "学习活动",
+      "规则意识",
+      "自我控制"
+    ]
   },
   {
     "id": "fp_dp_adolescence_01",
     "subjectId": "developmental_psychology",
     "chapterId": "dp_adolescence",
-    "title": "青少年心理发展的核心问题",
+    "title": "青少年心理发展的主要特点",
     "content": "青少年心理发展复习时应先抓研究对象、阶段任务、代表性理论和高频发展现象，再展开具体机制。",
     "order": 1,
     "tags": [
       "主干",
       "高频"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "青少年时期自我意识迅速发展，抽象逻辑思维水平提高，独立意识增强，同伴关系和价值观建构对人格发展具有重要影响。",
+    "keywords": [
+      "自我意识",
+      "抽象逻辑思维",
+      "独立意识",
+      "同伴关系"
+    ]
   },
   {
     "id": "fp_dp_adolescence_02",
@@ -1730,7 +1793,14 @@
       "理论",
       "综合"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "青少年时期处于身心迅速变化阶段，心理发展表现为自我同一性建构、情绪波动增强和社会独立性提升。",
+    "keywords": [
+      "青少年",
+      "自我同一性",
+      "情绪波动",
+      "独立性"
+    ]
   },
   {
     "id": "fp_dp_adulthood_aging_01",
@@ -1743,7 +1813,14 @@
       "主干",
       "高频"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "成年与老年心理发展的核心问题在于社会角色转变、认知机能变化、情绪适应和人格成熟，体现出稳定与变化并存的特点。",
+    "keywords": [
+      "成年期",
+      "老年期",
+      "角色转变",
+      "稳定与变化"
+    ]
   },
   {
     "id": "fp_dp_adulthood_aging_02",
@@ -1756,474 +1833,733 @@
       "理论",
       "综合"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "成年与老年发展理论强调个体在生命后期仍持续发展，既可能出现某些心理机能下降，也会表现出经验积累、智慧提升和适应方式重组。",
+    "keywords": [
+      "生命后期发展",
+      "机能下降",
+      "经验积累",
+      "智慧"
+    ]
   },
   {
     "id": "fp_edu_overview_01",
     "subjectId": "educational_psychology",
     "chapterId": "edu_overview",
-    "title": "教育心理学概述复习主干",
+    "title": "教育心理学的研究对象",
     "content": "教育心理学概述应先抓住核心概念、代表理论、典型命题和教育情境应用。",
     "order": 1,
     "tags": [
       "主干",
       "高频"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "教育心理学研究学校教育情境中学与教的心理规律，重点考察学生学习过程、教师教学行为以及教学情境因素对学习效果的影响。",
+    "keywords": [
+      "学与教",
+      "心理规律",
+      "学习过程",
+      "教学情境"
+    ]
   },
   {
     "id": "fp_edu_overview_02",
     "subjectId": "educational_psychology",
     "chapterId": "edu_overview",
-    "title": "教育心理学概述应用视角",
+    "title": "教育心理学的研究意义",
     "content": "教育心理学概述常将理论命题与教学场景、学习问题和教师干预策略结合考查。",
     "order": 2,
     "tags": [
       "应用",
       "综合"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "教育心理学的研究意义在于揭示学校教育情境中学与教的心理规律，为改进教学、促进学生发展和提高教育质量提供心理学依据。",
+    "keywords": [
+      "研究意义",
+      "学与教",
+      "教学改进",
+      "学生发展"
+    ]
   },
   {
     "id": "fp_edu_learning_theory_01",
     "subjectId": "educational_psychology",
     "chapterId": "edu_learning_theory",
-    "title": "学习理论复习主干",
+    "title": "主要学习理论的基本观点",
     "content": "学习理论应先抓住核心概念、代表理论、典型命题和教育情境应用。",
     "order": 1,
     "tags": [
       "主干",
       "高频"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "行为主义强调刺激—反应联结和强化作用，认知主义强调认知结构及信息加工，建构主义强调学习者在情境中主动建构知识。",
+    "keywords": [
+      "行为主义",
+      "认知主义",
+      "建构主义",
+      "学习理论"
+    ]
   },
   {
     "id": "fp_edu_learning_theory_02",
     "subjectId": "educational_psychology",
     "chapterId": "edu_learning_theory",
-    "title": "学习理论应用视角",
+    "title": "学习理论的教育启示",
     "content": "学习理论常将理论命题与教学场景、学习问题和教师干预策略结合考查。",
     "order": 2,
     "tags": [
       "应用",
       "综合"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "学习理论表明，教学既要重视强化与练习，也要重视认知加工和主动建构，这为教师选择教学方法和组织学习活动提供了理论依据。",
+    "keywords": [
+      "教育启示",
+      "强化练习",
+      "认知加工",
+      "主动建构"
+    ]
   },
   {
     "id": "fp_edu_learning_motivation_01",
     "subjectId": "educational_psychology",
     "chapterId": "edu_learning_motivation",
-    "title": "学习动机复习主干",
+    "title": "学习动机的含义与作用",
     "content": "学习动机应先抓住核心概念、代表理论、典型命题和教育情境应用。",
     "order": 1,
     "tags": [
       "主干",
       "高频"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "学习动机是激发并维持学生学习活动、使学习活动朝向一定目标进行的内部动力，它直接影响学习的主动性、坚持性和学习效果。",
+    "keywords": [
+      "学习动机",
+      "内部动力",
+      "主动性",
+      "坚持性"
+    ]
   },
   {
     "id": "fp_edu_learning_motivation_02",
     "subjectId": "educational_psychology",
     "chapterId": "edu_learning_motivation",
-    "title": "学习动机应用视角",
+    "title": "学习动机的培养途径",
     "content": "学习动机常将理论命题与教学场景、学习问题和教师干预策略结合考查。",
     "order": 2,
     "tags": [
       "应用",
       "综合"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "学习动机的培养可通过设置适当目标、提供成功体验、改进归因方式和给予积极反馈等途径实现，以增强学生学习的主动性和坚持性。",
+    "keywords": [
+      "培养途径",
+      "目标设置",
+      "成功体验",
+      "积极反馈"
+    ]
   },
   {
     "id": "fp_edu_knowledge_skill_01",
     "subjectId": "educational_psychology",
     "chapterId": "edu_knowledge_skill",
-    "title": "知识学习与技能形成复习主干",
+    "title": "知识学习与技能形成的基本过程",
     "content": "知识学习与技能形成应先抓住核心概念、代表理论、典型命题和教育情境应用。",
     "order": 1,
     "tags": [
       "主干",
       "高频"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "知识学习通常经历感知、理解、巩固和应用等环节，技能形成则表现为由认知定向到联系形成再到熟练化的过程。",
+    "keywords": [
+      "知识学习",
+      "技能形成",
+      "巩固",
+      "熟练化"
+    ]
   },
   {
     "id": "fp_edu_knowledge_skill_02",
     "subjectId": "educational_psychology",
     "chapterId": "edu_knowledge_skill",
-    "title": "知识学习与技能形成应用视角",
+    "title": "促进知识掌握与技能形成的条件",
     "content": "知识学习与技能形成常将理论命题与教学场景、学习问题和教师干预策略结合考查。",
     "order": 2,
     "tags": [
       "应用",
       "综合"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "促进知识掌握与技能形成，需要重视原有知识基础、练习与反馈、迁移训练以及应用情境的安排，从而提高学习效果。",
+    "keywords": [
+      "知识掌握",
+      "技能形成",
+      "练习反馈",
+      "迁移训练"
+    ]
   },
   {
     "id": "fp_edu_moral_social_01",
     "subjectId": "educational_psychology",
     "chapterId": "edu_moral_social",
-    "title": "品德心理与社会规范学习复习主干",
+    "title": "品德心理与社会规范学习的基本特点",
     "content": "品德心理与社会规范学习应先抓住核心概念、代表理论、典型命题和教育情境应用。",
     "order": 1,
     "tags": [
       "主干",
       "高频"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "品德形成是认知、情感和行为统一发展的过程，社会规范学习既受家庭、学校和同伴影响，也与个体道德判断水平有关。",
+    "keywords": [
+      "品德形成",
+      "认知情感行为",
+      "社会规范",
+      "道德判断"
+    ]
   },
   {
     "id": "fp_edu_moral_social_02",
     "subjectId": "educational_psychology",
     "chapterId": "edu_moral_social",
-    "title": "品德心理与社会规范学习应用视角",
+    "title": "品德形成的教育条件",
     "content": "品德心理与社会规范学习常将理论命题与教学场景、学习问题和教师干预策略结合考查。",
     "order": 2,
     "tags": [
       "应用",
       "综合"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "品德形成离不开榜样示范、道德情境体验、行为实践和价值引导等教育条件，这些条件共同促进社会规范的内化。",
+    "keywords": [
+      "榜样示范",
+      "情境体验",
+      "行为实践",
+      "价值引导"
+    ]
   },
   {
     "id": "fp_edu_teaching_classroom_01",
     "subjectId": "educational_psychology",
     "chapterId": "edu_teaching_classroom",
-    "title": "教学设计与课堂管理复习主干",
+    "title": "教学设计与课堂管理的复习主干",
     "content": "教学设计与课堂管理应先抓住核心概念、代表理论、典型命题和教育情境应用。",
     "order": 1,
     "tags": [
       "主干",
       "高频"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "教学设计强调目标、内容、方法与评价的一致性，课堂管理强调秩序维持、氛围营造和课堂互动调节，二者共同服务于有效教学。",
+    "keywords": [
+      "教学设计",
+      "课堂管理",
+      "一致性",
+      "有效教学"
+    ]
   },
   {
     "id": "fp_edu_teaching_classroom_02",
     "subjectId": "educational_psychology",
     "chapterId": "edu_teaching_classroom",
-    "title": "教学设计与课堂管理应用视角",
+    "title": "有效课堂的基本条件",
     "content": "教学设计与课堂管理常将理论命题与教学场景、学习问题和教师干预策略结合考查。",
     "order": 2,
     "tags": [
       "应用",
       "综合"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "有效课堂的基本条件包括明确的教学目标、合理的教学组织、积极的课堂氛围和适当的课堂管理，它们共同保障教学活动顺利开展。",
+    "keywords": [
+      "有效课堂",
+      "教学目标",
+      "课堂氛围",
+      "课堂管理"
+    ]
   },
   {
     "id": "fp_stats_descriptive_01",
     "subjectId": "psychological_educational_statistics",
     "chapterId": "stats_descriptive",
-    "title": "描述统计复习主干",
+    "title": "描述统计的基本内容",
     "content": "描述统计复习时要同时把概念定义、公式含义、适用条件和结果解释串起来。",
     "order": 1,
     "tags": [
       "主干",
       "方法"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "描述统计主要通过集中量数、差异量数、频数分布和统计图表对数据进行整理、概括和描述，为进一步统计推断奠定基础。",
+    "keywords": [
+      "描述统计",
+      "集中量数",
+      "差异量数",
+      "频数分布"
+    ]
   },
   {
     "id": "fp_stats_descriptive_02",
     "subjectId": "psychological_educational_statistics",
     "chapterId": "stats_descriptive",
-    "title": "描述统计题型特点",
+    "title": "描述统计的主要作用",
     "content": "描述统计常见命题形式包括概念辨析、方法选择、结果解释与简要计算。",
     "order": 2,
     "tags": [
       "题型",
       "应用"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "描述统计的主要作用在于整理和概括数据资料，揭示数据的集中趋势、离散程度和分布形态，为进一步统计分析提供基础。",
+    "keywords": [
+      "主要作用",
+      "集中趋势",
+      "离散程度",
+      "分布形态"
+    ]
   },
   {
     "id": "fp_stats_probability_sampling_01",
     "subjectId": "psychological_educational_statistics",
     "chapterId": "stats_probability_sampling",
-    "title": "概率与抽样分布复习主干",
+    "title": "概率与抽样的基本思想",
     "content": "概率与抽样分布复习时要同时把概念定义、公式含义、适用条件和结果解释串起来。",
     "order": 1,
     "tags": [
       "主干",
       "方法"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "概率与抽样理论强调通过随机化原则从总体中抽取样本，并利用样本信息对总体特征作出估计和推断，这是推断统计的基础。",
+    "keywords": [
+      "概率",
+      "抽样",
+      "随机化",
+      "推断统计"
+    ]
   },
   {
     "id": "fp_stats_probability_sampling_02",
     "subjectId": "psychological_educational_statistics",
     "chapterId": "stats_probability_sampling",
-    "title": "概率与抽样分布题型特点",
+    "title": "抽样分布的意义",
     "content": "概率与抽样分布常见命题形式包括概念辨析、方法选择、结果解释与简要计算。",
     "order": 2,
     "tags": [
       "题型",
       "应用"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "抽样分布揭示了样本统计量在重复抽样条件下的分布规律，它是总体参数估计和假设检验的重要理论基础。",
+    "keywords": [
+      "抽样分布",
+      "样本统计量",
+      "参数估计",
+      "假设检验"
+    ]
   },
   {
     "id": "fp_stats_estimation_hypothesis_01",
     "subjectId": "psychological_educational_statistics",
     "chapterId": "stats_estimation_hypothesis",
-    "title": "参数估计与假设检验复习主干",
+    "title": "参数估计与假设检验的复习主干",
     "content": "参数估计与假设检验复习时要同时把概念定义、公式含义、适用条件和结果解释串起来。",
     "order": 1,
     "tags": [
       "主干",
       "方法"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "参数估计用于根据样本信息推断总体参数，假设检验用于判断样本差异是否足以支持对总体假设的统计决策。",
+    "keywords": [
+      "参数估计",
+      "总体参数",
+      "假设检验",
+      "统计决策"
+    ]
   },
   {
     "id": "fp_stats_estimation_hypothesis_02",
     "subjectId": "psychological_educational_statistics",
     "chapterId": "stats_estimation_hypothesis",
-    "title": "参数估计与假设检验题型特点",
+    "title": "参数估计与假设检验的关系",
     "content": "参数估计与假设检验常见命题形式包括概念辨析、方法选择、结果解释与简要计算。",
     "order": 2,
     "tags": [
       "题型",
       "应用"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "参数估计和假设检验都是由样本推断总体的方法。前者着重估计总体参数可能取值，后者着重判断总体假设是否成立，二者共同构成统计推断的核心内容。",
+    "keywords": [
+      "参数估计",
+      "假设检验",
+      "统计推断",
+      "总体推断"
+    ]
   },
   {
     "id": "fp_stats_t_anova_01",
     "subjectId": "psychological_educational_statistics",
     "chapterId": "stats_t_anova",
-    "title": "t 检验与方差分析复习主干",
+    "title": "t检验与方差分析的适用范围",
     "content": "t 检验与方差分析复习时要同时把概念定义、公式含义、适用条件和结果解释串起来。",
     "order": 1,
     "tags": [
       "主干",
       "方法"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "t检验主要用于两组均值差异比较，方差分析主要用于三组及以上均值差异比较，二者都服务于研究中均值差异显著性的判断。",
+    "keywords": [
+      "t检验",
+      "方差分析",
+      "均值差异",
+      "显著性"
+    ]
   },
   {
     "id": "fp_stats_t_anova_02",
     "subjectId": "psychological_educational_statistics",
     "chapterId": "stats_t_anova",
-    "title": "t 检验与方差分析题型特点",
+    "title": "t检验与方差分析的共同点与区别",
     "content": "t 检验与方差分析常见命题形式包括概念辨析、方法选择、结果解释与简要计算。",
     "order": 2,
     "tags": [
       "题型",
       "应用"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "t检验与方差分析都用于检验均值差异显著性。前者主要处理两组比较，后者主要处理三组及以上比较，这是二者最主要的区别。",
+    "keywords": [
+      "共同点",
+      "区别",
+      "均值差异",
+      "显著性检验"
+    ]
   },
   {
     "id": "fp_stats_correlation_regression_01",
     "subjectId": "psychological_educational_statistics",
     "chapterId": "stats_correlation_regression",
-    "title": "相关与回归复习主干",
+    "title": "相关与回归的复习主干",
     "content": "相关与回归复习时要同时把概念定义、公式含义、适用条件和结果解释串起来。",
     "order": 1,
     "tags": [
       "主干",
       "方法"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "相关分析关注变量间相关方向和程度，回归分析关注变量间函数关系及预测作用，二者既有联系又有区别。",
+    "keywords": [
+      "相关方向",
+      "相关程度",
+      "函数关系",
+      "预测作用"
+    ]
   },
   {
     "id": "fp_stats_correlation_regression_02",
     "subjectId": "psychological_educational_statistics",
     "chapterId": "stats_correlation_regression",
-    "title": "相关与回归题型特点",
+    "title": "相关与回归的区别",
     "content": "相关与回归常见命题形式包括概念辨析、方法选择、结果解释与简要计算。",
     "order": 2,
     "tags": [
       "题型",
       "应用"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "相关分析主要说明变量之间关系的方向和程度，回归分析则进一步建立变量之间的数量关系并进行预测，这是二者的基本区别。",
+    "keywords": [
+      "相关分析",
+      "回归分析",
+      "方向程度",
+      "预测"
+    ]
   },
   {
     "id": "fp_stats_nonparametric_01",
     "subjectId": "psychological_educational_statistics",
     "chapterId": "stats_nonparametric",
-    "title": "卡方检验与非参数检验复习主干",
+    "title": "非参数检验的特点",
     "content": "卡方检验与非参数检验复习时要同时把概念定义、公式含义、适用条件和结果解释串起来。",
     "order": 1,
     "tags": [
       "主干",
       "方法"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "非参数检验对总体分布形式和参数条件要求较低，适用于等级数据、分布不明或不满足参数检验条件的资料。",
+    "keywords": [
+      "非参数检验",
+      "等级数据",
+      "分布不明",
+      "参数条件"
+    ]
   },
   {
     "id": "fp_stats_nonparametric_02",
     "subjectId": "psychological_educational_statistics",
     "chapterId": "stats_nonparametric",
-    "title": "卡方检验与非参数检验题型特点",
+    "title": "卡方检验的基本用途",
     "content": "卡方检验与非参数检验常见命题形式包括概念辨析、方法选择、结果解释与简要计算。",
     "order": 2,
     "tags": [
       "题型",
       "应用"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "卡方检验主要用于分析类别资料和频数资料，判断观察频数与理论频数之间是否存在显著差异。",
+    "keywords": [
+      "卡方检验",
+      "类别资料",
+      "频数资料",
+      "显著差异"
+    ]
   },
   {
     "id": "fp_mea_overview_01",
     "subjectId": "psychological_educational_measurement",
     "chapterId": "mea_overview",
-    "title": "测量基本理论复习主干",
+    "title": "心理与教育测量的基本含义",
     "content": "测量基本理论应重点掌握基本概念、核心指标、影响因素和测验应用逻辑。",
     "order": 1,
     "tags": [
       "主干",
       "高频"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "心理与教育测量是依据一定规则对人的心理特质或教育结果赋值的过程，其核心在于借助测验工具实现心理特质的数量化描述。",
+    "keywords": [
+      "心理测量",
+      "教育测量",
+      "数量化",
+      "心理特质"
+    ]
   },
   {
     "id": "fp_mea_overview_02",
     "subjectId": "psychological_educational_measurement",
     "chapterId": "mea_overview",
-    "title": "测量基本理论应用口径",
+    "title": "心理测量的基本特征",
     "content": "测量基本理论常将理论定义与测验编制、结果解释、应用评价结合命题。",
     "order": 2,
     "tags": [
       "应用",
       "测验"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "心理测量具有间接性、相对性和工具依赖性等基本特征，其结果必须结合测量理论和参照标准进行解释。",
+    "keywords": [
+      "间接性",
+      "相对性",
+      "工具依赖性",
+      "结果解释"
+    ]
   },
   {
     "id": "fp_mea_reliability_01",
     "subjectId": "psychological_educational_measurement",
     "chapterId": "mea_reliability",
-    "title": "信度复习主干",
+    "title": "信度的含义与作用",
     "content": "信度应重点掌握基本概念、核心指标、影响因素和测验应用逻辑。",
     "order": 1,
     "tags": [
       "主干",
       "高频"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "信度是指测验结果的一致性、稳定性和可靠性程度，它反映测验分数受随机误差影响的大小，是评价测验质量的重要指标。",
+    "keywords": [
+      "信度",
+      "一致性",
+      "稳定性",
+      "随机误差"
+    ]
   },
   {
     "id": "fp_mea_reliability_02",
     "subjectId": "psychological_educational_measurement",
     "chapterId": "mea_reliability",
-    "title": "信度应用口径",
+    "title": "影响信度的主要因素",
     "content": "信度常将理论定义与测验编制、结果解释、应用评价结合命题。",
     "order": 2,
     "tags": [
       "应用",
       "测验"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "影响信度的主要因素包括题目数量、样本异质性、施测过程、评分一致性和被试状态等，这些因素都会影响测验结果的稳定性。",
+    "keywords": [
+      "影响因素",
+      "题目数量",
+      "样本异质性",
+      "评分一致性"
+    ]
   },
   {
     "id": "fp_mea_validity_01",
     "subjectId": "psychological_educational_measurement",
     "chapterId": "mea_validity",
-    "title": "效度复习主干",
+    "title": "效度的含义与核心地位",
     "content": "效度应重点掌握基本概念、核心指标、影响因素和测验应用逻辑。",
     "order": 1,
     "tags": [
       "主干",
       "高频"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "效度是指测验是否测到了其所要测量的心理特质，反映测验结果解释的正确性和有效性，是评价测验是否“测得准”的核心指标。",
+    "keywords": [
+      "效度",
+      "测得准",
+      "结果解释",
+      "核心指标"
+    ]
   },
   {
     "id": "fp_mea_validity_02",
     "subjectId": "psychological_educational_measurement",
     "chapterId": "mea_validity",
-    "title": "效度应用口径",
+    "title": "效度证据的主要类型",
     "content": "效度常将理论定义与测验编制、结果解释、应用评价结合命题。",
     "order": 2,
     "tags": [
       "应用",
       "测验"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "效度证据的主要类型包括内容效度证据、结构效度证据和效标关联效度证据。评价测验效度时应综合多方面证据作出判断。",
+    "keywords": [
+      "内容效度",
+      "结构效度",
+      "效标关联效度",
+      "综合判断"
+    ]
   },
   {
     "id": "fp_mea_norms_scores_01",
     "subjectId": "psychological_educational_measurement",
     "chapterId": "mea_norms_scores",
-    "title": "常模与分数解释复习主干",
+    "title": "常模与分数解释的复习主干",
     "content": "常模与分数解释应重点掌握基本概念、核心指标、影响因素和测验应用逻辑。",
     "order": 1,
     "tags": [
       "主干",
       "高频"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "常模用于提供参照框架，分数解释则要求结合常模、标准分数和测验用途综合判断个体表现。",
+    "keywords": [
+      "常模",
+      "参照框架",
+      "标准分数",
+      "个体表现"
+    ]
   },
   {
     "id": "fp_mea_norms_scores_02",
     "subjectId": "psychological_educational_measurement",
     "chapterId": "mea_norms_scores",
-    "title": "常模与分数解释应用口径",
+    "title": "分数解释的基本要求",
     "content": "常模与分数解释常将理论定义与测验编制、结果解释、应用评价结合命题。",
     "order": 2,
     "tags": [
       "应用",
       "测验"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "分数解释应结合常模类型、标准分数形式、测验用途和受测者背景，避免对测验结果作机械化和绝对化理解。",
+    "keywords": [
+      "分数解释",
+      "常模类型",
+      "标准分数",
+      "受测者背景"
+    ]
   },
   {
     "id": "fp_mea_item_analysis_01",
     "subjectId": "psychological_educational_measurement",
     "chapterId": "mea_item_analysis",
-    "title": "项目分析与测验编制复习主干",
+    "title": "项目分析的作用",
     "content": "项目分析与测验编制应重点掌握基本概念、核心指标、影响因素和测验应用逻辑。",
     "order": 1,
     "tags": [
       "主干",
       "高频"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "项目分析用于考察测题质量，主要分析项目难度、区分度以及选项功能等指标，是编制和修订测验的重要依据。",
+    "keywords": [
+      "项目分析",
+      "难度",
+      "区分度",
+      "测题质量"
+    ]
   },
   {
     "id": "fp_mea_item_analysis_02",
     "subjectId": "psychological_educational_measurement",
     "chapterId": "mea_item_analysis",
-    "title": "项目分析与测验编制应用口径",
+    "title": "项目分析的主要指标",
     "content": "项目分析与测验编制常将理论定义与测验编制、结果解释、应用评价结合命题。",
     "order": 2,
     "tags": [
       "应用",
       "测验"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "项目分析的主要指标包括项目难度、区分度和选项功能。通过这些指标可以判断测题是否具有良好测量质量。",
+    "keywords": [
+      "项目难度",
+      "区分度",
+      "选项功能",
+      "测量质量"
+    ]
   },
   {
     "id": "fp_mea_scale_types_01",
     "subjectId": "psychological_educational_measurement",
     "chapterId": "mea_scale_types",
-    "title": "量表与测验应用复习主干",
+    "title": "量表与测验应用的复习主干",
     "content": "量表与测验应用应重点掌握基本概念、核心指标、影响因素和测验应用逻辑。",
     "order": 1,
     "tags": [
       "主干",
       "高频"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "量表和测验都是心理与教育测量的重要工具，不同测量水平和用途决定了工具编制、施测和解释方式的差异。",
+    "keywords": [
+      "量表",
+      "测验",
+      "测量水平",
+      "工具用途"
+    ]
   },
   {
     "id": "fp_mea_scale_types_02",
     "subjectId": "psychological_educational_measurement",
     "chapterId": "mea_scale_types",
-    "title": "量表与测验应用应用口径",
+    "title": "量表和测验使用的基本要求",
     "content": "量表与测验应用常将理论定义与测验编制、结果解释、应用评价结合命题。",
     "order": 2,
     "tags": [
       "应用",
       "测验"
     ],
-    "status": "active"
+    "status": "active",
+    "summary": "使用量表和测验时应遵循标准化施测、客观评分和合理解释的基本要求，以保证测量结果的可靠性和有效性。",
+    "keywords": [
+      "标准化施测",
+      "客观评分",
+      "合理解释",
+      "可靠有效"
+    ]
   }
 ]
