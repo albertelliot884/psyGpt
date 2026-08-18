@@ -23,6 +23,17 @@
       "说明其包含加工处理功能",
       "指出其在认知活动中的作用"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "说明工作记忆是信息的暂时存储系统",
+        "指出其不仅保持信息，还包含加工处理功能",
+        "指出其在理解、推理等认知活动中的作用"
+      ],
+      "extra": [
+        "补充说明工作记忆区别于传统短时记忆的关键在于加工性",
+        "可补充其是较复杂的认知系统概念"
+      ]
+    },
     "analysis": "本题容易与短时记忆混淆，答题时应突出加工功能。",
     "relatedFocusPointIds": [
       "fp_gp_memory_02"
@@ -59,6 +70,17 @@
       "简述三者基本特征",
       "说明三者之间的关系"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "写出感觉记忆、短时记忆和长时记忆三个层次",
+        "简述三者在保持时间、容量等方面的基本特征",
+        "说明三者共同构成记忆加工和保存的基本框架"
+      ],
+      "extra": [
+        "补充说明信息通常在三者之间发生流动和转换",
+        "可进一步指出三级存储模型是记忆研究的基础框架"
+      ]
+    },
     "analysis": "这是记忆章基础骨架题，适合章节卷和高频卷。",
     "relatedFocusPointIds": [
       "fp_gp_memory_01"
@@ -93,6 +115,17 @@
       "概括各理论核心观点",
       "结合学习/教学谈启示"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "写出主要遗忘理论，如痕迹衰退说、干扰说、提取失败说等",
+        "概括各理论的核心观点",
+        "结合学习或教学实践谈启示"
+      ],
+      "extra": [
+        "补充比较不同理论解释遗忘的角度差异",
+        "可进一步说明复习安排、减少干扰等实际策略"
+      ]
+    },
     "analysis": "本题适合真题风格卷和综合模拟卷，能检验整合能力。",
     "relatedFocusPointIds": [
       "fp_gp_memory_03"
@@ -127,6 +160,17 @@
       "写出关键影响因素",
       "体现一定逻辑层次"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "写出问题解决的主要过程，如发现问题、分析问题、提出假设、检验假设等",
+        "写出关键影响因素，如知识经验、定势、功能固着、动机情绪等",
+        "体现答案的逻辑层次"
+      ],
+      "extra": [
+        "补充说明不同因素可能促进也可能阻碍问题解决",
+        "可进一步联系实际学习或生活中的问题解决情境"
+      ]
+    },
     "analysis": "思维章高频综合题，适合真题风格卷。",
     "relatedFocusPointIds": [
       "fp_gp_thinking_01"
@@ -171,7 +215,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-12分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "写出主要经典情绪理论名称",
+        "概括各理论主要观点",
+        "指出它们对情绪产生机制解释的差异"
+      ],
+      "extra": [
+        "补充比较各理论强调的重点不同，如生理、认知或中枢加工",
+        "可进一步简单评价其启示"
+      ]
+    }
   },
   {
     "id": "q_gp_memory_004",
@@ -197,6 +252,17 @@
       "能适当分类说明",
       "体现一定应用意识"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "写出影响记忆效果的主要因素",
+        "能够按材料、方法、个体状态或复习安排等角度分类说明",
+        "体现提高记忆效果的应用意识"
+      ],
+      "extra": [
+        "补充说明有意义学习、及时复习等具体做法",
+        "可进一步联系实际学习情境展开"
+      ]
+    },
     "analysis": "这类题常和学习策略、教学启示结合。",
     "relatedFocusPointIds": [
       "fp_gp_memory_04"
@@ -237,7 +303,17 @@
     "status": "active",
     "recommendedWords": "80-120字",
     "recommendedTime": "3-5分钟",
-    "answerLevel": "basic"
+    "answerLevel": "basic",
+    "scoringPointGroups": {
+      "core": [
+        "指出再认属于记忆提取方式",
+        "说明有外部刺激再次出现时能够识别曾经经验"
+      ],
+      "extra": [
+        "补充说明再认通常比回忆要求低",
+        "可进一步指出其依赖外部线索支持"
+      ]
+    }
   },
   {
     "id": "q_gp_thinking_002",
@@ -261,6 +337,16 @@
       "写出间接性和概括性",
       "分别作简要说明"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "写出思维具有间接性和概括性两个基本特征",
+        "分别对间接性和概括性作简要说明"
+      ],
+      "extra": [
+        "补充说明这两点是思维区别于感觉和知觉的重要标志",
+        "可结合简单例子说明其含义"
+      ]
+    },
     "analysis": "是思维章最基础的骨架题。",
     "relatedFocusPointIds": [
       "fp_gp_thinking_02"
@@ -293,6 +379,16 @@
       "写出主要特征",
       "体现新颖性与价值性"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "写出创造性思维的主要特征",
+        "明确体现新颖性与价值性这两个核心点"
+      ],
+      "extra": [
+        "补充说明创造性思维常与灵活性、独创性等特点相关",
+        "可进一步说明其与发散思维的联系但不完全等同"
+      ]
+    },
     "analysis": "适合和发散思维一起考。",
     "relatedFocusPointIds": [
       "fp_gp_thinking_03"
@@ -337,7 +433,17 @@
     "status": "active",
     "recommendedWords": "80-120字",
     "recommendedTime": "3-5分钟",
-    "answerLevel": "basic"
+    "answerLevel": "basic",
+    "scoringPointGroups": {
+      "core": [
+        "说明发散思维强调多方向探索",
+        "说明其可产生多种可能答案"
+      ],
+      "extra": [
+        "补充说明发散思维与创造性活动关系密切",
+        "可进一步联系灵活性和新颖性展开"
+      ]
+    }
   },
   {
     "id": "q_gp_sensation_001",
@@ -369,7 +475,17 @@
     "status": "active",
     "recommendedWords": "80-120字",
     "recommendedTime": "3-5分钟",
-    "answerLevel": "basic"
+    "answerLevel": "basic",
+    "scoringPointGroups": {
+      "core": [
+        "指出同一刺激持续作用",
+        "指出感受性会发生变化"
+      ],
+      "extra": [
+        "补充说明这是一种感觉系统调整现象",
+        "可进一步联系生活实例说明"
+      ]
+    }
   },
   {
     "id": "q_gp_sensation_002",
@@ -393,6 +509,16 @@
       "写出反比关系",
       "说明阈限高低与感受性变化"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "明确写出感受性与感觉阈限成反比",
+        "说明阈限越低感受性越高，阈限越高感受性越低"
+      ],
+      "extra": [
+        "补充说明这一关系可用于理解绝对阈限和差别阈限",
+        "可进一步说明这是感觉章节的基础规律"
+      ]
+    },
     "analysis": "常与绝对阈限、差别阈限联动考查。",
     "relatedFocusPointIds": [
       "fp_gp_sensation_01"
@@ -427,6 +553,16 @@
       "写出四个基本特性",
       "作出简要解释"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "准确写出选择性、整体性、理解性、恒常性四个基本特性",
+        "对各特性作出简要解释"
+      ],
+      "extra": [
+        "补充说明这些特性共同反映知觉的主动组织特点",
+        "可结合简单实例说明某一知觉特性"
+      ]
+    },
     "analysis": "是知觉章最核心的结构题。",
     "relatedFocusPointIds": [
       "fp_gp_perception_01"
@@ -461,6 +597,17 @@
       "概括各规律含义",
       "指出其体现整体组织倾向"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "写出知觉组织的主要规律，如接近律、相似律、闭合律等",
+        "概括各规律的基本含义",
+        "指出这些规律体现知觉的整体组织倾向"
+      ],
+      "extra": [
+        "补充说明格式塔心理学的整体观立场",
+        "可结合图形或知觉现象举例说明某种组织规律"
+      ]
+    },
     "analysis": "这类题很能体现知觉章的理论味。",
     "relatedFocusPointIds": [
       "fp_gp_perception_02"
@@ -501,7 +648,17 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-12分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "写出情绪由主观体验、生理唤醒和外部表现构成",
+        "概括三者基本含义"
+      ],
+      "extra": [
+        "补充说明三者相互联系共同构成情绪活动",
+        "可结合简单情绪例子说明"
+      ]
+    }
   },
   {
     "id": "q_gp_emotion_003",
@@ -535,7 +692,17 @@
     "status": "active",
     "recommendedWords": "80-120字",
     "recommendedTime": "3-5分钟",
-    "answerLevel": "basic"
+    "answerLevel": "basic",
+    "scoringPointGroups": {
+      "core": [
+        "指出心境是一种较弱而持久的情绪状态",
+        "指出它会影响一段时间内的活动表现"
+      ],
+      "extra": [
+        "补充说明心境不像激情那样强烈爆发",
+        "可进一步联系日常情境举例"
+      ]
+    }
   },
   {
     "id": "q_gp_sensation_003",
@@ -561,6 +728,17 @@
       "指出二者共同属于感觉阈限",
       "说明研究对象不同：刺激存在 vs 刺激差异"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "准确写出绝对阈限和差别阈限的定义",
+        "指出二者都属于感觉阈限范畴",
+        "明确说明前者关注刺激是否被觉察，后者关注刺激差异是否被觉察"
+      ],
+      "extra": [
+        "补充说明二者分别对应不同的感受性概念",
+        "可进一步指出这是感觉研究中的两类基本阈限"
+      ]
+    },
     "analysis": "这是感觉章很典型的辨析题。",
     "relatedFocusPointIds": [
       "fp_gp_sensation_01"
@@ -596,6 +774,17 @@
       "写出错觉的含义",
       "比较适应性与偏差性差异"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "准确写出知觉恒常性和错觉的含义",
+        "指出恒常性体现知觉稳定性，错觉体现歪曲知觉结果",
+        "比较二者在适应性与偏差性上的差异"
+      ],
+      "extra": [
+        "补充说明恒常性具有积极适应意义",
+        "可补充说明错觉是在客观刺激基础上产生的"
+      ]
+    },
     "analysis": "适合配合知觉特性题一起练。",
     "relatedFocusPointIds": [
       "fp_gp_perception_01"
@@ -632,6 +821,16 @@
       "说明一个强调时间，一个强调干扰",
       "最好举出前摄或倒摄干扰"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "分别概括痕迹衰退说和干扰说的核心观点",
+        "明确说明前者强调时间推移导致痕迹减弱，后者强调学习材料之间的相互干扰"
+      ],
+      "extra": [
+        "补充举出前摄干扰或倒摄干扰的例子",
+        "可进一步比较二者对遗忘原因解释路径的差异"
+      ]
+    },
     "analysis": "是记忆章非常适合做辨析的经典内容。",
     "relatedFocusPointIds": [
       "fp_gp_memory_02"
@@ -668,6 +867,17 @@
       "结合规律提出复习策略",
       "体现心理学理论到学习实践的转化"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "指出遗忘具有先快后慢的基本规律",
+        "结合这一规律提出及时复习、分散复习等策略",
+        "体现心理学理论向学习实践的转化"
+      ],
+      "extra": [
+        "补充说明理解加工和减少干扰也有助于改善记忆效果",
+        "可进一步联系艾宾浩斯遗忘研究背景展开"
+      ]
+    },
     "analysis": "很适合考研专业课的理论联系实际题。",
     "relatedFocusPointIds": [
       "fp_gp_memory_04"
@@ -702,6 +912,17 @@
       "比较答案指向与展开方式差异",
       "指出发散思维与创造性的关系"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "概括聚合思维与发散思维的基本定义",
+        "比较二者在答案指向与展开方式上的差异",
+        "指出发散思维与创造性活动关系更密切"
+      ],
+      "extra": [
+        "补充说明二者在实际问题解决中常常相互配合",
+        "可进一步指出聚合思维强调收敛与筛选"
+      ]
+    },
     "analysis": "适合与创造性思维题串联。",
     "relatedFocusPointIds": [
       "fp_gp_thinking_03"
@@ -748,7 +969,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-10分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "分别写出心境、激情和应激的基本含义",
+        "比较三者在强度和持续时间上的差异",
+        "指出应激的情境性特点"
+      ],
+      "extra": [
+        "补充说明三者对行为和生理反应的不同影响",
+        "可结合典型情境举例"
+      ]
+    }
   },
   {
     "id": "q_gp_emotion_005",
@@ -781,7 +1013,17 @@
     "status": "active",
     "recommendedWords": "500-700字",
     "recommendedTime": "15-22分钟",
-    "answerLevel": "expanded"
+    "answerLevel": "expanded",
+    "scoringPointGroups": {
+      "core": [
+        "写出情绪的主要功能，如适应、动机、组织和信号功能",
+        "对各功能作基本说明"
+      ],
+      "extra": [
+        "可适当结合实例说明情绪功能表现",
+        "可补充情绪对认知活动的影响"
+      ]
+    }
   },
   {
     "id": "q_gp_sensation_004",
@@ -1430,6 +1672,16 @@
       "写出觉知状态",
       "体现对自身和环境的意识"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "写出意识是个体对自身和环境的觉知状态",
+        "体现意识具有可觉察、可体验的特点"
+      ],
+      "extra": [
+        "补充说明意识也是心理活动的一种组织形式",
+        "可补充其具有可报告性和一定主动调节性"
+      ]
+    },
     "analysis": "是意识章节最基础的概念题。",
     "relatedFocusPointIds": [
       "fp_gp_consciousness_01"
@@ -1461,6 +1713,16 @@
       "列出常见意识状态变化形式",
       "说明其在觉知水平上的差异"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "列出常见意识状态变化形式，如睡眠、梦、催眠等",
+        "说明不同状态在觉知水平和组织方式上存在差异"
+      ],
+      "extra": [
+        "补充说明意识状态变化体现意识的动态性",
+        "可结合清醒与睡眠的差异作简单展开"
+      ]
+    },
     "analysis": "适合做意识章节的简答题。",
     "relatedFocusPointIds": [
       "fp_gp_consciousness_02"
@@ -1540,7 +1802,17 @@
     "status": "active",
     "recommendedWords": "80-120字",
     "recommendedTime": "3-5分钟",
-    "answerLevel": "basic"
+    "answerLevel": "basic",
+    "scoringPointGroups": {
+      "core": [
+        "写出语言是社会交际工具和符号系统",
+        "体现语言具有表达和交流功能"
+      ],
+      "extra": [
+        "补充说明语言也是思维的重要工具",
+        "可补充其社会约定俗成特点"
+      ]
+    }
   },
   {
     "id": "q_gp_language_002",
@@ -1575,7 +1847,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-12分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "说明语言是社会约定俗成的符号系统",
+        "说明言语是个体运用语言的活动过程",
+        "写出二者密切联系但不等同"
+      ],
+      "extra": [
+        "补充说明语言是工具，言语是运用过程",
+        "可进一步联系交际和思维功能展开"
+      ]
+    }
   },
   {
     "id": "q_gp_language_003",
@@ -1644,7 +1927,17 @@
     "status": "active",
     "recommendedWords": "80-120字",
     "recommendedTime": "3-5分钟",
-    "answerLevel": "basic"
+    "answerLevel": "basic",
+    "scoringPointGroups": {
+      "core": [
+        "写出动机是推动行为的内部动力",
+        "体现其对行为具有激发、维持和定向作用"
+      ],
+      "extra": [
+        "补充说明动机建立在需要基础上",
+        "可补充动机与目标的联系"
+      ]
+    }
   },
   {
     "id": "q_gp_motivation_002",
@@ -1677,7 +1970,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-12分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "写出动机具有激活功能",
+        "写出动机具有指向功能",
+        "写出动机具有维持和调节功能"
+      ],
+      "extra": [
+        "补充说明动机功能共同保证行为朝目标进行",
+        "可结合简单行为例子说明"
+      ]
+    }
   },
   {
     "id": "q_gp_motivation_003",
@@ -1746,7 +2050,17 @@
     "status": "active",
     "recommendedWords": "80-120字",
     "recommendedTime": "3-5分钟",
-    "answerLevel": "basic"
+    "answerLevel": "basic",
+    "scoringPointGroups": {
+      "core": [
+        "写出智力是综合性的认知能力",
+        "体现其与理解、学习或解决问题有关"
+      ],
+      "extra": [
+        "补充说明智力体现个体适应环境能力",
+        "可进一步说明智力并非单一知识量"
+      ]
+    }
   },
   {
     "id": "q_gp_intelligence_002",
@@ -1778,7 +2092,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-12分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "写出遗传因素",
+        "写出环境或教育因素",
+        "体现智力发展受多因素共同作用"
+      ],
+      "extra": [
+        "补充说明遗传提供可能性、环境教育促进发展",
+        "可联系个体差异展开"
+      ]
+    }
   },
   {
     "id": "q_gp_intelligence_003",
@@ -1847,7 +2172,17 @@
     "status": "active",
     "recommendedWords": "80-120字",
     "recommendedTime": "3-5分钟",
-    "answerLevel": "basic"
+    "answerLevel": "basic",
+    "scoringPointGroups": {
+      "core": [
+        "写出人格具有稳定性",
+        "写出人格是心理特征总和"
+      ],
+      "extra": [
+        "补充说明人格具有整体性和独特性",
+        "可进一步联系社会适应功能"
+      ]
+    }
   },
   {
     "id": "q_gp_personality_002",
@@ -1879,7 +2214,17 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-12分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "写出至少三项人格基本特征",
+        "体现人格的整体统一性"
+      ],
+      "extra": [
+        "补充说明人格具有稳定性和独特性",
+        "可进一步联系社会性展开"
+      ]
+    }
   },
   {
     "id": "q_gp_personality_003",
@@ -1914,7 +2259,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-10分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "指出气质与性格同属人格结构",
+        "说明气质的动力特征",
+        "说明性格的社会性和态度特征"
+      ],
+      "extra": [
+        "补充说明气质较偏先天稳定、性格更受社会化影响",
+        "可进一步说明性格社会评价意义更强"
+      ]
+    }
   },
   {
     "id": "q_gp_learning_001",
@@ -1945,7 +2301,17 @@
     "status": "active",
     "recommendedWords": "80-120字",
     "recommendedTime": "3-5分钟",
-    "answerLevel": "basic"
+    "answerLevel": "basic",
+    "scoringPointGroups": {
+      "core": [
+        "写出学习是经验作用下产生的变化",
+        "写出这种变化具有较持久性"
+      ],
+      "extra": [
+        "补充说明并非所有变化都属于学习",
+        "可进一步说明学习可表现为行为或心理变化"
+      ]
+    }
   },
   {
     "id": "q_gp_learning_002",
@@ -1980,7 +2346,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-12分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "说明经典条件作用核心机制是刺激联结",
+        "说明操作条件作用核心机制是行为后果塑造",
+        "写出二者一个关键差异"
+      ],
+      "extra": [
+        "补充说明前者侧重反应被引发，后者侧重行为被塑造",
+        "可进一步联系代表人物或实例"
+      ]
+    }
   },
   {
     "id": "q_gp_learning_003",
@@ -2049,7 +2426,17 @@
     "status": "active",
     "recommendedWords": "80-120字",
     "recommendedTime": "3-5分钟",
-    "answerLevel": "basic"
+    "answerLevel": "basic",
+    "scoringPointGroups": {
+      "core": [
+        "写出心理发展贯穿一生过程",
+        "体现心理机能发生变化并不断发展完善"
+      ],
+      "extra": [
+        "补充说明心理发展包含量变与质变",
+        "可进一步说明具有方向性和阶段性"
+      ]
+    }
   },
   {
     "id": "q_gp_lifespan_002",
@@ -2081,7 +2468,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-12分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "写出连续性与阶段性",
+        "写出不平衡性或个别差异性",
+        "体现发展贯穿一生"
+      ],
+      "extra": [
+        "补充说明不同方面发展速度并不一致",
+        "可进一步联系人生全程观"
+      ]
+    }
   },
   {
     "id": "q_gp_lifespan_003",
@@ -2115,7 +2513,18 @@
     "status": "active",
     "recommendedWords": "500-700字",
     "recommendedTime": "15-22分钟",
-    "answerLevel": "expanded"
+    "answerLevel": "expanded",
+    "scoringPointGroups": {
+      "core": [
+        "说明遗传作用",
+        "说明环境作用",
+        "说明教育作用并强调三者共同作用"
+      ],
+      "extra": [
+        "补充说明单因素决定论的片面性",
+        "可进一步联系发展实践展开"
+      ]
+    }
   },
   {
     "id": "q_gp_intro_001",
@@ -2138,6 +2547,16 @@
       "写出心理学研究心理现象及规律",
       "指出心理过程和个性心理"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "明确指出心理学以心理现象及其活动规律为研究对象",
+        "写出研究内容至少包括心理过程和个性心理两个基本方面"
+      ],
+      "extra": [
+        "进一步说明心理现象常通过行为、言语或作业表现出来",
+        "补充说明心理与行为之间的联系"
+      ]
+    },
     "analysis": "第一章最核心的基础题。",
     "relatedFocusPointIds": [
       "fp_gp_intro_01"
@@ -2170,6 +2589,17 @@
       "比较自然性与控制性",
       "指出实验法更利于因果分析"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "分别写出观察法与实验法的基本定义",
+        "明确比较二者在自然情境与控制条件上的差异",
+        "指出实验法更有利于揭示因果关系"
+      ],
+      "extra": [
+        "补充说明观察法更适合记录真实行为表现",
+        "补充说明实验法虽控制性更强，但生态效度可能受限"
+      ]
+    },
     "analysis": "绪论部分的典型比较题。",
     "relatedFocusPointIds": [
       "fp_gp_intro_02"
@@ -2249,7 +2679,17 @@
     "status": "active",
     "recommendedWords": "80-120字",
     "recommendedTime": "3-5分钟",
-    "answerLevel": "basic"
+    "answerLevel": "basic",
+    "scoringPointGroups": {
+      "core": [
+        "写出反射是在神经系统参与下产生的",
+        "写出反射是机体对刺激作出的规律性反应"
+      ],
+      "extra": [
+        "补充说明反射具有适应意义",
+        "可进一步指出其建立在反射弧基础上"
+      ]
+    }
   },
   {
     "id": "q_gp_brain_002",
@@ -2273,6 +2713,17 @@
       "说明中枢神经系统组成",
       "说明周围神经系统功能"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "明确写出神经系统由中枢神经系统和周围神经系统两大部分组成",
+        "说明中枢神经系统主要包括脑和脊髓",
+        "说明周围神经系统承担信息传入和传出等功能"
+      ],
+      "extra": [
+        "补充说明中枢神经系统在整合与调节中的作用",
+        "补充脑神经和脊神经等周围神经系统具体组成"
+      ]
+    },
     "analysis": "第二章的基础结构题。",
     "relatedFocusPointIds": [
       "fp_gp_brain_01"
@@ -2345,6 +2796,17 @@
       "体现不同阶段特点不同",
       "提到快速眼动睡眠"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "指出睡眠是分阶段进行的过程",
+        "说明不同阶段在生理和心理特点上存在差异",
+        "提到快速眼动睡眠是重要阶段"
+      ],
+      "extra": [
+        "补充快速眼动睡眠与梦的关系",
+        "可补充不同阶段在整个睡眠周期中的变化"
+      ]
+    },
     "analysis": "意识章节常见结构题。",
     "relatedFocusPointIds": [
       "fp_gp_consciousness_03"
@@ -2421,7 +2883,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-10分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "指出内部言语与外部言语同属言语形式",
+        "说明内部言语隐蔽、简略并服务于思维活动",
+        "说明外部言语外显、较完整并承担交际功能"
+      ],
+      "extra": [
+        "补充说明二者在语言结构完整性上的差异",
+        "可进一步说明二者可相互联系和转化"
+      ]
+    }
   },
   {
     "id": "q_gp_language_005",
@@ -2452,7 +2925,17 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-12分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "写出语言是思维的重要工具",
+        "说明语言在概括、表达或组织思维中的作用"
+      ],
+      "extra": [
+        "补充说明思维内容常借语言固定和交流",
+        "可进一步指出语言与思维密切相关但不等同"
+      ]
+    }
   },
   {
     "id": "q_gp_motivation_004",
@@ -2486,7 +2969,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-10分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "指出内在动机与外在动机都能推动行为",
+        "说明内在动机主要来自活动本身",
+        "说明外在动机主要来自外部奖励、评价或要求"
+      ],
+      "extra": [
+        "补充比较二者在行为持续性和主动性上的差异",
+        "可进一步说明二者并非绝对对立"
+      ]
+    }
   },
   {
     "id": "q_gp_motivation_005",
@@ -2520,7 +3014,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-12分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "写出内在动机来源于活动本身",
+        "写出外在动机来源于外部奖惩或要求",
+        "说明二者差异在于动力来源不同"
+      ],
+      "extra": [
+        "补充说明内在动机更利于主动和持久行为",
+        "可结合学习情境举例"
+      ]
+    }
   },
   {
     "id": "q_gp_intelligence_004",
@@ -2552,7 +3057,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-12分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "写出智力存在水平差异",
+        "写出智力存在结构差异",
+        "可补充发展早晚差异"
+      ],
+      "extra": [
+        "补充说明个体能力成分发展并不完全均衡",
+        "可进一步联系智力测量理解"
+      ]
+    }
   },
   {
     "id": "q_gp_intelligence_005",
@@ -2586,7 +3102,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-10分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "指出智力与能力联系密切",
+        "说明智力偏认知综合能力",
+        "说明能力概念更广"
+      ],
+      "extra": [
+        "补充说明能力还包括多种特殊能力",
+        "可进一步指出智力属于能力的一部分"
+      ]
+    }
   },
   {
     "id": "q_gp_personality_004",
@@ -2618,7 +3145,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-12分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "写出遗传因素",
+        "写出环境或教育因素",
+        "体现人格形成受多因素共同作用"
+      ],
+      "extra": [
+        "补充说明社会实践对人格形成的重要意义",
+        "可进一步说明人格形成是长期过程"
+      ]
+    }
   },
   {
     "id": "q_gp_personality_005",
@@ -2690,7 +3228,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-12分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "写出强化增加行为概率",
+        "写出惩罚降低行为概率",
+        "说明二者都调节行为"
+      ],
+      "extra": [
+        "补充说明关键在于对行为概率作用方向不同",
+        "可结合简单情境举例"
+      ]
+    }
   },
   {
     "id": "q_gp_learning_005",
@@ -2724,7 +3273,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-10分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "指出强化与惩罚共同点是都能影响行为",
+        "说明强化作用方向",
+        "说明惩罚作用方向"
+      ],
+      "extra": [
+        "补充说明强化不等于表扬、惩罚不等于任何负面体验",
+        "可进一步从行为结果角度展开"
+      ]
+    }
   },
   {
     "id": "q_gp_intro_004",
@@ -2748,6 +3308,16 @@
       "写出基础心理学",
       "写出应用心理学"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "指出心理学兼具自然科学与社会科学属性或具有综合性、交叉性",
+        "写出基础心理学与应用心理学是重要组成部分"
+      ],
+      "extra": [
+        "进一步说明基础心理学重在揭示一般心理规律",
+        "进一步说明应用心理学重在解决现实问题"
+      ]
+    },
     "analysis": "第一章常见概括题。",
     "relatedFocusPointIds": [
       "fp_gp_intro_03"
@@ -2830,7 +3400,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-12分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "概括多个发展阶段",
+        "指出各阶段至少一个核心任务",
+        "体现发展任务的阶段差异"
+      ],
+      "extra": [
+        "补充说明发展任务具有连续衔接关系",
+        "可进一步联系阶段心理特点"
+      ]
+    }
   },
   {
     "id": "q_gp_lifespan_005",
@@ -2865,7 +3446,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-10分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "分别解释连续性和阶段性",
+        "说明二者不是对立关系",
+        "写出统一于发展全过程"
+      ],
+      "extra": [
+        "补充说明连续性体现前后衔接，阶段性体现质的差异",
+        "可进一步联系人生全程发展展开"
+      ]
+    }
   },
   {
     "id": "q_gp_brain_004",
@@ -2889,6 +3481,16 @@
       "可补充言语相关区域",
       "体现不同区域功能分工"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "写出大脑皮层重要机能分区至少包括感觉区和运动区",
+        "指出各区域承担不同功能分工"
+      ],
+      "extra": [
+        "补充言语相关区域及其作用",
+        "补充说明不同机能区之间存在协同工作关系"
+      ]
+    },
     "analysis": "第二章结构型简答题。",
     "relatedFocusPointIds": [
       "fp_gp_brain_03"
@@ -2921,6 +3523,16 @@
       "说明反射弧是反射的结构基础",
       "可列出反射弧基本环节"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "分别准确写出反射与反射弧的定义",
+        "明确指出反射弧是完成反射活动的结构基础"
+      ],
+      "extra": [
+        "补充列出反射弧的五个基本环节",
+        "补充说明没有完整反射弧时正常反射活动难以完成"
+      ]
+    },
     "analysis": "第二章典型比较题。",
     "relatedFocusPointIds": [
       "fp_gp_brain_02"
@@ -2955,6 +3567,16 @@
       "体现与睡眠—清醒周期关系",
       "可提到昼夜节律"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "写出生物节律会影响个体觉醒水平和意识状态",
+        "说明其与睡眠—清醒周期密切相关"
+      ],
+      "extra": [
+        "补充昼夜节律这一典型例子",
+        "可进一步说明意识状态变化具有生理基础"
+      ]
+    },
     "analysis": "意识章节扩展型简答题。",
     "relatedFocusPointIds": [
       "fp_gp_consciousness_04"
@@ -2989,6 +3611,17 @@
       "举出状态变化例子",
       "说明内容变化强调具体经验对象"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "指出意识状态变化与意识内容变化研究层面不同",
+        "说明前者偏整体觉醒水平和组织方式变化",
+        "说明后者偏具体经验对象和内容变化"
+      ],
+      "extra": [
+        "补充举出睡眠、催眠等状态变化例子",
+        "可补充举出注意对象改变等内容变化例子"
+      ]
+    },
     "analysis": "有助于把意识章节写得更细。",
     "relatedFocusPointIds": [
       "fp_gp_consciousness_01",
@@ -3034,7 +3667,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-12分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "指出口头言语与书面言语都属于外部言语",
+        "说明口头言语依赖直接情境、较灵活",
+        "说明书面言语结构较完整、便于保存"
+      ],
+      "extra": [
+        "补充比较二者在反馈方式和表达要求上的差异",
+        "可进一步说明各自适用情境"
+      ]
+    }
   },
   {
     "id": "q_gp_language_007",
@@ -3105,7 +3749,17 @@
     "status": "active",
     "recommendedWords": "80-120字",
     "recommendedTime": "3-5分钟",
-    "answerLevel": "basic"
+    "answerLevel": "basic",
+    "scoringPointGroups": {
+      "core": [
+        "写出成就动机是追求成功和优良成就的内部动力",
+        "体现其与成就行为有关"
+      ],
+      "extra": [
+        "补充说明成就动机会影响任务选择和坚持程度",
+        "可联系趋向成功与避免失败成分"
+      ]
+    }
   },
   {
     "id": "q_gp_motivation_007",
@@ -3139,7 +3793,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-12分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "写出成就动机包含趋向成功成分",
+        "写出成就动机包含避免失败成分",
+        "说明二者会影响个体行为选择"
+      ],
+      "extra": [
+        "补充说明趋成分更愿意选择挑战任务",
+        "可补充避败成分可能倾向回避风险"
+      ]
+    }
   },
   {
     "id": "q_gp_personality_006",
@@ -3170,7 +3835,17 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-12分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "写出至少三项人格结构成分",
+        "说明其共同构成人格系统"
+      ],
+      "extra": [
+        "补充说明人格结构各成分相互联系",
+        "可进一步联系气质、性格和能力特点"
+      ]
+    }
   },
   {
     "id": "q_gp_personality_007",
@@ -3204,7 +3879,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-10分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "指出人格特质与人格类型都用于解释人格差异",
+        "说明特质是连续维度",
+        "说明类型是类别划分"
+      ],
+      "extra": [
+        "补充说明两者代表不同人格研究取向",
+        "可进一步比较其应用特点"
+      ]
+    }
   },
   {
     "id": "q_gp_intelligence_006",
@@ -3238,7 +3924,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-12分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "写出智力测验具有评估和参考作用",
+        "写出测验结果受多种因素影响",
+        "指出不能绝对化解释测验结果"
+      ],
+      "extra": [
+        "补充说明文化背景和测验条件可能影响结果",
+        "可进一步说明其教育应用价值与限度"
+      ]
+    }
   },
   {
     "id": "q_gp_intelligence_007",
@@ -3272,7 +3969,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-10分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "先表明“智商高等于智力全面发展”说法不准确",
+        "说明智商与测验分数关系",
+        "指出智力具有结构差异"
+      ],
+      "extra": [
+        "补充说明较高分数不意味着各能力维度均衡",
+        "可进一步联系测验局限展开"
+      ]
+    }
   },
   {
     "id": "q_gp_learning_006",
@@ -3305,7 +4013,17 @@
     "status": "active",
     "recommendedWords": "80-120字",
     "recommendedTime": "3-5分钟",
-    "answerLevel": "basic"
+    "answerLevel": "basic",
+    "scoringPointGroups": {
+      "core": [
+        "写出通过观察他人行为学习",
+        "写出能够习得新行为方式"
+      ],
+      "extra": [
+        "补充说明观察学习还涉及对行为结果的观察",
+        "可进一步点出榜样作用"
+      ]
+    }
   },
   {
     "id": "q_gp_learning_007",
@@ -3339,7 +4057,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-10分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "指出观察学习与机械模仿都可能表现为模仿",
+        "说明观察学习包含认知加工",
+        "说明机械模仿偏表面重复"
+      ],
+      "extra": [
+        "补充说明观察学习更依赖对榜样结果的理解",
+        "可进一步写出有无认知参与差异"
+      ]
+    }
   },
   {
     "id": "q_gp_intro_006",
@@ -3363,6 +4092,17 @@
       "写出因果关系含义",
       "指出相关不等于因果"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "准确写出相关关系的含义",
+        "准确写出因果关系的含义",
+        "明确指出相关不等于因果"
+      ],
+      "extra": [
+        "补充说明因果判断需要更严格的研究设计和验证",
+        "可举例说明相关结果不能直接推出因果结论"
+      ]
+    },
     "analysis": "绪论方法意识补强题。",
     "relatedFocusPointIds": [
       "fp_gp_intro_04"
@@ -3397,6 +4137,17 @@
       "说明相关的含义",
       "说明因果推断需要控制与验证"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "先明确指出“相关就意味着因果”这一说法不正确",
+        "解释相关关系只是变量共同变化，不等于因果关系",
+        "指出因果推断需要更严格的控制和验证"
+      ],
+      "extra": [
+        "补充说明第三变量或反向因果的可能性",
+        "可进一步说明实验研究更有利于检验因果关系"
+      ]
+    },
     "analysis": "方法论辨析题。",
     "relatedFocusPointIds": [
       "fp_gp_intro_04"
@@ -3431,6 +4182,17 @@
       "说明条件反射是后天形成的",
       "指出条件反射建立在无条件反射基础上"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "指出无条件反射是先天形成、较稳定的反应",
+        "指出条件反射是在后天经验中建立起来的反应",
+        "明确条件反射建立在无条件反射基础上"
+      ],
+      "extra": [
+        "补充比较二者在稳定性和适应环境上的差异",
+        "可补充条件反射更能体现学习和经验作用"
+      ]
+    },
     "analysis": "第二章基础比较题。",
     "relatedFocusPointIds": [
       "fp_gp_brain_04"
@@ -3513,7 +4275,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-12分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "写出遗传作用",
+        "写出环境作用",
+        "写出教育作用并强调共同作用"
+      ],
+      "extra": [
+        "补充说明遗传提供可能性、环境提供条件、教育具有定向塑造作用",
+        "可进一步说明三者相互联系"
+      ]
+    }
   },
   {
     "id": "q_gp_lifespan_007",
@@ -3547,7 +4320,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-10分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "说明遗传决定论观点",
+        "说明环境决定论观点",
+        "指出二者共同片面性并给出多因素观点"
+      ],
+      "extra": [
+        "补充说明心理发展应理解为遗传、环境、教育共同作用结果",
+        "可进一步评价单因素观点局限"
+      ]
+    }
   },
   {
     "id": "q_gp_sensation_007",
@@ -3571,6 +4355,16 @@
       "写出差别感受性的含义",
       "指出二者对应阈限不同"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "准确写出绝对感受性和差别感受性的含义",
+        "明确指出绝对感受性对应绝对阈限，差别感受性对应差别阈限"
+      ],
+      "extra": [
+        "补充说明二者都体现个体感觉能力，但针对任务不同",
+        "可补充说明感受性与相应阈限之间的反比关系"
+      ]
+    },
     "analysis": "感觉章节基础比较题。",
     "relatedFocusPointIds": [
       "fp_gp_sensation_03"
@@ -3605,6 +4399,16 @@
       "解释时间知觉",
       "解释运动知觉"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "分别写出空间知觉、时间知觉和运动知觉的基本含义",
+        "说明三者所反映的对象属性不同"
+      ],
+      "extra": [
+        "补充说明它们都建立在多种感觉信息整合基础上",
+        "可进一步说明它们属于较复杂的知觉活动"
+      ]
+    },
     "analysis": "知觉章结构型简答题。",
     "relatedFocusPointIds": [
       "fp_gp_perception_05"
@@ -3687,7 +4491,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-12分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "写出问卷法",
+        "写出投射法",
+        "写出观察法或评定法并说明其作用"
+      ],
+      "extra": [
+        "补充说明不同测量方式适合不同研究目的",
+        "可进一步说明各方法特点"
+      ]
+    }
   },
   {
     "id": "q_gp_personality_009",
@@ -3721,7 +4536,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-10分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "指出问卷法与投射法同属人格测量方法",
+        "说明问卷法特点",
+        "说明投射法特点并指出二者不能简单替代"
+      ],
+      "extra": [
+        "补充说明问卷法偏自我报告、投射法偏模糊材料分析",
+        "可进一步说明二者各有优势与局限"
+      ]
+    }
   },
   {
     "id": "q_gp_learning_008",
@@ -3755,7 +4581,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-12分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "说明经典条件作用强调刺激联结",
+        "说明操作条件作用强调强化与惩罚等后果",
+        "指出二者机制不同"
+      ],
+      "extra": [
+        "补充说明前者多解释应答性行为，后者多解释操作性行为",
+        "可结合例子说明"
+      ]
+    }
   },
   {
     "id": "q_gp_learning_009",
@@ -3790,7 +4627,19 @@
     "status": "active",
     "recommendedWords": "500-700字",
     "recommendedTime": "15-22分钟",
-    "answerLevel": "expanded"
+    "answerLevel": "expanded",
+    "scoringPointGroups": {
+      "core": [
+        "写出共同点：二者都解释学习形成机制",
+        "写出经典条件作用特点",
+        "写出操作条件作用特点",
+        "总结二者机制重点差异"
+      ],
+      "extra": [
+        "补充说明二者都属于行为主义学习理论",
+        "可进一步联系强化惩罚和刺激联结展开"
+      ]
+    }
   },
   {
     "id": "q_gp_emotion_008",
@@ -3824,7 +4673,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-12分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "写出主观体验",
+        "写出生理唤醒",
+        "写出外部表现"
+      ],
+      "extra": [
+        "补充说明三者共同构成情绪活动",
+        "可进一步联系具体情绪状态展开"
+      ]
+    }
   },
   {
     "id": "q_gp_emotion_009",
@@ -3858,7 +4718,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-10分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "指出情绪与情感同属情感过程",
+        "说明情绪较情境性、短暂性",
+        "说明情感较稳定、社会性更强"
+      ],
+      "extra": [
+        "补充说明情感与价值观、态度联系更深",
+        "可进一步指出二者相互联系"
+      ]
+    }
   },
   {
     "id": "q_gp_intelligence_008",
@@ -3892,7 +4763,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-12分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "说明流体智力含义",
+        "说明晶体智力含义",
+        "指出二者影响因素和任务特点不同"
+      ],
+      "extra": [
+        "补充说明流体智力更偏新问题处理",
+        "可补充晶体智力更依赖经验积累"
+      ]
+    }
   },
   {
     "id": "q_gp_intelligence_009",
@@ -3926,7 +4808,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-10分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "指出流体智力与晶体智力同属智力组成",
+        "说明流体智力特点",
+        "说明晶体智力特点并指出二者不能混同"
+      ],
+      "extra": [
+        "补充比较二者在发展轨迹上的差异",
+        "可进一步说明二者相互联系"
+      ]
+    }
   },
   {
     "id": "q_gp_consciousness_008",
@@ -3950,6 +4843,17 @@
       "说明梦是睡眠中的特殊心理活动",
       "指出二者相关但不等同"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "说明睡眠是一种整体性的意识状态变化",
+        "说明梦是睡眠中的特殊心理活动体验",
+        "明确指出二者相关但不等同"
+      ],
+      "extra": [
+        "补充说明并非所有睡眠阶段都以梦为主要表现",
+        "可补充梦通常出现在特定睡眠阶段"
+      ]
+    },
     "analysis": "意识章节高频基础比较题。",
     "relatedFocusPointIds": [
       "fp_gp_consciousness_05"
@@ -3984,6 +4888,17 @@
       "说明睡眠特点",
       "说明梦与睡眠的关系"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "先明确指出“睡眠等于梦”这一说法不准确",
+        "说明睡眠是整体意识状态变化",
+        "说明梦只是睡眠过程中的一种特殊心理活动"
+      ],
+      "extra": [
+        "补充说明二者是包含关系而非等同关系",
+        "可进一步说明并非所有睡眠阶段都同样突出梦现象"
+      ]
+    },
     "analysis": "意识章节典型辨析题。",
     "relatedFocusPointIds": [
       "fp_gp_consciousness_05"
@@ -4028,7 +4943,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-12分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "写出语言是思维的重要工具",
+        "写出思维内容常借语言表达和固定",
+        "指出语言与思维密切联系但并不等同"
+      ],
+      "extra": [
+        "补充说明语言促进概括和交流",
+        "可进一步从性质差异角度展开"
+      ]
+    }
   },
   {
     "id": "q_gp_language_009",
@@ -4062,7 +4988,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-10分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "先明确指出“语言与思维能等同”说法不准确",
+        "说明语言与思维联系密切",
+        "说明二者性质不同：语言是符号系统，思维是认知反映过程"
+      ],
+      "extra": [
+        "补充说明语言为思维提供表达工具",
+        "可进一步说明二者也可以在一定条件下相互影响"
+      ]
+    }
   },
   {
     "id": "q_gp_motivation_008",
@@ -4096,7 +5033,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-12分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "说明内在动机含义",
+        "说明外在动机含义",
+        "指出二者驱动来源不同"
+      ],
+      "extra": [
+        "补充说明二者在行为质量上的潜在差异",
+        "可进一步说明现实中常共同存在"
+      ]
+    }
   },
   {
     "id": "q_gp_motivation_009",
@@ -4130,7 +5078,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-10分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "指出内在动机与外在动机同属动机形式",
+        "说明内在动机特点",
+        "说明外在动机特点并指出二者并非绝对对立"
+      ],
+      "extra": [
+        "补充说明它们可能相互转化或共同作用",
+        "可进一步联系教育情境展开"
+      ]
+    }
   },
   {
     "id": "q_gp_lifespan_008",
@@ -4164,7 +5123,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-12分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "写出方向性或顺序性",
+        "写出阶段性或连续性",
+        "写出不平衡性并指出发展具有规律性"
+      ],
+      "extra": [
+        "补充说明发展规律共同揭示心理发展的普遍趋势",
+        "可进一步联系个别差异展开"
+      ]
+    }
   },
   {
     "id": "q_gp_lifespan_009",
@@ -4198,7 +5168,18 @@
     "status": "active",
     "recommendedWords": "220-320字",
     "recommendedTime": "8-10分钟",
-    "answerLevel": "standard"
+    "answerLevel": "standard",
+    "scoringPointGroups": {
+      "core": [
+        "指出阶段性与连续性不是对立关系",
+        "说明阶段性的含义",
+        "说明连续性的含义并指出二者统一"
+      ],
+      "extra": [
+        "补充说明阶段性体现质的差异，连续性体现前后衔接",
+        "可进一步联系具体发展阶段说明"
+      ]
+    }
   },
   {
     "id": "q_gp_perception_008",
@@ -4222,6 +5203,16 @@
       "写出选择性",
       "写出理解性和恒常性"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "写出知觉具有整体性、选择性、理解性和恒常性",
+        "对四种特性作简要概括"
+      ],
+      "extra": [
+        "补充说明四大特性之间并非割裂，而是共同构成知觉活动特点",
+        "可举一个日常实例加以说明"
+      ]
+    },
     "analysis": "知觉章节主干简答题。",
     "relatedFocusPointIds": [
       "fp_gp_perception_06"
@@ -4256,6 +5247,17 @@
       "说明感觉特点",
       "说明知觉特点并指出知觉高于感觉"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "指出感觉与知觉都属于认识过程",
+        "说明感觉反映个别属性，知觉反映整体及其关系",
+        "指出知觉建立在感觉基础上并高于感觉"
+      ],
+      "extra": [
+        "补充说明知觉中有经验、组织和理解参与",
+        "可按共同点—区别—联系的结构展开"
+      ]
+    },
     "analysis": "知觉章节高频辨析题。",
     "relatedFocusPointIds": [
       "fp_gp_perception_06"
@@ -4290,6 +5292,17 @@
       "说明聚合思维特点",
       "指出二者可相互配合"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "说明发散思维多方向、多答案探索的特点",
+        "说明聚合思维集中求得较优答案的特点",
+        "指出二者可以相互配合"
+      ],
+      "extra": [
+        "补充说明二者分别适合不同类型的问题情境",
+        "可补充创造性活动中常先发散后聚合"
+      ]
+    },
     "analysis": "思维章节高频比较题。",
     "relatedFocusPointIds": [
       "fp_gp_thinking_06"
@@ -4324,6 +5337,18 @@
       "说明发散思维特点",
       "说明聚合思维特点并指出二者可结合"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "指出发散思维与聚合思维都属于思维形式",
+        "说明发散思维强调多路径和多种可能答案",
+        "说明聚合思维强调收敛并求得较合理答案",
+        "指出二者可以结合使用"
+      ],
+      "extra": [
+        "补充说明二者在创造性任务中的不同作用",
+        "可进一步举例说明其结合方式"
+      ]
+    },
     "analysis": "思维章节高频辨析题。",
     "relatedFocusPointIds": [
       "fp_gp_thinking_06"
@@ -4358,6 +5383,17 @@
       "写出感受性变化",
       "说明这是感觉系统的调整现象"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "写出感觉适应是在同一刺激持续作用下发生的",
+        "写出其核心表现是感受性发生变化",
+        "指出这是感觉系统的调整现象"
+      ],
+      "extra": [
+        "补充说明感受性变化可能表现为提高或降低",
+        "可结合生活中的适应现象举例说明"
+      ]
+    },
     "analysis": "感觉章节高频基础简答题。",
     "relatedFocusPointIds": [
       "fp_gp_sensation_06"
@@ -4392,6 +5428,17 @@
       "说明感觉适应特点",
       "说明感觉后像特点并指出区别"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "指出感觉适应和感觉后像都与刺激作用过程有关",
+        "说明感觉适应强调持续刺激下感受性变化",
+        "说明感觉后像强调刺激停止后感觉印象仍有暂时保留"
+      ],
+      "extra": [
+        "补充比较二者在发生时间上的差异",
+        "可结合实例说明两种现象的不同表现"
+      ]
+    },
     "analysis": "感觉章节典型辨析题。",
     "relatedFocusPointIds": [
       "fp_gp_sensation_06"
@@ -4426,6 +5473,17 @@
       "写出树突与轴突",
       "说明接受整合传递信息的功能"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "写出神经元由细胞体、树突和轴突构成",
+        "说明树突与轴突在信息接收和传出上的功能差异",
+        "说明神经元具有接受、整合和传递信息的作用"
+      ],
+      "extra": [
+        "补充说明细胞体在代谢和整合中的作用",
+        "补充说明神经元是神经活动的基本结构和功能单位"
+      ]
+    },
     "analysis": "脑神经基础章节核心简答题。",
     "relatedFocusPointIds": [
       "fp_gp_brain_05"
@@ -4460,6 +5518,17 @@
       "说明树突特点",
       "说明轴突特点并指出功能区别"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "指出树突和轴突都属于神经元的组成部分",
+        "写出树突通常较短、较多并主要接收信息",
+        "写出轴突通常较长、一般只有一条并主要传出神经冲动"
+      ],
+      "extra": [
+        "补充比较二者在数量和形态上的差异",
+        "补充说明二者共同构成神经元信息传递结构"
+      ]
+    },
     "analysis": "脑神经基础章节高频辨析题。",
     "relatedFocusPointIds": [
       "fp_gp_brain_05"
@@ -4494,6 +5563,16 @@
       "写出实验法",
       "写出调查法或其他常见方法并说明用途"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "至少写出观察法、实验法、调查法三种主要方法",
+        "简要写明各方法的基本用途或特点"
+      ],
+      "extra": [
+        "补充测验法、个案法等其他常见方法",
+        "进一步比较不同方法适用的研究问题"
+      ]
+    },
     "analysis": "绪论章节主干方法题。",
     "relatedFocusPointIds": [
       "fp_gp_intro_05"
@@ -4528,6 +5607,17 @@
       "说明观察法特点",
       "说明实验法特点并指出二者适用差异"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "指出观察法与实验法同属心理学研究方法",
+        "概括观察法在自然情境、以记录行为为主的特点",
+        "概括实验法在操纵变量、控制条件和探讨因果关系上的特点"
+      ],
+      "extra": [
+        "补充比较二者在生态真实性与控制性上的差异",
+        "补充说明不同研究目的下的方法选择"
+      ]
+    },
     "analysis": "绪论章节高频辨析题。",
     "relatedFocusPointIds": [
       "fp_gp_intro_05"
@@ -4574,7 +5664,18 @@
     "status": "active",
     "recommendedWords": "500-700字",
     "recommendedTime": "15-22分钟",
-    "answerLevel": "expanded"
+    "answerLevel": "expanded",
+    "scoringPointGroups": {
+      "core": [
+        "写出智力差异的主要表现",
+        "说明智力结构与发展速度差异",
+        "说明智力测量的作用与局限"
+      ],
+      "extra": [
+        "补充说明测量结果不能完全等同于智力全面水平",
+        "可进一步联系智力发展因素展开"
+      ]
+    }
   },
   {
     "id": "q_gp_personality_010",
@@ -4610,7 +5711,18 @@
     "status": "active",
     "recommendedWords": "500-700字",
     "recommendedTime": "15-22分钟",
-    "answerLevel": "expanded"
+    "answerLevel": "expanded",
+    "scoringPointGroups": {
+      "core": [
+        "写出人格形成的主要影响因素",
+        "说明遗传与环境教育的共同作用",
+        "写出人格测量的主要方式及特点"
+      ],
+      "extra": [
+        "补充说明社会实践对人格形成的意义",
+        "可进一步比较问卷法和投射法"
+      ]
+    }
   },
   {
     "id": "q_gp_motivation_010",
@@ -4646,7 +5758,18 @@
     "status": "active",
     "recommendedWords": "500-700字",
     "recommendedTime": "15-22分钟",
-    "answerLevel": "expanded"
+    "answerLevel": "expanded",
+    "scoringPointGroups": {
+      "core": [
+        "说明动机的基本含义",
+        "写出动机的主要类型",
+        "说明动机对行为方向、强度和维持的作用"
+      ],
+      "extra": [
+        "补充说明不同类型动机的动力来源差异",
+        "可进一步联系成就动机或内外动机展开"
+      ]
+    }
   },
   {
     "id": "q_gp_language_010",
@@ -4682,7 +5805,18 @@
     "status": "active",
     "recommendedWords": "500-700字",
     "recommendedTime": "15-22分钟",
-    "answerLevel": "expanded"
+    "answerLevel": "expanded",
+    "scoringPointGroups": {
+      "core": [
+        "写出语言的主要功能，如交际功能和思维工具功能",
+        "说明语言是思维的重要工具",
+        "指出语言与思维既有联系又有区别"
+      ],
+      "extra": [
+        "补充说明语言还有信息保存和文化传递作用",
+        "可进一步联系内部言语、外部言语展开"
+      ]
+    }
   },
   {
     "id": "q_gp_intro_010",
@@ -4706,6 +5840,17 @@
       "说明各方法的基本特点",
       "指出不同方法应结合研究目的选择"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "系统写出观察法、实验法、调查法、测验法、个案法等主要研究方法",
+        "概括说明各方法的基本特点",
+        "指出研究方法应根据研究目的和问题性质选择"
+      ],
+      "extra": [
+        "进一步比较各方法在控制性、自然性和结论类型上的差异",
+        "补充说明研究中常需要多种方法结合使用"
+      ]
+    },
     "analysis": "绪论章节综合论述题。",
     "relatedFocusPointIds": [
       "fp_gp_intro_05"
@@ -4740,6 +5885,17 @@
       "说明各部分的主要功能",
       "说明神经元在神经活动中的基础作用"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "系统写出神经元的基本结构，包括细胞体、树突和轴突",
+        "分别说明各部分的主要功能",
+        "指出神经元是神经活动的基本结构和功能单位"
+      ],
+      "extra": [
+        "补充说明神经元在信息接收、整合和传导中的连续作用",
+        "可进一步联系神经活动和行为调节的基础意义"
+      ]
+    },
     "analysis": "脑神经基础章节综合论述题。",
     "relatedFocusPointIds": [
       "fp_gp_brain_05"
@@ -4774,6 +5930,17 @@
       "写出感觉阈限与感受性的关系",
       "写出感觉适应、后像等主要现象并作简要说明"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "说明感觉是对客观事物个别属性的直接反映",
+        "写出感觉阈限与感受性的反比关系",
+        "概括感觉适应、后像等主要现象及其基本含义"
+      ],
+      "extra": [
+        "补充感觉对比、联觉等其他重要现象",
+        "可进一步说明感觉规律在具体感觉系统中的体现"
+      ]
+    },
     "analysis": "感觉章节综合论述题。",
     "relatedFocusPointIds": [
       "fp_gp_sensation_03",
@@ -4810,6 +5977,17 @@
       "写出睡眠、梦、催眠等主要表现",
       "说明这些状态体现意识的动态性"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "指出意识状态不是固定不变的，会发生变化",
+        "写出睡眠、梦、催眠等主要表现形式",
+        "说明这些状态共同体现意识的动态性"
+      ],
+      "extra": [
+        "补充说明不同意识状态在觉知水平和组织方式上有差异",
+        "可进一步联系生物节律等因素展开"
+      ]
+    },
     "analysis": "意识章节综合论述题。",
     "relatedFocusPointIds": [
       "fp_gp_consciousness_04",
@@ -4846,6 +6024,16 @@
       "写出有目的有计划",
       "写出用于了解心理活动规律"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "写出观察法是在自然条件下进行的有目的、有计划的观察与记录",
+        "写出其目的在于了解心理活动及行为表现规律"
+      ],
+      "extra": [
+        "补充说明观察法强调系统记录而非随意观看",
+        "可补充其适用于研究自然情境中的行为"
+      ]
+    },
     "analysis": "绪论章节标准名词解释题。",
     "relatedFocusPointIds": [
       "fp_gp_intro_05"
@@ -4879,6 +6067,16 @@
       "写出条件变化",
       "写出知觉映象相对稳定"
     ],
+    "scoringPointGroups": {
+      "core": [
+        "写出知觉恒常性是在条件变化时仍保持相对稳定知觉映象的现象",
+        "明确点出条件变化与知觉稳定这两个关键词"
+      ],
+      "extra": [
+        "补充说明恒常性常见于大小、形状、颜色等知觉中",
+        "可补充其具有适应环境的意义"
+      ]
+    },
     "analysis": "知觉章节标准名词解释题。",
     "relatedFocusPointIds": [
       "fp_gp_perception_06"
@@ -4928,5 +6126,3218 @@
     "recommendedWords": "20-60字",
     "recommendedTime": "1-2分钟",
     "answerLevel": "basic"
+  },
+  {
+    "id": "q_ep_variables_004",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_variables",
+    "type": "名词解释",
+    "title": "操作定义",
+    "stem": "什么是操作定义？",
+    "answer": "操作定义是指研究者把抽象概念或变量具体化为可观察、可测量、可操作的程序性定义。它有助于明确研究对象、统一测量标准，并保证研究的可重复性与可检验性。",
+    "analysis": "作答时应突出“抽象概念具体化”“可观察、可测量、可操作”以及其在研究中的作用。",
+    "recommendedWords": "120字左右",
+    "recommendedTime": "5分钟",
+    "difficulty": "easy",
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "实验心理学最小样板补齐",
+    "status": "active",
+    "tags": [
+      "操作定义",
+      "变量"
+    ],
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": [],
+    "scoringPoints": [
+      "说明操作定义是对抽象概念或变量的具体化",
+      "强调可观察、可测量、可操作",
+      "说明其有助于研究实施与检验"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "抽象概念或变量的具体化",
+        "可观察、可测量、可操作",
+        "有助于研究实施与检验"
+      ],
+      "extra": [
+        "提到统一测量标准",
+        "提到研究可重复性"
+      ]
+    }
+  },
+  {
+    "id": "q_ep_variables_005",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_variables",
+    "type": "简答题",
+    "title": "变量在实验设计中的作用",
+    "stem": "简述自变量、因变量与控制变量在实验设计中的作用。",
+    "answer": "在实验设计中，自变量是研究者主动操纵的条件，用以考察其对被试心理或行为的影响；因变量是研究者所测量和观察的结果指标，用于反映自变量作用效果；控制变量是为了排除无关因素干扰而加以保持恒定或控制的因素。三者共同构成实验设计的基本框架，有助于提高实验的内部效度。",
+    "analysis": "这题要写清三类变量各自的定义与作用，并点出它们共同服务于实验效度。",
+    "recommendedWords": "300字左右",
+    "recommendedTime": "10分钟",
+    "difficulty": "easy",
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "实验心理学最小样板补齐",
+    "status": "active",
+    "tags": [
+      "自变量",
+      "因变量",
+      "控制变量"
+    ],
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": [],
+    "scoringPoints": [
+      "正确说明自变量的含义与作用",
+      "正确说明因变量的含义与作用",
+      "正确说明控制变量的含义与作用",
+      "指出三者共同保证实验有效性"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "自变量：研究者操纵的条件",
+        "因变量：被观察或测量的结果指标",
+        "控制变量：排除无关干扰的因素",
+        "三者共同保证实验有效性"
+      ],
+      "extra": [
+        "提到内部效度",
+        "提到因果关系推断"
+      ]
+    }
+  },
+  {
+    "id": "q_ep_variables_006",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_variables",
+    "type": "判断题",
+    "title": "额外变量与实验结果",
+    "stem": "额外变量只要不进入研究假设，就不会影响实验结果。",
+    "answer": "错误",
+    "analysis": "额外变量即使不属于研究假设中的核心变量，也可能对因变量产生影响，因此仍需加以识别和控制。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "实验心理学最小样板补齐",
+    "status": "active",
+    "tags": [
+      "额外变量",
+      "内部效度"
+    ],
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": [],
+    "scoringPoints": [
+      "说明额外变量也可能干扰因变量",
+      "强调应对额外变量进行控制",
+      "指出其与实验内部效度相关"
+    ]
+  },
+  {
+    "id": "q_ep_reaction_003",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_reaction_time",
+    "type": "名词解释",
+    "title": "反应时法",
+    "stem": "什么是反应时法？",
+    "answer": "反应时法是通过记录被试在特定刺激条件下作出反应所需时间，来推测心理加工过程特征的一种实验方法。它常用于研究知觉、注意、记忆和思维等认知过程，具有客观、量化的特点。",
+    "analysis": "作答时既要交代反应时法的指标，也要说明其研究目的与应用。",
+    "recommendedWords": "150字左右",
+    "recommendedTime": "5分钟",
+    "difficulty": "easy",
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "实验心理学最小样板补齐",
+    "status": "active",
+    "tags": [
+      "反应时法",
+      "认知过程"
+    ],
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": [],
+    "scoringPoints": [
+      "说明反应时法以反应时间为指标",
+      "说明其目的在于推测心理加工过程",
+      "指出其常见应用领域或方法特点"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "以反应时间为指标",
+        "用于推测心理加工过程",
+        "是一种实验研究方法"
+      ],
+      "extra": [
+        "举出认知研究应用场景",
+        "提到客观、量化特点"
+      ]
+    }
+  },
+  {
+    "id": "q_ep_reaction_004",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_reaction_time",
+    "type": "简答题",
+    "title": "减法反应时技术的逻辑与局限",
+    "stem": "简述减法反应时技术的基本逻辑及其局限。",
+    "answer": "减法反应时技术是通过比较两个或多个任务条件下的反应时差异，来推断其中新增心理加工阶段所需时间的一种方法。其基本逻辑在于：如果两个任务仅在某一加工阶段上不同，那么它们反应时之差可反映该阶段所消耗的时间。该方法有助于分析复杂任务中的心理加工过程，但其适用建立在加工阶段相对独立、可加等前提上。局限在于现实任务中不同加工阶段可能相互影响，反应时差异也可能受到策略、练习和速度—准确性权衡等因素干扰。",
+    "analysis": "这题的关键不只是写出“比较反应时差”，还要说明成立前提和现实局限。",
+    "recommendedWords": "350字左右",
+    "recommendedTime": "12分钟",
+    "difficulty": "medium",
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "实验心理学最小样板补齐",
+    "status": "active",
+    "tags": [
+      "减法反应时技术",
+      "阶段可加性"
+    ],
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": [],
+    "scoringPoints": [
+      "说明减法反应时技术通过比较任务反应时差异进行推断",
+      "说明新增心理加工阶段时间可由反应时差值反映",
+      "指出其基本前提，如阶段独立或阶段可加",
+      "说明其局限，如阶段交互影响、策略影响、速度—准确性权衡"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "比较不同任务条件下反应时差异",
+        "用差值推断新增加工阶段所需时间",
+        "前提是加工阶段相对独立或可加",
+        "局限在于不同阶段可能相互影响"
+      ],
+      "extra": [
+        "提到练习效应",
+        "提到策略差异",
+        "提到速度—准确性权衡"
+      ]
+    }
+  },
+  {
+    "id": "q_ep_reaction_005",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_reaction_time",
+    "type": "实验设计题",
+    "title": "反应时法研究加工阶段差异",
+    "stem": "设计一个利用反应时法研究加工阶段差异的简单实验。",
+    "answer": "可以设计一个比较两种任务条件下反应时差异的实验，用以考察信息加工阶段是否存在差异。首先明确研究目的，例如比较简单识别任务与复杂判断任务在加工阶段上的不同。其次确定自变量为任务条件，因变量为被试反应时，并可记录正确率作为辅助指标。再次说明被试来源、人数及基本要求，并准备相应刺激材料。实验程序应包括指导语、练习阶段、正式实验和反应记录。还应控制环境条件、刺激呈现方式、练习次数、反应方式和被试状态等变量。最后根据不同条件下反应时的差异，对可能的加工阶段差异作出解释。",
+    "analysis": "设计题要有完整框架，至少写到研究目的、变量设置、程序、控制和结果解释。",
+    "recommendedWords": "600字左右",
+    "recommendedTime": "20分钟",
+    "difficulty": "medium",
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": true,
+    "sourceType": "manual",
+    "sourceDetail": "实验心理学最小样板补齐",
+    "status": "active",
+    "tags": [
+      "反应时法",
+      "实验设计题"
+    ],
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": [],
+    "scoringPoints": [
+      "明确研究目的与研究问题",
+      "正确设置自变量与因变量",
+      "说明被试与实验材料",
+      "清楚描述实验程序",
+      "交代关键控制变量",
+      "能根据反应时差异说明加工阶段解释逻辑"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "明确研究目的",
+        "正确说明自变量、因变量",
+        "交代实验程序基本流程",
+        "写出至少两项控制变量",
+        "能根据反应时结果进行基本解释"
+      ],
+      "extra": [
+        "补充被试筛选标准",
+        "提及正确率等辅助指标",
+        "指出该设计的局限或注意事项"
+      ]
+    }
+  },
+  {
+    "id": "q_ep_reaction_006",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_reaction_time",
+    "type": "选择题",
+    "title": "减法反应时技术前提",
+    "stem": "下列哪一项最能体现减法反应时技术成立的关键前提？",
+    "options": [
+      "被试人数越多，反应时结果越稳定",
+      "各加工阶段之间相互独立，并且可以相加",
+      "所有实验任务都必须使用同一种刺激材料",
+      "只要任务更难，反应时就一定更长"
+    ],
+    "answer": "B",
+    "analysis": "减法反应时技术成立的重要前提是加工阶段之间具有相对独立性，并满足阶段可加逻辑。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "实验心理学最小样板补齐",
+    "status": "active",
+    "tags": [
+      "减法反应时技术",
+      "阶段独立性"
+    ],
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": [],
+    "scoringPoints": [
+      "识别阶段独立性与阶段可加性是核心前提"
+    ]
+  },
+  {
+    "id": "q_ep_psychophysics_002",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_psychophysics",
+    "type": "名词解释",
+    "title": "绝对阈限",
+    "stem": "什么是绝对阈限？",
+    "answer": "绝对阈限是指在一定条件下，个体有50%的概率能够觉察到某一刺激存在的最小刺激强度。它反映了感觉系统对外界刺激的最基本感受能力。",
+    "analysis": "答题时应写出“50%觉察概率”和“最小刺激强度”两个关键点。",
+    "recommendedWords": "120字左右",
+    "recommendedTime": "5分钟",
+    "difficulty": "easy",
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "实验心理学最小样板补齐",
+    "status": "active",
+    "tags": [
+      "绝对阈限",
+      "心理物理法"
+    ],
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": [],
+    "scoringPoints": [
+      "说明绝对阈限是最小刺激强度",
+      "指出其判定标准为50%的觉察概率",
+      "说明其反映感觉系统对刺激的基本感受能力"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "最小刺激强度",
+        "50%的觉察概率",
+        "反映基本感觉能力"
+      ],
+      "extra": [
+        "说明其测量意义",
+        "联系感觉研究中的应用"
+      ]
+    }
+  },
+  {
+    "id": "q_ep_psychophysics_003",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_psychophysics",
+    "type": "简答题",
+    "title": "差别阈限及其含义",
+    "stem": "简述差别阈限的含义及其在心理物理研究中的意义。",
+    "answer": "差别阈限是指个体能够刚刚觉察出两个刺激之间差异的最小刺激差别，也称最小可觉差。它反映了感觉系统分辨刺激差异的能力，是研究感觉敏感性和刺激变化检测的重要指标。通过差别阈限的测量，可以进一步考察刺激强度与感觉变化之间的关系。",
+    "analysis": "这题要写清定义、别称和意义，不要只停在“能分辨差别”。",
+    "recommendedWords": "250字左右",
+    "recommendedTime": "8分钟",
+    "difficulty": "easy",
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "实验心理学最小样板补齐",
+    "status": "active",
+    "tags": [
+      "差别阈限",
+      "最小可觉差"
+    ],
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": [],
+    "scoringPoints": [
+      "说明差别阈限是刚刚能觉察到差异的最小刺激差别",
+      "指出其别称为最小可觉差",
+      "说明其反映感觉系统分辨刺激差异的能力",
+      "指出其在心理物理研究中的意义"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "刚刚能觉察到差异的最小刺激差别",
+        "别称为最小可觉差",
+        "反映感觉分辨能力"
+      ],
+      "extra": [
+        "用于研究刺激变化检测",
+        "可联系感觉敏感性研究"
+      ]
+    }
+  },
+  {
+    "id": "q_ep_psychophysics_004",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_psychophysics",
+    "type": "简答题",
+    "title": "平均差误法的特点",
+    "stem": "简述平均差误法的基本做法及其特点。",
+    "answer": "平均差误法是由被试主动调节比较刺激，使其与标准刺激相等或达到某种主观标准，再根据多次调节结果求平均误差的一种心理物理测量方法。其优点是操作灵活、程序较简单，被试参与感较强；局限在于结果容易受到被试主观判断、动作习惯和期望效应的影响。",
+    "analysis": "要兼顾“怎么做”和“有什么特点”，不要只写优缺点之一。",
+    "recommendedWords": "300字左右",
+    "recommendedTime": "10分钟",
+    "difficulty": "medium",
+    "importance": "medium",
+    "answerLevel": "core",
+    "isHighFrequency": false,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "实验心理学最小样板补齐",
+    "status": "active",
+    "tags": [
+      "平均差误法",
+      "心理物理法"
+    ],
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": [],
+    "scoringPoints": [
+      "说明平均差误法由被试主动调节刺激",
+      "说明根据多次调节结果求平均误差",
+      "指出其优点，如操作灵活、程序简单",
+      "指出其局限，如受主观判断影响"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "被试主动调节刺激",
+        "根据多次调节结果求平均误差",
+        "优点是操作灵活或程序简单",
+        "局限是受主观判断影响"
+      ],
+      "extra": [
+        "提到动作习惯影响",
+        "提到期望效应"
+      ]
+    }
+  },
+  {
+    "id": "q_ep_psychophysics_005",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_psychophysics",
+    "type": "选择题",
+    "title": "最小可觉差识别",
+    "stem": "下列哪一概念通常用来表示个体刚刚能够觉察到的刺激差别？",
+    "options": [
+      "绝对阈限",
+      "差别阈限",
+      "适应水平",
+      "感觉后像"
+    ],
+    "answer": "B",
+    "analysis": "差别阈限即最小可觉差，用来表示个体刚刚能够觉察到的刺激差别。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "实验心理学最小样板补齐",
+    "status": "active",
+    "tags": [
+      "差别阈限",
+      "最小可觉差"
+    ],
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": [],
+    "scoringPoints": [
+      "识别差别阈限即最小可觉差"
+    ]
+  },
+  {
+    "id": "q_ep_psychophysics_006",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_psychophysics",
+    "type": "判断题",
+    "title": "绝对阈限的判断标准",
+    "stem": "绝对阈限通常是指个体在100%的情况下都能觉察到刺激时的最小刺激强度。",
+    "answer": "错误",
+    "analysis": "绝对阈限通常以50%的觉察概率作为判定标准，而不是100%。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "实验心理学最小样板补齐",
+    "status": "active",
+    "tags": [
+      "绝对阈限",
+      "觉察概率"
+    ],
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": [],
+    "scoringPoints": [
+      "说明绝对阈限判定标准通常为50%的觉察概率"
+    ]
+  },
+  {
+    "id": "q_ep_memory_002",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_memory_experiment",
+    "type": "名词解释",
+    "title": "记忆广度",
+    "stem": "什么是记忆广度？",
+    "answer": "记忆广度是指在一次呈现后，个体能够立即正确再现的项目数量范围。它常被用来衡量短时记忆容量或即时记忆能力。",
+    "analysis": "名词解释要写出“一次呈现后立即正确再现”和“容量指标”两个关键点。",
+    "recommendedWords": "120字左右",
+    "recommendedTime": "5分钟",
+    "difficulty": "easy",
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "实验心理学最小样板补齐",
+    "status": "active",
+    "tags": [
+      "记忆广度",
+      "短时记忆"
+    ],
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": [],
+    "scoringPoints": [
+      "说明记忆广度是一次呈现后立即正确再现的项目数量范围",
+      "指出其常用来衡量短时记忆容量或即时记忆能力"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "一次呈现后立即正确再现的项目数量范围",
+        "衡量短时记忆或即时记忆能力"
+      ],
+      "extra": [
+        "提到容量指标意义"
+      ]
+    }
+  },
+  {
+    "id": "q_ep_memory_003",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_memory_experiment",
+    "type": "简答题",
+    "title": "自由回忆法的特点",
+    "stem": "简述自由回忆法的基本做法及其特点。",
+    "answer": "自由回忆法是指在学习材料呈现之后，不限定被试回忆顺序，让其尽可能回忆所学内容的一种方法。它能够较好反映材料在自然回忆条件下的保持情况，常用于研究系列位置效应、编码与提取过程等。其优点是较接近真实记忆活动，局限在于结果容易受到被试策略、项目顺序和个体差异的影响。",
+    "analysis": "这题要兼顾方法定义、研究用途和特点，不要只写“自由回忆就是随便回忆”。",
+    "recommendedWords": "300字左右",
+    "recommendedTime": "10分钟",
+    "difficulty": "easy",
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "实验心理学最小样板补齐",
+    "status": "active",
+    "tags": [
+      "自由回忆法",
+      "系列位置效应"
+    ],
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": [],
+    "scoringPoints": [
+      "说明自由回忆法不限定回忆顺序",
+      "指出其用于考察自然条件下的回忆表现",
+      "说明其常见用途，如系列位置效应研究",
+      "指出其优点与局限"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "不限定回忆顺序",
+        "考察自然条件下的回忆表现",
+        "可用于系列位置效应等研究"
+      ],
+      "extra": [
+        "优点是较接近真实记忆活动",
+        "局限是受策略和个体差异影响"
+      ]
+    }
+  },
+  {
+    "id": "q_ep_memory_004",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_memory_experiment",
+    "type": "实验设计题",
+    "title": "系列位置效应实验设计",
+    "stem": "设计一个考察系列位置效应的简单记忆实验。",
+    "answer": "可以设计一个让被试学习若干词语列表并随后进行自由回忆的实验，以考察系列位置效应。研究目的在于比较列表中不同位置项目的回忆成绩。自变量为项目在序列中的位置，因变量为回忆正确率或回忆数量。实验材料可以为长度相同、熟悉度相近的词语列表，被试完成学习和自由回忆任务。程序上应包括指导语、材料呈现、短暂保持和自由回忆阶段。控制变量包括呈现速度、材料性质、环境条件和被试练习情况。最后比较序列前部、中部和后部项目的回忆差异，以分析首因效应和近因效应。",
+    "analysis": "设计题至少写清研究目的、变量、材料、程序、控制和结果解释。",
+    "recommendedWords": "600字左右",
+    "recommendedTime": "20分钟",
+    "difficulty": "medium",
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": true,
+    "sourceType": "manual",
+    "sourceDetail": "实验心理学最小样板补齐",
+    "status": "active",
+    "tags": [
+      "系列位置效应",
+      "实验设计题"
+    ],
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": [],
+    "scoringPoints": [
+      "明确研究目的",
+      "正确设置自变量与因变量",
+      "说明实验材料与被试",
+      "描述实验程序",
+      "交代关键控制变量",
+      "说明如何根据结果分析首因效应和近因效应"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "明确研究目的",
+        "自变量为项目序列位置，因变量为回忆成绩",
+        "交代实验程序基本流程",
+        "说明至少两项控制变量",
+        "根据结果分析首因效应和近因效应"
+      ],
+      "extra": [
+        "提到材料熟悉度控制",
+        "提到呈现速度控制",
+        "指出可能局限"
+      ]
+    }
+  },
+  {
+    "id": "q_ep_memory_005",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_memory_experiment",
+    "type": "选择题",
+    "title": "系列位置效应识别",
+    "stem": "在自由回忆实验中，通常回忆成绩较好的项目多出现在材料序列的哪两个部分？",
+    "options": [
+      "中间部分和后半部分",
+      "前半部分和中间部分",
+      "前部和后部",
+      "只有最后部分"
+    ],
+    "answer": "C",
+    "analysis": "系列位置效应通常表现为序列前部和后部项目回忆较好，对应首因效应和近因效应。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "实验心理学最小样板补齐",
+    "status": "active",
+    "tags": [
+      "系列位置效应",
+      "自由回忆法"
+    ],
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": [],
+    "scoringPoints": [
+      "识别系列位置效应通常表现为前部和后部回忆较好"
+    ]
+  },
+  {
+    "id": "q_ep_memory_006",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_memory_experiment",
+    "type": "判断题",
+    "title": "自由回忆法的顺序要求",
+    "stem": "自由回忆法要求被试严格按照材料原有顺序进行回忆。",
+    "answer": "错误",
+    "analysis": "自由回忆法的特点是不限定回忆顺序，如果要求按原顺序回忆，则更接近顺序回忆法。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "实验心理学最小样板补齐",
+    "status": "active",
+    "tags": [
+      "自由回忆法",
+      "顺序回忆"
+    ],
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": [],
+    "scoringPoints": [
+      "说明自由回忆法不要求严格按原顺序回忆"
+    ]
+  },
+  {
+    "id": "q_dp_overview_001",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_overview",
+    "type": "名词解释",
+    "title": "发展心理学概述中的核心概念",
+    "stem": "请解释发展心理学概述中的一个核心概念，并说明其在本章中的意义。",
+    "answer": "作答时应先给出发展心理学概述相关核心概念的定义，再指出该概念在理解本章发展规律、阶段任务或理论命题中的作用。",
+    "analysis": "名词解释要先定义，再补意义，避免只写背景。",
+    "recommendedWords": "150字左右",
+    "recommendedTime": "5分钟",
+    "difficulty": "easy",
+    "tags": [
+      "发展心理学概述",
+      "名词解释"
+    ],
+    "scoringPoints": [
+      "写出核心概念定义",
+      "说明其在本章中的意义"
+    ],
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_dp_overview_002",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_overview",
+    "type": "简答题",
+    "title": "发展心理学概述的主要特点",
+    "stem": "简述发展心理学概述的主要发展特点。",
+    "answer": "作答时应概括发展心理学概述在认知、情绪、社会性或人格方面的主要特征，并结合阶段任务说明其发展意义。",
+    "analysis": "简答题应注意按维度分点，不宜杂乱堆砌。",
+    "recommendedWords": "300字左右",
+    "recommendedTime": "10分钟",
+    "difficulty": "easy",
+    "tags": [
+      "发展心理学概述",
+      "简答题"
+    ],
+    "scoringPoints": [
+      "概括主要发展特点",
+      "按维度分点作答",
+      "说明发展意义"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "概括本阶段主要发展特点",
+        "按认知/情绪/社会性等维度分点",
+        "说明其发展意义"
+      ],
+      "extra": [
+        "联系代表理论",
+        "补充实践启示"
+      ]
+    },
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_dp_overview_003",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_overview",
+    "type": "选择题",
+    "title": "发展心理学概述基础识别",
+    "stem": "下列关于发展心理学概述的表述，哪一项更符合教材基本观点？",
+    "options": [
+      "强调发展具有阶段性和连续性问题",
+      "认为发展完全不受环境影响",
+      "认为所有阶段发展速度完全相同",
+      "否认个体差异在发展中的作用"
+    ],
+    "answer": "A",
+    "analysis": "发展心理学通常既关注连续性也关注阶段性，不会否认环境和个体差异。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "tags": [
+      "发展心理学概述",
+      "选择题"
+    ],
+    "scoringPoints": [
+      "识别教材基本观点"
+    ],
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_dp_infancy_001",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_infancy",
+    "type": "名词解释",
+    "title": "婴儿期心理发展中的核心概念",
+    "stem": "请解释婴儿期心理发展中的一个核心概念，并说明其在本章中的意义。",
+    "answer": "作答时应先给出婴儿期心理发展相关核心概念的定义，再指出该概念在理解本章发展规律、阶段任务或理论命题中的作用。",
+    "analysis": "名词解释要先定义，再补意义，避免只写背景。",
+    "recommendedWords": "150字左右",
+    "recommendedTime": "5分钟",
+    "difficulty": "easy",
+    "tags": [
+      "婴儿期心理发展",
+      "名词解释"
+    ],
+    "scoringPoints": [
+      "写出核心概念定义",
+      "说明其在本章中的意义"
+    ],
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_dp_infancy_002",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_infancy",
+    "type": "简答题",
+    "title": "婴儿期心理发展的主要特点",
+    "stem": "简述婴儿期心理发展的主要发展特点。",
+    "answer": "作答时应概括婴儿期心理发展在认知、情绪、社会性或人格方面的主要特征，并结合阶段任务说明其发展意义。",
+    "analysis": "简答题应注意按维度分点，不宜杂乱堆砌。",
+    "recommendedWords": "300字左右",
+    "recommendedTime": "10分钟",
+    "difficulty": "easy",
+    "tags": [
+      "婴儿期心理发展",
+      "简答题"
+    ],
+    "scoringPoints": [
+      "概括主要发展特点",
+      "按维度分点作答",
+      "说明发展意义"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "概括本阶段主要发展特点",
+        "按认知/情绪/社会性等维度分点",
+        "说明其发展意义"
+      ],
+      "extra": [
+        "联系代表理论",
+        "补充实践启示"
+      ]
+    },
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_dp_infancy_003",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_infancy",
+    "type": "选择题",
+    "title": "婴儿期心理发展基础识别",
+    "stem": "下列关于婴儿期心理发展的表述，哪一项更符合教材基本观点？",
+    "options": [
+      "强调发展具有阶段性和连续性问题",
+      "认为发展完全不受环境影响",
+      "认为所有阶段发展速度完全相同",
+      "否认个体差异在发展中的作用"
+    ],
+    "answer": "A",
+    "analysis": "发展心理学通常既关注连续性也关注阶段性，不会否认环境和个体差异。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "tags": [
+      "婴儿期心理发展",
+      "选择题"
+    ],
+    "scoringPoints": [
+      "识别教材基本观点"
+    ],
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_dp_early_childhood_001",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_early_childhood",
+    "type": "名词解释",
+    "title": "幼儿期心理发展中的核心概念",
+    "stem": "请解释幼儿期心理发展中的一个核心概念，并说明其在本章中的意义。",
+    "answer": "作答时应先给出幼儿期心理发展相关核心概念的定义，再指出该概念在理解本章发展规律、阶段任务或理论命题中的作用。",
+    "analysis": "名词解释要先定义，再补意义，避免只写背景。",
+    "recommendedWords": "150字左右",
+    "recommendedTime": "5分钟",
+    "difficulty": "easy",
+    "tags": [
+      "幼儿期心理发展",
+      "名词解释"
+    ],
+    "scoringPoints": [
+      "写出核心概念定义",
+      "说明其在本章中的意义"
+    ],
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_dp_early_childhood_002",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_early_childhood",
+    "type": "简答题",
+    "title": "幼儿期心理发展的主要特点",
+    "stem": "简述幼儿期心理发展的主要发展特点。",
+    "answer": "作答时应概括幼儿期心理发展在认知、情绪、社会性或人格方面的主要特征，并结合阶段任务说明其发展意义。",
+    "analysis": "简答题应注意按维度分点，不宜杂乱堆砌。",
+    "recommendedWords": "300字左右",
+    "recommendedTime": "10分钟",
+    "difficulty": "easy",
+    "tags": [
+      "幼儿期心理发展",
+      "简答题"
+    ],
+    "scoringPoints": [
+      "概括主要发展特点",
+      "按维度分点作答",
+      "说明发展意义"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "概括本阶段主要发展特点",
+        "按认知/情绪/社会性等维度分点",
+        "说明其发展意义"
+      ],
+      "extra": [
+        "联系代表理论",
+        "补充实践启示"
+      ]
+    },
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_dp_early_childhood_003",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_early_childhood",
+    "type": "选择题",
+    "title": "幼儿期心理发展基础识别",
+    "stem": "下列关于幼儿期心理发展的表述，哪一项更符合教材基本观点？",
+    "options": [
+      "强调发展具有阶段性和连续性问题",
+      "认为发展完全不受环境影响",
+      "认为所有阶段发展速度完全相同",
+      "否认个体差异在发展中的作用"
+    ],
+    "answer": "A",
+    "analysis": "发展心理学通常既关注连续性也关注阶段性，不会否认环境和个体差异。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "tags": [
+      "幼儿期心理发展",
+      "选择题"
+    ],
+    "scoringPoints": [
+      "识别教材基本观点"
+    ],
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_dp_middle_childhood_001",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_middle_childhood",
+    "type": "名词解释",
+    "title": "童年期心理发展中的核心概念",
+    "stem": "请解释童年期心理发展中的一个核心概念，并说明其在本章中的意义。",
+    "answer": "作答时应先给出童年期心理发展相关核心概念的定义，再指出该概念在理解本章发展规律、阶段任务或理论命题中的作用。",
+    "analysis": "名词解释要先定义，再补意义，避免只写背景。",
+    "recommendedWords": "150字左右",
+    "recommendedTime": "5分钟",
+    "difficulty": "easy",
+    "tags": [
+      "童年期心理发展",
+      "名词解释"
+    ],
+    "scoringPoints": [
+      "写出核心概念定义",
+      "说明其在本章中的意义"
+    ],
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_dp_middle_childhood_002",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_middle_childhood",
+    "type": "简答题",
+    "title": "童年期心理发展的主要特点",
+    "stem": "简述童年期心理发展的主要发展特点。",
+    "answer": "作答时应概括童年期心理发展在认知、情绪、社会性或人格方面的主要特征，并结合阶段任务说明其发展意义。",
+    "analysis": "简答题应注意按维度分点，不宜杂乱堆砌。",
+    "recommendedWords": "300字左右",
+    "recommendedTime": "10分钟",
+    "difficulty": "easy",
+    "tags": [
+      "童年期心理发展",
+      "简答题"
+    ],
+    "scoringPoints": [
+      "概括主要发展特点",
+      "按维度分点作答",
+      "说明发展意义"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "概括本阶段主要发展特点",
+        "按认知/情绪/社会性等维度分点",
+        "说明其发展意义"
+      ],
+      "extra": [
+        "联系代表理论",
+        "补充实践启示"
+      ]
+    },
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_dp_middle_childhood_003",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_middle_childhood",
+    "type": "选择题",
+    "title": "童年期心理发展基础识别",
+    "stem": "下列关于童年期心理发展的表述，哪一项更符合教材基本观点？",
+    "options": [
+      "强调发展具有阶段性和连续性问题",
+      "认为发展完全不受环境影响",
+      "认为所有阶段发展速度完全相同",
+      "否认个体差异在发展中的作用"
+    ],
+    "answer": "A",
+    "analysis": "发展心理学通常既关注连续性也关注阶段性，不会否认环境和个体差异。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "tags": [
+      "童年期心理发展",
+      "选择题"
+    ],
+    "scoringPoints": [
+      "识别教材基本观点"
+    ],
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_dp_adolescence_001",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_adolescence",
+    "type": "名词解释",
+    "title": "青少年心理发展中的核心概念",
+    "stem": "请解释青少年心理发展中的一个核心概念，并说明其在本章中的意义。",
+    "answer": "作答时应先给出青少年心理发展相关核心概念的定义，再指出该概念在理解本章发展规律、阶段任务或理论命题中的作用。",
+    "analysis": "名词解释要先定义，再补意义，避免只写背景。",
+    "recommendedWords": "150字左右",
+    "recommendedTime": "5分钟",
+    "difficulty": "easy",
+    "tags": [
+      "青少年心理发展",
+      "名词解释"
+    ],
+    "scoringPoints": [
+      "写出核心概念定义",
+      "说明其在本章中的意义"
+    ],
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_dp_adolescence_002",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_adolescence",
+    "type": "简答题",
+    "title": "青少年心理发展的主要特点",
+    "stem": "简述青少年心理发展的主要发展特点。",
+    "answer": "作答时应概括青少年心理发展在认知、情绪、社会性或人格方面的主要特征，并结合阶段任务说明其发展意义。",
+    "analysis": "简答题应注意按维度分点，不宜杂乱堆砌。",
+    "recommendedWords": "300字左右",
+    "recommendedTime": "10分钟",
+    "difficulty": "easy",
+    "tags": [
+      "青少年心理发展",
+      "简答题"
+    ],
+    "scoringPoints": [
+      "概括主要发展特点",
+      "按维度分点作答",
+      "说明发展意义"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "概括本阶段主要发展特点",
+        "按认知/情绪/社会性等维度分点",
+        "说明其发展意义"
+      ],
+      "extra": [
+        "联系代表理论",
+        "补充实践启示"
+      ]
+    },
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_dp_adolescence_003",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_adolescence",
+    "type": "选择题",
+    "title": "青少年心理发展基础识别",
+    "stem": "下列关于青少年心理发展的表述，哪一项更符合教材基本观点？",
+    "options": [
+      "强调发展具有阶段性和连续性问题",
+      "认为发展完全不受环境影响",
+      "认为所有阶段发展速度完全相同",
+      "否认个体差异在发展中的作用"
+    ],
+    "answer": "A",
+    "analysis": "发展心理学通常既关注连续性也关注阶段性，不会否认环境和个体差异。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "tags": [
+      "青少年心理发展",
+      "选择题"
+    ],
+    "scoringPoints": [
+      "识别教材基本观点"
+    ],
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_dp_adulthood_aging_001",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_adulthood_aging",
+    "type": "名词解释",
+    "title": "成年与老年心理发展中的核心概念",
+    "stem": "请解释成年与老年心理发展中的一个核心概念，并说明其在本章中的意义。",
+    "answer": "作答时应先给出成年与老年心理发展相关核心概念的定义，再指出该概念在理解本章发展规律、阶段任务或理论命题中的作用。",
+    "analysis": "名词解释要先定义，再补意义，避免只写背景。",
+    "recommendedWords": "150字左右",
+    "recommendedTime": "5分钟",
+    "difficulty": "easy",
+    "tags": [
+      "成年与老年心理发展",
+      "名词解释"
+    ],
+    "scoringPoints": [
+      "写出核心概念定义",
+      "说明其在本章中的意义"
+    ],
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_dp_adulthood_aging_002",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_adulthood_aging",
+    "type": "简答题",
+    "title": "成年与老年心理发展的主要特点",
+    "stem": "简述成年与老年心理发展的主要发展特点。",
+    "answer": "作答时应概括成年与老年心理发展在认知、情绪、社会性或人格方面的主要特征，并结合阶段任务说明其发展意义。",
+    "analysis": "简答题应注意按维度分点，不宜杂乱堆砌。",
+    "recommendedWords": "300字左右",
+    "recommendedTime": "10分钟",
+    "difficulty": "easy",
+    "tags": [
+      "成年与老年心理发展",
+      "简答题"
+    ],
+    "scoringPoints": [
+      "概括主要发展特点",
+      "按维度分点作答",
+      "说明发展意义"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "概括本阶段主要发展特点",
+        "按认知/情绪/社会性等维度分点",
+        "说明其发展意义"
+      ],
+      "extra": [
+        "联系代表理论",
+        "补充实践启示"
+      ]
+    },
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_dp_adulthood_aging_003",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_adulthood_aging",
+    "type": "选择题",
+    "title": "成年与老年心理发展基础识别",
+    "stem": "下列关于成年与老年心理发展的表述，哪一项更符合教材基本观点？",
+    "options": [
+      "强调发展具有阶段性和连续性问题",
+      "认为发展完全不受环境影响",
+      "认为所有阶段发展速度完全相同",
+      "否认个体差异在发展中的作用"
+    ],
+    "answer": "A",
+    "analysis": "发展心理学通常既关注连续性也关注阶段性，不会否认环境和个体差异。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "tags": [
+      "成年与老年心理发展",
+      "选择题"
+    ],
+    "scoringPoints": [
+      "识别教材基本观点"
+    ],
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_edu_overview_001",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_overview",
+    "type": "名词解释",
+    "title": "教育心理学概述核心概念",
+    "stem": "解释教育心理学概述中的一个核心概念。",
+    "answer": "作答时应先给出教育心理学概述相关核心概念的定义，再说明其在教学或学习中的功能。",
+    "analysis": "教育心理学名词解释不要只背定义，还要点出教育情境中的作用。",
+    "recommendedWords": "150字左右",
+    "recommendedTime": "5分钟",
+    "difficulty": "easy",
+    "tags": [
+      "教育心理学概述",
+      "名词解释"
+    ],
+    "scoringPoints": [
+      "写出概念定义",
+      "说明其教育功能"
+    ],
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_edu_overview_002",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_overview",
+    "type": "简答题",
+    "title": "教育心理学概述的主要观点",
+    "stem": "简述教育心理学概述中的主要观点或主要内容。",
+    "answer": "作答时应围绕教育心理学概述的代表性观点、关键机制和教育意义分点展开。",
+    "analysis": "简答题建议按“观点—机制—应用”组织答案。",
+    "recommendedWords": "300字左右",
+    "recommendedTime": "10分钟",
+    "difficulty": "easy",
+    "tags": [
+      "教育心理学概述",
+      "简答题"
+    ],
+    "scoringPoints": [
+      "概括主要观点",
+      "说明关键机制",
+      "指出教育意义"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "概括本章主要观点",
+        "说明关键机制",
+        "指出教育意义或应用"
+      ],
+      "extra": [
+        "联系教学案例",
+        "比较相近理论"
+      ]
+    },
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_edu_overview_003",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_overview",
+    "type": "选择题",
+    "title": "教育心理学概述基础判断",
+    "stem": "下列哪一项更符合教育心理学概述中的基本观点？",
+    "options": [
+      "理论观点需要结合教学情境理解",
+      "学习过程与动机无关",
+      "教师因素对学习没有影响",
+      "课堂管理只影响纪律不影响学习"
+    ],
+    "answer": "A",
+    "analysis": "教育心理学中的多数理论都需要放到具体教育情境中理解。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "tags": [
+      "教育心理学概述",
+      "选择题"
+    ],
+    "scoringPoints": [
+      "识别教育心理学基本观点"
+    ],
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_edu_learning_theory_001",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_learning_theory",
+    "type": "名词解释",
+    "title": "学习理论核心概念",
+    "stem": "解释学习理论中的一个核心概念。",
+    "answer": "作答时应先给出学习理论相关核心概念的定义，再说明其在教学或学习中的功能。",
+    "analysis": "教育心理学名词解释不要只背定义，还要点出教育情境中的作用。",
+    "recommendedWords": "150字左右",
+    "recommendedTime": "5分钟",
+    "difficulty": "easy",
+    "tags": [
+      "学习理论",
+      "名词解释"
+    ],
+    "scoringPoints": [
+      "写出概念定义",
+      "说明其教育功能"
+    ],
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_edu_learning_theory_002",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_learning_theory",
+    "type": "简答题",
+    "title": "学习理论的主要观点",
+    "stem": "简述学习理论中的主要观点或主要内容。",
+    "answer": "作答时应围绕学习理论的代表性观点、关键机制和教育意义分点展开。",
+    "analysis": "简答题建议按“观点—机制—应用”组织答案。",
+    "recommendedWords": "300字左右",
+    "recommendedTime": "10分钟",
+    "difficulty": "easy",
+    "tags": [
+      "学习理论",
+      "简答题"
+    ],
+    "scoringPoints": [
+      "概括主要观点",
+      "说明关键机制",
+      "指出教育意义"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "概括本章主要观点",
+        "说明关键机制",
+        "指出教育意义或应用"
+      ],
+      "extra": [
+        "联系教学案例",
+        "比较相近理论"
+      ]
+    },
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_edu_learning_theory_003",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_learning_theory",
+    "type": "选择题",
+    "title": "学习理论基础判断",
+    "stem": "下列哪一项更符合学习理论中的基本观点？",
+    "options": [
+      "理论观点需要结合教学情境理解",
+      "学习过程与动机无关",
+      "教师因素对学习没有影响",
+      "课堂管理只影响纪律不影响学习"
+    ],
+    "answer": "A",
+    "analysis": "教育心理学中的多数理论都需要放到具体教育情境中理解。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "tags": [
+      "学习理论",
+      "选择题"
+    ],
+    "scoringPoints": [
+      "识别教育心理学基本观点"
+    ],
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_edu_learning_motivation_001",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_learning_motivation",
+    "type": "名词解释",
+    "title": "学习动机核心概念",
+    "stem": "解释学习动机中的一个核心概念。",
+    "answer": "作答时应先给出学习动机相关核心概念的定义，再说明其在教学或学习中的功能。",
+    "analysis": "教育心理学名词解释不要只背定义，还要点出教育情境中的作用。",
+    "recommendedWords": "150字左右",
+    "recommendedTime": "5分钟",
+    "difficulty": "easy",
+    "tags": [
+      "学习动机",
+      "名词解释"
+    ],
+    "scoringPoints": [
+      "写出概念定义",
+      "说明其教育功能"
+    ],
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_edu_learning_motivation_002",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_learning_motivation",
+    "type": "简答题",
+    "title": "学习动机的主要观点",
+    "stem": "简述学习动机中的主要观点或主要内容。",
+    "answer": "作答时应围绕学习动机的代表性观点、关键机制和教育意义分点展开。",
+    "analysis": "简答题建议按“观点—机制—应用”组织答案。",
+    "recommendedWords": "300字左右",
+    "recommendedTime": "10分钟",
+    "difficulty": "easy",
+    "tags": [
+      "学习动机",
+      "简答题"
+    ],
+    "scoringPoints": [
+      "概括主要观点",
+      "说明关键机制",
+      "指出教育意义"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "概括本章主要观点",
+        "说明关键机制",
+        "指出教育意义或应用"
+      ],
+      "extra": [
+        "联系教学案例",
+        "比较相近理论"
+      ]
+    },
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_edu_learning_motivation_003",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_learning_motivation",
+    "type": "选择题",
+    "title": "学习动机基础判断",
+    "stem": "下列哪一项更符合学习动机中的基本观点？",
+    "options": [
+      "理论观点需要结合教学情境理解",
+      "学习过程与动机无关",
+      "教师因素对学习没有影响",
+      "课堂管理只影响纪律不影响学习"
+    ],
+    "answer": "A",
+    "analysis": "教育心理学中的多数理论都需要放到具体教育情境中理解。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "tags": [
+      "学习动机",
+      "选择题"
+    ],
+    "scoringPoints": [
+      "识别教育心理学基本观点"
+    ],
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_edu_knowledge_skill_001",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_knowledge_skill",
+    "type": "名词解释",
+    "title": "知识学习与技能形成核心概念",
+    "stem": "解释知识学习与技能形成中的一个核心概念。",
+    "answer": "作答时应先给出知识学习与技能形成相关核心概念的定义，再说明其在教学或学习中的功能。",
+    "analysis": "教育心理学名词解释不要只背定义，还要点出教育情境中的作用。",
+    "recommendedWords": "150字左右",
+    "recommendedTime": "5分钟",
+    "difficulty": "easy",
+    "tags": [
+      "知识学习与技能形成",
+      "名词解释"
+    ],
+    "scoringPoints": [
+      "写出概念定义",
+      "说明其教育功能"
+    ],
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_edu_knowledge_skill_002",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_knowledge_skill",
+    "type": "简答题",
+    "title": "知识学习与技能形成的主要观点",
+    "stem": "简述知识学习与技能形成中的主要观点或主要内容。",
+    "answer": "作答时应围绕知识学习与技能形成的代表性观点、关键机制和教育意义分点展开。",
+    "analysis": "简答题建议按“观点—机制—应用”组织答案。",
+    "recommendedWords": "300字左右",
+    "recommendedTime": "10分钟",
+    "difficulty": "easy",
+    "tags": [
+      "知识学习与技能形成",
+      "简答题"
+    ],
+    "scoringPoints": [
+      "概括主要观点",
+      "说明关键机制",
+      "指出教育意义"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "概括本章主要观点",
+        "说明关键机制",
+        "指出教育意义或应用"
+      ],
+      "extra": [
+        "联系教学案例",
+        "比较相近理论"
+      ]
+    },
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_edu_knowledge_skill_003",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_knowledge_skill",
+    "type": "选择题",
+    "title": "知识学习与技能形成基础判断",
+    "stem": "下列哪一项更符合知识学习与技能形成中的基本观点？",
+    "options": [
+      "理论观点需要结合教学情境理解",
+      "学习过程与动机无关",
+      "教师因素对学习没有影响",
+      "课堂管理只影响纪律不影响学习"
+    ],
+    "answer": "A",
+    "analysis": "教育心理学中的多数理论都需要放到具体教育情境中理解。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "tags": [
+      "知识学习与技能形成",
+      "选择题"
+    ],
+    "scoringPoints": [
+      "识别教育心理学基本观点"
+    ],
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_edu_moral_social_001",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_moral_social",
+    "type": "名词解释",
+    "title": "品德心理与社会规范学习核心概念",
+    "stem": "解释品德心理与社会规范学习中的一个核心概念。",
+    "answer": "作答时应先给出品德心理与社会规范学习相关核心概念的定义，再说明其在教学或学习中的功能。",
+    "analysis": "教育心理学名词解释不要只背定义，还要点出教育情境中的作用。",
+    "recommendedWords": "150字左右",
+    "recommendedTime": "5分钟",
+    "difficulty": "easy",
+    "tags": [
+      "品德心理与社会规范学习",
+      "名词解释"
+    ],
+    "scoringPoints": [
+      "写出概念定义",
+      "说明其教育功能"
+    ],
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_edu_moral_social_002",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_moral_social",
+    "type": "简答题",
+    "title": "品德心理与社会规范学习的主要观点",
+    "stem": "简述品德心理与社会规范学习中的主要观点或主要内容。",
+    "answer": "作答时应围绕品德心理与社会规范学习的代表性观点、关键机制和教育意义分点展开。",
+    "analysis": "简答题建议按“观点—机制—应用”组织答案。",
+    "recommendedWords": "300字左右",
+    "recommendedTime": "10分钟",
+    "difficulty": "easy",
+    "tags": [
+      "品德心理与社会规范学习",
+      "简答题"
+    ],
+    "scoringPoints": [
+      "概括主要观点",
+      "说明关键机制",
+      "指出教育意义"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "概括本章主要观点",
+        "说明关键机制",
+        "指出教育意义或应用"
+      ],
+      "extra": [
+        "联系教学案例",
+        "比较相近理论"
+      ]
+    },
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_edu_moral_social_003",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_moral_social",
+    "type": "选择题",
+    "title": "品德心理与社会规范学习基础判断",
+    "stem": "下列哪一项更符合品德心理与社会规范学习中的基本观点？",
+    "options": [
+      "理论观点需要结合教学情境理解",
+      "学习过程与动机无关",
+      "教师因素对学习没有影响",
+      "课堂管理只影响纪律不影响学习"
+    ],
+    "answer": "A",
+    "analysis": "教育心理学中的多数理论都需要放到具体教育情境中理解。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "tags": [
+      "品德心理与社会规范学习",
+      "选择题"
+    ],
+    "scoringPoints": [
+      "识别教育心理学基本观点"
+    ],
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_edu_teaching_classroom_001",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_teaching_classroom",
+    "type": "名词解释",
+    "title": "教学设计与课堂管理核心概念",
+    "stem": "解释教学设计与课堂管理中的一个核心概念。",
+    "answer": "作答时应先给出教学设计与课堂管理相关核心概念的定义，再说明其在教学或学习中的功能。",
+    "analysis": "教育心理学名词解释不要只背定义，还要点出教育情境中的作用。",
+    "recommendedWords": "150字左右",
+    "recommendedTime": "5分钟",
+    "difficulty": "easy",
+    "tags": [
+      "教学设计与课堂管理",
+      "名词解释"
+    ],
+    "scoringPoints": [
+      "写出概念定义",
+      "说明其教育功能"
+    ],
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_edu_teaching_classroom_002",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_teaching_classroom",
+    "type": "简答题",
+    "title": "教学设计与课堂管理的主要观点",
+    "stem": "简述教学设计与课堂管理中的主要观点或主要内容。",
+    "answer": "作答时应围绕教学设计与课堂管理的代表性观点、关键机制和教育意义分点展开。",
+    "analysis": "简答题建议按“观点—机制—应用”组织答案。",
+    "recommendedWords": "300字左右",
+    "recommendedTime": "10分钟",
+    "difficulty": "easy",
+    "tags": [
+      "教学设计与课堂管理",
+      "简答题"
+    ],
+    "scoringPoints": [
+      "概括主要观点",
+      "说明关键机制",
+      "指出教育意义"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "概括本章主要观点",
+        "说明关键机制",
+        "指出教育意义或应用"
+      ],
+      "extra": [
+        "联系教学案例",
+        "比较相近理论"
+      ]
+    },
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_edu_teaching_classroom_003",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_teaching_classroom",
+    "type": "选择题",
+    "title": "教学设计与课堂管理基础判断",
+    "stem": "下列哪一项更符合教学设计与课堂管理中的基本观点？",
+    "options": [
+      "理论观点需要结合教学情境理解",
+      "学习过程与动机无关",
+      "教师因素对学习没有影响",
+      "课堂管理只影响纪律不影响学习"
+    ],
+    "answer": "A",
+    "analysis": "教育心理学中的多数理论都需要放到具体教育情境中理解。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "tags": [
+      "教学设计与课堂管理",
+      "选择题"
+    ],
+    "scoringPoints": [
+      "识别教育心理学基本观点"
+    ],
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_stats_descriptive_001",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_descriptive",
+    "type": "名词解释",
+    "title": "描述统计核心指标",
+    "stem": "解释描述统计中的一个核心统计概念。",
+    "answer": "作答时应先给出描述统计相关统计概念的定义，再说明其统计意义与适用场景。",
+    "analysis": "统计学名词解释既要写概念，也要写用途。",
+    "recommendedWords": "150字左右",
+    "recommendedTime": "5分钟",
+    "difficulty": "easy",
+    "tags": [
+      "描述统计",
+      "名词解释"
+    ],
+    "scoringPoints": [
+      "写出统计概念定义",
+      "说明统计意义或用途"
+    ],
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_stats_descriptive_002",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_descriptive",
+    "type": "简答题",
+    "title": "描述统计的适用条件与意义",
+    "stem": "简述描述统计中常见方法的适用条件及其意义。",
+    "answer": "作答时应围绕描述统计中的代表方法，说明其适用数据条件、分析目标和结果解释意义。",
+    "analysis": "统计学简答题要特别注意“适用条件”。",
+    "recommendedWords": "320字左右",
+    "recommendedTime": "12分钟",
+    "difficulty": "medium",
+    "tags": [
+      "描述统计",
+      "简答题"
+    ],
+    "scoringPoints": [
+      "说明代表方法",
+      "写出适用条件",
+      "说明结果解释意义"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "说明本章代表统计方法",
+        "写出基本适用条件",
+        "说明结果解释意义"
+      ],
+      "extra": [
+        "补充比较相近方法",
+        "联系研究情境"
+      ]
+    },
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_stats_descriptive_003",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_descriptive",
+    "type": "选择题",
+    "title": "描述统计方法识别",
+    "stem": "在心理与教育研究中，遇到描述统计相关问题时，下列哪种判断更合理？",
+    "options": [
+      "先看研究设计和数据条件再选方法",
+      "任何数据都能直接做参数检验",
+      "所有相关分析都能推出因果关系",
+      "只要显著就说明研究结论完全正确"
+    ],
+    "answer": "A",
+    "analysis": "统计方法选择必须结合研究设计与数据条件，不能机械套用。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "tags": [
+      "描述统计",
+      "选择题"
+    ],
+    "scoringPoints": [
+      "识别统计方法选择原则"
+    ],
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_stats_probability_sampling_001",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_probability_sampling",
+    "type": "名词解释",
+    "title": "概率与抽样分布核心指标",
+    "stem": "解释概率与抽样分布中的一个核心统计概念。",
+    "answer": "作答时应先给出概率与抽样分布相关统计概念的定义，再说明其统计意义与适用场景。",
+    "analysis": "统计学名词解释既要写概念，也要写用途。",
+    "recommendedWords": "150字左右",
+    "recommendedTime": "5分钟",
+    "difficulty": "easy",
+    "tags": [
+      "概率与抽样分布",
+      "名词解释"
+    ],
+    "scoringPoints": [
+      "写出统计概念定义",
+      "说明统计意义或用途"
+    ],
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_stats_probability_sampling_002",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_probability_sampling",
+    "type": "简答题",
+    "title": "概率与抽样分布的适用条件与意义",
+    "stem": "简述概率与抽样分布中常见方法的适用条件及其意义。",
+    "answer": "作答时应围绕概率与抽样分布中的代表方法，说明其适用数据条件、分析目标和结果解释意义。",
+    "analysis": "统计学简答题要特别注意“适用条件”。",
+    "recommendedWords": "320字左右",
+    "recommendedTime": "12分钟",
+    "difficulty": "medium",
+    "tags": [
+      "概率与抽样分布",
+      "简答题"
+    ],
+    "scoringPoints": [
+      "说明代表方法",
+      "写出适用条件",
+      "说明结果解释意义"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "说明本章代表统计方法",
+        "写出基本适用条件",
+        "说明结果解释意义"
+      ],
+      "extra": [
+        "补充比较相近方法",
+        "联系研究情境"
+      ]
+    },
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_stats_probability_sampling_003",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_probability_sampling",
+    "type": "选择题",
+    "title": "概率与抽样分布方法识别",
+    "stem": "在心理与教育研究中，遇到概率与抽样分布相关问题时，下列哪种判断更合理？",
+    "options": [
+      "先看研究设计和数据条件再选方法",
+      "任何数据都能直接做参数检验",
+      "所有相关分析都能推出因果关系",
+      "只要显著就说明研究结论完全正确"
+    ],
+    "answer": "A",
+    "analysis": "统计方法选择必须结合研究设计与数据条件，不能机械套用。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "tags": [
+      "概率与抽样分布",
+      "选择题"
+    ],
+    "scoringPoints": [
+      "识别统计方法选择原则"
+    ],
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_stats_estimation_hypothesis_001",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_estimation_hypothesis",
+    "type": "名词解释",
+    "title": "参数估计与假设检验核心指标",
+    "stem": "解释参数估计与假设检验中的一个核心统计概念。",
+    "answer": "作答时应先给出参数估计与假设检验相关统计概念的定义，再说明其统计意义与适用场景。",
+    "analysis": "统计学名词解释既要写概念，也要写用途。",
+    "recommendedWords": "150字左右",
+    "recommendedTime": "5分钟",
+    "difficulty": "easy",
+    "tags": [
+      "参数估计与假设检验",
+      "名词解释"
+    ],
+    "scoringPoints": [
+      "写出统计概念定义",
+      "说明统计意义或用途"
+    ],
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_stats_estimation_hypothesis_002",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_estimation_hypothesis",
+    "type": "简答题",
+    "title": "参数估计与假设检验的适用条件与意义",
+    "stem": "简述参数估计与假设检验中常见方法的适用条件及其意义。",
+    "answer": "作答时应围绕参数估计与假设检验中的代表方法，说明其适用数据条件、分析目标和结果解释意义。",
+    "analysis": "统计学简答题要特别注意“适用条件”。",
+    "recommendedWords": "320字左右",
+    "recommendedTime": "12分钟",
+    "difficulty": "medium",
+    "tags": [
+      "参数估计与假设检验",
+      "简答题"
+    ],
+    "scoringPoints": [
+      "说明代表方法",
+      "写出适用条件",
+      "说明结果解释意义"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "说明本章代表统计方法",
+        "写出基本适用条件",
+        "说明结果解释意义"
+      ],
+      "extra": [
+        "补充比较相近方法",
+        "联系研究情境"
+      ]
+    },
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_stats_estimation_hypothesis_003",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_estimation_hypothesis",
+    "type": "选择题",
+    "title": "参数估计与假设检验方法识别",
+    "stem": "在心理与教育研究中，遇到参数估计与假设检验相关问题时，下列哪种判断更合理？",
+    "options": [
+      "先看研究设计和数据条件再选方法",
+      "任何数据都能直接做参数检验",
+      "所有相关分析都能推出因果关系",
+      "只要显著就说明研究结论完全正确"
+    ],
+    "answer": "A",
+    "analysis": "统计方法选择必须结合研究设计与数据条件，不能机械套用。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "tags": [
+      "参数估计与假设检验",
+      "选择题"
+    ],
+    "scoringPoints": [
+      "识别统计方法选择原则"
+    ],
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_stats_t_anova_001",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_t_anova",
+    "type": "名词解释",
+    "title": "t 检验与方差分析核心指标",
+    "stem": "解释t 检验与方差分析中的一个核心统计概念。",
+    "answer": "作答时应先给出t 检验与方差分析相关统计概念的定义，再说明其统计意义与适用场景。",
+    "analysis": "统计学名词解释既要写概念，也要写用途。",
+    "recommendedWords": "150字左右",
+    "recommendedTime": "5分钟",
+    "difficulty": "easy",
+    "tags": [
+      "t 检验与方差分析",
+      "名词解释"
+    ],
+    "scoringPoints": [
+      "写出统计概念定义",
+      "说明统计意义或用途"
+    ],
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_stats_t_anova_002",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_t_anova",
+    "type": "简答题",
+    "title": "t 检验与方差分析的适用条件与意义",
+    "stem": "简述t 检验与方差分析中常见方法的适用条件及其意义。",
+    "answer": "作答时应围绕t 检验与方差分析中的代表方法，说明其适用数据条件、分析目标和结果解释意义。",
+    "analysis": "统计学简答题要特别注意“适用条件”。",
+    "recommendedWords": "320字左右",
+    "recommendedTime": "12分钟",
+    "difficulty": "medium",
+    "tags": [
+      "t 检验与方差分析",
+      "简答题"
+    ],
+    "scoringPoints": [
+      "说明代表方法",
+      "写出适用条件",
+      "说明结果解释意义"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "说明本章代表统计方法",
+        "写出基本适用条件",
+        "说明结果解释意义"
+      ],
+      "extra": [
+        "补充比较相近方法",
+        "联系研究情境"
+      ]
+    },
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_stats_t_anova_003",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_t_anova",
+    "type": "选择题",
+    "title": "t 检验与方差分析方法识别",
+    "stem": "在心理与教育研究中，遇到t 检验与方差分析相关问题时，下列哪种判断更合理？",
+    "options": [
+      "先看研究设计和数据条件再选方法",
+      "任何数据都能直接做参数检验",
+      "所有相关分析都能推出因果关系",
+      "只要显著就说明研究结论完全正确"
+    ],
+    "answer": "A",
+    "analysis": "统计方法选择必须结合研究设计与数据条件，不能机械套用。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "tags": [
+      "t 检验与方差分析",
+      "选择题"
+    ],
+    "scoringPoints": [
+      "识别统计方法选择原则"
+    ],
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_stats_correlation_regression_001",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_correlation_regression",
+    "type": "名词解释",
+    "title": "相关与回归核心指标",
+    "stem": "解释相关与回归中的一个核心统计概念。",
+    "answer": "作答时应先给出相关与回归相关统计概念的定义，再说明其统计意义与适用场景。",
+    "analysis": "统计学名词解释既要写概念，也要写用途。",
+    "recommendedWords": "150字左右",
+    "recommendedTime": "5分钟",
+    "difficulty": "easy",
+    "tags": [
+      "相关与回归",
+      "名词解释"
+    ],
+    "scoringPoints": [
+      "写出统计概念定义",
+      "说明统计意义或用途"
+    ],
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_stats_correlation_regression_002",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_correlation_regression",
+    "type": "简答题",
+    "title": "相关与回归的适用条件与意义",
+    "stem": "简述相关与回归中常见方法的适用条件及其意义。",
+    "answer": "作答时应围绕相关与回归中的代表方法，说明其适用数据条件、分析目标和结果解释意义。",
+    "analysis": "统计学简答题要特别注意“适用条件”。",
+    "recommendedWords": "320字左右",
+    "recommendedTime": "12分钟",
+    "difficulty": "medium",
+    "tags": [
+      "相关与回归",
+      "简答题"
+    ],
+    "scoringPoints": [
+      "说明代表方法",
+      "写出适用条件",
+      "说明结果解释意义"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "说明本章代表统计方法",
+        "写出基本适用条件",
+        "说明结果解释意义"
+      ],
+      "extra": [
+        "补充比较相近方法",
+        "联系研究情境"
+      ]
+    },
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_stats_correlation_regression_003",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_correlation_regression",
+    "type": "选择题",
+    "title": "相关与回归方法识别",
+    "stem": "在心理与教育研究中，遇到相关与回归相关问题时，下列哪种判断更合理？",
+    "options": [
+      "先看研究设计和数据条件再选方法",
+      "任何数据都能直接做参数检验",
+      "所有相关分析都能推出因果关系",
+      "只要显著就说明研究结论完全正确"
+    ],
+    "answer": "A",
+    "analysis": "统计方法选择必须结合研究设计与数据条件，不能机械套用。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "tags": [
+      "相关与回归",
+      "选择题"
+    ],
+    "scoringPoints": [
+      "识别统计方法选择原则"
+    ],
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_stats_nonparametric_001",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_nonparametric",
+    "type": "名词解释",
+    "title": "卡方检验与非参数检验核心指标",
+    "stem": "解释卡方检验与非参数检验中的一个核心统计概念。",
+    "answer": "作答时应先给出卡方检验与非参数检验相关统计概念的定义，再说明其统计意义与适用场景。",
+    "analysis": "统计学名词解释既要写概念，也要写用途。",
+    "recommendedWords": "150字左右",
+    "recommendedTime": "5分钟",
+    "difficulty": "easy",
+    "tags": [
+      "卡方检验与非参数检验",
+      "名词解释"
+    ],
+    "scoringPoints": [
+      "写出统计概念定义",
+      "说明统计意义或用途"
+    ],
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_stats_nonparametric_002",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_nonparametric",
+    "type": "简答题",
+    "title": "卡方检验与非参数检验的适用条件与意义",
+    "stem": "简述卡方检验与非参数检验中常见方法的适用条件及其意义。",
+    "answer": "作答时应围绕卡方检验与非参数检验中的代表方法，说明其适用数据条件、分析目标和结果解释意义。",
+    "analysis": "统计学简答题要特别注意“适用条件”。",
+    "recommendedWords": "320字左右",
+    "recommendedTime": "12分钟",
+    "difficulty": "medium",
+    "tags": [
+      "卡方检验与非参数检验",
+      "简答题"
+    ],
+    "scoringPoints": [
+      "说明代表方法",
+      "写出适用条件",
+      "说明结果解释意义"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "说明本章代表统计方法",
+        "写出基本适用条件",
+        "说明结果解释意义"
+      ],
+      "extra": [
+        "补充比较相近方法",
+        "联系研究情境"
+      ]
+    },
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_stats_nonparametric_003",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_nonparametric",
+    "type": "选择题",
+    "title": "卡方检验与非参数检验方法识别",
+    "stem": "在心理与教育研究中，遇到卡方检验与非参数检验相关问题时，下列哪种判断更合理？",
+    "options": [
+      "先看研究设计和数据条件再选方法",
+      "任何数据都能直接做参数检验",
+      "所有相关分析都能推出因果关系",
+      "只要显著就说明研究结论完全正确"
+    ],
+    "answer": "A",
+    "analysis": "统计方法选择必须结合研究设计与数据条件，不能机械套用。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "tags": [
+      "卡方检验与非参数检验",
+      "选择题"
+    ],
+    "scoringPoints": [
+      "识别统计方法选择原则"
+    ],
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_mea_overview_001",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_overview",
+    "type": "名词解释",
+    "title": "测量基本理论核心概念",
+    "stem": "解释测量基本理论中的一个核心测量概念。",
+    "answer": "作答时应先给出测量基本理论相关测量概念的定义，再说明其在测验评价中的意义。",
+    "analysis": "测量学名词解释要写定义，也要写评价意义。",
+    "recommendedWords": "150字左右",
+    "recommendedTime": "5分钟",
+    "difficulty": "easy",
+    "tags": [
+      "测量基本理论",
+      "名词解释"
+    ],
+    "scoringPoints": [
+      "写出测量概念定义",
+      "说明评价意义"
+    ],
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_mea_overview_002",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_overview",
+    "type": "简答题",
+    "title": "测量基本理论的主要内容",
+    "stem": "简述测量基本理论中的主要内容或主要评价指标。",
+    "answer": "作答时应围绕测量基本理论的基本概念、评价指标、影响因素及应用意义展开。",
+    "analysis": "简答题建议用“概念—指标—影响因素—应用”四段式。",
+    "recommendedWords": "320字左右",
+    "recommendedTime": "12分钟",
+    "difficulty": "easy",
+    "tags": [
+      "测量基本理论",
+      "简答题"
+    ],
+    "scoringPoints": [
+      "概括主要内容",
+      "说明评价指标",
+      "指出应用意义"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "概括本章主要内容",
+        "说明评价指标或影响因素",
+        "指出应用意义"
+      ],
+      "extra": [
+        "联系测验编制情境",
+        "比较相近概念"
+      ]
+    },
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_mea_overview_003",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_overview",
+    "type": "选择题",
+    "title": "测量基本理论基础辨识",
+    "stem": "下列哪一项更符合测量基本理论中的基本测量观点？",
+    "options": [
+      "测量指标应结合用途和对象解释",
+      "效度高就一定不需要信度",
+      "常模不影响分数解释",
+      "项目分析与测验质量无关"
+    ],
+    "answer": "A",
+    "analysis": "测量学中的多数指标都必须结合测验用途与对象解释。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "tags": [
+      "测量基本理论",
+      "选择题"
+    ],
+    "scoringPoints": [
+      "识别测量学基本观点"
+    ],
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_mea_reliability_001",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_reliability",
+    "type": "名词解释",
+    "title": "信度核心概念",
+    "stem": "解释信度中的一个核心测量概念。",
+    "answer": "作答时应先给出信度相关测量概念的定义，再说明其在测验评价中的意义。",
+    "analysis": "测量学名词解释要写定义，也要写评价意义。",
+    "recommendedWords": "150字左右",
+    "recommendedTime": "5分钟",
+    "difficulty": "easy",
+    "tags": [
+      "信度",
+      "名词解释"
+    ],
+    "scoringPoints": [
+      "写出测量概念定义",
+      "说明评价意义"
+    ],
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_mea_reliability_002",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_reliability",
+    "type": "简答题",
+    "title": "信度的主要内容",
+    "stem": "简述信度中的主要内容或主要评价指标。",
+    "answer": "作答时应围绕信度的基本概念、评价指标、影响因素及应用意义展开。",
+    "analysis": "简答题建议用“概念—指标—影响因素—应用”四段式。",
+    "recommendedWords": "320字左右",
+    "recommendedTime": "12分钟",
+    "difficulty": "easy",
+    "tags": [
+      "信度",
+      "简答题"
+    ],
+    "scoringPoints": [
+      "概括主要内容",
+      "说明评价指标",
+      "指出应用意义"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "概括本章主要内容",
+        "说明评价指标或影响因素",
+        "指出应用意义"
+      ],
+      "extra": [
+        "联系测验编制情境",
+        "比较相近概念"
+      ]
+    },
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_mea_reliability_003",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_reliability",
+    "type": "选择题",
+    "title": "信度基础辨识",
+    "stem": "下列哪一项更符合信度中的基本测量观点？",
+    "options": [
+      "测量指标应结合用途和对象解释",
+      "效度高就一定不需要信度",
+      "常模不影响分数解释",
+      "项目分析与测验质量无关"
+    ],
+    "answer": "A",
+    "analysis": "测量学中的多数指标都必须结合测验用途与对象解释。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "tags": [
+      "信度",
+      "选择题"
+    ],
+    "scoringPoints": [
+      "识别测量学基本观点"
+    ],
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_mea_validity_001",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_validity",
+    "type": "名词解释",
+    "title": "效度核心概念",
+    "stem": "解释效度中的一个核心测量概念。",
+    "answer": "作答时应先给出效度相关测量概念的定义，再说明其在测验评价中的意义。",
+    "analysis": "测量学名词解释要写定义，也要写评价意义。",
+    "recommendedWords": "150字左右",
+    "recommendedTime": "5分钟",
+    "difficulty": "easy",
+    "tags": [
+      "效度",
+      "名词解释"
+    ],
+    "scoringPoints": [
+      "写出测量概念定义",
+      "说明评价意义"
+    ],
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_mea_validity_002",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_validity",
+    "type": "简答题",
+    "title": "效度的主要内容",
+    "stem": "简述效度中的主要内容或主要评价指标。",
+    "answer": "作答时应围绕效度的基本概念、评价指标、影响因素及应用意义展开。",
+    "analysis": "简答题建议用“概念—指标—影响因素—应用”四段式。",
+    "recommendedWords": "320字左右",
+    "recommendedTime": "12分钟",
+    "difficulty": "easy",
+    "tags": [
+      "效度",
+      "简答题"
+    ],
+    "scoringPoints": [
+      "概括主要内容",
+      "说明评价指标",
+      "指出应用意义"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "概括本章主要内容",
+        "说明评价指标或影响因素",
+        "指出应用意义"
+      ],
+      "extra": [
+        "联系测验编制情境",
+        "比较相近概念"
+      ]
+    },
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_mea_validity_003",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_validity",
+    "type": "选择题",
+    "title": "效度基础辨识",
+    "stem": "下列哪一项更符合效度中的基本测量观点？",
+    "options": [
+      "测量指标应结合用途和对象解释",
+      "效度高就一定不需要信度",
+      "常模不影响分数解释",
+      "项目分析与测验质量无关"
+    ],
+    "answer": "A",
+    "analysis": "测量学中的多数指标都必须结合测验用途与对象解释。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "tags": [
+      "效度",
+      "选择题"
+    ],
+    "scoringPoints": [
+      "识别测量学基本观点"
+    ],
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_mea_norms_scores_001",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_norms_scores",
+    "type": "名词解释",
+    "title": "常模与分数解释核心概念",
+    "stem": "解释常模与分数解释中的一个核心测量概念。",
+    "answer": "作答时应先给出常模与分数解释相关测量概念的定义，再说明其在测验评价中的意义。",
+    "analysis": "测量学名词解释要写定义，也要写评价意义。",
+    "recommendedWords": "150字左右",
+    "recommendedTime": "5分钟",
+    "difficulty": "easy",
+    "tags": [
+      "常模与分数解释",
+      "名词解释"
+    ],
+    "scoringPoints": [
+      "写出测量概念定义",
+      "说明评价意义"
+    ],
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_mea_norms_scores_002",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_norms_scores",
+    "type": "简答题",
+    "title": "常模与分数解释的主要内容",
+    "stem": "简述常模与分数解释中的主要内容或主要评价指标。",
+    "answer": "作答时应围绕常模与分数解释的基本概念、评价指标、影响因素及应用意义展开。",
+    "analysis": "简答题建议用“概念—指标—影响因素—应用”四段式。",
+    "recommendedWords": "320字左右",
+    "recommendedTime": "12分钟",
+    "difficulty": "easy",
+    "tags": [
+      "常模与分数解释",
+      "简答题"
+    ],
+    "scoringPoints": [
+      "概括主要内容",
+      "说明评价指标",
+      "指出应用意义"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "概括本章主要内容",
+        "说明评价指标或影响因素",
+        "指出应用意义"
+      ],
+      "extra": [
+        "联系测验编制情境",
+        "比较相近概念"
+      ]
+    },
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_mea_norms_scores_003",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_norms_scores",
+    "type": "选择题",
+    "title": "常模与分数解释基础辨识",
+    "stem": "下列哪一项更符合常模与分数解释中的基本测量观点？",
+    "options": [
+      "测量指标应结合用途和对象解释",
+      "效度高就一定不需要信度",
+      "常模不影响分数解释",
+      "项目分析与测验质量无关"
+    ],
+    "answer": "A",
+    "analysis": "测量学中的多数指标都必须结合测验用途与对象解释。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "tags": [
+      "常模与分数解释",
+      "选择题"
+    ],
+    "scoringPoints": [
+      "识别测量学基本观点"
+    ],
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_mea_item_analysis_001",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_item_analysis",
+    "type": "名词解释",
+    "title": "项目分析与测验编制核心概念",
+    "stem": "解释项目分析与测验编制中的一个核心测量概念。",
+    "answer": "作答时应先给出项目分析与测验编制相关测量概念的定义，再说明其在测验评价中的意义。",
+    "analysis": "测量学名词解释要写定义，也要写评价意义。",
+    "recommendedWords": "150字左右",
+    "recommendedTime": "5分钟",
+    "difficulty": "easy",
+    "tags": [
+      "项目分析与测验编制",
+      "名词解释"
+    ],
+    "scoringPoints": [
+      "写出测量概念定义",
+      "说明评价意义"
+    ],
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_mea_item_analysis_002",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_item_analysis",
+    "type": "简答题",
+    "title": "项目分析与测验编制的主要内容",
+    "stem": "简述项目分析与测验编制中的主要内容或主要评价指标。",
+    "answer": "作答时应围绕项目分析与测验编制的基本概念、评价指标、影响因素及应用意义展开。",
+    "analysis": "简答题建议用“概念—指标—影响因素—应用”四段式。",
+    "recommendedWords": "320字左右",
+    "recommendedTime": "12分钟",
+    "difficulty": "easy",
+    "tags": [
+      "项目分析与测验编制",
+      "简答题"
+    ],
+    "scoringPoints": [
+      "概括主要内容",
+      "说明评价指标",
+      "指出应用意义"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "概括本章主要内容",
+        "说明评价指标或影响因素",
+        "指出应用意义"
+      ],
+      "extra": [
+        "联系测验编制情境",
+        "比较相近概念"
+      ]
+    },
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_mea_item_analysis_003",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_item_analysis",
+    "type": "选择题",
+    "title": "项目分析与测验编制基础辨识",
+    "stem": "下列哪一项更符合项目分析与测验编制中的基本测量观点？",
+    "options": [
+      "测量指标应结合用途和对象解释",
+      "效度高就一定不需要信度",
+      "常模不影响分数解释",
+      "项目分析与测验质量无关"
+    ],
+    "answer": "A",
+    "analysis": "测量学中的多数指标都必须结合测验用途与对象解释。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "tags": [
+      "项目分析与测验编制",
+      "选择题"
+    ],
+    "scoringPoints": [
+      "识别测量学基本观点"
+    ],
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_mea_scale_types_001",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_scale_types",
+    "type": "名词解释",
+    "title": "量表与测验应用核心概念",
+    "stem": "解释量表与测验应用中的一个核心测量概念。",
+    "answer": "作答时应先给出量表与测验应用相关测量概念的定义，再说明其在测验评价中的意义。",
+    "analysis": "测量学名词解释要写定义，也要写评价意义。",
+    "recommendedWords": "150字左右",
+    "recommendedTime": "5分钟",
+    "difficulty": "easy",
+    "tags": [
+      "量表与测验应用",
+      "名词解释"
+    ],
+    "scoringPoints": [
+      "写出测量概念定义",
+      "说明评价意义"
+    ],
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_mea_scale_types_002",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_scale_types",
+    "type": "简答题",
+    "title": "量表与测验应用的主要内容",
+    "stem": "简述量表与测验应用中的主要内容或主要评价指标。",
+    "answer": "作答时应围绕量表与测验应用的基本概念、评价指标、影响因素及应用意义展开。",
+    "analysis": "简答题建议用“概念—指标—影响因素—应用”四段式。",
+    "recommendedWords": "320字左右",
+    "recommendedTime": "12分钟",
+    "difficulty": "easy",
+    "tags": [
+      "量表与测验应用",
+      "简答题"
+    ],
+    "scoringPoints": [
+      "概括主要内容",
+      "说明评价指标",
+      "指出应用意义"
+    ],
+    "scoringPointGroups": {
+      "core": [
+        "概括本章主要内容",
+        "说明评价指标或影响因素",
+        "指出应用意义"
+      ],
+      "extra": [
+        "联系测验编制情境",
+        "比较相近概念"
+      ]
+    },
+    "importance": "high",
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
+  },
+  {
+    "id": "q_mea_scale_types_003",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_scale_types",
+    "type": "选择题",
+    "title": "量表与测验应用基础辨识",
+    "stem": "下列哪一项更符合量表与测验应用中的基本测量观点？",
+    "options": [
+      "测量指标应结合用途和对象解释",
+      "效度高就一定不需要信度",
+      "常模不影响分数解释",
+      "项目分析与测验质量无关"
+    ],
+    "answer": "A",
+    "analysis": "测量学中的多数指标都必须结合测验用途与对象解释。",
+    "recommendedTime": "2分钟",
+    "difficulty": "easy",
+    "importance": "medium",
+    "tags": [
+      "量表与测验应用",
+      "选择题"
+    ],
+    "scoringPoints": [
+      "识别测量学基本观点"
+    ],
+    "answerLevel": "core",
+    "isHighFrequency": true,
+    "isPastExamStyle": false,
+    "sourceType": "manual",
+    "sourceDetail": "多学科最小样板补齐",
+    "status": "active",
+    "relatedFocusPointIds": [],
+    "relatedConfusionPointIds": []
   }
 ]

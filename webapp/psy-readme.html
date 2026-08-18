@@ -13,7 +13,7 @@
       <div>
         <div class="eyebrow">Guide</div>
         <h1>心理学考研复习系统 · 使用说明</h1>
-        <p class="muted">这是一套面向心理学考研人群的专业课复习网页。当前版本已完成《普通心理学》第二阶段整理：按教材 5 编 14 章组织内容，并完成章节厚度拉齐、题型结构补齐与展示层教材化调整。</p>
+        <p class="muted">这是一套面向心理学考研人群的专业课复习网页。当前版本已完成《普通心理学》第二阶段整理：按教材 5 编 14 章组织内容，并完成章节厚度拉齐、题型结构补齐、试卷系统闭环化与展示层教材化调整；实验心理学已进入第二批最小样板状态；发展心理学、教育心理学、当代心理与教育统计学、心理与教育测量也已完成最小接入版。</p>
       </div>
       <nav class="nav">
         <a class="nav-link" href="./psy-index.html">首页</a>
@@ -37,11 +37,14 @@
         <ul class="bullet-list">
           <li>《普通心理学》5 编 14 章已完整接入</li>
           <li>普通心理学章节题库共 137 题</li>
-          <li>重点 75 条，易混点 56 组</li>
-          <li>14 章已完成题型结构补齐</li>
+          <li>实验心理学已完成 4 章 × 6 题的最小样板建设</li>
+          <li>发展心理学、教育心理学、当代心理与教育统计学、心理与教育测量已完成最小接入</li>
+          <li>上述 4 门新接入学科当前均为 6 章、12 条重点、6 条易混点、18 道题</li>
           <li>普通心理学已支持“编 → 章”展示</li>
           <li>题目已支持建议字数、建议用时与参考答案展示</li>
           <li>当前已接入本地错题本与本地内容管理页</li>
+          <li>测试卷中心已支持本地作答、交卷、复盘、历史恢复与错题再练</li>
+          <li>进度页已支持接收最近一次试卷结果回灌</li>
         </ul>
       </div>
     </section>
@@ -69,6 +72,66 @@
     </section>
 
     <section class="card">
+      <div class="section-head"><div><div class="eyebrow">Milestone</div><h3>实验心理学当前完成状态</h3></div></div>
+      <div class="grid">
+        <div class="note-card">
+          <h4>已进入最小样板阶段</h4>
+          <p class="muted">实验心理学当前已从纯结构骨架提升为第二批最小样板学科，可用于章节复习与基础试卷训练。</p>
+        </div>
+        <div class="note-card">
+          <h4>4 章题量已补齐</h4>
+          <p class="muted">`ep_variables`、`ep_reaction_time`、`ep_psychophysics`、`ep_memory_experiment` 当前均已补到 6 题，总计 24 题。</p>
+        </div>
+        <div class="note-card">
+          <h4>主观题复盘已接入</h4>
+          <p class="muted">实验心理学主观题已开始接入 `scoringPointGroups.core` / `scoringPointGroups.extra`，可用于必写点、可补充点和基础覆盖提示。</p>
+        </div>
+        <div class="note-card">
+          <h4>当前主推方式</h4>
+          <p class="muted">当前更适合主推章节复习、基础混合卷和主观题偏重训练；纯客观题卷暂不建议作为实验心理学主推模式。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="section-head"><div><div class="eyebrow">Checklist</div><h3>实验心理学真实交互验收清单</h3></div></div>
+      <div class="grid">
+        <div class="note-card">
+          <h4>1. 首页进入学科卡</h4>
+          <p class="muted">从 `webapp/psy-index.html` 检查“实验心理学”学科卡是否可见、状态是否合理，并能正常进入 `webapp/psy-subject.html?subject=experimental_psychology`。</p>
+        </div>
+        <div class="note-card">
+          <h4>2. 学科页结构</h4>
+          <p class="muted">确认学科页可正常显示学科说明、当前状态、4 个章节卡片以及“进入本章”入口，且无普通心理学专属文案串台。</p>
+        </div>
+        <div class="note-card">
+          <h4>3. 章节页展示</h4>
+          <p class="muted">至少抽查 `ep_variables` 与 `ep_reaction_time` 两章，确认题目、建议字数、建议用时、参考答案、解析与得分点均能正常显示。</p>
+        </div>
+        <div class="note-card">
+          <h4>4. 试卷页组卷</h4>
+          <p class="muted">在 `webapp/psy-papers.html` 中选择实验心理学，先测试章节卷，再测试基础混合卷或高频卷，确认能够正常生成且不出现空卷。</p>
+        </div>
+        <div class="note-card">
+          <h4>5. 作答与自动保存</h4>
+          <p class="muted">对实验心理学试卷进行主客观题作答，刷新页面后确认当前卷与已作答内容都能恢复。</p>
+        </div>
+        <div class="note-card">
+          <h4>6. 交卷与复盘</h4>
+          <p class="muted">交卷后确认客观题能显示“你的答案 / 正确答案 / 结果”，主观题能显示“你的作答 / 必写点 / 可补充点 / 参考答案 / 解析”。</p>
+        </div>
+        <div class="note-card">
+          <h4>7. 历史恢复与进度回灌</h4>
+          <p class="muted">交卷后检查历史卷卡是否出现、是否可恢复；再进入 `webapp/psy-progress.html`，确认“最近一次试卷结果”能正确接住实验心理学结果。</p>
+        </div>
+        <div class="note-card">
+          <h4>8. 当前验收重点</h4>
+          <p class="muted">重点观察是否出现普通心理学文案串台、卷面过薄、主观题复盘空块或历史/进度未按学科承接等问题。实验心理学当前更适合作为第二批最小样板学科验收，不以高仿真真题卷为主目标。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
       <div class="section-head"><div><div class="eyebrow">Workflow</div><h3>建议使用顺序</h3></div></div>
       <div class="grid">
         <div class="note-card">
@@ -81,7 +144,7 @@
         </div>
         <div class="note-card">
           <h4>3. 去测试卷中心训练</h4>
-          <p class="muted">先做章节卷，再做高频冲刺卷，最后再做真题风格卷，逐步拉高综合要求。做题过程中可以把不会的题直接加入错题本。</p>
+          <p class="muted">先做章节卷，再做高频冲刺卷，最后再做真题风格卷，逐步拉高综合要求。当前试卷页已支持逐题作答、本地自动保存、交卷后复盘、历史作答恢复与错题再练，不再只是静态展示页。</p>
         </div>
         <div class="note-card">
           <h4>4. 在进度页回看</h4>
@@ -99,7 +162,15 @@
         </div>
         <div class="note-card">
           <h4>本地错题本</h4>
-          <p class="muted">章节页与试卷页均可手动把题目加入错题本，进度页可统一查看错题概览、错题列表并移出错题本，适合做二轮回看。</p>
+          <p class="muted">章节页与试卷页均可手动把题目加入错题本；试卷页交卷后，客观题错题还会自动沉淀到错题本，进度页可统一查看错题概览、错题列表并移出错题本，适合做二轮回看。</p>
+        </div>
+        <div class="note-card">
+          <h4>试卷闭环训练</h4>
+          <p class="muted">测试卷中心当前已支持组卷、逐题作答、本地自动保存、交卷、卷首摘要、题号导航、整卷复盘建议、历史恢复、历史原作答恢复与基于历史错题再练。</p>
+        </div>
+        <div class="note-card">
+          <h4>主观题复盘增强</h4>
+          <p class="muted">主观题当前已支持按 `scoringPointGroups.core` / `scoringPointGroups.extra` 展示“必写点 / 可补充点”，并支持基于保守关键词命中法的得分点覆盖提示与历史前后对照。</p>
         </div>
         <div class="note-card">
           <h4>本地内容管理</h4>
@@ -146,11 +217,11 @@
         </div>
         <div class="note-card">
           <h4>扩展其他学科</h4>
-          <p class="muted">实验心理学、教育心理学、社会心理学、心理测量与统计目前仍保留结构骨架，后续可按同一模板继续扩展。</p>
+          <p class="muted">实验心理学当前已进入第二批最小样板状态，已可用于章节复习与基础试卷训练；发展心理学、教育心理学、当代心理与教育统计学、心理与教育测量当前已完成最小接入版，可用于学科浏览、章节复习与本地内容管理；社会心理学目前仍保留结构骨架，后续可按同一模板继续扩展。</p>
         </div>
         <div class="note-card">
           <h4>增强进度追踪</h4>
-          <p class="muted">当前已具备本地错题本，后续可继续补充按日期记录、按题型统计、错因备注、再练一次与章节完成度分析。</p>
+          <p class="muted">当前已具备本地错题本，并已支持最近一次试卷结果回灌到进度页；后续仍可继续补充按日期记录、按题型统计、错因备注与章节完成度分析。</p>
         </div>
         <div class="note-card">
           <h4>继续完善内容管理</h4>
@@ -158,7 +229,7 @@
         </div>
         <div class="note-card">
           <h4>继续打磨前台复习体验</h4>
-          <p class="muted">后续仍可继续强化题目卡片层级、答案展开后的反馈感、错题复盘动作提示，以及按关联重点 / 易混点组织回看路径的能力。</p>
+          <p class="muted">后续仍可继续强化题目卡片层级、答案展开后的反馈感、错题复盘动作提示，以及按关联重点 / 易混点组织回看路径的能力；但当前试卷页已经具备较完整的训练闭环。</p>
         </div>
       </div>
     </section>

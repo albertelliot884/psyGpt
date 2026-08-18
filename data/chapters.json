@@ -261,5 +261,269 @@
       "发展"
     ],
     "status": "active"
+  },
+  {
+    "id": "dp_overview",
+    "subjectId": "developmental_psychology",
+    "order": 1,
+    "name": "发展心理学概述",
+    "summary": "发展心理学的研究对象、基本问题、主要研究设计与核心理论构成全书总论基础。",
+    "tags": [
+      "总论",
+      "理论基础"
+    ]
+  },
+  {
+    "id": "dp_infancy",
+    "subjectId": "developmental_psychology",
+    "order": 2,
+    "name": "婴儿期心理发展",
+    "summary": "婴儿期感知觉、动作、语言与依恋的发展是早期心理发展的核心内容。",
+    "tags": [
+      "婴儿期",
+      "高频"
+    ]
+  },
+  {
+    "id": "dp_early_childhood",
+    "subjectId": "developmental_psychology",
+    "order": 3,
+    "name": "幼儿期心理发展",
+    "summary": "幼儿期认知、言语、游戏与社会性发展是本阶段常考主干。",
+    "tags": [
+      "幼儿期",
+      "社会性"
+    ]
+  },
+  {
+    "id": "dp_middle_childhood",
+    "subjectId": "developmental_psychology",
+    "order": 4,
+    "name": "童年期心理发展",
+    "summary": "童年期认知能力、学习活动与人格社会性发展是学校阶段的重要内容。",
+    "tags": [
+      "童年期",
+      "学校化"
+    ]
+  },
+  {
+    "id": "dp_adolescence",
+    "subjectId": "developmental_psychology",
+    "order": 5,
+    "name": "青少年心理发展",
+    "summary": "青少年自我意识、同伴关系与认知发展是发展心理学中的高频章节。",
+    "tags": [
+      "青少年",
+      "高频"
+    ]
+  },
+  {
+    "id": "dp_adulthood_aging",
+    "subjectId": "developmental_psychology",
+    "order": 6,
+    "name": "成年与老年心理发展",
+    "summary": "成年早中晚期及老年期的发展任务、认知变化与适应问题是综合性考点。",
+    "tags": [
+      "成年",
+      "老年"
+    ]
+  },
+  {
+    "id": "edu_overview",
+    "subjectId": "educational_psychology",
+    "order": 1,
+    "name": "教育心理学概述",
+    "summary": "教育心理学的对象、任务、研究方法与学科性质构成全书总论。",
+    "tags": [
+      "总论",
+      "理论基础"
+    ]
+  },
+  {
+    "id": "edu_learning_theory",
+    "subjectId": "educational_psychology",
+    "order": 2,
+    "name": "学习理论",
+    "summary": "行为主义、认知主义、建构主义等学习理论是教育心理学的核心主线。",
+    "tags": [
+      "学习理论",
+      "高频"
+    ]
+  },
+  {
+    "id": "edu_learning_motivation",
+    "subjectId": "educational_psychology",
+    "order": 3,
+    "name": "学习动机",
+    "summary": "学习动机的结构、归因、自我效能与动机激发是常考重点。",
+    "tags": [
+      "动机",
+      "高频"
+    ]
+  },
+  {
+    "id": "edu_knowledge_skill",
+    "subjectId": "educational_psychology",
+    "order": 4,
+    "name": "知识学习与技能形成",
+    "summary": "知识获得、迁移、技能形成与问题解决是教学心理主干内容。",
+    "tags": [
+      "知识学习",
+      "技能"
+    ]
+  },
+  {
+    "id": "edu_moral_social",
+    "subjectId": "educational_psychology",
+    "order": 5,
+    "name": "品德心理与社会规范学习",
+    "summary": "品德形成、道德认知与社会规范内化是教育心理学重要应用章节。",
+    "tags": [
+      "品德",
+      "社会化"
+    ]
+  },
+  {
+    "id": "edu_teaching_classroom",
+    "subjectId": "educational_psychology",
+    "order": 6,
+    "name": "教学设计与课堂管理",
+    "summary": "教学设计、个别差异、课堂管理与教师心理是教育实践场景中的重要内容。",
+    "tags": [
+      "教学设计",
+      "课堂管理"
+    ]
+  },
+  {
+    "id": "stats_descriptive",
+    "subjectId": "psychological_educational_statistics",
+    "order": 1,
+    "name": "描述统计",
+    "summary": "集中量数、差异量数、分布形态及图表表达是统计学基础。",
+    "tags": [
+      "描述统计",
+      "基础"
+    ]
+  },
+  {
+    "id": "stats_probability_sampling",
+    "subjectId": "psychological_educational_statistics",
+    "order": 2,
+    "name": "概率与抽样分布",
+    "summary": "概率基础、随机变量与抽样分布构成推断统计的理论前提。",
+    "tags": [
+      "概率",
+      "抽样"
+    ]
+  },
+  {
+    "id": "stats_estimation_hypothesis",
+    "subjectId": "psychological_educational_statistics",
+    "order": 3,
+    "name": "参数估计与假设检验",
+    "summary": "区间估计、显著性检验和统计决策是考试中的核心板块。",
+    "tags": [
+      "假设检验",
+      "高频"
+    ]
+  },
+  {
+    "id": "stats_t_anova",
+    "subjectId": "psychological_educational_statistics",
+    "order": 4,
+    "name": "t 检验与方差分析",
+    "summary": "均值差异检验、方差分析及其适用条件是高频计算与概念综合点。",
+    "tags": [
+      "t检验",
+      "方差分析"
+    ]
+  },
+  {
+    "id": "stats_correlation_regression",
+    "subjectId": "psychological_educational_statistics",
+    "order": 5,
+    "name": "相关与回归",
+    "summary": "相关系数、回归分析与解释逻辑是统计应用中的重点章节。",
+    "tags": [
+      "相关",
+      "回归"
+    ]
+  },
+  {
+    "id": "stats_nonparametric",
+    "subjectId": "psychological_educational_statistics",
+    "order": 6,
+    "name": "卡方检验与非参数检验",
+    "summary": "卡方检验及常见非参数检验是考试中常见的应用型统计方法。",
+    "tags": [
+      "卡方",
+      "非参数"
+    ]
+  },
+  {
+    "id": "mea_overview",
+    "subjectId": "psychological_educational_measurement",
+    "order": 1,
+    "name": "测量基本理论",
+    "summary": "心理与教育测量的概念、量表、测量误差与测验分类构成基础。",
+    "tags": [
+      "总论",
+      "基础"
+    ]
+  },
+  {
+    "id": "mea_reliability",
+    "subjectId": "psychological_educational_measurement",
+    "order": 2,
+    "name": "信度",
+    "summary": "信度的概念、类型、估计方法与影响因素是测量学高频核心。",
+    "tags": [
+      "信度",
+      "高频"
+    ]
+  },
+  {
+    "id": "mea_validity",
+    "subjectId": "psychological_educational_measurement",
+    "order": 3,
+    "name": "效度",
+    "summary": "效度的概念、证据来源、影响因素与信效度关系是必考重点。",
+    "tags": [
+      "效度",
+      "高频"
+    ]
+  },
+  {
+    "id": "mea_norms_scores",
+    "subjectId": "psychological_educational_measurement",
+    "order": 4,
+    "name": "常模与分数解释",
+    "summary": "原始分数、导出分数、常模参照与标准参照解释是应用基础。",
+    "tags": [
+      "常模",
+      "分数解释"
+    ]
+  },
+  {
+    "id": "mea_item_analysis",
+    "subjectId": "psychological_educational_measurement",
+    "order": 5,
+    "name": "项目分析与测验编制",
+    "summary": "项目难度、区分度、编制流程与质量控制是应用型高频内容。",
+    "tags": [
+      "项目分析",
+      "测验编制"
+    ]
+  },
+  {
+    "id": "mea_scale_types",
+    "subjectId": "psychological_educational_measurement",
+    "order": 6,
+    "name": "量表与测验应用",
+    "summary": "人格、能力、成就测验及常用量表类型与应用原则是综合考点。",
+    "tags": [
+      "量表",
+      "测验应用"
+    ]
   }
 ]

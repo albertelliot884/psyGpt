@@ -64,16 +64,27 @@
             </select>
           </label>
           <label>
+            <span>组卷规格</span>
+            <select id="paperTemplate">
+              <option value="quick" selected>快速训练卷</option>
+              <option value="exam">考试题量卷</option>
+              <option value="custom">自定义题量</option>
+            </select>
+          </label>
+          <label>
             <span>题量</span>
             <select id="paperCount">
               <option value="4">4 题</option>
               <option value="6" selected>6 题</option>
               <option value="8">8 题</option>
+              <option value="12">12 题</option>
+              <option value="16">16 题</option>
             </select>
           </label>
         </div>
         <div class="cta-row">
           <button class="cta primary" id="generatePaperBtn">生成试卷</button>
+          <button class="cta secondary" id="exportPaperBtn">导出试卷</button>
         </div>
       </div>
       <div class="panel">
@@ -83,8 +94,14 @@
           <li>章节卷：优先从指定章节中抽取，可配合难度与题型模式筛选。</li>
           <li>高频冲刺卷：优先抽取高频题与核心题，适合快速刷重点。</li>
           <li>真题风格卷：混合主观题与客观题，更接近综合训练状态。</li>
+          <li>考试题量卷：优先按更接近考试的题型结构组卷，并支持直接在页面上作答。</li>
         </ul>
       </div>
+    </section>
+
+    <section class="card">
+      <div class="section-head"><div><div class="eyebrow">History</div><h3>最近试卷</h3></div></div>
+      <div class="stack" id="paperHistoryActions"></div>
     </section>
 
     <section class="card">

@@ -53,6 +53,24 @@ function writeManagedData(data) {
   localStorage.setItem(MANAGE_STORAGE_KEY, JSON.stringify(data));
 }
 
+const PAPER_SESSION_KEY = 'psy-paper-session-v1';
+
+function readPaperSession() {
+  try {
+    return JSON.parse(localStorage.getItem(PAPER_SESSION_KEY)) || null;
+  } catch {
+    return null;
+  }
+}
+
+function writePaperSession(session) {
+  localStorage.setItem(PAPER_SESSION_KEY, JSON.stringify(session));
+}
+
+function clearPaperSession() {
+  localStorage.removeItem(PAPER_SESSION_KEY);
+}
+
 function pill(text, strong = false) {
   return `<span class="pill ${strong ? 'strong' : ''}">${text}</span>`;
 }
@@ -171,7 +189,7 @@ function renderSubject({ subjects, chapters, focusPoints, confusionPoints, progr
   document.getElementById('subjectTitle').textContent = subject.name;
   document.getElementById('subjectDesc').textContent = subject.description;
   document.getElementById('subjectMeta').innerHTML = `
-    <div class="note-card"><h4>当前状态</h4><p class="muted">${subject.status === 'active' ? '首批样板学科，已接入章节与题目骨架。' : '已规划，后续按相同模板扩展。'}</p></div>
+    <div class="note-card"><h4>当前状态</h4><p class="muted">${subject.id === 'experimental_psychology' ? '第二批最小样板学科，已接入 4 章与基础训练题组，可用于章节复习与基础试卷训练。' : subject.id === 'general_psychology' ? '首批成熟样板学科，已完成章节重排、题型补齐与本地试卷训练闭环。' : subject.status === 'active' ? '已接入章节、复习内容与基础题组，可用于学科浏览、章节复习和本地内容管理。' : '已规划，后续按相同模板扩展。'}</p></div>
     <div class="note-card"><h4>章节数量</h4><p class="muted">当前已接入 ${subjectChapters.length} 个章节。${partDefinitions.length ? '其中普通心理学已按教材“编 → 章”结构分组展示。' : ''}</p></div>
     <div class="note-card"><h4>复习建议</h4><p class="muted">优先完成高频章节，并同步补题与易混点。</p></div>
   `;
@@ -249,8 +267,27 @@ function renderChapter({ subjects, chapters, focusPoints, confusionPoints, quest
     return { relatedFocus, relatedConfusions };
   }
 
+  function getStructuredScoringPoints(item) {
+    const points = item.scoringPoints || [];
+    if (!points.length) return { core: [], extra: [] };
+    if (item.scoringPointGroups && (item.scoringPointGroups.core || item.scoringPointGroups.extra)) {
+      return {
+        core: item.scoringPointGroups.core || [],
+        extra: item.scoringPointGroups.extra || []
+      };
+    }
+    if (points.length === 1) return { core: points, extra: [] };
+    const coreCount = Math.max(1, Math.ceil(points.length * 0.6));
+    return {
+      core: points.slice(0, coreCount),
+      extra: points.slice(coreCount)
+    };
+  }
+
   function renderQuestionCard(item) {
     const { relatedFocus, relatedConfusions } = getQuestionRelations(item);
+    const isSubjective = subjectiveTypes.includes(item.type);
+    const structuredPoints = getStructuredScoringPoints(item);
     return `
       <div class="question-card">
         <div class="meta-row">${pill(item.type, true)}${item.isHighFrequency ? pill('高频') : ''}${pill(item.difficulty)}${item.recommendedWords ? pill(`建议字数 ${item.recommendedWords}`) : ''}${item.recommendedTime ? pill(`建议用时 ${item.recommendedTime}`) : ''}${isWrongQuestion(progress, item.id) ? pill('错题', true) : ''}</div>
@@ -263,6 +300,12 @@ function renderChapter({ subjects, chapters, focusPoints, confusionPoints, quest
             ${relatedConfusions.length ? `<div class="relation-group"><div class="relation-title">关联易混点</div><div class="meta-row">${relatedConfusions.map(cp => pill(cp.title)).join('')}</div></div>` : ''}
           </div>
         ` : ''}
+        ${isSubjective ? `
+          <div class="panel">
+            <div class="eyebrow">作答区</div>
+            <textarea class="paper-answer-input chapter-answer-input" data-question-id="${item.id}" rows="7" placeholder="${item.recommendedWords ? `建议按 ${item.recommendedWords} 组织答案，先写必写点，再补充拓展点。` : '请先写出主干答案，再补充可展开内容。'}"></textarea>
+          </div>
+        ` : ''}
         <div class="cta-row">
           <button class="cta secondary wrong-toggle-btn" data-question-id="${item.id}">${isWrongQuestion(progress, item.id) ? '移出错题本' : '加入错题本'}</button>
         </div>
@@ -270,7 +313,18 @@ function renderChapter({ subjects, chapters, focusPoints, confusionPoints, quest
           <summary>查看参考答案与得分点</summary>
           <div class="answer-block">
             <p class="answer-text">${item.answer}</p>
-            <ul class="bullet-list">${(item.scoringPoints || []).map(point => `<li>${point}</li>`).join('')}</ul>
+            ${structuredPoints.core.length ? `
+              <div class="relation-group">
+                <div class="relation-title" style="color: #b42318;">必写点</div>
+                <ul class="bullet-list">${structuredPoints.core.map(point => `<li><span style="color:#b42318;font-weight:700;">【必写】</span> ${point}</li>`).join('')}</ul>
+              </div>
+            ` : ''}
+            ${structuredPoints.extra.length ? `
+              <div class="relation-group">
+                <div class="relation-title" style="color: #1d4ed8;">可补充点</div>
+                <ul class="bullet-list">${structuredPoints.extra.map(point => `<li><span style="color:#1d4ed8;font-weight:700;">【补充】</span> ${point}</li>`).join('')}</ul>
+              </div>
+            ` : ''}
             ${item.analysis ? `<div class="answer-analysis muted">解析：${item.analysis}</div>` : ''}
           </div>
         </details>
@@ -299,19 +353,24 @@ function renderChapter({ subjects, chapters, focusPoints, confusionPoints, quest
   ].map(item => `<div class="stat"><div class="eyebrow">${item.label}</div><h3>${item.value}</h3></div>`).join('');
 
   document.getElementById('chapterFocus').innerHTML = chapterFocus.length ? chapterFocus.map(item => `
-    <div class="note-card">
+    <div class="note-card focus-note-card">
+      <div class="meta-row">${pill('重点', true)}${pill(`重要度 ${item.importance || 'medium'}`)}${(item.questionTypes || []).map(type => pill(type)).join('')}</div>
       <h4>${item.title}</h4>
-      <p class="muted">${item.summary}</p>
-      <div class="meta-row">${(item.questionTypes || []).map(type => pill(type)).join('')}</div>
+      <div class="focus-summary">${item.summary}</div>
       <p class="muted">建议：优先把这类内容和本章主观题一起看，建立“重点—题型”对应关系。</p>
     </div>
   `).join('') : '<div class="empty">当前章节还没有重点数据。</div>';
 
   document.getElementById('chapterConfusions').innerHTML = chapterConfusions.length ? chapterConfusions.map(item => `
-    <div class="note-card">
+    <div class="note-card confusion-note-card">
+      <div class="meta-row">${pill('易混点', true)}${pill(`重要度 ${item.importance || 'medium'}`)}${(item.questionTypes || []).map(type => pill(type)).join('')}</div>
       <h4>${item.title}</h4>
-      <p class="muted">${item.summary}</p>
-      <ul class="bullet-list">${(item.differencePoints || []).slice(0, 3).map(point => `<li>${point}</li>`).join('')}</ul>
+      <div class="focus-summary">${item.summary}</div>
+      <div class="relation-group">
+        <div class="relation-title">关键差异</div>
+        <ul class="bullet-list">${(item.differencePoints || []).map(point => `<li>${point}</li>`).join('')}</ul>
+      </div>
+      ${(item.commonMistakes || []).length ? `<div class="relation-group"><div class="relation-title">常见误区</div><ul class="bullet-list">${item.commonMistakes.map(point => `<li>${point}</li>`).join('')}</ul></div>` : ''}
       <p class="muted">建议：先看差异点，再练本章辨析题和概念题。</p>
     </div>
   `).join('') : '<div class="empty">当前章节还没有易混点数据。</div>';
@@ -345,6 +404,11 @@ function renderPapers({ subjects, questions, chapters, focusPoints, confusionPoi
   const difficultySelect = document.getElementById('paperDifficulty');
   const modeSelect = document.getElementById('paperMode');
   const countSelect = document.getElementById('paperCount');
+  const templateSelect = document.getElementById('paperTemplate');
+  const paperResult = document.getElementById('paperResult');
+  const paperHistoryActions = document.getElementById('paperHistoryActions');
+  let latestPaper = null;
+  let currentPaperSession = readPaperSession();
 
   const objectiveTypes = ['选择题', '判断题'];
   const subjectiveTypes = ['名词解释', '简答题', '论述题', '辨析题'];
@@ -376,42 +440,410 @@ function renderPapers({ subjects, questions, chapters, focusPoints, confusionPoi
     return picked;
   }
 
-  subjectSelect.onchange = refreshChapterOptions;
-  refreshChapterOptions();
+  function pickByStructure(pool, structure) {
+    const picked = [];
+    const used = new Set();
+    Object.entries(structure).forEach(([type, count]) => {
+      const sameType = pool.filter(q => q.type === type && !used.has(q.id));
+      sameType.slice(0, count).forEach(q => {
+        picked.push(q);
+        used.add(q.id);
+      });
+    });
+    return picked;
+  }
 
-  document.getElementById('generatePaperBtn').onclick = () => {
-    const type = document.getElementById('paperType').value;
-    const subjectId = subjectSelect.value;
-    const chapterId = chapterSelect.value;
-    const difficulty = difficultySelect.value;
-    const mode = modeSelect.value;
-    const count = Number(countSelect.value || 6);
-
-    let filtered = questions.filter(q => q.subjectId === subjectId);
-    if (chapterId !== 'all') filtered = filtered.filter(q => q.chapterId === chapterId);
-    if (difficulty !== 'all') filtered = filtered.filter(q => q.difficulty === difficulty);
-    if (mode === 'objective') filtered = filtered.filter(q => objectiveTypes.includes(q.type));
-    if (mode === 'subjective') filtered = filtered.filter(q => subjectiveTypes.includes(q.type));
-
-    let pool = filtered;
-    let picked = [];
-    if (type === 'chapter') {
-      picked = pickByPreference(pool, count, ['选择题', '判断题', '名词解释', '简答题', '辨析题', '论述题']);
-    } else if (type === 'high') {
-      pool = filtered.filter(q => q.isHighFrequency);
-      picked = pickByPreference(pool.length ? pool : filtered, count, ['选择题', '简答题', '辨析题', '论述题']);
-    } else {
-      picked = pickByPreference(pool, count, ['选择题', '判断题', '名词解释', '简答题', '辨析题', '论述题']);
+  function getTemplateStructure(template, count) {
+    if (template === 'exam') {
+      return {
+        '选择题': 4,
+        '判断题': 2,
+        '名词解释': 2,
+        '简答题': 2,
+        '辨析题': 1,
+        '论述题': 1
+      };
     }
+    return {
+      '选择题': Math.max(1, Math.floor(count / 4)),
+      '判断题': Math.max(1, Math.floor(count / 6)),
+      '名词解释': Math.max(1, Math.floor(count / 6)),
+      '简答题': Math.max(1, Math.floor(count / 4)),
+      '辨析题': Math.max(1, Math.floor(count / 8)),
+      '论述题': Math.max(1, Math.floor(count / 8))
+    };
+  }
 
-    progress.paperHistory = [{ type, subjectId, chapterId, difficulty, mode, createdAt: new Date().toISOString(), questionIds: picked.map(p => p.id) }, ...(progress.paperHistory || [])].slice(0, 10);
-    writeProgress(progress);
+  function createPaperSession(picked, meta, config) {
+    return {
+      id: `paper_${Date.now()}`,
+      questionIds: picked.map(item => item.id),
+      answers: {},
+      submitted: false,
+      createdAt: new Date().toISOString(),
+      submittedAt: null,
+      meta,
+      config
+    };
+  }
 
-    if (!picked.length) {
-      document.getElementById('paperResult').innerHTML = '<div class="empty">当前筛选条件下没有可用题目，可以放宽章节、难度或题型模式。</div>';
+  function buildMetaFromHistory(item) {
+    return {
+      typeLabel: item.type === 'chapter' ? '章节卷' : item.type === 'high' ? '高频冲刺卷' : '真题风格卷',
+      subjectName: (subjects.find(s => s.id === item.subjectId) || {}).name || '未知学科',
+      chapterName: !item.chapterId || item.chapterId === 'all' ? '全部章节' : ((chapters.find(ch => ch.id === item.chapterId) || {}).name || '指定章节'),
+      modeLabel: item.mode === 'mixed' ? '混合组卷' : item.mode === 'objective' ? '客观题模式' : '主观题模式',
+      difficultyLabel: !item.difficulty || item.difficulty === 'all' ? '全部难度' : item.difficulty === 'easy' ? '基础' : item.difficulty === 'medium' ? '中等' : '提升',
+      templateLabel: item.template === 'exam' ? '考试题量卷' : item.template === 'custom' ? '自定义题量' : '快速训练卷'
+    };
+  }
+
+  function getPaperTrackKey(item) {
+    return [item.type, item.subjectId, item.chapterId || 'all', item.mode || 'mixed', item.template || 'quick', item.difficulty || 'all'].join('::');
+  }
+
+  function getPreviousSubmittedPaper(item) {
+    const history = progress.paperHistory || [];
+    const key = getPaperTrackKey(item);
+    return history.find(historyItem => historyItem !== item && historyItem.submittedAt && getPaperTrackKey(historyItem) === key);
+  }
+
+  function getPaperTrendSummary(item, chapters = []) {
+    if (!item) return '';
+    const objectiveText = item.improvementComparedToPrevious === 'improved'
+      ? '客观题较上次更稳'
+      : item.improvementComparedToPrevious === 'declined'
+        ? '客观题较上次回落'
+        : item.improvementComparedToPrevious === 'flat'
+          ? '客观题与上次基本持平'
+          : '这是该训练轨迹的首次有效交卷';
+    const subjectiveText = item.subjectiveTrendComparedToPrevious === 'subjective_improved'
+      ? '主观题主干覆盖有所提升'
+      : item.subjectiveTrendComparedToPrevious === 'subjective_declined'
+        ? '主观题主干覆盖有所回落'
+        : item.subjectiveTrendComparedToPrevious === 'subjective_flat'
+          ? '主观题主干覆盖与上次接近'
+          : '主观题暂缺可比历史';
+    const weakChapterName = ((chapters || []).find(ch => (item.newWeakChapterIds || []).includes(ch.id)) || {}).name;
+    if (item.improvementComparedToPrevious === 'declined' && item.subjectiveTrendComparedToPrevious === 'subjective_declined') {
+      return `${objectiveText}，${subjectiveText}，建议优先回看${weakChapterName ? `「${weakChapterName}」` : '当前薄弱章节'}后再做同轨迹试卷。`;
+    }
+    if (item.improvementComparedToPrevious === 'flat' && item.subjectiveTrendComparedToPrevious === 'subjective_improved') {
+      return `${objectiveText}，但${subjectiveText}，说明答案框架在变完整，可以继续巩固客观题准确率。`;
+    }
+    if (item.improvementComparedToPrevious === 'improved' && item.subjectiveTrendComparedToPrevious === 'subjective_declined') {
+      return `${objectiveText}，但${subjectiveText}，说明客观题状态在提升，主观题仍要补主干框架。`;
+    }
+    if (item.improvementComparedToPrevious === 'improved') {
+      return `${objectiveText}，${subjectiveText}，建议继续保持当前训练节奏。`;
+    }
+    return `${objectiveText}，${subjectiveText}。`;
+  }
+
+  function restorePaperFromHistory(item) {
+    const restored = (item.questionIds || []).map(id => questions.find(q => q.id === id)).filter(Boolean);
+    if (!restored.length) {
+      paperResult.innerHTML = '<div class="empty">这套历史试卷关联的题目当前不可用，可能已被本地内容管理数据覆盖。</div>';
       return;
     }
+    const meta = buildMetaFromHistory(item);
+    currentPaperSession = {
+      id: `paper_${Date.now()}`,
+      questionIds: restored.map(item => item.id),
+      answers: { ...(item.answerSnapshot || {}) },
+      submitted: !!item.submittedAt,
+      createdAt: item.createdAt || new Date().toISOString(),
+      submittedAt: item.submittedAt || null,
+      meta,
+      config: {
+        type: item.type,
+        subjectId: item.subjectId,
+        chapterId: item.chapterId,
+        difficulty: item.difficulty,
+        mode: item.mode,
+        template: item.template,
+        count: item.questionIds.length,
+        restoredFromHistory: true,
+        restoredAnswerSnapshot: !!item.answerSnapshot,
+        historicalAnswerSnapshot: { ...(item.answerSnapshot || {}) },
+        compareWithHistory: false
+      }
+    };
+    writePaperSession(currentPaperSession);
+    latestPaper = { picked: restored, meta };
+    renderPaper(restored, meta);
+  }
 
+  function regenerateWrongOnlyPaper(item) {
+    const wrongSet = new Set(item.newWrongQuestionIds || []);
+    const picked = (item.questionIds || []).map(id => questions.find(q => q.id === id)).filter(q => q && wrongSet.has(q.id));
+    if (!picked.length) {
+      alert('这套历史试卷还没有可用于再练的新增错题。');
+      return;
+    }
+    const historicalAnswerSnapshot = Object.fromEntries(Object.entries(item.answerSnapshot || {}).filter(([questionId]) => wrongSet.has(questionId)));
+    const meta = {
+      ...buildMetaFromHistory(item),
+      typeLabel: '历史错题再练卷'
+    };
+    currentPaperSession = createPaperSession(picked, meta, {
+      type: item.type,
+      subjectId: item.subjectId,
+      chapterId: item.chapterId,
+      difficulty: item.difficulty,
+      mode: item.mode,
+      template: item.template,
+      count: picked.length,
+      regeneratedFromWrong: true,
+      restoredFromHistory: true,
+      compareWithHistory: true,
+      historicalAnswerSnapshot
+    });
+    writePaperSession(currentPaperSession);
+    latestPaper = { picked, meta };
+    renderPaper(picked, meta);
+  }
+
+  function renderPaperHistoryActions() {
+    if (!paperHistoryActions) return;
+    const history = progress.paperHistory || [];
+    paperHistoryActions.innerHTML = history.length ? history.slice(0, 5).map((item, idx) => {
+      const meta = buildMetaFromHistory(item);
+      return `
+        <div class="note-card">
+          <h4>${idx === 0 ? '最近一套' : `历史第 ${idx + 1} 套`} · ${meta.subjectName}${meta.typeLabel}</h4>
+          <p class="muted">${item.answerSnapshot ? '可恢复当时这套卷的原作答内容，适合直接复盘。' : '当前只能恢复题目集合，尚未保存当时作答内容。'} </p>
+          <div class="meta-row">
+            ${pill(meta.chapterName)}
+            ${pill(meta.modeLabel)}
+            ${pill(`题目 ${item.questionIds.length}`)}
+            ${pill(`第 ${item.attemptNumber || 1} 次`, !!item.attemptNumber)}
+            ${item.submittedAt ? pill('已交卷', true) : pill('仅生成未交卷')}
+            ${item.answerSnapshot ? pill('可恢复原作答') : ''}
+            ${item.improvementComparedToPrevious === 'improved' ? pill('较上次进步', true) : item.improvementComparedToPrevious === 'declined' ? pill('较上次回落') : item.improvementComparedToPrevious === 'flat' ? pill('较上次持平') : ''}
+            ${item.subjectiveTrendComparedToPrevious === 'subjective_improved' ? pill('主观题覆盖提升', true) : item.subjectiveTrendComparedToPrevious === 'subjective_declined' ? pill('主观题覆盖回落') : item.subjectiveTrendComparedToPrevious === 'subjective_flat' ? pill('主观题覆盖持平') : ''}
+          </div>
+          ${item.submittedAt ? `<div class="meta-row">${pill(`新增错题 ${(item.newWrongQuestionIds || []).length}`)}${pill(`新增薄弱章节 ${(item.newWeakChapterIds || []).length}`)}${item.answerSnapshot ? pill(`已保存作答 ${Object.keys(item.answerSnapshot || {}).length}`) : ''}</div>` : ''}
+        ${item.submittedAt ? `<div class="training-result-note">${getPaperTrendSummary(item, chapters)}</div>` : ''}
+          <div class="cta-row">
+            <button class="cta secondary paper-history-restore-btn" data-history-index="${idx}">恢复这套卷</button>
+            ${item.submittedAt ? `<button class="cta secondary paper-history-wrong-btn" data-history-index="${idx}">基于这套错题再练</button>` : ''}
+          </div>
+        </div>
+      `;
+    }).join('') : '<div class="empty">还没有历史试卷，先生成并交一套卷，后面就能在这里直接恢复。</div>';
+
+    document.querySelectorAll('.paper-history-restore-btn').forEach(btn => {
+      btn.onclick = () => {
+        const item = (progress.paperHistory || [])[Number(btn.dataset.historyIndex)];
+        if (item) restorePaperFromHistory(item);
+      };
+    });
+
+    document.querySelectorAll('.paper-history-wrong-btn').forEach(btn => {
+      btn.onclick = () => {
+        const item = (progress.paperHistory || [])[Number(btn.dataset.historyIndex)];
+        if (item) regenerateWrongOnlyPaper(item);
+      };
+    });
+  }
+
+  function getCurrentAnswer(questionId) {
+    return currentPaperSession?.answers?.[questionId] || '';
+  }
+
+  function getHistoricalAnswer(questionId) {
+    return currentPaperSession?.config?.historicalAnswerSnapshot?.[questionId] || '';
+  }
+
+  function updatePaperAnswer(questionId, value) {
+    if (!currentPaperSession) return;
+    currentPaperSession.answers = currentPaperSession.answers || {};
+    currentPaperSession.answers[questionId] = value;
+    writePaperSession(currentPaperSession);
+  }
+
+  function getStructuredScoringPoints(q) {
+    const points = q.scoringPoints || [];
+    if (!points.length) return { core: [], extra: [] };
+    if (q.scoringPointGroups && (q.scoringPointGroups.core || q.scoringPointGroups.extra)) {
+      return {
+        core: q.scoringPointGroups.core || [],
+        extra: q.scoringPointGroups.extra || []
+      };
+    }
+    if (points.length === 1) return { core: points, extra: [] };
+    const coreCount = Math.max(1, Math.ceil(points.length * 0.6));
+    return {
+      core: points.slice(0, coreCount),
+      extra: points.slice(coreCount)
+    };
+  }
+
+  function normalizeForCoverage(text) {
+    return String(text || '').replace(/[，。；：、“”‘’（）()、,.;:\/\s]/g, '').toLowerCase();
+  }
+
+  function getCoverageKeywords(point) {
+    const normalized = normalizeForCoverage(point);
+    if (!normalized) return [];
+    const parts = point.split(/[，。；：、,.;:（）()\s]/).map(item => normalizeForCoverage(item)).filter(Boolean);
+    const keywords = parts.filter(item => item.length >= 2);
+    return unique([normalized.slice(0, Math.min(8, normalized.length)), ...keywords]).filter(Boolean);
+  }
+
+  function evaluateAnswerCoverage(answer, points) {
+    const normalizedAnswer = normalizeForCoverage(answer);
+    return points.map(point => {
+      const keywords = getCoverageKeywords(point);
+      const matched = keywords.some(keyword => keyword && normalizedAnswer.includes(keyword));
+      return { point, matched };
+    });
+  }
+
+  function renderAnswerInput(q) {
+    const answer = getCurrentAnswer(q.id);
+    const disabled = currentPaperSession?.submitted ? 'disabled' : '';
+    if (q.type === '选择题') {
+      return `<div class="stack">${(q.options || []).map((op, idx) => {
+        const value = String.fromCharCode(65 + idx);
+        return `<label class="checkbox-row"><input type="radio" name="answer_${q.id}" value="${value}" ${answer === value ? 'checked' : ''} ${disabled} /> <span>${op}</span></label>`;
+      }).join('')}</div>`;
+    }
+    if (q.type === '判断题') {
+      return `<div class="stack">
+        <label class="checkbox-row"><input type="radio" name="answer_${q.id}" value="正确" ${answer === '正确' ? 'checked' : ''} ${disabled} /> <span>正确</span></label>
+        <label class="checkbox-row"><input type="radio" name="answer_${q.id}" value="错误" ${answer === '错误' ? 'checked' : ''} ${disabled} /> <span>错误</span></label>
+      </div>`;
+    }
+    const placeholder = q.recommendedWords ? `建议按 ${q.recommendedWords} 组织答案` : '请输入你的答案';
+    return `<textarea class="paper-answer-input" data-question-id="${q.id}" rows="6" placeholder="${placeholder}" ${disabled}>${answer}</textarea>`;
+  }
+
+  function getPaperPerformance(picked) {
+    const answers = currentPaperSession?.answers || {};
+    const answeredCount = picked.filter(q => {
+      const answer = answers[q.id];
+      return typeof answer === 'string' ? answer.trim() : !!answer;
+    }).length;
+    const unansweredCount = picked.length - answeredCount;
+    const objectiveQuestions = picked.filter(q => objectiveTypes.includes(q.type));
+    const objectiveCorrectCount = objectiveQuestions.filter(q => answers[q.id] && answers[q.id] === q.answer).length;
+    const subjectiveCoverageStats = picked.filter(q => subjectiveTypes.includes(q.type)).reduce((acc, q) => {
+      const structuredPoints = getStructuredScoringPoints(q);
+      const currentAnswer = answers[q.id] || '';
+      const historicalAnswer = getHistoricalAnswer(q.id);
+      if (!structuredPoints.core.length || !historicalAnswer) return acc;
+      const currentCoreCount = evaluateAnswerCoverage(currentAnswer, structuredPoints.core).filter(item => item.matched).length;
+      const historicalCoreCount = evaluateAnswerCoverage(historicalAnswer, structuredPoints.core).filter(item => item.matched).length;
+      acc.comparedCount += 1;
+      if (currentCoreCount > historicalCoreCount) acc.improvedCount += 1;
+      else if (currentCoreCount < historicalCoreCount) acc.declinedCount += 1;
+      else acc.flatCount += 1;
+      return acc;
+    }, { comparedCount: 0, improvedCount: 0, declinedCount: 0, flatCount: 0 });
+    return {
+      answeredCount,
+      unansweredCount,
+      objectiveTotal: objectiveQuestions.length,
+      objectiveCorrectCount,
+      subjectiveCoverageStats
+    };
+  }
+
+  function renderPaperSummary(picked) {
+    if (!currentPaperSession) return '';
+    const performance = getPaperPerformance(picked);
+    const historyMode = currentPaperSession?.config?.restoredFromHistory;
+    const compareMode = currentPaperSession?.config?.compareWithHistory;
+    return `
+      <div class="paper-session-summary training-result-card ${currentPaperSession.submitted ? 'submitted' : ''}">
+        <div class="paper-session-stat">总题数：<strong>${picked.length}</strong></div>
+        <div class="paper-session-stat">已作答：<strong>${performance.answeredCount}</strong></div>
+        <div class="paper-session-stat">未作答：<strong>${performance.unansweredCount}</strong></div>
+        <div class="paper-session-stat">状态：<strong>${currentPaperSession.submitted ? '已交卷' : '作答中'}</strong></div>
+        ${currentPaperSession.submitted ? `<div class="paper-session-stat">客观题答对：<strong>${performance.objectiveCorrectCount}/${performance.objectiveTotal}</strong></div>` : ''}
+        ${historyMode ? `<div class="paper-session-stat">视图：<strong>${compareMode ? '历史对照重做' : '历史作答恢复'}</strong></div>` : ''}
+        ${currentPaperSession.submitted ? '<div class="paper-session-note">已进入复盘模式：客观题答错会自动沉淀到错题本，主观题可手动标记“本题没答好”，系统会同步把相关章节记入薄弱章节。</div>' : '<div class="paper-session-note">当前试卷作答内容会自动保存在本地，可中断后继续完成。</div>'}
+      </div>
+    `;
+  }
+
+  function renderPaperReviewAdvice(picked) {
+    if (!currentPaperSession?.submitted) return '';
+    const wrongIds = new Set(progress.wrongQuestionIds || []);
+    const weakIds = new Set(progress.weakChapters || []);
+    const paperWrongCount = picked.filter(q => wrongIds.has(q.id)).length;
+    const paperWeakChapters = unique(picked.map(q => q.chapterId).filter(id => weakIds.has(id)));
+    const topWeakChapter = chapters.find(ch => ch.id === paperWeakChapters[0]);
+    const nextPaperSuggestion = topWeakChapter
+      ? `建议下一轮优先回看「${topWeakChapter.name}」，然后再做一套同章节“高频冲刺卷”。`
+      : '建议下一轮继续做一套“高频冲刺卷”，把当前卷暴露出的记忆漏洞压实。';
+    return `
+      <div class="paper-advice-block">
+        <div class="paper-advice-head">
+          <div>
+            <div class="eyebrow">Review Advice</div>
+            <h4>本卷复盘建议</h4>
+          </div>
+        </div>
+        <div class="paper-advice-grid">
+          <div class="paper-advice-card">
+            <div class="relation-title">本卷新增错题沉淀</div>
+            <div class="paper-advice-value">${paperWrongCount} 题</div>
+            <div class="muted">建议优先回看答错或未作答的客观题，并二次口述主观题框架。</div>
+          </div>
+          <div class="paper-advice-card">
+            <div class="relation-title">本卷命中的薄弱章节</div>
+            <div class="paper-advice-value">${paperWeakChapters.length ? paperWeakChapters.length + ' 章' : '暂无新增'}</div>
+            <div class="muted">${topWeakChapter ? `优先复盘：${topWeakChapter.name}` : '当前卷面表现较均衡，可继续保持整卷训练。'} </div>
+          </div>
+          <div class="paper-advice-card">
+            <div class="relation-title">下一步建议</div>
+            <div class="muted">${nextPaperSuggestion}</div>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
+  function renderPaperNavigator(picked) {
+    if (!currentPaperSession) return '';
+    return `
+      <div class="paper-nav-block">
+        <div class="paper-nav-head">
+          <div>
+            <div class="eyebrow">Navigator</div>
+            <h4>题号导航</h4>
+          </div>
+          <div class="meta-row">
+            ${pill('已答', true)}
+            ${pill('未答')}
+            ${currentPaperSession.submitted ? `${pill('答对', true)}${pill('待订正')}` : ''}
+          </div>
+        </div>
+        <div class="paper-nav-grid">
+          ${picked.map((q, idx) => {
+            const answer = (currentPaperSession.answers || {})[q.id] || '';
+            const answered = typeof answer === 'string' ? answer.trim() : !!answer;
+            const objectiveCorrect = currentPaperSession.submitted && objectiveTypes.includes(q.type)
+              ? answer && answer === q.answer
+              : null;
+            const navClass = objectiveCorrect === true
+              ? 'correct'
+              : objectiveCorrect === false
+                ? 'wrong'
+                : answered
+                  ? 'answered'
+                  : 'empty';
+            return `<button class="paper-nav-item ${navClass}" data-target-question-id="${q.id}">${idx + 1}</button>`;
+          }).join('')}
+        </div>
+      </div>
+    `;
+  }
+
+  function renderPaper(picked, meta) {
     const sectionMap = {
       '选择题': [],
       '判断题': [],
@@ -426,11 +858,6 @@ function renderPapers({ subjects, questions, chapters, focusPoints, confusionPoi
       else sectionMap['其他题型'].push(q);
     });
 
-    const typeLabel = type === 'chapter' ? '章节卷' : type === 'high' ? '高频冲刺卷' : '真题风格卷';
-    const subjectName = (subjects.find(s => s.id === subjectId) || {}).name || '未知学科';
-    const chapterName = chapterId === 'all' ? '全部章节' : ((chapters.find(ch => ch.id === chapterId) || {}).name || '指定章节');
-    const modeLabel = mode === 'mixed' ? '混合组卷' : mode === 'objective' ? '客观题模式' : '主观题模式';
-    const difficultyLabel = difficulty === 'all' ? '全部难度' : difficulty === 'easy' ? '基础' : difficulty === 'medium' ? '中等' : '提升';
     const sections = Object.entries(sectionMap)
       .filter(([, arr]) => arr.length)
       .map(([label, arr]) => `
@@ -439,25 +866,90 @@ function renderPapers({ subjects, questions, chapters, focusPoints, confusionPoi
           ${arr.map((q, idx) => {
             const relatedFocus = (q.relatedFocusPointIds || []).map(id => focusPoints.find(fp => fp.id === id)).filter(Boolean);
             const relatedConfusions = (q.relatedConfusionPointIds || []).map(id => confusionPoints.find(cp => cp.id === id)).filter(Boolean);
+            const structuredPoints = getStructuredScoringPoints(q);
+            const currentAnswer = getCurrentAnswer(q.id);
+            const historicalAnswer = getHistoricalAnswer(q.id);
+            const coreCoverage = evaluateAnswerCoverage(currentAnswer, structuredPoints.core);
+            const extraCoverage = evaluateAnswerCoverage(currentAnswer, structuredPoints.extra);
+            const historicalCoreCoverage = evaluateAnswerCoverage(historicalAnswer, structuredPoints.core);
+            const historicalExtraCoverage = evaluateAnswerCoverage(historicalAnswer, structuredPoints.extra);
+            const answered = typeof currentAnswer === 'string' ? currentAnswer.trim() : !!currentAnswer;
+            const objectiveCorrect = currentPaperSession?.submitted && objectiveTypes.includes(q.type)
+              ? currentAnswer && currentAnswer === q.answer
+              : null;
             return `
-            <div class="question-card">
-              <div class="meta-row">${pill(q.type, true)}${q.isHighFrequency ? pill('高频') : ''}${pill(q.difficulty)}${isWrongQuestion(progress, q.id) ? pill('错题', true) : ''}</div>
+            <div class="question-card ${currentPaperSession?.submitted ? 'paper-reviewed-card' : ''}" id="paper-question-${q.id}">
+              <div class="meta-row">${pill(q.type, true)}${q.isHighFrequency ? pill('高频') : ''}${pill(q.difficulty)}${pill(answered ? '已作答' : '未作答', answered)}${currentPaperSession?.submitted ? pill('已交卷', true) : ''}${objectiveCorrect === true ? pill('客观题答对', true) : ''}${objectiveCorrect === false ? pill('客观题待订正') : ''}${isWrongQuestion(progress, q.id) ? pill('错题', true) : ''}</div>
               <h4>${q.title}</h4>
               <p>${idx + 1}. ${q.stem}</p>
-              ${Array.isArray(q.options) ? `<ul class="bullet-list">${q.options.map(op => `<li>${op}</li>`).join('')}</ul>` : ''}
               ${(relatedFocus.length || relatedConfusions.length) ? `
                 <div class="relation-block">
                   ${relatedFocus.length ? `<div class="relation-group"><div class="relation-title">关联重点</div><div class="meta-row">${relatedFocus.map(fp => pill(fp.title)).join('')}</div></div>` : ''}
                   ${relatedConfusions.length ? `<div class="relation-group"><div class="relation-title">关联易混点</div><div class="meta-row">${relatedConfusions.map(cp => pill(cp.title)).join('')}</div></div>` : ''}
                 </div>
               ` : ''}
+              <div class="panel">
+                <div class="eyebrow">答题区</div>
+                ${renderAnswerInput(q)}
+              </div>
               <div class="cta-row">
                 <button class="cta secondary paper-wrong-toggle-btn" data-question-id="${q.id}">${isWrongQuestion(progress, q.id) ? '移出错题本' : '加入错题本'}</button>
               </div>
-              <details>
-                <summary>查看参考答案</summary>
+              <details ${currentPaperSession?.submitted ? 'open' : ''}>
+                <summary>${currentPaperSession?.submitted ? '查看复盘结果' : '查看参考答案'}</summary>
                 <div class="answer-block">
                   <div class="meta-row">${q.recommendedWords ? pill(`建议字数 ${q.recommendedWords}`) : ''}${q.recommendedTime ? pill(`建议用时 ${q.recommendedTime}`) : ''}</div>
+                  ${currentPaperSession?.submitted ? `
+                    <div class="paper-review-grid">
+                      <div class="paper-review-block">
+                        <div class="relation-title">你的作答</div>
+                        <div class="answer-analysis ${answered ? '' : 'muted'}">${answered ? currentAnswer : '本题尚未作答'}</div>
+                      </div>
+                      ${currentPaperSession?.config?.compareWithHistory ? `
+                        <div class="paper-review-block history-answer-block">
+                          <div class="relation-title">上次作答</div>
+                          <div class="answer-analysis ${historicalAnswer ? '' : 'muted'}">${historicalAnswer || '上次未保存本题作答'}</div>
+                        </div>
+                      ` : ''}
+                    </div>
+                    ${objectiveTypes.includes(q.type) ? `
+                      ${currentPaperSession?.config?.compareWithHistory ? `
+                        <div class="paper-review-block history-compare-block">
+                          <div class="relation-title">前后对照</div>
+                          <div class="meta-row">${pill(`上次：${historicalAnswer || '未作答'}`)}${pill(`本次：${currentAnswer || '未作答'}`, !!currentAnswer)}${historicalAnswer && currentAnswer && historicalAnswer !== currentAnswer ? pill('答案已变化', true) : ''}</div>
+                        </div>
+                      ` : ''}
+                      <div class="paper-review-block">
+                        <div class="relation-title">客观题核对</div>
+                        <div class="meta-row">${pill(`你的答案：${currentAnswer || '未作答'}`, !!currentAnswer)}${pill(`正确答案：${q.answer}`, true)}${objectiveCorrect === true ? pill('结果：答对', true) : pill('结果：待订正')}</div>
+                      </div>
+                    ` : `
+                      <div class="paper-review-grid">
+                        <div class="paper-review-block">
+                          <div class="relation-title">必写点</div>
+                          ${structuredPoints.core.length ? `<ul class="bullet-list coverage-list">${coreCoverage.map(item => `<li class="coverage-item ${item.matched ? 'matched' : 'missing'}"><span class="coverage-icon">${item.matched ? '✅' : '▫️'}</span><span>${item.point}</span></li>`).join('')}</ul>` : '<div class="muted">暂无必写点标注。</div>'}
+                        </div>
+                        <div class="paper-review-block">
+                          <div class="relation-title">可补充点</div>
+                          ${structuredPoints.extra.length ? `<ul class="bullet-list coverage-list">${extraCoverage.map(item => `<li class="coverage-item ${item.matched ? 'matched' : 'missing'}"><span class="coverage-icon">${item.matched ? '✅' : '▫️'}</span><span>${item.point}</span></li>`).join('')}</ul>` : '<div class="muted">暂无补充点标注。</div>'}
+                        </div>
+                      </div>
+                      ${currentPaperSession?.config?.compareWithHistory ? `
+                        <div class="paper-review-block history-compare-block">
+                          <div class="relation-title">得分点覆盖对照</div>
+                          <div class="meta-row">${pill(`本次必写点命中 ${coreCoverage.filter(item => item.matched).length}/${coreCoverage.length || 0}`, true)}${pill(`上次必写点命中 ${historicalCoreCoverage.filter(item => item.matched).length}/${historicalCoreCoverage.length || 0}`)}${pill(`本次补充点命中 ${extraCoverage.filter(item => item.matched).length}/${extraCoverage.length || 0}`)}${pill(`上次补充点命中 ${historicalExtraCoverage.filter(item => item.matched).length}/${historicalExtraCoverage.length || 0}`)}${coreCoverage.filter(item => item.matched).length > historicalCoreCoverage.filter(item => item.matched).length ? pill('必写点覆盖提升', true) : coreCoverage.filter(item => item.matched).length < historicalCoreCoverage.filter(item => item.matched).length ? pill('必写点覆盖回落') : pill('必写点覆盖持平')}</div>
+                          <div class="answer-analysis muted">说明：这里采用保守关键词命中法，只用于复盘提示，不等同于正式人工判分。</div>
+                        </div>
+                      ` : ''}
+                    `}
+                    ${currentPaperSession?.submitted && subjectiveTypes.includes(q.type) && currentPaperSession?.config?.compareWithHistory ? `
+                      <div class="paper-review-block history-compare-block">
+                        <div class="relation-title">前后对照提示</div>
+                        <div class="answer-analysis muted">${historicalAnswer && currentAnswer ? (coreCoverage.filter(item => item.matched).length > historicalCoreCoverage.filter(item => item.matched).length ? '这次命中的必写点比上次更多，说明答案主干更完整了。' : coreCoverage.filter(item => item.matched).length < historicalCoreCoverage.filter(item => item.matched).length ? '这次命中的必写点比上次更少，建议重新核对主干框架是否写全。' : historicalAnswer === currentAnswer ? '这次与上次作答完全一致，建议重点检查是否真正补上了关键得分点。' : '这次作答与上次已有变化，但必写点覆盖度接近，建议继续优化表达与补充点。') : '当前仅能做基础对照，建议补完本次作答后再看变化。'} </div>
+                      </div>
+                    ` : ''}
+                    ${currentPaperSession?.submitted && subjectiveTypes.includes(q.type) ? `<div class="cta-row"><button class="cta secondary paper-mark-subjective-weak-btn" data-question-id="${q.id}" data-chapter-id="${q.chapterId}">这题没答好，加入错题/薄弱复盘</button></div>` : ''}
+                  ` : ''}
                   <p class="answer-text">${q.answer}</p>
                   <ul class="bullet-list">${(q.scoringPoints || []).map(point => `<li>${point}</li>`).join('')}</ul>
                   ${q.analysis ? `<div class="answer-analysis muted">解析：${q.analysis}</div>` : ''}
@@ -468,19 +960,27 @@ function renderPapers({ subjects, questions, chapters, focusPoints, confusionPoi
         </section>
       `).join('');
 
-    document.getElementById('paperResult').innerHTML = `
+    paperResult.innerHTML = `
       <div class="paper-preview">
         <div class="paper-head">
           <div class="eyebrow">Generated Paper</div>
-          <h3>${subjectName}${typeLabel}</h3>
-          <p class="muted">当前版本支持章节、题型模式、难度与题量联合筛选，适合快速生成一套可刷的混合训练卷。</p>
+          <h3>${meta.subjectName}${meta.typeLabel}</h3>
+          <p class="muted">当前版本已支持按组卷规格生成更接近考试结构的题目，并可直接在页面上作答与导出。</p>
           <div class="paper-meta">
-            ${pill(typeLabel, true)}
+            ${pill(meta.typeLabel, true)}
             ${pill(`题目 ${picked.length}`)}
-            ${pill(`章节 ${chapterName}`)}
-            ${pill(modeLabel)}
-            ${pill(difficultyLabel)}
+            ${pill(`章节 ${meta.chapterName}`)}
+            ${pill(meta.modeLabel)}
+            ${pill(meta.difficultyLabel)}
+            ${pill(meta.templateLabel)}
           </div>
+        </div>
+        ${renderPaperSummary(picked)}
+        ${renderPaperReviewAdvice(picked)}
+        ${renderPaperNavigator(picked)}
+        <div class="cta-row" style="margin-bottom: 10px;">
+          <button class="cta primary" id="submitPaperBtn">${currentPaperSession?.submitted ? '重新查看复盘' : '交卷并进入复盘'}</button>
+          <button class="cta secondary" id="clearPaperSessionBtn">清空本卷作答</button>
         </div>
         ${sections}
       </div>
@@ -490,10 +990,201 @@ function renderPapers({ subjects, questions, chapters, focusPoints, confusionPoi
       btn.onclick = () => {
         const added = toggleWrongQuestion(progress, btn.dataset.questionId);
         alert(added ? '已加入错题本' : '已移出错题本');
-        document.getElementById('generatePaperBtn').click();
+        renderPaper(latestPaper.picked, latestPaper.meta);
       };
     });
+
+    document.querySelectorAll('.paper-answer-input').forEach(node => {
+      node.oninput = () => {
+        updatePaperAnswer(node.dataset.questionId, node.value);
+        renderPaper(latestPaper.picked, latestPaper.meta);
+      };
+    });
+
+    document.querySelectorAll('input[type="radio"][name^="answer_"]').forEach(node => {
+      node.onchange = () => {
+        updatePaperAnswer(node.name.replace('answer_', ''), node.value);
+        renderPaper(latestPaper.picked, latestPaper.meta);
+      };
+    });
+    document.querySelectorAll('.paper-nav-item').forEach(btn => {
+      btn.onclick = () => {
+        const target = document.getElementById(`paper-question-${btn.dataset.targetQuestionId}`);
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      };
+    });
+
+    document.getElementById('clearPaperSessionBtn').onclick = () => {
+      if (!confirm('确定清空当前试卷的作答记录吗？此操作会清除本地保存的本卷答案。')) return;
+      currentPaperSession = createPaperSession(latestPaper.picked, latestPaper.meta, currentPaperSession?.config || null);
+      writePaperSession(currentPaperSession);
+      renderPaper(latestPaper.picked, latestPaper.meta);
+    };
+
+    document.querySelectorAll('.paper-mark-subjective-weak-btn').forEach(btn => {
+      btn.onclick = () => {
+        const questionId = btn.dataset.questionId;
+        const chapterId = btn.dataset.chapterId;
+        const added = toggleWrongQuestion(progress, questionId);
+        progress.weakChapters = unique([...(progress.weakChapters || []), chapterId]);
+        writeProgress(progress);
+        alert(added ? '已把这道主观题加入错题本，并把对应章节记为薄弱。' : '已把对应章节记为薄弱，你也可以继续手动调整错题本。');
+        renderPaper(latestPaper.picked, latestPaper.meta);
+      };
+    });
+
+    document.getElementById('submitPaperBtn').onclick = () => {
+      if (!currentPaperSession) return;
+      currentPaperSession.submitted = true;
+      currentPaperSession.submittedAt = new Date().toISOString();
+      const beforeWrongSet = new Set(progress.wrongQuestionIds || []);
+      const beforeWeakSet = new Set(progress.weakChapters || []);
+      const wrongSet = new Set(progress.wrongQuestionIds || []);
+      const weakSet = new Set(progress.weakChapters || []);
+      const chapterStats = {};
+      latestPaper.picked.forEach(q => {
+        const answer = (currentPaperSession.answers || {})[q.id] || '';
+        const answered = typeof answer === 'string' ? answer.trim() : !!answer;
+        chapterStats[q.chapterId] = chapterStats[q.chapterId] || { total: 0, weakSignals: 0 };
+        chapterStats[q.chapterId].total += 1;
+        if (!answered) chapterStats[q.chapterId].weakSignals += 1;
+        if (objectiveTypes.includes(q.type) && (!answered || answer !== q.answer)) {
+          wrongSet.add(q.id);
+          chapterStats[q.chapterId].weakSignals += 1;
+        }
+      });
+      Object.entries(chapterStats).forEach(([chapterId, stat]) => {
+        if (stat.weakSignals >= Math.max(1, Math.ceil(stat.total / 2))) weakSet.add(chapterId);
+      });
+      const performance = getPaperPerformance(latestPaper.picked);
+      const newWrongQuestionIds = [...wrongSet].filter(id => !beforeWrongSet.has(id));
+      const newWeakChapterIds = [...weakSet].filter(id => !beforeWeakSet.has(id));
+      progress.wrongQuestionIds = [...wrongSet];
+      progress.weakChapters = [...weakSet];
+      progress.paperHistory = (progress.paperHistory || []).map((item, idx) => idx === 0 ? {
+        ...item,
+        submittedAt: currentPaperSession.submittedAt,
+        answeredCount: performance.answeredCount,
+        unansweredCount: performance.unansweredCount,
+        objectiveTotal: performance.objectiveTotal,
+        objectiveCorrectCount: performance.objectiveCorrectCount,
+        newWrongQuestionIds,
+        newWeakChapterIds,
+        answerSnapshot: { ...(currentPaperSession.answers || {}) },
+        resultSource: 'paper_submit',
+        subjectiveCoverageStats: performance.subjectiveCoverageStats,
+        improvementComparedToPrevious: (() => {
+          const previousPaper = getPreviousSubmittedPaper(item);
+          if (!previousPaper) return 'first_attempt';
+          const currentRate = performance.objectiveTotal ? performance.objectiveCorrectCount / performance.objectiveTotal : 0;
+          const previousRate = previousPaper.objectiveTotal ? (previousPaper.objectiveCorrectCount || 0) / previousPaper.objectiveTotal : 0;
+          if (currentRate > previousRate) return 'improved';
+          if (currentRate < previousRate) return 'declined';
+          return 'flat';
+        })(),
+        subjectiveTrendComparedToPrevious: (() => {
+          if (!performance.subjectiveCoverageStats.comparedCount) return 'no_subjective_compare';
+          if (performance.subjectiveCoverageStats.improvedCount > performance.subjectiveCoverageStats.declinedCount) return 'subjective_improved';
+          if (performance.subjectiveCoverageStats.improvedCount < performance.subjectiveCoverageStats.declinedCount) return 'subjective_declined';
+          return 'subjective_flat';
+        })()
+      } : item);
+      writeProgress(progress);
+      writePaperSession(currentPaperSession);
+      renderPaperHistoryActions();
+      renderPaper(latestPaper.picked, latestPaper.meta);
+      document.querySelectorAll('#paperResult details').forEach(node => node.open = true);
+      alert('已交卷并完成基础沉淀：客观题错题已自动加入错题本，表现较弱的章节已自动记入薄弱章节。');
+    };
+  }
+
+  subjectSelect.onchange = refreshChapterOptions;
+  refreshChapterOptions();
+
+  document.getElementById('generatePaperBtn').onclick = () => {
+    const type = document.getElementById('paperType').value;
+    const subjectId = subjectSelect.value;
+    const chapterId = chapterSelect.value;
+    const difficulty = difficultySelect.value;
+    const mode = modeSelect.value;
+    const count = Number(countSelect.value || 6);
+    const template = templateSelect.value;
+
+    let filtered = questions.filter(q => q.subjectId === subjectId);
+    if (chapterId !== 'all') filtered = filtered.filter(q => q.chapterId === chapterId);
+    if (difficulty !== 'all') filtered = filtered.filter(q => q.difficulty === difficulty);
+    if (mode === 'objective') filtered = filtered.filter(q => objectiveTypes.includes(q.type));
+    if (mode === 'subjective') filtered = filtered.filter(q => subjectiveTypes.includes(q.type));
+
+    let pool = filtered;
+    let picked = [];
+    if (type === 'high') pool = filtered.filter(q => q.isHighFrequency).length ? filtered.filter(q => q.isHighFrequency) : filtered;
+
+    if (template === 'exam') {
+      picked = pickByStructure(pool, getTemplateStructure(template, count));
+    } else if (type === 'chapter') {
+      picked = pickByPreference(pool, count, ['选择题', '判断题', '名词解释', '简答题', '辨析题', '论述题']);
+    } else if (type === 'high') {
+      picked = pickByPreference(pool, count, ['选择题', '简答题', '辨析题', '论述题']);
+    } else {
+      picked = template === 'custom'
+        ? pickByPreference(pool, count, ['选择题', '判断题', '名词解释', '简答题', '辨析题', '论述题'])
+        : pickByStructure(pool, getTemplateStructure('quick', count));
+    }
+
+    const draftHistoryItem = { type, subjectId, chapterId, difficulty, mode, template, createdAt: new Date().toISOString(), questionIds: picked.map(p => p.id) };
+    const previousPaper = getPreviousSubmittedPaper(draftHistoryItem);
+    progress.paperHistory = [{
+      ...draftHistoryItem,
+      attemptNumber: previousPaper?.attemptNumber ? previousPaper.attemptNumber + 1 : 1,
+      paperTrackKey: getPaperTrackKey(draftHistoryItem)
+    }, ...(progress.paperHistory || [])].slice(0, 10);
+    writeProgress(progress);
+
+    if (!picked.length) {
+      paperResult.innerHTML = '<div class="empty">当前筛选条件下没有可用题目，可以放宽章节、难度或题型模式。</div>';
+      return;
+    }
+
+    const meta = {
+      typeLabel: type === 'chapter' ? '章节卷' : type === 'high' ? '高频冲刺卷' : '真题风格卷',
+      subjectName: (subjects.find(s => s.id === subjectId) || {}).name || '未知学科',
+      chapterName: chapterId === 'all' ? '全部章节' : ((chapters.find(ch => ch.id === chapterId) || {}).name || '指定章节'),
+      modeLabel: mode === 'mixed' ? '混合组卷' : mode === 'objective' ? '客观题模式' : '主观题模式',
+      difficultyLabel: difficulty === 'all' ? '全部难度' : difficulty === 'easy' ? '基础' : difficulty === 'medium' ? '中等' : '提升',
+      templateLabel: template === 'exam' ? '考试题量卷' : template === 'custom' ? '自定义题量' : '快速训练卷'
+    };
+    currentPaperSession = createPaperSession(picked, meta, { type, subjectId, chapterId, difficulty, mode, template, count });
+    writePaperSession(currentPaperSession);
+    latestPaper = { picked, meta };
+    renderPaperHistoryActions();
+    renderPaper(picked, meta);
   };
+
+  document.getElementById('exportPaperBtn').onclick = () => {
+    if (!latestPaper) {
+      alert('请先生成试卷，再导出。');
+      return;
+    }
+    const html = `<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><title>${latestPaper.meta.subjectName}${latestPaper.meta.typeLabel}</title></head><body>${paperResult.innerHTML}</body></html>`;
+    const blob = new Blob([html], { type: 'text/html;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'psy-paper-export.html';
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+
+  renderPaperHistoryActions();
+
+  if (currentPaperSession?.questionIds?.length) {
+    const restored = currentPaperSession.questionIds.map(id => questions.find(q => q.id === id)).filter(Boolean);
+    if (restored.length) {
+      latestPaper = { picked: restored, meta: currentPaperSession.meta };
+      renderPaper(restored, currentPaperSession.meta);
+    }
+  }
 }
 
 function renderManage({ subjects, chapters, questions, focusPoints, confusionPoints }) {
@@ -848,6 +1539,7 @@ function renderProgress({ chapters, questions, subjects, progress }) {
   const wrongQuestionIds = unique(progress.wrongQuestionIds || []);
   const wrongQuestions = questions.filter(q => wrongQuestionIds.includes(q.id));
   const wrongChapterIds = unique(wrongQuestions.map(q => q.chapterId));
+  const lastSubmittedPaper = paperHistory.find(item => item.submittedAt);
 
   document.getElementById('progressStats').innerHTML = [
     { label: '已通读章节', value: reviewedCount },
@@ -881,12 +1573,35 @@ function renderProgress({ chapters, questions, subjects, progress }) {
   `;
 
   const weaknessCards = [];
+  if (lastSubmittedPaper) {
+    const latestWeakChapters = chapters.filter(ch => (lastSubmittedPaper.newWeakChapterIds || []).includes(ch.id));
+    weaknessCards.push(`
+      <div class="note-card training-result-card submitted">
+        <div class="training-result-title">最近一次试卷结果</div>
+        <div class="meta-row">
+          ${pill(`已作答 ${lastSubmittedPaper.answeredCount || 0}`, true)}
+          ${pill(`未作答 ${lastSubmittedPaper.unansweredCount || 0}`)}
+          ${pill(`客观题 ${lastSubmittedPaper.objectiveCorrectCount || 0}/${lastSubmittedPaper.objectiveTotal || 0}`)}
+          ${pill(`新增错题 ${(lastSubmittedPaper.newWrongQuestionIds || []).length}`)}
+        </div>
+        <div class="training-result-note">${getPaperTrendSummary(lastSubmittedPaper, chapters) || (latestWeakChapters[0] ? `这次试卷优先暴露的是「${latestWeakChapters[0].name}」相关问题，建议先回章再刷一套同主题卷。` : '最近一次试卷已经回灌到进度页，可直接结合错题本和薄弱章节继续推进。')}</div>
+        <div class="cta-row">
+          <a class="quick-link" href="./psy-papers.html">去测试卷中心继续练</a>
+          ${latestWeakChapters[0] ? `<a class="quick-link" href="./psy-chapter.html?chapter=${latestWeakChapters[0].id}">回到薄弱章节</a>` : ''}
+        </div>
+      </div>
+    `);
+  }
   if (weakChapters.length) {
     weaknessCards.push(...weakChapters.map(ch => `
       <div class="note-card">
         <h4>${ch.name}</h4>
         <p class="muted">建议优先回看本章重点与易混点，再做一套章节卷。</p>
-        <div class="cta-row"><a class="quick-link" href="./psy-chapter.html?chapter=${ch.id}">进入本章</a></div>
+        <div class="meta-row">${pill((lastSubmittedPaper?.newWeakChapterIds || []).includes(ch.id) ? '来源：试卷自动识别' : '来源：手动标记')}</div>
+        <div class="cta-row">
+          <a class="quick-link" href="./psy-chapter.html?chapter=${ch.id}">进入本章</a>
+          <a class="quick-link" href="./psy-papers.html">去测试卷中心</a>
+        </div>
       </div>
     `));
   }
@@ -916,14 +1631,19 @@ function renderProgress({ chapters, questions, subjects, progress }) {
     const modeLabel = item.mode === 'objective' ? '客观题模式' : item.mode === 'subjective' ? '主观题模式' : '混合组卷';
     const difficultyLabel = !item.difficulty || item.difficulty === 'all' ? '全部难度' : item.difficulty === 'easy' ? '基础' : item.difficulty === 'medium' ? '中等' : '提升';
     return `
-      <div class="note-card">
-        <h4>${subjectName}${typeLabel}</h4>
-        <p class="muted">章节范围：${chapterName}</p>
+      <div class="note-card training-result-card ${item.submittedAt ? 'submitted' : ''}">
+        <div class="training-result-title">${subjectName}${typeLabel}</div>
+        <div class="training-result-note">章节范围：${chapterName}</div>
         <div class="meta-row">
           ${pill(modeLabel)}
           ${pill(difficultyLabel)}
           ${pill(`题目 ${item.questionIds.length}`)}
+          ${pill(`第 ${item.attemptNumber || 1} 次`, !!item.attemptNumber)}
+          ${item.submittedAt ? pill('已交卷', true) : pill('仅生成未交卷')}
+          ${item.improvementComparedToPrevious === 'improved' ? pill('较上次进步', true) : item.improvementComparedToPrevious === 'declined' ? pill('较上次回落') : item.improvementComparedToPrevious === 'flat' ? pill('较上次持平') : ''}
+          ${item.subjectiveTrendComparedToPrevious === 'subjective_improved' ? pill('主观题覆盖提升', true) : item.subjectiveTrendComparedToPrevious === 'subjective_declined' ? pill('主观题覆盖回落') : item.subjectiveTrendComparedToPrevious === 'subjective_flat' ? pill('主观题覆盖持平') : ''}
         </div>
+        ${item.submittedAt ? `<div class="meta-row">${pill(`已作答 ${item.answeredCount || 0}`)}${pill(`未作答 ${item.unansweredCount || 0}`)}${pill(`客观题 ${item.objectiveCorrectCount || 0}/${item.objectiveTotal || 0}`)}${pill(`新增错题 ${(item.newWrongQuestionIds || []).length}`)}${pill(`新增薄弱章节 ${(item.newWeakChapterIds || []).length}`)}</div>` : ''}
       </div>
     `;
   }).join('') : '<div class="empty">你还没有组过卷，可以先去测试卷中心生成一套混合卷。</div>';

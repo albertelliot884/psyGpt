@@ -6,7 +6,11 @@
     "description": "心理学考研基础学科，覆盖感觉、知觉、注意、记忆、思维、情绪、人格等核心内容。",
     "order": 1,
     "status": "active",
-    "tags": ["基础学科", "高频", "理论型"]
+    "tags": [
+      "基础学科",
+      "高频",
+      "理论型"
+    ]
   },
   {
     "id": "experimental_psychology",
@@ -14,34 +18,76 @@
     "shortName": "实验",
     "description": "聚焦心理学研究设计、变量控制、实验范式与研究方法。",
     "order": 2,
-    "status": "planned",
-    "tags": ["方法型", "实验设计", "综合性"]
+    "status": "active",
+    "tags": [
+      "方法型",
+      "实验设计",
+      "综合性"
+    ]
+  },
+  {
+    "id": "developmental_psychology",
+    "name": "发展心理学",
+    "shortName": "发展",
+    "description": "聚焦个体从出生到老年的心理发展规律、发展阶段与关键理论。",
+    "order": 3,
+    "status": "active",
+    "tags": [
+      "发展型",
+      "阶段性",
+      "理论型"
+    ]
   },
   {
     "id": "educational_psychology",
     "name": "教育心理学",
     "shortName": "教育",
     "description": "聚焦学习理论、教学过程、学生心理发展与教育应用。",
-    "order": 3,
-    "status": "planned",
-    "tags": ["应用型", "理论型", "高频"]
+    "order": 4,
+    "status": "active",
+    "tags": [
+      "应用型",
+      "理论型",
+      "高频"
+    ]
   },
   {
     "id": "social_psychology",
     "name": "社会心理学",
     "shortName": "社会",
     "description": "聚焦社会认知、归因、态度、人际关系、群体与社会行为。",
-    "order": 4,
-    "status": "planned",
-    "tags": ["理论型", "应用型", "易辨析"]
-  },
-  {
-    "id": "psychometrics_statistics",
-    "name": "心理测量与统计",
-    "shortName": "测量/统计",
-    "description": "聚焦测量基本概念、信效度、常模、测验编制与基础统计思想。",
     "order": 5,
     "status": "planned",
-    "tags": ["方法型", "计算/概念并重", "基础工具"]
+    "tags": [
+      "理论型",
+      "应用型",
+      "易辨析"
+    ]
+  },
+  {
+    "id": "psychological_educational_statistics",
+    "name": "当代心理与教育统计学",
+    "shortName": "统计",
+    "description": "聚焦心理与教育研究中的描述统计、推断统计、参数估计与常用统计检验。",
+    "order": 6,
+    "status": "active",
+    "tags": [
+      "方法型",
+      "统计",
+      "计算/概念并重"
+    ]
+  },
+  {
+    "id": "psychological_educational_measurement",
+    "name": "心理与教育测量",
+    "shortName": "测量",
+    "description": "聚焦测量基本概念、信效度、常模、测验编制与项目分析。",
+    "order": 7,
+    "status": "active",
+    "tags": [
+      "方法型",
+      "测量",
+      "应用型"
+    ]
   }
 ]
