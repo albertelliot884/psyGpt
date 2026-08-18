@@ -310,6 +310,13 @@ function renderChapter({ subjects, chapters, focusPoints, confusionPoints, quest
   function renderQuestionCard(item) {
     const { relatedFocus, relatedConfusions } = getQuestionRelations(item);
     const isSubjective = subjectiveTypes.includes(item.type);
+    const isObjective = objectiveTypes.includes(item.type);
+    const currentAnswer = getChapterAnswer(progress, item.id);
+    const objectiveFeedback = isObjective && currentAnswer
+      ? (currentAnswer === item.answer
+        ? `<div class="answer-analysis" style="color:#15803d;font-weight:700;">作答反馈：回答正确。</div>`
+        : `<div class="answer-analysis" style="color:#b42318;font-weight:700;">作答反馈：当前作答为 ${currentAnswer}，正确答案为 ${item.answer}。</div>`)
+      : '';
     const structuredPoints = getStructuredScoringPoints(item);
     return `
       <div class="question-card">
@@ -318,11 +325,16 @@ function renderChapter({ subjects, chapters, focusPoints, confusionPoints, quest
         <p>${item.stem}</p>
         ${item.type === '选择题' ? `<div class="stack">${(item.options || []).map((op, idx) => {
           const value = String.fromCharCode(65 + idx);
-          return `<label class="checkbox-row"><input type="radio" name="chapter_answer_${item.id}" value="${value}" ${getChapterAnswer(progress, item.id) === value ? 'checked' : ''} /> <span>${op}</span></label>`;
+          const checked = currentAnswer === value;
+          const stateClass = currentAnswer ? (value === item.answer ? 'chapter-option-correct' : (checked ? 'chapter-option-wrong' : '')) : '';
+          return `<label class="checkbox-row ${stateClass}"><input type="radio" name="chapter_answer_${item.id}" value="${value}" ${checked ? 'checked' : ''} /> <span>${op}</span></label>`;
         }).join('')}</div>` : Array.isArray(item.options) ? `<ul class="bullet-list">${item.options.map(op => `<li>${op}</li>`).join('')}</ul>` : ''}
         ${item.type === '判断题' ? `<div class="stack">
-          <label class="checkbox-row"><input type="radio" name="chapter_answer_${item.id}" value="正确" ${getChapterAnswer(progress, item.id) === '正确' ? 'checked' : ''} /> <span>正确</span></label>
-          <label class="checkbox-row"><input type="radio" name="chapter_answer_${item.id}" value="错误" ${getChapterAnswer(progress, item.id) === '错误' ? 'checked' : ''} /> <span>错误</span></label>
+          ${['正确', '错误'].map(value => {
+            const checked = currentAnswer === value;
+            const stateClass = currentAnswer ? (value === item.answer ? 'chapter-option-correct' : (checked ? 'chapter-option-wrong' : '')) : '';
+            return `<label class="checkbox-row ${stateClass}"><input type="radio" name="chapter_answer_${item.id}" value="${value}" ${checked ? 'checked' : ''} /> <span>${value}</span></label>`;
+          }).join('')}
         </div>` : ''}
         ${(relatedFocus.length || relatedConfusions.length) ? `
           <div class="relation-block">
@@ -338,9 +350,12 @@ function renderChapter({ subjects, chapters, focusPoints, confusionPoints, quest
         ` : ''}
         <div class="cta-row">
           <button class="cta secondary wrong-toggle-btn" data-question-id="${item.id}">${isWrongQuestion(progress, item.id) ? '移出错题本' : '加入错题本'}</button>
+          ${isObjective ? `<button class="cta secondary chapter-check-btn" data-question-id="${item.id}">检查答案</button>` : ''}
+          ${isSubjective ? `<button class="cta secondary chapter-reference-btn" data-question-id="${item.id}">显示参考答案</button>` : ''}
         </div>
-        <details>
-          <summary>查看参考答案与得分点</summary>
+        ${objectiveFeedback}
+        <details class="chapter-answer-details" ${isObjective && currentAnswer ? 'open' : ''}>
+          <summary>${isObjective ? '查看标准答案与解析' : '查看参考答案与得分点'}</summary>
           <div class="answer-block">
             <p class="answer-text">${item.answer}</p>
             ${structuredPoints.core.length ? `
@@ -375,19 +390,43 @@ function renderChapter({ subjects, chapters, focusPoints, confusionPoints, quest
     ...chapter.tags.map(tag => pill(tag))
   ].join('');
 
+  const chapterAnswers = getChapterAnswers(progress);
+  const answeredCount = chapterQuestions.filter(q => String(chapterAnswers[q.id] || '').trim()).length;
+  const objectiveAnsweredCount = objectiveQuestions.filter(q => String(chapterAnswers[q.id] || '').trim()).length;
+  const objectiveCorrectCount = objectiveQuestions.filter(q => {
+    const answer = String(chapterAnswers[q.id] || '').trim();
+    return answer && answer === q.answer;
+  }).length;
+  const wrongMarkedCount = chapterQuestions.filter(q => isWrongQuestion(progress, q.id)).length;
+  const subjectiveAnsweredCount = subjectiveQuestions.filter(q => String(chapterAnswers[q.id] || '').trim()).length;
+  const objectiveAccuracy = objectiveAnsweredCount ? (objectiveCorrectCount / objectiveAnsweredCount) : null;
+  const chapterPracticeAdvice = objectiveAnsweredCount === 0 && subjectiveAnsweredCount === 0
+    ? '建议先完成本章客观题，再用 1 道主观题检验是否真正掌握主干内容。'
+    : objectiveAnsweredCount > 0 && objectiveAccuracy !== null && objectiveAccuracy < 0.6
+      ? '本章客观题正确率偏低，建议先回看“易混点”后再复练本章客观题。'
+      : subjectiveQuestions.length > 0 && subjectiveAnsweredCount === 0
+        ? '你已开始做本章题目，建议补写 1 道主观题，把重点知识转成卷面表达。'
+        : wrongMarkedCount >= 2
+          ? '本章已有多道题进入错题本，建议优先回看错题关联重点，再做一轮针对性复练。'
+          : '本章练习状态较稳，建议继续用 1 道主观题或错题重做巩固本章主干。';
+
   document.getElementById('chapterStats').innerHTML = [
     { label: '重点', value: chapterFocus.length },
     { label: '易混点', value: chapterConfusions.length },
     { label: '客观题', value: objectiveQuestions.length },
-    { label: '主观题', value: subjectiveQuestions.length }
-  ].map(item => `<div class="stat"><div class="eyebrow">${item.label}</div><h3>${item.value}</h3></div>`).join('');
+    { label: '主观题', value: subjectiveQuestions.length },
+    { label: '本章已作答', value: `${answeredCount}/${chapterQuestions.length}` },
+    { label: '客观题答对', value: `${objectiveCorrectCount}/${objectiveQuestions.length}` },
+    { label: '客观题已做', value: `${objectiveAnsweredCount}/${objectiveQuestions.length}` },
+    { label: '已入错题本', value: wrongMarkedCount }
+  ].map(item => `<div class="stat"><div class="eyebrow">${item.label}</div><h3>${item.value}</h3></div>`).join('') + `<div class="stat stat-wide"><div class="eyebrow">本章建议</div><h3 style="font-size:16px;line-height:1.7;">${chapterPracticeAdvice}</h3></div>`;
 
   document.getElementById('chapterFocus').innerHTML = chapterFocus.length ? chapterFocus.map(item => `
     <div class="note-card focus-note-card">
       <div class="meta-row">${pill('重点', true)}${pill(`重要度 ${item.importance || 'medium'}`)}${(item.questionTypes || []).map(type => pill(type)).join('')}</div>
       <h4>${item.title}</h4>
       <div class="focus-summary">${item.summary}</div>
-      <p class="muted">建议：优先把这类内容和本章主观题一起看，建立“重点—题型”对应关系。</p>
+      <p class="muted">可结合本章主观题一起复习，把核心概念、特征和作用转成卷面表达。</p>
     </div>
   `).join('') : '<div class="empty">当前章节还没有重点数据。</div>';
 
@@ -401,7 +440,7 @@ function renderChapter({ subjects, chapters, focusPoints, confusionPoints, quest
         <ul class="bullet-list">${(item.differencePoints || []).map(point => `<li>${point}</li>`).join('')}</ul>
       </div>
       ${(item.commonMistakes || []).length ? `<div class="relation-group"><div class="relation-title">常见误区</div><ul class="bullet-list">${item.commonMistakes.map(point => `<li>${point}</li>`).join('')}</ul></div>` : ''}
-      <p class="muted">建议：先看差异点，再练本章辨析题和概念题。</p>
+      <p class="muted">可先对照关键差异理解，再用辨析题、概念题和客观题巩固区分点。</p>
     </div>
   `).join('') : '<div class="empty">当前章节还没有易混点数据。</div>';
 
@@ -426,6 +465,27 @@ function renderChapter({ subjects, chapters, focusPoints, confusionPoints, quest
     node.addEventListener('change', () => {
       setChapterAnswer(progress, node.name.replace('chapter_answer_', ''), node.value);
     });
+  });
+
+  document.querySelectorAll('.chapter-check-btn').forEach(btn => {
+    btn.onclick = () => {
+      const questionId = btn.dataset.questionId;
+      const answer = getChapterAnswer(progress, questionId);
+      if (!answer) {
+        alert('请先作答，再检查答案。');
+        return;
+      }
+      renderChapter({ subjects, chapters, focusPoints, confusionPoints, questions, progress });
+      const details = document.querySelector(`.chapter-check-btn[data-question-id="${questionId}"]`)?.closest('.question-card')?.querySelector('.chapter-answer-details');
+      if (details) details.open = true;
+    };
+  });
+
+  document.querySelectorAll('.chapter-reference-btn').forEach(btn => {
+    btn.onclick = () => {
+      const details = btn.closest('.question-card')?.querySelector('.chapter-answer-details');
+      if (details) details.open = true;
+    };
   });
 
   document.getElementById('markReviewedBtn').onclick = () => {
@@ -1300,11 +1360,17 @@ function renderManage({ subjects, chapters, questions, focusPoints, confusionPoi
       </label>
       <label style="grid-column: 1 / -1;">
         <span>关联重点</span>
-        <div class="stack">${relatedFocusOptions || '<div class="muted">当前章节暂无可选重点。</div>'}</div>
+        <details class="manage-picker">
+          <summary>展开选择重点（${(item?.relatedFocusPointIds || []).length} 已选）</summary>
+          <div class="manage-picker-grid">${relatedFocusOptions || '<div class="muted">当前章节暂无可选重点。</div>'}</div>
+        </details>
       </label>
       <label style="grid-column: 1 / -1;">
         <span>关联易混点</span>
-        <div class="stack">${relatedConfusionOptions || '<div class="muted">当前章节暂无可选易混点。</div>'}</div>
+        <details class="manage-picker">
+          <summary>展开选择易混点（${(item?.relatedConfusionPointIds || []).length} 已选）</summary>
+          <div class="manage-picker-grid">${relatedConfusionOptions || '<div class="muted">当前章节暂无可选易混点。</div>'}</div>
+        </details>
       </label>
     ` : '';
     manageForm.innerHTML = fields.map(([key, label]) => {
@@ -1573,22 +1639,85 @@ function renderProgress({ chapters, questions, subjects, progress }) {
   const statuses = progress.chapterStatus || {};
   const paperHistory = progress.paperHistory || [];
   const reviewedCount = Object.values(statuses).filter(v => v === '已通读').length;
-  const weakIds = unique(progress.weakChapters || []);
-  const weakChapters = chapters.filter(ch => weakIds.includes(ch.id));
-  const untouched = chapters.filter(ch => !statuses[ch.id]);
   const objectiveTypes = ['选择题', '判断题'];
   const subjectiveTypes = ['名词解释', '简答题', '论述题', '辨析题'];
   const wrongQuestionIds = unique(progress.wrongQuestionIds || []);
   const wrongQuestions = questions.filter(q => wrongQuestionIds.includes(q.id));
   const wrongChapterIds = unique(wrongQuestions.map(q => q.chapterId));
+  const chapterAnswers = getChapterAnswers(progress);
+  const chapterAnsweredQuestionIds = questions.filter(q => String(chapterAnswers[q.id] || '').trim()).map(q => q.id);
+  const chapterAnsweredCount = chapterAnsweredQuestionIds.length;
+  const chapterObjectiveAnsweredCount = questions.filter(q => objectiveTypes.includes(q.type) && String(chapterAnswers[q.id] || '').trim()).length;
+  const chapterObjectiveCorrectCount = questions.filter(q => objectiveTypes.includes(q.type) && String(chapterAnswers[q.id] || '').trim() && chapterAnswers[q.id] === q.answer).length;
+  const activePracticeChapterIds = unique(questions.filter(q => String(chapterAnswers[q.id] || '').trim()).map(q => q.chapterId));
+  const chapterDecisionData = chapters.map(ch => {
+    const chapterQs = questions.filter(q => q.chapterId === ch.id);
+    const chapterObjectiveQs = chapterQs.filter(q => objectiveTypes.includes(q.type));
+    const chapterSubjectiveQs = chapterQs.filter(q => subjectiveTypes.includes(q.type));
+    const chapterDone = chapterQs.filter(q => String(chapterAnswers[q.id] || '').trim()).length;
+    const chapterObjectiveDone = chapterObjectiveQs.filter(q => String(chapterAnswers[q.id] || '').trim()).length;
+    const chapterObjectiveCorrect = chapterObjectiveQs.filter(q => String(chapterAnswers[q.id] || '').trim() && chapterAnswers[q.id] === q.answer).length;
+    const chapterSubjectiveDone = chapterSubjectiveQs.filter(q => String(chapterAnswers[q.id] || '').trim()).length;
+    const chapterWrongCount = chapterQs.filter(q => wrongQuestionIds.includes(q.id)).length;
+    const objectiveAccuracy = chapterObjectiveDone ? (chapterObjectiveCorrect / chapterObjectiveDone) : null;
+    const status = statuses[ch.id] || '未开始';
+    const isManualWeak = (progress.weakChapters || []).includes(ch.id);
+    let score = 0;
+    if (isManualWeak) score += 5;
+    if (status === '未开始') score += 4;
+    if (chapterWrongCount >= 3) score += 4;
+    if (chapterObjectiveDone >= 3 && objectiveAccuracy !== null && objectiveAccuracy < 0.5) score += 4;
+    if (chapterDone > 0 && chapterSubjectiveQs.length > 0 && chapterSubjectiveDone === 0) score += 2;
+    if (chapterDone === 0 && status !== '未开始') score += 1;
+    const reason = isManualWeak
+      ? '这章已被手动标为薄弱，优先回看更划算。'
+      : chapterWrongCount >= 3
+        ? '这章错题累计较多，优先回看更容易提分。'
+        : chapterObjectiveDone >= 3 && objectiveAccuracy !== null && objectiveAccuracy < 0.5
+          ? '这章客观题正确率偏低，建议尽快补救。'
+          : status === '未开始'
+            ? '这章还没启动，适合作为下一章继续推进。'
+            : chapterDone > 0 && chapterSubjectiveQs.length > 0 && chapterSubjectiveDone === 0
+              ? '这章已开始练习，但主观题还没展开，适合顺势补完整。'
+              : '这章当前最适合作为下一步推进。';
+    return {
+      chapter: ch,
+      score,
+      status,
+      chapterDone,
+      chapterWrongCount,
+      chapterObjectiveDone,
+      chapterObjectiveCorrect,
+      chapterSubjectiveDone,
+      hasSubjective: chapterSubjectiveQs.length > 0,
+      reason
+    };
+  });
+  const autoWeakChapterIds = chapters.filter(ch => {
+    const chapterQs = questions.filter(q => q.chapterId === ch.id);
+    const chapterObjectiveQs = chapterQs.filter(q => objectiveTypes.includes(q.type));
+    const chapterObjectiveDone = chapterObjectiveQs.filter(q => String(chapterAnswers[q.id] || '').trim()).length;
+    const chapterObjectiveCorrect = chapterObjectiveQs.filter(q => String(chapterAnswers[q.id] || '').trim() && chapterAnswers[q.id] === q.answer).length;
+    const chapterWrongCount = chapterQs.filter(q => wrongQuestionIds.includes(q.id)).length;
+    const accuracy = chapterObjectiveDone ? (chapterObjectiveCorrect / chapterObjectiveDone) : null;
+    return (chapterObjectiveDone >= 3 && accuracy !== null && accuracy < 0.5) || chapterWrongCount >= 3;
+  }).map(ch => ch.id);
+  const combinedWeakIds = unique([...(progress.weakChapters || []), ...autoWeakChapterIds]);
+  const weakChapters = chapters.filter(ch => combinedWeakIds.includes(ch.id));
+  const weakIds = combinedWeakIds;
+  const untouched = chapters.filter(ch => !statuses[ch.id]);
   const lastSubmittedPaper = paperHistory.find(item => item.submittedAt);
+  const recommendedChapter = [...chapterDecisionData].sort((a, b) => b.score - a.score || a.chapter.order - b.chapter.order)[0];
 
   document.getElementById('progressStats').innerHTML = [
     { label: '已通读章节', value: reviewedCount },
     { label: '薄弱章节', value: weakIds.length },
     { label: '累计组卷', value: paperHistory.length },
     { label: '未开始章节', value: untouched.length },
-    { label: '错题数量', value: wrongQuestionIds.length }
+    { label: '错题数量', value: wrongQuestionIds.length },
+    { label: '章节已作答', value: chapterAnsweredCount },
+    { label: '章练客观题答对', value: `${chapterObjectiveCorrectCount}/${chapterObjectiveAnsweredCount}` },
+    { label: '有练习痕迹章节', value: activePracticeChapterIds.length }
   ].map(item => `<div class="stat"><div class="eyebrow">${item.label}</div><h3>${item.value}</h3></div>`).join('');
 
   document.getElementById('progressChapterList').innerHTML = `
@@ -1596,7 +1725,13 @@ function renderProgress({ chapters, questions, subjects, progress }) {
       <h4>章节状态面板</h4>
       <div class="progress-list">
         ${chapters.map(ch => {
-          const qCount = questions.filter(q => q.chapterId === ch.id).length;
+          const chapterQs = questions.filter(q => q.chapterId === ch.id);
+          const qCount = chapterQs.length;
+          const chapterDone = chapterQs.filter(q => String(chapterAnswers[q.id] || '').trim()).length;
+          const chapterObjectiveQs = chapterQs.filter(q => objectiveTypes.includes(q.type));
+          const chapterObjectiveDone = chapterObjectiveQs.filter(q => String(chapterAnswers[q.id] || '').trim()).length;
+          const chapterObjectiveCorrect = chapterObjectiveQs.filter(q => String(chapterAnswers[q.id] || '').trim() && chapterAnswers[q.id] === q.answer).length;
+          const chapterWrongCount = chapterQs.filter(q => wrongQuestionIds.includes(q.id)).length;
           return `
             <div class="progress-row">
               <div class="progress-main">
@@ -1606,6 +1741,10 @@ function renderProgress({ chapters, questions, subjects, progress }) {
               <div class="meta-row">
                 ${pill(`题量 ${qCount}`)}
                 ${pill(statuses[ch.id] || '未开始', (statuses[ch.id] || '未开始') !== '未开始')}
+                ${pill(`已做 ${chapterDone}/${qCount}`)}
+                ${chapterObjectiveQs.length ? pill(`客观题 ${chapterObjectiveCorrect}/${chapterObjectiveDone}`) : ''}
+                ${autoWeakChapterIds.includes(ch.id) ? pill('章练弱提醒', true) : ''}
+                ${chapterWrongCount ? pill(`错题 ${chapterWrongCount}`, true) : ''}
               </div>
             </div>
           `;
@@ -1615,6 +1754,26 @@ function renderProgress({ chapters, questions, subjects, progress }) {
   `;
 
   const weaknessCards = [];
+  if (recommendedChapter) {
+    const rec = recommendedChapter;
+    weaknessCards.push(`
+      <div class="note-card training-result-card submitted">
+        <div class="training-result-title">推荐下一章</div>
+        <div class="training-result-note">建议优先进入「${rec.chapter.name}」。${rec.reason}</div>
+        <div class="meta-row">
+          ${pill(`状态 ${rec.status}`, rec.status !== '未开始')}
+          ${pill(`已做 ${rec.chapterDone}`)}
+          ${rec.chapterObjectiveDone ? pill(`客观题 ${rec.chapterObjectiveCorrect}/${rec.chapterObjectiveDone}`) : ''}
+          ${rec.chapterWrongCount ? pill(`错题 ${rec.chapterWrongCount}`, true) : ''}
+          ${rec.hasSubjective ? pill(`主观题已写 ${rec.chapterSubjectiveDone}`) : ''}
+        </div>
+        <div class="cta-row">
+          <a class="quick-link" href="./psy-chapter.html?chapter=${rec.chapter.id}">进入推荐章节</a>
+          <a class="quick-link" href="./psy-papers.html">去测试卷中心</a>
+        </div>
+      </div>
+    `);
+  }
   if (lastSubmittedPaper) {
     const latestWeakChapters = chapters.filter(ch => (lastSubmittedPaper.newWeakChapterIds || []).includes(ch.id));
     weaknessCards.push(`
@@ -1635,17 +1794,39 @@ function renderProgress({ chapters, questions, subjects, progress }) {
     `);
   }
   if (weakChapters.length) {
-    weaknessCards.push(...weakChapters.map(ch => `
+    weaknessCards.push(...weakChapters.map(ch => {
+      const chapterQs = questions.filter(q => q.chapterId === ch.id);
+      const chapterObjectiveQs = chapterQs.filter(q => objectiveTypes.includes(q.type));
+      const chapterSubjectiveQs = chapterQs.filter(q => subjectiveTypes.includes(q.type));
+      const chapterDone = chapterQs.filter(q => String(chapterAnswers[q.id] || '').trim()).length;
+      const chapterObjectiveDone = chapterObjectiveQs.filter(q => String(chapterAnswers[q.id] || '').trim()).length;
+      const chapterObjectiveCorrect = chapterObjectiveQs.filter(q => String(chapterAnswers[q.id] || '').trim() && chapterAnswers[q.id] === q.answer).length;
+      const chapterSubjectiveDone = chapterSubjectiveQs.filter(q => String(chapterAnswers[q.id] || '').trim()).length;
+      const chapterWrongCount = chapterQs.filter(q => wrongQuestionIds.includes(q.id)).length;
+      const sourceLabel = (lastSubmittedPaper?.newWeakChapterIds || []).includes(ch.id)
+        ? '来源：试卷自动识别'
+        : (autoWeakChapterIds.includes(ch.id) ? '来源：章节练习提醒' : '来源：手动标记');
+      const weakAdvice = chapterDone === 0
+        ? '这章已被标为薄弱，但还没有实际练习痕迹，建议先完成本章客观题，建立第一轮问题定位。'
+        : chapterObjectiveDone >= 3 && chapterObjectiveCorrect / chapterObjectiveDone < 0.5
+          ? '这章客观题正确率偏低，建议先回看易混点，再把本章客观题重做一轮。'
+          : chapterSubjectiveQs.length > 0 && chapterSubjectiveDone === 0
+            ? '这章已经有练习痕迹，但主观题还没展开，建议补写 1 道简答或论述，把知识点转成卷面表达。'
+            : chapterWrongCount >= 3
+              ? '这章错题累计较多，建议优先回看错题关联重点，再做针对性复练。'
+              : '这章已表现出薄弱信号，建议回看重点主干后，再做一轮章节练习巩固。';
+      return `
       <div class="note-card">
         <h4>${ch.name}</h4>
-        <p class="muted">建议优先回看本章重点与易混点，再做一套章节卷。</p>
-        <div class="meta-row">${pill((lastSubmittedPaper?.newWeakChapterIds || []).includes(ch.id) ? '来源：试卷自动识别' : '来源：手动标记')}</div>
+        <p class="muted">${weakAdvice}</p>
+        <div class="meta-row">${pill(sourceLabel)}${pill(`已做 ${chapterDone}/${chapterQs.length}`)}${chapterObjectiveQs.length ? pill(`客观题 ${chapterObjectiveCorrect}/${chapterObjectiveDone}`) : ''}${chapterWrongCount ? pill(`错题 ${chapterWrongCount}`, true) : ''}</div>
         <div class="cta-row">
           <a class="quick-link" href="./psy-chapter.html?chapter=${ch.id}">进入本章</a>
           <a class="quick-link" href="./psy-papers.html">去测试卷中心</a>
         </div>
       </div>
-    `));
+    `;
+    }));
   }
   if (untouched.length) {
     weaknessCards.push(`

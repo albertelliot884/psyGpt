@@ -138,11 +138,20 @@ h3 { font-size: 20px; }
 .manage-form-grid textarea { min-height: 110px; }
 .manage-list-panel { max-height: 78vh; overflow: auto; }
 .manage-list-panel .note-card { margin-bottom: 10px; }
+.manage-picker { margin-top: 8px; border: 1px solid var(--line); border-radius: 12px; background: #fff; }
+.manage-picker summary { cursor: pointer; padding: 12px 14px; font-weight: 600; color: var(--ink); }
+.manage-picker-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 8px; padding: 0 12px 12px; max-height: 220px; overflow: auto; }
+.manage-picker .checkbox-row { min-height: 44px; align-items: flex-start; }
+.manage-picker .checkbox-row span { line-height: 1.45; }
+.manage-picker .muted { padding: 0 2px 8px; }
 .stat, .subject-card, .chapter-item, .note-card, .question-card, .dashboard-card {
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 16px;
   padding: 16px;
+}
+.stat-wide {
+  grid-column: 1 / -1;
 }
 .subject-card h4, .chapter-item h4, .note-card h4, .question-card h4, .dashboard-card h4 { margin: 0 0 8px; font-size: 18px; }
 .meta-row, .tag-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
@@ -322,6 +331,18 @@ select {
   gap: 8px;
   font-weight: 500;
   color: #4f473e;
+}
+.chapter-option-correct {
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: #ecfdf3;
+  border: 1px solid #86efac;
+}
+.chapter-option-wrong {
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: #fef2f2;
+  border: 1px solid #fca5a5;
 }
 .paper-answer-input {
   width: 100%;

@@ -123,6 +123,63 @@
 - [ ] 测试章节页、试卷页是否能正常读取 JSON
 - [ ] 测试错题本、本地管理、导入导出是否正常工作
 
+## v3 更新摘要
+
+本次 `psy-review-site-clean-v3` 继续保持 **静态站 + JSON 数据驱动 + GitHub Pages 兼容 + 浏览器本地存储闭环** 的整体架构，不推翻既有页面、字段名、ID、函数名和页面关系，重点完成了以下增强：
+
+### 1. 内容继续向“可直接背诵 / 可直接写卷面”收紧
+- 继续对 `experimental_psychology`、`developmental_psychology`、`educational_psychology`、`psychological_educational_statistics`、`psychological_educational_measurement` 做一致性巡检与定点补漏
+- 高频重点进一步统一为“定义 / 特征 / 作用 / 区别”的背诵卡风格
+- 易混点进一步统一为“概念比较卡”风格
+- 主观题答案继续向可直接写在卷面上的正文表达收紧
+- 本轮额外补齐了 29 道旧主观题缺失的 `scoringPointGroups`，确保主观题都能按 `core / extra` 展示“必写点 / 可补充点`
+
+### 2. 章节页增强为轻量章练页
+- 客观题可直接作答并自动保存
+- 主观题可直接输入并恢复历史答案
+- 客观题新增“检查答案”按钮
+- 主观题新增“显示参考答案”按钮
+- 客观题新增正误着色：正确答案绿色、错误作答红色
+- 章节页顶部新增“本章练习小结”，可显示：
+  - `本章已作答`
+  - `客观题答对`
+  - `客观题已做`
+  - `已入错题本`
+- 章节页顶部新增“本章建议”，会根据本章练习情况给出下一步提示
+
+### 3. 进度页增强为全局联动面板
+- 顶部统计新增：
+  - `章节已作答`
+  - `章练客观题答对`
+  - `有练习痕迹章节`
+- 章节状态面板新增每章练习信息：
+  - `已做 X/Y`
+  - `客观题 A/B`
+  - `错题 N`
+- 新增“章练弱提醒”，当章节页客观题正确率偏低或错题累计较多时，可在进度页形成弱提醒
+- 薄弱章节卡会根据来源和练习状态给出更具体的动态建议
+- 进度页新增“推荐下一章”决策卡，可综合薄弱标记、错题数、章练表现和是否已开始等信号给出下一步入口
+
+### 4. 管理页与多页面兼容性继续保持稳定
+- 管理页继续采用左右分栏布局，降低长滚动负担
+- 关联重点 / 易混点保持为折叠选择器
+- 多学科学科页、章节页、试卷页、进度页、管理页之间的参数与数据接线保持兼容
+- 继续兼容 GitHub Pages 纯静态托管场景
+
+### 5. v3 验收结果
+- `subjects 7`
+- `chapters 42`
+- `focus 128`
+- `conf 82`
+- `questions 233`
+- 关键结果：
+  - `subjective_groups_ok True`
+  - `conf_arrays_ok True`
+  - `chapter_stats_summary True`
+  - `progress_auto_weak True`
+  - `progress_recommend_next True`
+  - `OK_FINAL_ACCEPTANCE_PASS`
+
 ## 阶段更新
 
 - 已完成 `experimental_psychology` 最小样板建设：`ep_variables`、`ep_reaction_time`、`ep_psychophysics`、`ep_memory_experiment` 4 章当前均为 6 题，总计 24 题
