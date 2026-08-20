@@ -1319,282 +1319,6 @@
     "status": "active"
   },
   {
-    "id": "cp_dp_overview_01",
-    "subjectId": "developmental_psychology",
-    "chapterId": "dp_overview",
-    "title": "发展心理学概述常见易混点",
-    "content": "复习发展心理学概述时，要区分发展阶段划分、关键概念定义与不同理论对同一现象的解释口径。",
-    "order": 1,
-    "tags": [
-      "易混",
-      "辨析"
-    ],
-    "status": "active",
-    "differencePoints": [
-      "心理发展强调全过程变化及其规律。",
-      "心理成熟强调某种能力或机能达到较稳定、较完善状态。",
-      "发展不等于成熟，发展过程中可能既有成熟，也有退化与适应变化。"
-    ],
-    "commonMistakes": [
-      "把心理发展简单等同于心理成熟。",
-      "只写“发展是变化、成熟是稳定”，没有说明二者关系。"
-    ],
-    "summary": "心理发展与心理成熟都涉及个体心理变化，但二者含义不同。心理发展强调个体心理在整个生命过程中的连续变化及其规律，心理成熟则更多强调某种心理机能达到相对完善和稳定的状态。"
-  },
-  {
-    "id": "cp_dp_infancy_01",
-    "subjectId": "developmental_psychology",
-    "chapterId": "dp_infancy",
-    "title": "婴儿期心理发展常见易混点",
-    "content": "复习婴儿期心理发展时，要区分发展阶段划分、关键概念定义与不同理论对同一现象的解释口径。",
-    "order": 1,
-    "tags": [
-      "易混",
-      "辨析"
-    ],
-    "status": "active",
-    "differencePoints": [
-      "依恋的核心是情感联结。",
-      "依赖的核心是满足生理或生活需要。",
-      "依恋具有较稳定的人际情感意义，依赖不等于深层情感联系。"
-    ],
-    "commonMistakes": [
-      "把依恋和依赖当作同义词。",
-      "只从“离不开大人”角度理解，忽视情感联结特征。"
-    ],
-    "summary": "依恋与依赖都表现为婴儿对照料者的联系，但二者性质不同。依恋是一种稳定的情感联结，依赖则更多表现为功能上的需要和照顾需求。"
-  },
-  {
-    "id": "cp_dp_early_childhood_01",
-    "subjectId": "developmental_psychology",
-    "chapterId": "dp_early_childhood",
-    "title": "幼儿期心理发展常见易混点",
-    "content": "复习幼儿期心理发展时，要区分发展阶段划分、关键概念定义与不同理论对同一现象的解释口径。",
-    "order": 1,
-    "tags": [
-      "易混",
-      "辨析"
-    ],
-    "status": "active",
-    "differencePoints": [
-      "具体形象思维依赖直观表象和具体情境。",
-      "抽象逻辑思维依赖概念、判断和推理。",
-      "幼儿虽可出现初步概括，但整体上仍以具体形象思维为主。"
-    ],
-    "commonMistakes": [
-      "把幼儿的简单概括当作成熟抽象逻辑思维。",
-      "只说“一个具体、一个抽象”，没有结合年龄阶段说明。"
-    ],
-    "summary": "具体形象思维与抽象逻辑思维都属于思维活动形式，但所依赖的认知基础不同。幼儿期以具体形象思维占主导，抽象逻辑思维尚未充分发展。"
-  },
-  {
-    "id": "cp_dp_middle_childhood_01",
-    "subjectId": "developmental_psychology",
-    "chapterId": "dp_middle_childhood",
-    "title": "童年期心理发展常见易混点",
-    "content": "复习童年期心理发展时，要区分发展阶段划分、关键概念定义与不同理论对同一现象的解释口径。",
-    "order": 1,
-    "tags": [
-      "易混",
-      "辨析"
-    ],
-    "status": "active",
-    "differencePoints": [
-      "无意注意主要由刺激本身特点引起。",
-      "有意注意需要明确目的和意志努力。",
-      "童年期学习活动的发展推动有意注意水平提高。"
-    ],
-    "commonMistakes": [
-      "认为进入童年期后无意注意就不再重要。",
-      "只比较是否“自觉”，没有联系学习活动背景。"
-    ],
-    "summary": "无意注意与有意注意都属于注意形式，但它们在引发条件和意志参与程度上存在明显差异。童年期有意注意发展较快，但无意注意仍然存在。"
-  },
-  {
-    "id": "cp_dp_adolescence_01",
-    "subjectId": "developmental_psychology",
-    "chapterId": "dp_adolescence",
-    "title": "青少年心理发展常见易混点",
-    "content": "复习青少年心理发展时，要区分发展阶段划分、关键概念定义与不同理论对同一现象的解释口径。",
-    "order": 1,
-    "tags": [
-      "易混",
-      "辨析"
-    ],
-    "status": "active",
-    "differencePoints": [
-      "独立性增强体现发展中的自主需要。",
-      "逆反心理常带有较强情绪色彩和对抗性。",
-      "不能把一切反对成人意见的表现都视为逆反。"
-    ],
-    "commonMistakes": [
-      "把青少年独立要求简单贴上“逆反”标签。",
-      "忽视正常自主发展需求的积极意义。"
-    ],
-    "summary": "独立性增强与逆反心理都可能表现为青少年反抗成人控制，但二者性质不同。独立性增强是正常发展需求，逆反心理则可能是对外部压力的情绪化对抗。"
-  },
-  {
-    "id": "cp_dp_adulthood_aging_01",
-    "subjectId": "developmental_psychology",
-    "chapterId": "dp_adulthood_aging",
-    "title": "成年与老年心理发展常见易混点",
-    "content": "复习成年与老年心理发展时，要区分发展阶段划分、关键概念定义与不同理论对同一现象的解释口径。",
-    "order": 1,
-    "tags": [
-      "易混",
-      "辨析"
-    ],
-    "status": "active",
-    "differencePoints": [
-      "成年期强调责任承担、人格成熟和社会适应。",
-      "老年期强调认知变化、角色调整和晚年适应。",
-      "稳定并不意味着停止发展，老年变化也不等于单纯衰退。"
-    ],
-    "commonMistakes": [
-      "把成年期理解为“已经发展完成”。",
-      "把老年期只理解为能力下降，忽视其适应与发展面。"
-    ],
-    "summary": "成年期稳定与老年期变化都属于生命发展过程的一部分，但二者关注点不同。成年期更强调角色承担和人格稳定，老年期更强调适应变化与发展质量。"
-  },
-  {
-    "id": "cp_edu_overview_01",
-    "subjectId": "educational_psychology",
-    "chapterId": "edu_overview",
-    "title": "教育心理学概述常见辨析点",
-    "content": "本章复习时要区分不同理论流派、相近概念以及“定义—机制—应用”三层表达。",
-    "order": 1,
-    "tags": [
-      "辨析",
-      "理论"
-    ],
-    "status": "active",
-    "differencePoints": [
-      "普通心理学研究一般心理过程和个性规律。",
-      "教育心理学研究学习、教学及教育情境中的心理规律。",
-      "教育心理学以普通心理学为基础，但具有明确教育应用场景。"
-    ],
-    "commonMistakes": [
-      "把教育心理学看成普通心理学的简单重复。",
-      "只写“一个基础、一个应用”，没有展开研究对象差异。"
-    ],
-    "summary": "教育心理学与普通心理学都研究心理现象，但研究情境和关注重点不同。普通心理学强调一般心理规律，教育心理学强调学校教育情境中的学与教规律。"
-  },
-  {
-    "id": "cp_edu_learning_theory_01",
-    "subjectId": "educational_psychology",
-    "chapterId": "edu_learning_theory",
-    "title": "学习理论常见辨析点",
-    "content": "本章复习时要区分不同理论流派、相近概念以及“定义—机制—应用”三层表达。",
-    "order": 1,
-    "tags": [
-      "辨析",
-      "理论"
-    ],
-    "status": "active",
-    "differencePoints": [
-      "行为主义强调刺激、反应和强化。",
-      "认知理论强调理解、加工和结构组织。",
-      "二者对教师角色、教学重点和学习本质的理解不同。"
-    ],
-    "commonMistakes": [
-      "把行为主义等同于机械训练。",
-      "只记理论名称，不会比较学习观差异。"
-    ],
-    "summary": "行为主义学习理论与认知学习理论都解释学习现象，但前者强调外部强化和行为变化，后者强调内部信息加工和认知结构变化。"
-  },
-  {
-    "id": "cp_edu_learning_motivation_01",
-    "subjectId": "educational_psychology",
-    "chapterId": "edu_learning_motivation",
-    "title": "学习动机常见辨析点",
-    "content": "本章复习时要区分不同理论流派、相近概念以及“定义—机制—应用”三层表达。",
-    "order": 1,
-    "tags": [
-      "辨析",
-      "理论"
-    ],
-    "status": "active",
-    "differencePoints": [
-      "内部动机来源于兴趣、好奇和求知需要。",
-      "外部动机来源于奖励、竞争、评价或压力。",
-      "二者都能起作用，但内部动机通常更有利于持续学习。"
-    ],
-    "commonMistakes": [
-      "把外部动机一概视为消极因素。",
-      "作答时只写来源不同，没有写对学习持续性的影响。"
-    ],
-    "summary": "内部动机与外部动机都能推动学习行为，但动力来源不同。内部动机来自学习活动本身，外部动机来自奖惩、评价等外在因素。"
-  },
-  {
-    "id": "cp_edu_knowledge_skill_01",
-    "subjectId": "educational_psychology",
-    "chapterId": "edu_knowledge_skill",
-    "title": "知识学习与技能形成常见辨析点",
-    "content": "本章复习时要区分不同理论流派、相近概念以及“定义—机制—应用”三层表达。",
-    "order": 1,
-    "tags": [
-      "辨析",
-      "理论"
-    ],
-    "status": "active",
-    "differencePoints": [
-      "知识学习强调理解、保持和应用。",
-      "技能形成强调练习、协调和熟练。",
-      "知识可以为技能形成提供基础，技能又能促进知识应用。"
-    ],
-    "commonMistakes": [
-      "把技能简单理解为知识多了以后自然形成。",
-      "没有写出知识与技能的联系。"
-    ],
-    "summary": "知识学习与技能形成都属于教学的重要结果，但前者强调观念和经验的掌握，后者强调动作或活动方式的熟练化。"
-  },
-  {
-    "id": "cp_edu_moral_social_01",
-    "subjectId": "educational_psychology",
-    "chapterId": "edu_moral_social",
-    "title": "品德心理与社会规范学习常见辨析点",
-    "content": "本章复习时要区分不同理论流派、相近概念以及“定义—机制—应用”三层表达。",
-    "order": 1,
-    "tags": [
-      "辨析",
-      "理论"
-    ],
-    "status": "active",
-    "differencePoints": [
-      "品德形成强调认知、情感和行为倾向的统一。",
-      "社会规范学习强调规则理解、接受与遵守。",
-      "规范学习是品德形成的重要条件，但不等于完整品德发展。"
-    ],
-    "commonMistakes": [
-      "把学会规则遵守等同于品德已经成熟。",
-      "忽视道德情感和行为倾向在品德中的作用。"
-    ],
-    "summary": "品德形成与社会规范学习都涉及个体社会化过程，但品德更强调稳定道德品质的形成，社会规范学习更强调对规则要求的理解和内化。"
-  },
-  {
-    "id": "cp_edu_teaching_classroom_01",
-    "subjectId": "educational_psychology",
-    "chapterId": "edu_teaching_classroom",
-    "title": "教学设计与课堂管理常见辨析点",
-    "content": "本章复习时要区分不同理论流派、相近概念以及“定义—机制—应用”三层表达。",
-    "order": 1,
-    "tags": [
-      "辨析",
-      "理论"
-    ],
-    "status": "active",
-    "differencePoints": [
-      "教学设计强调目标、内容、方法和评价安排。",
-      "课堂管理强调秩序维持、氛围营造和互动调节。",
-      "二者既有分工又相互配合，共同服务有效教学。"
-    ],
-    "commonMistakes": [
-      "把课堂管理看成单纯“维持纪律”。",
-      "把教学设计和课堂管理割裂开来理解。"
-    ],
-    "summary": "教学设计与课堂管理都服务于课堂教学，但教学设计重在事前规划，课堂管理重在课堂实施中的组织和调控。"
-  },
-  {
     "id": "cp_stats_descriptive_01",
     "subjectId": "psychological_educational_statistics",
     "chapterId": "stats_descriptive",
@@ -1869,5 +1593,2774 @@
       "只记名称顺序，不能说明层级差异。"
     ],
     "summary": "名义、顺序、等距和等比量表都属于测量水平，但它们在数据性质、比较方式和可进行的统计运算上依次提高。"
+  },
+  {
+    "id": "cp_ep_reaction_01",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_reaction_time",
+    "title": "简单反应时 vs 选择反应时",
+    "summary": "简单反应时任务中，被试面对单一刺激只需作出固定反应，心理加工过程较少；选择反应时任务中，被试需要先辨别刺激，再从多个反应中作出选择，因此加工阶段更多、反应时通常更长。二者的差异正是减法反应时技术推断内部加工阶段的重要基础。",
+    "differencePoints": [
+      "简单反应时对应单一刺激和固定反应，任务结构较简单",
+      "选择反应时要求刺激辨别与反应选择，加工环节更多",
+      "选择反应时通常长于简单反应时，可用于估计额外加工阶段时间"
+    ],
+    "commonMistakes": [
+      "把简单反应时和选择反应时都理解成一般的“按键快慢比较”",
+      "只记结论，不理解二者为何能用于减法反应时分析"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题",
+      "判断题"
+    ],
+    "tags": [
+      "反应时法",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_ep_memory_01",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_memory_experiment",
+    "title": "回忆 vs 再认",
+    "summary": "回忆是指个体在没有目标项目直接呈现的条件下，主动从记忆中提取先前经验；再认是指目标项目再次出现时，个体判断其是否学过。回忆对提取要求更高，再认通常较容易，因此二者虽同属记忆提取，但任务条件和难度水平不同。",
+    "differencePoints": [
+      "回忆要求主动提取信息，再认要求对呈现项目作熟悉性或旧新判断",
+      "回忆对线索依赖较小，提取难度通常更高",
+      "再认通常成绩优于回忆，因此不能把二者混作同一种记忆测验"
+    ],
+    "commonMistakes": [
+      "把回忆和再认都笼统理解为“把记住的内容说出来”",
+      "误以为再认一定能完全替代回忆来测量记忆水平"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "记忆实验",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_ep_intro_01",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_intro",
+    "title": "实验心理学 vs 普通心理学",
+    "summary": "普通心理学侧重概括心理现象的一般规律，实验心理学则强调通过严格控制条件和操纵变量来研究这些规律。二者研究对象相关，但研究路径和方法论定位并不相同。",
+    "differencePoints": [
+      "普通心理学重在系统描述心理现象的一般规律",
+      "实验心理学重在运用实验方法研究心理过程及机制",
+      "前者偏基础理论概括，后者偏方法论与实验验证"
+    ],
+    "commonMistakes": [
+      "把实验心理学简单理解为普通心理学中的若干实验例子",
+      "忽视实验心理学作为研究方法体系的独立意义"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "绪论",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_ep_perception_01",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_perception",
+    "title": "感觉 vs 知觉",
+    "summary": "感觉是对事物个别属性的直接反映，知觉是对事物整体属性及其关系的综合反映。感觉偏向初级加工，知觉则包含更高水平的组织和解释，因此二者不能混同。",
+    "differencePoints": [
+      "感觉反映个别属性，知觉反映整体对象",
+      "感觉偏初级加工，知觉包含组织和解释",
+      "知觉通常建立在感觉基础之上"
+    ],
+    "commonMistakes": [
+      "把感觉和知觉都笼统理解为“看到、听到”",
+      "忽视知觉中的整体组织和经验作用"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "知觉",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_ep_attention_01",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_attention",
+    "title": "注意选择 vs 注意分配",
+    "summary": "注意选择强调在众多信息中筛选出部分内容进行加工，注意分配强调有限资源如何在多个任务间分派。二者都涉及注意资源，但研究问题并不相同。",
+    "differencePoints": [
+      "注意选择关注“选什么”",
+      "注意分配关注“资源怎么分”",
+      "二者对应的实验范式和理论解释并不完全相同"
+    ],
+    "commonMistakes": [
+      "把选择性注意和注意分配都理解为一般的“专心程度”",
+      "不区分过滤任务和双作业任务的研究对象"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "注意",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_ep_learning_01",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_learning",
+    "title": "经典条件作用 vs 操作性条件作用",
+    "summary": "经典条件作用强调刺激与刺激之间的联结形成，操作性条件作用强调行为与其结果之间的联结变化。二者都属于学习，但实验结构和解释重点不同。",
+    "differencePoints": [
+      "经典条件作用以刺激配对为核心",
+      "操作性条件作用以行为后果为核心",
+      "前者多强调被动反应，后者更强调主动行为"
+    ],
+    "commonMistakes": [
+      "把两种条件作用都简化成“刺激出现后有反应”",
+      "忽视强化在操作性条件作用中的关键地位"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "学习",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_ep_thinking_01",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_thinking",
+    "title": "算法式 vs 启发式",
+    "summary": "算法式是按照固定程序逐步求解问题的方法，虽较可靠但效率可能较低；启发式则依赖经验规则和简化策略，效率较高但可能产生偏差。二者是问题解决研究中的经典对比。",
+    "differencePoints": [
+      "算法式步骤固定且较可靠",
+      "启发式依赖经验规则和捷径",
+      "启发式速度快但可能造成判断偏差"
+    ],
+    "commonMistakes": [
+      "把启发式简单理解为“不严谨的方法”",
+      "忽视算法式在复杂问题中的成本"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "思维",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_ep_emotion_motivation_01",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_emotion_motivation",
+    "title": "詹姆斯—兰格理论 vs 坎农—巴德理论",
+    "summary": "詹姆斯—兰格理论认为先有身体变化感受后有情绪体验，坎农—巴德理论则认为情绪体验与生理反应可同时发生。二者分歧集中在情绪与生理变化的先后关系及中枢作用。",
+    "differencePoints": [
+      "詹姆斯—兰格理论强调情绪体验来自对外周变化的知觉",
+      "坎农—巴德理论强调丘脑等中枢机制的重要性",
+      "二者对情绪与生理反应的时序解释不同"
+    ],
+    "commonMistakes": [
+      "把两种理论都理解成一般的“情绪会引起身体反应”",
+      "忽视二者在情绪发生机制上的根本分歧"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "辨析题",
+      "选择题"
+    ],
+    "tags": [
+      "情绪",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_ep_intro_02",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_intro",
+    "title": "实验法 vs 观察法",
+    "summary": "实验法强调研究者主动操纵变量并控制条件，以揭示因果关系；观察法则侧重在自然情境下记录行为或现象，更强调真实情境中的表现。二者都可用于心理学研究，但研究目的与推断力度不同。",
+    "differencePoints": [
+      "实验法强调操纵变量和控制条件",
+      "观察法强调自然情境中的行为记录",
+      "实验法更有利于因果推断，观察法更有利于保持生态真实性"
+    ],
+    "commonMistakes": [
+      "把实验法和观察法都理解成一般的“看现象”",
+      "忽视二者在因果推断能力上的明显差异"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "绪论",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_ep_perception_02",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_perception",
+    "title": "知觉恒常性 vs 错觉",
+    "summary": "知觉恒常性是知觉在条件变化下保持相对稳定的现象，通常有助于个体适应环境；错觉则是在特定条件下产生与客观事实不一致的知觉经验。二者都说明知觉具有组织和建构特征，但性质与功能并不相同。",
+    "differencePoints": [
+      "知觉恒常性强调稳定性和适应性",
+      "错觉强调系统性偏差和特殊条件下的误判",
+      "二者都体现知觉的组织性，但并非同一现象"
+    ],
+    "commonMistakes": [
+      "把知觉恒常性和错觉都笼统看作“知觉不准确”",
+      "忽视知觉恒常性在现实适应中的积极意义"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "知觉",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_ep_attention_02",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_attention",
+    "title": "过滤器理论 vs 衰减理论",
+    "summary": "过滤器理论认为未被选择的信息会被较严格地阻断，衰减理论则认为未被选择的信息只是被减弱，仍可在一定程度上加工。两者分歧集中在未注意信息是否还能继续加工以及加工程度如何。",
+    "differencePoints": [
+      "过滤器理论强调早期严格筛选",
+      "衰减理论强调未注意信息只是减弱而非完全消失",
+      "衰减理论更能解释未注意信息偶尔被觉察的现象"
+    ],
+    "commonMistakes": [
+      "把两种理论都理解成单纯的“注意会过滤信息”",
+      "忽视它们在未注意信息加工程度上的关键差异"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "注意",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_ep_learning_02",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_learning",
+    "title": "强化 vs 惩罚",
+    "summary": "强化是使行为再次出现概率增加的后果安排，惩罚则通常使行为出现概率降低。二者都属于行为结果变量，但作用方向不同，因此不能把任何“有后果的反应”都简单看作强化。",
+    "differencePoints": [
+      "强化增加行为发生概率，惩罚降低行为发生概率",
+      "强化与惩罚都与行为后果有关，但作用方向不同",
+      "正强化、负强化与惩罚需要严格区分"
+    ],
+    "commonMistakes": [
+      "把负强化误认为惩罚",
+      "把所有让人不舒服的结果都理解为惩罚"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "学习",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_ep_thinking_02",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_thinking",
+    "title": "问题解决 vs 概念形成",
+    "summary": "问题解决强调为达到目标而寻找路径与策略，概念形成则强调从刺激中抽象共同属性并建立分类规则。二者都属于高级认知活动，但研究任务、加工重点和实验范式并不相同。",
+    "differencePoints": [
+      "问题解决侧重达到目标的路径寻找",
+      "概念形成侧重抽象共同属性和建立规则",
+      "二者采用的实验任务和评价指标不同"
+    ],
+    "commonMistakes": [
+      "把概念形成简单归入一般的问题解决而不加区分",
+      "忽视概念形成在分类和规则发现中的独特性"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "思维",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_ep_emotion_motivation_02",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_emotion_motivation",
+    "title": "情绪 vs 动机",
+    "summary": "情绪主要反映个体对当前情境的体验和身心反应状态，动机则更强调驱动行为朝向某一目标的内部动力。二者相互联系，但研究重点不同：情绪偏向体验和唤醒，动机偏向方向和推动作用。",
+    "differencePoints": [
+      "情绪强调主观体验和生理反应",
+      "动机强调行为方向和驱动力",
+      "二者可相互影响，但不能彼此替代"
+    ],
+    "commonMistakes": [
+      "把情绪和动机都笼统理解为“内在状态”",
+      "忽视情绪体验与目标驱动在功能上的差异"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "情绪",
+      "动机",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_ep_psychophysics_02",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_psychophysics",
+    "title": "最小可觉差法 vs 正误法 vs 均差法",
+    "summary": "参考文档内容，三种经典心理物理法都用于测量感觉阈限或刺激—感觉关系，但程序不同：最小可觉差法侧重递增递减比较，正误法强调随机呈现并统计反应比例，均差法则要求被试主动调整刺激。三者都属于经典量化方法，但精度、效率和主观性不同。",
+    "differencePoints": [
+      "最小可觉差法多采用递增递减刺激序列",
+      "正误法更强调随机呈现刺激并统计正误反应比例",
+      "均差法要求被试主动调整刺激达到主观相等"
+    ],
+    "commonMistakes": [
+      "把三种方法都笼统记成“测阈限的方法”而不区分程序",
+      "把均差法和恒定刺激法混为一谈"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "心理物理法",
+      "比较",
+      "文档参考"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_ep_attention_03",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_attention",
+    "title": "双耳分听技术 vs 双作业法",
+    "summary": "参考文档与现有内容结合看，双耳分听技术主要用于研究选择性注意发生的加工阶段，双作业法主要用于研究有限注意资源在多个任务中的分配。二者都研究注意，但研究问题、实验操作和理论落点不同。",
+    "differencePoints": [
+      "双耳分听关注信息选择的位置问题",
+      "双作业法关注注意资源分配和容量限制",
+      "双耳分听常与过滤器理论相关，双作业法常与资源理论相关"
+    ],
+    "commonMistakes": [
+      "把双耳分听和双作业法都理解成一般的“同时做两件事”",
+      "忽视二者分别对应不同注意理论传统"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "注意",
+      "比较",
+      "文档参考"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_ep_intro_03",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_intro",
+    "title": "费希纳 vs 艾宾浩斯的贡献重心",
+    "summary": "参考文档内容，费希纳的贡献重心在于心理物理学、阈限观念与心理现象量化方法的建立，艾宾浩斯的贡献重心则在于把实验法推进到记忆等高级心理过程研究。二者都具有奠基意义，但方向不同。",
+    "differencePoints": [
+      "费希纳重在建立刺激—感觉关系的量化研究路径",
+      "艾宾浩斯重在证明高级心理过程也可实验研究",
+      "前者偏方法和量化奠基，后者偏研究对象范围拓展"
+    ],
+    "commonMistakes": [
+      "把两人的贡献都笼统概括成“都是实验心理学先驱”",
+      "忽视费希纳与艾宾浩斯在研究重心上的不同"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "绪论",
+      "比较",
+      "文档参考"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_ep_attention_04",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_attention",
+    "title": "早期选择模型 vs 晚期选择模型",
+    "summary": "参考文档内容，早期选择模型主张注意选择发生在较早的感觉分析阶段，晚期选择模型则认为大部分输入信息已获得较充分的意义加工，真正的选择更接近反应阶段。二者分歧在于选择发生的位置不同。",
+    "differencePoints": [
+      "早期选择模型强调选择发生在感觉或初级分析阶段",
+      "晚期选择模型强调意义加工后、接近反应阶段才发生选择",
+      "两者都试图解释双耳分听实验中的信息保留与觉察问题"
+    ],
+    "commonMistakes": [
+      "把早期选择和晚期选择都简单理解为“注意会选择信息”",
+      "忽视二者在选择位置上的核心差异"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "注意",
+      "比较",
+      "文档参考"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_ep_psychophysics_03",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_psychophysics",
+    "title": "韦伯定律 vs 费希纳定律",
+    "summary": "参考文档内容，韦伯定律强调最小可觉差与原刺激强度之间的比例关系，费希纳定律则在此基础上进一步尝试用对数公式表达刺激强度与主观感觉大小之间的关系。前者更偏阈限差异关系，后者更偏刺激—感觉量化模型。",
+    "differencePoints": [
+      "韦伯定律强调最小可觉差与原刺激强度的比例关系",
+      "费希纳定律强调感觉大小与刺激强度的对数关系",
+      "前者更偏差别阈限研究，后者更偏总体心理量表达"
+    ],
+    "commonMistakes": [
+      "把韦伯定律和费希纳定律都混记成一般的“刺激越大感觉越强”",
+      "忽视两者在研究对象与表达形式上的差异"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "心理物理法",
+      "比较",
+      "文档参考"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_ep_attention_05",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_attention",
+    "title": "选择位置问题 vs 资源分配问题",
+    "summary": "参考文档与现有内容结合看，选择位置问题关注信息在加工链条的哪个阶段被筛选，资源分配问题则关注有限注意资源如何在多个任务之间分派。前者主要对应过滤器理论及其后续模型，后者更多对应双作业和资源限制研究。",
+    "differencePoints": [
+      "选择位置问题关注“在哪里筛选信息”",
+      "资源分配问题关注“如何分派有限注意资源”",
+      "二者对应的实验范式和理论传统不同"
+    ],
+    "commonMistakes": [
+      "把所有注意研究都笼统理解成“注意力够不够”",
+      "不区分选择性注意与注意分配背后的研究问题"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "注意",
+      "比较",
+      "文档参考"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_ep_variables_02",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_variables",
+    "title": "内部效度 vs 外部效度",
+    "summary": "内部效度强调实验结果是否能够可靠归因于自变量操纵，外部效度强调研究结论能否推广到更广泛的对象和情境。二者都重要，但一个偏向解释因果真实性，一个偏向结果推广范围。",
+    "differencePoints": [
+      "内部效度关注因果解释是否成立",
+      "外部效度关注研究结果能否推广",
+      "提高内部效度有时可能牺牲自然情境下的外部效度"
+    ],
+    "commonMistakes": [
+      "把内部效度和外部效度都笼统记成“实验是否有效”",
+      "忽视二者在因果推断与推广范围上的不同"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "实验设计",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_ep_reaction_02",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_reaction_time",
+    "title": "反应时快 vs 心理加工简单",
+    "summary": "反应时较短通常提示加工过程较少或较容易，但不能机械地等同于心理加工一定更简单。反应时还会受到练习、策略、速度—准确性权衡和刺激特性等因素影响，因此解释反应时结果时必须结合任务结构与正确率指标。",
+    "differencePoints": [
+      "反应时快可能与加工简单有关，但并非唯一解释",
+      "反应时受练习、策略和任务要求等多因素影响",
+      "解释反应时必须结合正确率与实验情境"
+    ],
+    "commonMistakes": [
+      "把任何反应时变短都直接解释为心理过程更简单",
+      "忽视速度—准确性权衡对结果解释的影响"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "反应时",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_ep_memory_02",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_memory_experiment",
+    "title": "保持 vs 再认 vs 回忆",
+    "summary": "保持强调学习后信息得以保存的状态或程度，再认是对再次呈现材料作出“见过”判断，回忆则是在没有原材料直接提示下主动提取信息。三者都与记忆有关，但测量阶段和加工要求不同。",
+    "differencePoints": [
+      "保持强调记忆痕迹的延续状态",
+      "再认要求对呈现材料进行熟悉性或识别判断",
+      "回忆要求主动提取已学过内容，通常要求更高"
+    ],
+    "commonMistakes": [
+      "把保持、再认和回忆都混记成一般的“记住了没有”",
+      "忽视再认与回忆在提取要求上的明显差异"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "记忆实验",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_sp_intro_01",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_intro",
+    "title": "社会心理学 vs 常识",
+    "summary": "参考文档内容，社会心理学与常识都试图解释人的社会行为，但社会心理学强调系统研究、证据支持和理论检验，常识则更多来自经验判断，未必总是正确。",
+    "differencePoints": [
+      "社会心理学强调科学研究和证据支持",
+      "常识多来自经验总结，带有直观性",
+      "常识有时可解释现象，但未必可靠"
+    ],
+    "commonMistakes": [
+      "把社会心理学知识简单等同于日常经验之谈",
+      "忽视社会心理学对常识结论的修正作用"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "导论",
+      "比较",
+      "文档参考"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_sp_theory_01",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_theory_methods",
+    "title": "观察法 vs 实验法",
+    "summary": "观察法强调在自然情境中记录行为表现，实验法强调控制条件并操纵变量来揭示因果关系。二者都是社会心理学常用方法，但研究目的与推断力度不同。",
+    "differencePoints": [
+      "观察法保留情境真实性较强",
+      "实验法更利于因果推断",
+      "二者在控制程度与生态效度上存在差异"
+    ],
+    "commonMistakes": [
+      "把观察法和实验法都笼统当作“看现象”",
+      "忽视实验法在控制变量方面的优势"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "理论方法",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_sp_self_01",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_self",
+    "title": "自我概念 vs 自尊",
+    "summary": "自我概念强调个体对自己的认知内容，自尊则强调个体对自身价值的情感评价。二者都属于自我系统的重要组成部分，但侧重点不同。",
+    "differencePoints": [
+      "自我概念重在“我是什么样的人”",
+      "自尊重在“我觉得自己值不值得肯定”",
+      "前者偏认知内容，后者偏情感评价"
+    ],
+    "commonMistakes": [
+      "把自我概念和自尊都混记成一般的“自我认识”",
+      "忽视二者在认知与情感维度上的差异"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "自我",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_sp_cog_01",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_social_cognition",
+    "title": "内归因 vs 外归因",
+    "summary": "内归因强调把行为原因归于个体内部特质、能力或动机，外归因则强调情境、运气和外部环境对行为的影响。二者是归因研究中的基本区分。",
+    "differencePoints": [
+      "内归因强调个体内部因素",
+      "外归因强调情境和环境因素",
+      "不同归因方式会影响情绪和行为判断"
+    ],
+    "commonMistakes": [
+      "把所有成功都归因于能力、把所有失败都归因于环境",
+      "忽视行为往往是人格与情境共同作用的结果"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "社会认知",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_sp_behavior_01",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_social_behavior",
+    "title": "亲社会行为 vs 侵犯行为",
+    "summary": "亲社会行为强调有利于他人与社会，侵犯行为则强调有意伤害他人。二者都属于社会行为，但行为方向和社会后果完全不同。",
+    "differencePoints": [
+      "亲社会行为有利于他人和社会",
+      "侵犯行为以伤害他人为特征",
+      "二者受情境和社会规范影响方式不同"
+    ],
+    "commonMistakes": [
+      "把一切激烈行为都理解为侵犯行为",
+      "忽视合作、帮助等亲社会行为的主动性"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "社会行为",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_sp_attitude_01",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_attitude_prejudice",
+    "title": "偏见 vs 歧视",
+    "summary": "偏见主要是一种态度和评价倾向，歧视则是基于偏见而表现出的不公平行为。偏见偏心理层面，歧视偏行为层面。",
+    "differencePoints": [
+      "偏见是态度层面的消极评价",
+      "歧视是行为层面的不公平对待",
+      "偏见可能导致歧视，但二者并不完全等同"
+    ],
+    "commonMistakes": [
+      "把偏见和歧视混为一体",
+      "忽视偏见与行为之间还可能受到规范约束"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "态度",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_sp_interpersonal_01",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_interpersonal",
+    "title": "接近性 vs 相似性对人际吸引的作用",
+    "summary": "接近性强调空间距离和接触机会的重要性，相似性强调兴趣、态度和价值观一致对吸引的促进作用。二者都能增强人际吸引，但作用机制不同。",
+    "differencePoints": [
+      "接近性重在增加接触频率和熟悉性",
+      "相似性重在提供认同感和预测性",
+      "二者都能促进好感形成"
+    ],
+    "commonMistakes": [
+      "把人际吸引只理解成外表吸引",
+      "忽视接触机会与共同点的重要作用"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "人际关系",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_sp_exchange_01",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_social_exchange_influence",
+    "title": "从众 vs 服从",
+    "summary": "从众是个体在群体压力下改变观点或行为以趋同于多数，服从则是个体在权威人物或明确命令要求下作出行为反应。二者都属于社会影响，但来源和机制不同。",
+    "differencePoints": [
+      "从众主要来自群体多数压力",
+      "服从主要来自权威要求或命令",
+      "二者的影响来源和心理机制不同"
+    ],
+    "commonMistakes": [
+      "把任何受他人影响的行为都叫从众",
+      "忽视权威角色在服从中的关键作用"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "社会影响",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_sp_group_01",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_group_leadership",
+    "title": "团体规范 vs 团体凝聚力",
+    "summary": "团体规范是群体内部共享的行为标准，团体凝聚力是成员愿意留在群体并认同群体的力量。规范偏行为约束，凝聚力偏情感联结与群体吸引。",
+    "differencePoints": [
+      "团体规范重在行为标准与约束",
+      "团体凝聚力重在成员认同和维系力量",
+      "二者都影响群体稳定和效率"
+    ],
+    "commonMistakes": [
+      "把群体纪律直接等同于高凝聚力",
+      "忽视规范和凝聚力在性质上的不同"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "团体",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_sp_health_01",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_health_psychology",
+    "title": "压力 vs 应激反应",
+    "summary": "压力通常指个体对环境要求的评估及由此产生的紧张状态，应激反应则更强调个体在生理、情绪和行为上的具体反应结果。前者偏过程和状态，后者偏结果表现。",
+    "differencePoints": [
+      "压力强调环境要求与个体评估的关系",
+      "应激反应强调身心反应表现",
+      "二者联系密切但不是同一概念"
+    ],
+    "commonMistakes": [
+      "把压力和应激反应混记成一般的不舒服状态",
+      "忽视压力评估在其中的作用"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "健康心理学",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_sp_culture_01",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_cultural_psychology",
+    "title": "个体主义 vs 集体主义",
+    "summary": "个体主义强调个人目标、自主和独立，集体主义强调群体目标、关系义务和社会和谐。二者是文化差异研究中的经典对比维度。",
+    "differencePoints": [
+      "个体主义重个人自主和个人成就",
+      "集体主义重关系义务和群体利益",
+      "二者影响自我观、人际交往与行为选择"
+    ],
+    "commonMistakes": [
+      "把个体主义简单等同于自私",
+      "把集体主义简单等同于没有个人意愿"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "文化心理学",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_sp_positive_01",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_positive_psychology",
+    "title": "积极情绪 vs 主观幸福感",
+    "summary": "积极情绪强调个体当下的愉快和积极体验，主观幸福感则是对整体生活质量与情绪状态的综合评价。前者偏即时体验，后者偏总体判断。",
+    "differencePoints": [
+      "积极情绪重当前体验状态",
+      "主观幸福感重长期和整体评价",
+      "二者相关但不完全等同"
+    ],
+    "commonMistakes": [
+      "把一时开心直接等同于幸福感高",
+      "忽视生活满意度在幸福感中的重要作用"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "积极心理学",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_sp_intro_02",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_intro",
+    "title": "个体层面研究 vs 群体层面研究",
+    "summary": "个体层面研究主要关注个体在社会情境中的知觉、态度和行为，群体层面研究则更关注群体规范、群体影响和社会结构对个体的作用。二者共同构成社会心理学研究视野。",
+    "differencePoints": [
+      "个体层面重个体心理与行为",
+      "群体层面重群体影响和社会结构作用",
+      "二者相互联系、不可割裂"
+    ],
+    "commonMistakes": [
+      "把社会心理学只理解为个体心理研究",
+      "忽视群体和社会情境在其中的重要地位"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "导论",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_sp_theory_02",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_theory_methods",
+    "title": "研究伦理 vs 研究技术",
+    "summary": "研究伦理关注研究是否尊重对象权益、避免伤害并符合法律规范，研究技术关注如何收集数据、控制变量和分析结果。前者解决“可不可以这样做”，后者解决“怎样做更科学”。",
+    "differencePoints": [
+      "研究伦理重对象保护和合法性",
+      "研究技术重程序设计和结果质量",
+      "二者共同保证研究有效进行"
+    ],
+    "commonMistakes": [
+      "把方法设计完善误当成伦理上也没有问题",
+      "忽视知情同意和隐私保护的重要性"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "理论方法",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_sp_self_02",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_self",
+    "title": "独立自我 vs 关系自我",
+    "summary": "独立自我强调个体的独特性、自主性和内部特质，关系自我强调个体在关系、角色和群体中的位置。二者体现了不同文化和社会经验下自我建构的差异。",
+    "differencePoints": [
+      "独立自我重自主、独特和内部特质",
+      "关系自我重社会关系、角色和互动位置",
+      "二者都属于自我建构的重要形式"
+    ],
+    "commonMistakes": [
+      "把独立自我理解成完全不需要他人",
+      "把关系自我理解成没有个体性"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "自我",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_sp_cog_02",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_social_cognition",
+    "title": "首因效应 vs 近因效应",
+    "summary": "首因效应强调最初信息对判断影响更大，近因效应强调最近信息影响更强。二者都涉及信息顺序效应，但发生条件和主导阶段不同。",
+    "differencePoints": [
+      "首因效应重最先信息的作用",
+      "近因效应重最后信息的作用",
+      "二者都说明印象形成受信息顺序影响"
+    ],
+    "commonMistakes": [
+      "把所有印象偏差都叫首因效应",
+      "不区分首因和近因所对应的信息位置"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "社会认知",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_sp_behavior_02",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_social_behavior",
+    "title": "责任分散 vs 去个体化",
+    "summary": "责任分散强调他人在场会削弱个体感到自己必须行动的责任感，去个体化则强调个体在群体中因匿名性增强、自我控制下降而更易作出冲动行为。二者都与群体情境有关，但心理机制不同。",
+    "differencePoints": [
+      "责任分散重责任感被他人分担",
+      "去个体化重匿名性和自我约束下降",
+      "二者都可能在群体情境中影响行为"
+    ],
+    "commonMistakes": [
+      "把群体中的消极行为都归因于责任分散",
+      "忽视去个体化的匿名性和失控特征"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "社会行为",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_sp_attitude_02",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_attitude_prejudice",
+    "title": "态度 vs 偏见",
+    "summary": "态度是对各种对象的较稳定心理倾向，偏见则是对特定群体或成员的消极态度。偏见属于态度的一种特殊表现，但带有更明显的群体评价色彩。",
+    "differencePoints": [
+      "态度对象范围更广",
+      "偏见主要针对特定群体或群体成员",
+      "偏见通常带有更明显的消极评价"
+    ],
+    "commonMistakes": [
+      "把所有态度问题都简单归为偏见",
+      "忽视偏见的群际关系背景"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "态度",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_sp_interpersonal_02",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_interpersonal",
+    "title": "人际吸引 vs 人际关系维持",
+    "summary": "人际吸引强调关系形成初期的好感和接近倾向，人际关系维持则关注关系建立后如何通过沟通、信任和互惠持续稳定。前者偏形成，后者偏延续。",
+    "differencePoints": [
+      "人际吸引重关系起点和好感形成",
+      "关系维持重长期互动和稳定机制",
+      "二者在阶段和重点上不同"
+    ],
+    "commonMistakes": [
+      "把建立关系和维持关系看成同一过程",
+      "忽视长期关系中沟通和信任的重要性"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "人际关系",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_sp_exchange_02",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_social_exchange_influence",
+    "title": "从众 vs 依从",
+    "summary": "从众强调在群体多数压力下趋同，依从强调在请求、暗示或说服下接受建议或要求。二者都没有明显强制命令，但影响来源不同。",
+    "differencePoints": [
+      "从众重多数一致压力",
+      "依从重请求、暗示和说服",
+      "二者都不同于权威命令下的服从"
+    ],
+    "commonMistakes": [
+      "把一切非强制影响都叫从众",
+      "忽视依从中的请求和说服成分"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "社会影响",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_sp_group_02",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_group_leadership",
+    "title": "社会助长 vs 社会惰化",
+    "summary": "社会助长强调他人在场促进绩效表现，社会惰化强调群体工作中个体努力下降。二者都与他人在场有关，但结果方向相反。",
+    "differencePoints": [
+      "社会助长表现为绩效提高",
+      "社会惰化表现为努力减少或绩效下降",
+      "二者都提示群体情境会影响行为表现"
+    ],
+    "commonMistakes": [
+      "把任何群体效率变化都简单归为社会助长",
+      "忽视任务类型和责任分配对结果的影响"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "团体",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_sp_health_02",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_health_psychology",
+    "title": "社会支持 vs 一般帮助",
+    "summary": "社会支持强调稳定关系网络中持续提供的情感、信息和工具性资源，一般帮助则可以是偶发、单次的援助行为。前者更系统、更持久。",
+    "differencePoints": [
+      "社会支持重持续性和关系网络",
+      "一般帮助重单次援助行为",
+      "社会支持在缓冲压力方面作用更明显"
+    ],
+    "commonMistakes": [
+      "把任何一次帮助都当作社会支持",
+      "忽视社会支持的持续性和系统性"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "健康心理学",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_sp_culture_02",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_cultural_psychology",
+    "title": "文化差异 vs 个体差异",
+    "summary": "文化差异强调不同文化群体在价值观、行为方式和心理结构上的整体差别，个体差异则强调同一文化内部不同个体之间的差别。二者分析层次不同。",
+    "differencePoints": [
+      "文化差异重群体整体差别",
+      "个体差异重个体之间差别",
+      "二者不能相互替代"
+    ],
+    "commonMistakes": [
+      "把某些个体特征直接推断成文化特征",
+      "忽视同一文化内部也存在显著个体差异"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "文化心理学",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_sp_positive_02",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_positive_psychology",
+    "title": "心理韧性 vs 乐观",
+    "summary": "心理韧性强调个体在逆境中的恢复与适应能力，乐观则强调对未来结果持积极期待。二者都属于积极品质，但一个更偏应对能力，一个更偏认知期待。",
+    "differencePoints": [
+      "心理韧性重逆境中的恢复与调适",
+      "乐观重对未来的积极预期",
+      "二者相关但不是同一概念"
+    ],
+    "commonMistakes": [
+      "把所有积极品质都笼统叫乐观",
+      "忽视韧性中的恢复和成长特征"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "积极心理学",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_dp_intro_01",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_intro",
+    "title": "广义发展心理学 vs 狭义发展心理学",
+    "summary": "参考文档内容，广义发展心理学既研究种系心理发展，也研究个体心理发展；狭义发展心理学则主要指个体发展心理学，关注个体毕生心理发展的特点和规律。",
+    "differencePoints": [
+      "广义包括种系与个体两层面",
+      "狭义主要指个体发展心理学",
+      "二者研究范围不同"
+    ],
+    "commonMistakes": [
+      "把发展心理学只理解成儿童心理学",
+      "忽视广义概念中包含种系发展"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "绪论",
+      "比较",
+      "文档参考"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_dp_theories_01",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_theories",
+    "title": "精神分析发展观 vs 认知发展理论",
+    "summary": "精神分析更强调人格、冲突和早期经验，认知发展理论更强调思维结构、认知机制和阶段性变化。二者都解释发展，但关注重点不同。",
+    "differencePoints": [
+      "精神分析重人格和早期经验",
+      "认知发展理论重认知结构与阶段",
+      "两者解释路径不同"
+    ],
+    "commonMistakes": [
+      "把所有发展理论都混记为年龄阶段论",
+      "忽视不同理论关注对象的差异"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "理论",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_dp_methods_01",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_methods",
+    "title": "横断研究 vs 纵向研究",
+    "summary": "横断研究比较不同年龄组的差异，实施较快；纵向研究追踪同一被试的发展变化，更能呈现过程，但耗时较长。",
+    "differencePoints": [
+      "横断研究重年龄组比较",
+      "纵向研究重个体发展过程",
+      "二者在时间成本和解释力上不同"
+    ],
+    "commonMistakes": [
+      "把横断研究结果直接当成个体发展轨迹",
+      "忽视纵向研究的样本流失问题"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "研究方法",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_dp_fetus_01",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_fetus",
+    "title": "遗传因素 vs 产前环境因素",
+    "summary": "胎儿发展既受遗传基础影响，也受到母体营养、疾病、情绪和有害刺激等产前环境因素影响，二者共同决定早期发展条件。",
+    "differencePoints": [
+      "遗传因素提供生物基础",
+      "产前环境影响发育条件和风险",
+      "二者共同作用于胎儿发展"
+    ],
+    "commonMistakes": [
+      "把胎儿发展完全归因于遗传",
+      "忽视母体环境的重要性"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "胎儿",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_dp_infant_01",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_infant",
+    "title": "依恋 vs 一般依赖",
+    "summary": "依恋是婴儿与主要照料者之间稳定的情感联结，一般依赖则更强调生活照料上的需要关系。依恋具有更明显的情感与安全基础。",
+    "differencePoints": [
+      "依恋强调稳定情感联结",
+      "一般依赖强调生活需要满足",
+      "依恋更关系安全感与后续社会性发展"
+    ],
+    "commonMistakes": [
+      "把所有照料关系都等同于依恋",
+      "忽视依恋的情感联结性质"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "婴儿",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_dp_preschool_01",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_preschool",
+    "title": "具体形象思维 vs 抽象逻辑思维",
+    "summary": "幼儿期以具体形象思维为主，依赖直观表象和具体情境；抽象逻辑思维则依赖概念、推理和系统逻辑，发展较晚。",
+    "differencePoints": [
+      "具体形象思维依赖具体情境和表象",
+      "抽象逻辑思维依赖概念和推理",
+      "二者发展水平和适用任务不同"
+    ],
+    "commonMistakes": [
+      "把幼儿的语言表达流利误认为抽象思维成熟",
+      "忽视幼儿思维仍依赖具体情境"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "幼儿",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_dp_school_01",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_school_age",
+    "title": "学习活动 vs 游戏活动的主导地位",
+    "summary": "小学阶段学习逐步成为主导活动，幼儿阶段则以游戏为主要活动形式。二者对应不同年龄阶段的心理发展需要。",
+    "differencePoints": [
+      "幼儿期以游戏为主导活动",
+      "小学阶段学习成为主导活动",
+      "二者与年龄任务和发展要求有关"
+    ],
+    "commonMistakes": [
+      "把小学儿童仍完全按幼儿游戏方式组织学习",
+      "忽视学习活动在小学阶段的中心地位"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "小学儿童",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_dp_adolescent_01",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_adolescent",
+    "title": "独立性增强 vs 逆反行为",
+    "summary": "青少年独立性增强是正常发展趋势，逆反行为则是某些情境下对控制或压力的反应。二者相关但不能简单等同。",
+    "differencePoints": [
+      "独立性增强是正常发展需要",
+      "逆反行为是具体反应方式",
+      "二者并非必然等同"
+    ],
+    "commonMistakes": [
+      "把所有自主要求都看成逆反",
+      "忽视青少年独立发展的积极意义"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "青少年",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_dp_early_adult_01",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_early_adulthood",
+    "title": "亲密关系建立 vs 角色依赖",
+    "summary": "成年早期建立亲密关系强调平等、承诺与情感联结，角色依赖则更多表现为对他人的依附或缺乏独立性。二者不是同一概念。",
+    "differencePoints": [
+      "亲密关系重平等与承诺",
+      "角色依赖重依附和独立性不足",
+      "二者关系质量不同"
+    ],
+    "commonMistakes": [
+      "把任何亲近关系都视为成熟亲密关系",
+      "忽视关系中的独立和平等要求"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "成年早期",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_dp_middle_adult_01",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_middle_adulthood",
+    "title": "中年危机 vs 正常中年调整",
+    "summary": "中年危机并不是所有成年中期个体都会经历的普遍危机，很多变化属于正常发展调整。理解该阶段应避免一概危机化。",
+    "differencePoints": [
+      "中年危机强调较强压力和冲突体验",
+      "正常中年调整强调适应与转变",
+      "并非所有人都会经历危机"
+    ],
+    "commonMistakes": [
+      "把中年期一律理解为危机阶段",
+      "忽视中年发展的稳定和积极面"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "成年中期",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_dp_late_adult_01",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_late_adulthood",
+    "title": "老化 vs 病理性衰退",
+    "summary": "正常老化是成年晚期常见的发展变化，病理性衰退则超出一般年龄变化范围，涉及疾病因素。二者应加以区分。",
+    "differencePoints": [
+      "正常老化属于一般发展变化",
+      "病理性衰退与疾病因素相关",
+      "二者在程度和性质上不同"
+    ],
+    "commonMistakes": [
+      "把所有老年变化都解释为疾病",
+      "忽视正常老化中的适应和积极发展"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "成年晚期",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_dp_intro_02",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_intro",
+    "title": "毕生发展观 vs 儿童中心观",
+    "summary": "毕生发展观认为心理发展贯穿生命全程，儿童中心观则更强调儿童阶段。前者视野更完整，后者容易忽视成人和老年发展。",
+    "differencePoints": [
+      "毕生发展观覆盖全生命周期",
+      "儿童中心观侧重儿童阶段",
+      "二者研究视野不同"
+    ],
+    "commonMistakes": [
+      "把发展心理学简单等同于儿童心理学",
+      "忽视成年和老年发展议题"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "绪论",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_dp_theories_02",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_theories",
+    "title": "皮亚杰阶段论 vs 埃里克森阶段论",
+    "summary": "皮亚杰主要解释认知发展阶段，埃里克森主要解释人格和心理社会发展阶段。二者都强调阶段性，但研究对象与理论重点不同。",
+    "differencePoints": [
+      "皮亚杰重认知结构发展",
+      "埃里克森重人格与社会任务发展",
+      "二者都强调阶段性但领域不同"
+    ],
+    "commonMistakes": [
+      "把认知阶段和人格阶段混记",
+      "忽视不同理论所针对的发展维度"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "理论",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_dp_methods_02",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_methods",
+    "title": "横断研究 vs 聚合交叉研究",
+    "summary": "横断研究只在同一时间比较不同年龄组，聚合交叉研究则结合多组追踪和横向比较，信息更丰富，但设计更复杂。",
+    "differencePoints": [
+      "横断研究设计较简洁",
+      "聚合交叉研究兼顾过程与比较",
+      "后者设计成本更高"
+    ],
+    "commonMistakes": [
+      "把聚合交叉研究简单理解为普通横断研究",
+      "忽视其结合多时间点资料的特点"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "研究方法",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_dp_fetus_02",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_fetus",
+    "title": "科学胎教 vs 夸大宣传的胎教万能论",
+    "summary": "科学胎教强调适度、合理、以母体健康和情绪稳定为基础；胎教万能论则夸大早期刺激作用，容易脱离科学依据。",
+    "differencePoints": [
+      "科学胎教重适度和整体环境",
+      "夸大宣传把胎教神化万能化",
+      "二者科学依据不同"
+    ],
+    "commonMistakes": [
+      "把胎教视为决定未来智力的万能手段",
+      "忽视母体整体健康的重要性"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "胎儿",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_dp_infant_02",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_infant",
+    "title": "客体永久性形成 vs 单纯视觉追踪",
+    "summary": "客体永久性意味着婴儿理解物体在看不见时仍存在，单纯视觉追踪只是对可见刺激的跟随反应，二者发展水平不同。",
+    "differencePoints": [
+      "客体永久性体现更高认知表征",
+      "视觉追踪只反映对当前刺激的反应",
+      "二者不属于同一认知水平"
+    ],
+    "commonMistakes": [
+      "把会盯着看物体当成已经形成客体永久性",
+      "忽视认知表征能力的发展意义"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "婴儿",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_dp_preschool_02",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_preschool",
+    "title": "语言发展快 vs 思维完全成熟",
+    "summary": "幼儿语言发展迅速并不等于思维已经达到成熟的抽象逻辑水平。语言进步会促进思维，但幼儿思维仍具有具体形象性。",
+    "differencePoints": [
+      "语言发展快不等于抽象思维成熟",
+      "语言和思维发展相关但不同步",
+      "幼儿思维仍依赖具体情境"
+    ],
+    "commonMistakes": [
+      "把表达流利误判为逻辑思维成熟",
+      "忽视幼儿思维的具体形象性"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "幼儿",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_dp_school_02",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_school_age",
+    "title": "自我评价提升 vs 自我中心增强",
+    "summary": "小学儿童自我意识发展表现为更现实地评价自己，并非自我中心更强。其社会比较和规则意识增强，反而有助于降低幼儿式自我中心。",
+    "differencePoints": [
+      "自我评价提升更现实客观",
+      "自我中心增强强调只从自己角度看问题",
+      "二者发展方向不同"
+    ],
+    "commonMistakes": [
+      "把儿童更关注自己理解为自我中心加重",
+      "忽视其社会比较能力增强"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "小学儿童",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_dp_adolescent_02",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_adolescent",
+    "title": "同伴影响增强 vs 盲目从众",
+    "summary": "青少年同伴影响增强是正常发展现象，但并不等于所有同伴影响都是盲目从众。其作用既可能积极，也可能消极。",
+    "differencePoints": [
+      "同伴影响是普遍发展现象",
+      "盲目从众是其中一种消极表现",
+      "同伴作用可能有积极支持功能"
+    ],
+    "commonMistakes": [
+      "把重视同伴一概视为消极从众",
+      "忽视同伴支持在认同发展中的积极作用"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "青少年",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_dp_early_adult_02",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_early_adulthood",
+    "title": "职业稳定 vs 发展停滞",
+    "summary": "成年早期职业逐步稳定并不意味着发展停滞，相反它常是身份确立、角色整合和长期规划能力提升的表现。",
+    "differencePoints": [
+      "职业稳定可能体现角色建立",
+      "发展停滞强调缺乏成长和调整",
+      "二者不能简单等同"
+    ],
+    "commonMistakes": [
+      "把稳定工作等同于没有发展",
+      "忽视稳定本身可能是发展成果"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "成年早期",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_dp_middle_adult_02",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_middle_adulthood",
+    "title": "生成感 vs 仅仅承担义务",
+    "summary": "生成感不仅是完成义务，更强调关心下一代、愿意指导他人并作出社会贡献，体现的是超越自我的发展取向。",
+    "differencePoints": [
+      "生成感强调关怀下一代和社会延续",
+      "单纯承担义务可能缺乏主动投入和意义感",
+      "二者内在动机不同"
+    ],
+    "commonMistakes": [
+      "把照顾家庭机械等同于生成感",
+      "忽视生成感中的责任感与社会贡献意识"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "成年中期",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_dp_late_adult_02",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_late_adulthood",
+    "title": "生命回顾 vs 消极沉湎过去",
+    "summary": "生命回顾是对人生经历的整合与反思，目的在于理解意义和获得整合；消极沉湎过去则可能停留在后悔和反复困扰中。",
+    "differencePoints": [
+      "生命回顾强调整合与理解意义",
+      "沉湎过去强调反复陷于负性体验",
+      "二者心理结果不同"
+    ],
+    "commonMistakes": [
+      "把回忆过去都理解为消极退缩",
+      "忽视积极生命回顾的适应价值"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "成年晚期",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_mea_overview_02",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_overview",
+    "title": "真实分数 vs 实得分数",
+    "summary": "真实分数是被试在理想无误差条件下的稳定表现，实得分数是实际测量所得结果，通常包含误差成分。二者不能直接等同。",
+    "differencePoints": [
+      "真实分数是理论上的稳定值",
+      "实得分数包含误差成分",
+      "二者关系体现测量误差概念"
+    ],
+    "commonMistakes": [
+      "把一次测验得分当作完全真实能力",
+      "忽视误差对解释的影响"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基本理论",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_mea_reliability_02",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_reliability",
+    "title": "信度高 vs 效度高",
+    "summary": "信度高说明测量较稳定一致，效度高说明测量结果能够支持正确解释。高信度是高效度的必要条件之一，但二者不能混同。",
+    "differencePoints": [
+      "信度重稳定一致",
+      "效度重测量是否测准",
+      "高信度不必然等于高效度"
+    ],
+    "commonMistakes": [
+      "把信度高直接理解为测验一定有效",
+      "混淆稳定性与准确性"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "信度",
+      "效度",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_mea_validity_02",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_validity",
+    "title": "内容效度 vs 构想效度",
+    "summary": "内容效度强调测验内容是否充分代表测量范围，构想效度强调测验是否真正测量到理论构想。前者偏内容覆盖，后者偏理论解释。",
+    "differencePoints": [
+      "内容效度看内容代表性",
+      "构想效度看理论构想是否成立",
+      "两者关注层面不同"
+    ],
+    "commonMistakes": [
+      "把效度类型混成同一回事",
+      "忽视构想效度的理论基础"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "效度",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_mea_norms_scores_02",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_norms_scores",
+    "title": "原始分数 vs 导出分数",
+    "summary": "原始分数是直接测得的得分，导出分数是经过标准化或转换后便于比较和解释的分数。导出分数并不是简单换算符号，而是解释框架的一部分。",
+    "differencePoints": [
+      "原始分数直接来自测验作答",
+      "导出分数经转换便于比较解释",
+      "二者解释功能不同"
+    ],
+    "commonMistakes": [
+      "把导出分数当作原始分数的简单重命名",
+      "忽视常模参照意义"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "常模",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_mea_item_analysis_02",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_item_analysis",
+    "title": "难度高 vs 区分度高",
+    "summary": "难度反映题目作答难易程度，区分度反映题目区分高低水平被试的能力。题目难不一定区分度高，二者不是同一指标。",
+    "differencePoints": [
+      "难度看题目易难程度",
+      "区分度看鉴别能力",
+      "难题未必有高区分度"
+    ],
+    "commonMistakes": [
+      "把难题当成好题",
+      "忽视区分度在选题中的作用"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "项目分析",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_mea_scale_types_02",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_scale_types",
+    "title": "量表适用范围广 vs 可随意泛化",
+    "summary": "量表适用范围广，不等于可以脱离对象特征、文化背景和使用目的而随意泛化。测验应用必须考虑对象与情境匹配。",
+    "differencePoints": [
+      "适用范围广仍有边界条件",
+      "随意泛化忽视对象与情境差异",
+      "应用时需重视工具匹配"
+    ],
+    "commonMistakes": [
+      "把成熟量表机械套用到所有对象",
+      "忽视本土化和情境适配"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "量表",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_stats_descriptive_02",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_descriptive",
+    "title": "集中量数 vs 差异量数",
+    "summary": "集中量数反映一组数据的集中趋势，差异量数反映数据的离散程度。二者共同描述数据分布，但关注点不同。",
+    "differencePoints": [
+      "集中量数看数据中心位置",
+      "差异量数看数据分散程度",
+      "二者需结合解释分布特征"
+    ],
+    "commonMistakes": [
+      "只看平均数不看离散程度",
+      "把两类指标混为一谈"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "描述统计",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_stats_probability_sampling_02",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_probability_sampling",
+    "title": "总体参数 vs 样本统计量",
+    "summary": "总体参数描述总体特征，样本统计量描述样本特征。统计推断正是通过样本统计量去估计或检验总体参数。",
+    "differencePoints": [
+      "参数对应总体",
+      "统计量对应样本",
+      "统计量可作为参数估计依据"
+    ],
+    "commonMistakes": [
+      "把样本结果直接等同总体真值",
+      "忽视抽样误差"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "抽样",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_stats_estimation_hypothesis_02",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_estimation_hypothesis",
+    "title": "点估计 vs 区间估计",
+    "summary": "点估计给出参数的单一估计值，区间估计给出参数可能落入的范围。前者简洁，后者更能体现不确定性。",
+    "differencePoints": [
+      "点估计提供单值",
+      "区间估计提供范围",
+      "区间估计更能表达估计不确定性"
+    ],
+    "commonMistakes": [
+      "把点估计当作参数真实值",
+      "忽视区间估计的信息价值"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "估计",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_stats_t_anova_02",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_t_anova",
+    "title": "t 检验 vs 方差分析",
+    "summary": "t 检验多用于两组均数比较，方差分析多用于三组及以上均数比较。二者都属于差异检验方法，但适用情境不同。",
+    "differencePoints": [
+      "t检验多处理两组比较",
+      "方差分析多处理多组比较",
+      "二者都比较差异与误差关系"
+    ],
+    "commonMistakes": [
+      "多组比较仍机械使用多次t检验",
+      "忽视方法适用条件"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "t检验",
+      "方差分析",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_stats_correlation_regression_02",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_correlation_regression",
+    "title": "相关显著 vs 因果成立",
+    "summary": "相关显著说明变量间存在统计关联，但并不能直接推出因果关系。因果判断还需要理论依据、时间顺序和研究设计支持。",
+    "differencePoints": [
+      "相关说明伴随变化关系",
+      "因果要求更严格证据链",
+      "显著相关不等于因果成立"
+    ],
+    "commonMistakes": [
+      "把相关结果直接解释成因果",
+      "忽视第三变量或设计限制"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "相关",
+      "因果",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_stats_nonparametric_02",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_nonparametric",
+    "title": "参数检验不适用 vs 非参数检验更合适",
+    "summary": "当数据不满足正态性、方差齐性或测量水平要求时，参数检验可能不适用，这时非参数检验往往更合适，但并不意味着它永远优于参数检验。",
+    "differencePoints": [
+      "参数检验要求较多前提",
+      "非参数检验适用条件更宽",
+      "方法选择应依据数据特点"
+    ],
+    "commonMistakes": [
+      "把非参数检验看成低级替代",
+      "不分析条件就机械选法"
+    ],
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "参数检验",
+      "非参数检验",
+      "比较"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_edu_intro_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_intro",
+    "title": "教育心理学 vs 普通心理学",
+    "summary": "教育心理学关注教育情境中的学与教规律，普通心理学研究一般心理现象与规律，二者研究情境和应用指向不同。",
+    "differencePoints": [
+      "教育心理学关注点不同",
+      "普通心理学关注点不同",
+      "二者在教育应用中的功能不可混同"
+    ],
+    "commonMistakes": [
+      "只记表面概念不分使用情境",
+      "把相邻概念混作同义表达"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "比较",
+      "基础"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_edu_development_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_development",
+    "title": "连续性 vs 阶段性",
+    "summary": "连续性强调发展不断累积，阶段性强调发展在不同年龄阶段表现出相对稳定的特点，二者并不矛盾。",
+    "differencePoints": [
+      "连续性关注点不同",
+      "阶段性关注点不同",
+      "二者在教育应用中的功能不可混同"
+    ],
+    "commonMistakes": [
+      "只记表面概念不分使用情境",
+      "把相邻概念混作同义表达"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "比较",
+      "基础"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_edu_individual_differences_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_individual_differences",
+    "title": "智力差异 vs 学习风格差异",
+    "summary": "智力差异侧重能力水平不同，学习风格差异侧重加工信息方式不同，二者不能混为一谈。",
+    "differencePoints": [
+      "智力差异关注点不同",
+      "学习风格差异关注点不同",
+      "二者在教育应用中的功能不可混同"
+    ],
+    "commonMistakes": [
+      "只记表面概念不分使用情境",
+      "把相邻概念混作同义表达"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "比较",
+      "基础"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_edu_learning_intro_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_learning_intro",
+    "title": "学习 vs 成熟",
+    "summary": "学习主要由经验引起，成熟主要由机体自然发展引起，二者都影响个体变化但来源不同。",
+    "differencePoints": [
+      "学习关注点不同",
+      "成熟关注点不同",
+      "二者在教育应用中的功能不可混同"
+    ],
+    "commonMistakes": [
+      "只记表面概念不分使用情境",
+      "把相邻概念混作同义表达"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "比较",
+      "基础"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_edu_behaviorism_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_behaviorism",
+    "title": "正强化 vs 负强化",
+    "summary": "正强化通过呈现愉快刺激增加行为，负强化通过撤除厌恶刺激增加行为，二者都使行为增强。",
+    "differencePoints": [
+      "正强化关注点不同",
+      "负强化关注点不同",
+      "二者在教育应用中的功能不可混同"
+    ],
+    "commonMistakes": [
+      "只记表面概念不分使用情境",
+      "把相邻概念混作同义表达"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "比较",
+      "基础"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_edu_cognitive_theory_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_cognitive_theory",
+    "title": "机械学习 vs 有意义学习",
+    "summary": "机械学习重记忆和重复，有意义学习强调新旧知识建立联系并形成理解。",
+    "differencePoints": [
+      "机械学习关注点不同",
+      "有意义学习关注点不同",
+      "二者在教育应用中的功能不可混同"
+    ],
+    "commonMistakes": [
+      "只记表面概念不分使用情境",
+      "把相邻概念混作同义表达"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "比较",
+      "基础"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_edu_constructivism_humanism_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_constructivism_humanism",
+    "title": "建构主义 vs 人本主义",
+    "summary": "建构主义强调知识建构过程，人本主义更强调人的自我实现、情感体验与主体价值，关注点不同。",
+    "differencePoints": [
+      "建构主义关注点不同",
+      "人本主义关注点不同",
+      "二者在教育应用中的功能不可混同"
+    ],
+    "commonMistakes": [
+      "只记表面概念不分使用情境",
+      "把相邻概念混作同义表达"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "比较",
+      "基础"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_edu_motivation_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_motivation",
+    "title": "内部动机 vs 外部动机",
+    "summary": "内部动机源于兴趣和求知需要，外部动机源于奖励、评价和外部要求，来源不同。",
+    "differencePoints": [
+      "内部动机关注点不同",
+      "外部动机关注点不同",
+      "二者在教育应用中的功能不可混同"
+    ],
+    "commonMistakes": [
+      "只记表面概念不分使用情境",
+      "把相邻概念混作同义表达"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "比较",
+      "基础"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_edu_knowledge_learning_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_knowledge_learning",
+    "title": "知识获得 vs 知识迁移",
+    "summary": "知识获得强调学到新内容，知识迁移强调把已有知识运用于新情境，二者层次不同。",
+    "differencePoints": [
+      "知识获得关注点不同",
+      "知识迁移关注点不同",
+      "二者在教育应用中的功能不可混同"
+    ],
+    "commonMistakes": [
+      "只记表面概念不分使用情境",
+      "把相邻概念混作同义表达"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "比较",
+      "基础"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_edu_skill_learning_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_skill_learning",
+    "title": "操作技能 vs 心智技能",
+    "summary": "操作技能侧重外显动作系统，心智技能侧重内部认知操作方式，表现形式不同。",
+    "differencePoints": [
+      "操作技能关注点不同",
+      "心智技能关注点不同",
+      "二者在教育应用中的功能不可混同"
+    ],
+    "commonMistakes": [
+      "只记表面概念不分使用情境",
+      "把相邻概念混作同义表达"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "比较",
+      "基础"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_edu_problem_solving_creativity_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_problem_solving_creativity",
+    "title": "常规问题解决 vs 创造性问题解决",
+    "summary": "前者多依赖已有规则和程序，后者更强调新颖性、变通性和独创性，要求不同。",
+    "differencePoints": [
+      "常规问题解决关注点不同",
+      "创造性问题解决关注点不同",
+      "二者在教育应用中的功能不可混同"
+    ],
+    "commonMistakes": [
+      "只记表面概念不分使用情境",
+      "把相邻概念混作同义表达"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "比较",
+      "基础"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_edu_learning_strategies_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_learning_strategies",
+    "title": "认知策略 vs 元认知策略",
+    "summary": "认知策略直接作用于信息加工，元认知策略用于计划、监控和调节学习过程，功能层次不同。",
+    "differencePoints": [
+      "认知策略关注点不同",
+      "元认知策略关注点不同",
+      "二者在教育应用中的功能不可混同"
+    ],
+    "commonMistakes": [
+      "只记表面概念不分使用情境",
+      "把相邻概念混作同义表达"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "比较",
+      "基础"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_edu_moral_formation_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_moral_formation",
+    "title": "道德认识 vs 道德行为",
+    "summary": "道德认识是对规范的理解，道德行为是规范的外化实践，知道不等于做到。",
+    "differencePoints": [
+      "道德认识关注点不同",
+      "道德行为关注点不同",
+      "二者在教育应用中的功能不可混同"
+    ],
+    "commonMistakes": [
+      "只记表面概念不分使用情境",
+      "把相邻概念混作同义表达"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "比较",
+      "基础"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_edu_instructional_design_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_instructional_design",
+    "title": "教学目标 vs 教学任务",
+    "summary": "教学目标强调预期达到的学习结果，教学任务强调实施过程中要完成的工作，侧重点不同。",
+    "differencePoints": [
+      "教学目标关注点不同",
+      "教学任务关注点不同",
+      "二者在教育应用中的功能不可混同"
+    ],
+    "commonMistakes": [
+      "只记表面概念不分使用情境",
+      "把相邻概念混作同义表达"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "比较",
+      "基础"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_edu_classroom_management_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_classroom_management",
+    "title": "课堂纪律管理 vs 课堂教学管理",
+    "summary": "纪律管理侧重秩序维持，教学管理侧重促进学习过程，二者相关但不完全相同。",
+    "differencePoints": [
+      "课堂纪律管理关注点不同",
+      "课堂教学管理关注点不同",
+      "二者在教育应用中的功能不可混同"
+    ],
+    "commonMistakes": [
+      "只记表面概念不分使用情境",
+      "把相邻概念混作同义表达"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "比较",
+      "基础"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_edu_learning_assessment_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_learning_assessment",
+    "title": "形成性评价 vs 总结性评价",
+    "summary": "形成性评价重过程反馈与调节，总结性评价重阶段结果判定，时间点与功能不同。",
+    "differencePoints": [
+      "形成性评价关注点不同",
+      "总结性评价关注点不同",
+      "二者在教育应用中的功能不可混同"
+    ],
+    "commonMistakes": [
+      "只记表面概念不分使用情境",
+      "把相邻概念混作同义表达"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "比较",
+      "基础"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "cp_edu_teacher_psychology_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_teacher_psychology",
+    "title": "教师角色认知 vs 教师职业倦怠",
+    "summary": "前者关注教师如何理解自身职责，后者关注长期压力下的消极心理状态，性质不同。",
+    "differencePoints": [
+      "教师角色认知关注点不同",
+      "教师职业倦怠关注点不同",
+      "二者在教育应用中的功能不可混同"
+    ],
+    "commonMistakes": [
+      "只记表面概念不分使用情境",
+      "把相邻概念混作同义表达"
+    ],
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "比较",
+      "基础"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "conf_edu_intro_002",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_intro",
+    "title": "教育心理学与普通心理学的区别",
+    "summary": "前者研究教育情境中的学与教规律，后者研究一般心理现象与规律。",
+    "points": [
+      "教育心理学强调教育情境中的学与教互动",
+      "普通心理学研究对象更一般，不限于学校教育场景",
+      "教育心理学具有更强的应用与教学改进指向"
+    ]
+  },
+  {
+    "id": "conf_edu_development_002",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_development",
+    "title": "连续性与阶段性的区别",
+    "summary": "连续性强调发展不断积累，阶段性强调不同年龄阶段存在相对稳定的质变特征。",
+    "points": [
+      "连续性强调发展不是中断跳跃的",
+      "阶段性强调不同阶段有不同主要特征",
+      "两者并不矛盾，而是同一发展过程的不同侧面"
+    ]
+  },
+  {
+    "id": "conf_edu_individual_differences_002",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_individual_differences",
+    "title": "能力差异与认知方式差异的区别",
+    "summary": "能力差异偏向“能不能做”，认知方式差异偏向“怎样去做”。",
+    "points": [
+      "能力差异主要表现为学习效率和水平高低不同",
+      "认知方式差异主要表现为加工信息方式不同",
+      "教学中前者影响难度安排，后者影响方法选择"
+    ]
+  },
+  {
+    "id": "conf_edu_learning_intro_002",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_learning_intro",
+    "title": "学习与成熟的区别",
+    "summary": "学习是经验导致的相对持久变化，成熟是机体自然生长带来的变化。",
+    "points": [
+      "学习依赖活动和经验",
+      "成熟主要由生理机能发展决定",
+      "教育实践中二者常共同作用，但不能混为一谈"
+    ]
+  },
+  {
+    "id": "conf_edu_behaviorism_002",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_behaviorism",
+    "title": "正强化与负强化的区别",
+    "summary": "二者都增强行为，但正强化是给予愉快刺激，负强化是取消厌恶刺激。",
+    "points": [
+      "正强化通过呈现积极结果增强行为",
+      "负强化通过移除消极结果增强行为",
+      "负强化不是惩罚，惩罚是降低行为发生概率"
+    ]
+  },
+  {
+    "id": "conf_edu_cognitive_theory_002",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_cognitive_theory",
+    "title": "机械学习与有意义学习的区别",
+    "summary": "前者缺乏新旧知识联系，后者强调新知识与原有认知结构建立实质联系。",
+    "points": [
+      "机械学习偏向孤立记忆",
+      "有意义学习强调理解和同化",
+      "后者更利于保持、迁移和运用"
+    ]
+  },
+  {
+    "id": "conf_edu_constructivism_humanism_002",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_constructivism_humanism",
+    "title": "建构主义与人本主义的侧重点区别",
+    "summary": "建构主义强调知识建构过程，人本主义强调人的情感、需要与自我实现。",
+    "points": [
+      "建构主义重视情境、合作与意义建构",
+      "人本主义重视尊重学生主体和情感体验",
+      "两者都反对单向灌输，但理论关注点不同"
+    ]
+  },
+  {
+    "id": "conf_edu_motivation_002",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_motivation",
+    "title": "内部动机与外部动机的区别",
+    "summary": "内部动机源于活动本身兴趣，外部动机源于奖惩、评价等外在结果。",
+    "points": [
+      "内部动机更强调学习本身的吸引力",
+      "外部动机更强调工具性结果",
+      "教学中两者都可利用，但应避免单纯依赖外部奖惩"
+    ]
+  },
+  {
+    "id": "conf_edu_knowledge_learning_002",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_knowledge_learning",
+    "title": "知识获得、保持与提取的区别",
+    "summary": "获得是初步习得，保持是信息留存，提取是把已学知识调出并使用。",
+    "points": [
+      "获得强调理解与编码",
+      "保持强调巩固与储存",
+      "提取强调回忆与运用"
+    ]
+  },
+  {
+    "id": "conf_edu_skill_learning_002",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_skill_learning",
+    "title": "操作技能与心智技能的区别",
+    "summary": "前者以外显动作为主，后者以内部思维活动为主。",
+    "points": [
+      "操作技能表现为可观察动作程序",
+      "心智技能表现为分析、推理、运算等内部活动",
+      "二者都需练习，但训练方式不完全相同"
+    ]
+  },
+  {
+    "id": "conf_edu_problem_solving_creativity_002",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_problem_solving_creativity",
+    "title": "问题解决与创造性的关系",
+    "summary": "二者密切相关，但问题解决不等于创造性，只有产生新颖有效方案时才体现较强创造性。",
+    "points": [
+      "一般问题解决也可能只是常规应用",
+      "创造性强调新颖性和独特性",
+      "教学中应在问题解决基础上进一步培养创新"
+    ]
+  },
+  {
+    "id": "conf_edu_learning_strategies_002",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_learning_strategies",
+    "title": "认知策略与元认知策略的区别",
+    "summary": "认知策略直接加工学习材料，元认知策略负责计划、监控和调节学习过程。",
+    "points": [
+      "认知策略直接服务于信息编码和理解",
+      "元认知策略管理策略使用过程",
+      "后者更体现学习者对学习的自我调控"
+    ]
+  },
+  {
+    "id": "conf_edu_moral_formation_002",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_moral_formation",
+    "title": "道德认识与道德行为的区别",
+    "summary": "道德认识是知道“应该怎样做”，道德行为是把这种认识落实到实际行动中。",
+    "points": [
+      "道德认识是观念层面的理解",
+      "道德行为是外显实践表现",
+      "品德形成要求认识、情感和行为统一"
+    ]
+  },
+  {
+    "id": "conf_edu_instructional_design_002",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_instructional_design",
+    "title": "教学目标与教学内容的区别",
+    "summary": "教学目标说明“要达到什么结果”，教学内容说明“教什么”。",
+    "points": [
+      "目标决定教学方向和评价标准",
+      "内容是实现目标的载体",
+      "设计时应先明目标，再选内容和方法"
+    ]
+  },
+  {
+    "id": "conf_edu_classroom_management_002",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_classroom_management",
+    "title": "课堂管理与课堂纪律的区别",
+    "summary": "课堂纪律只是课堂管理的一部分，课堂管理还包括组织、互动、氛围和时间安排。",
+    "points": [
+      "课堂纪律偏向秩序维持",
+      "课堂管理范围更广，涉及整体教学组织",
+      "良好管理不等于单纯严格控制学生"
+    ]
+  },
+  {
+    "id": "conf_edu_learning_assessment_002",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_learning_assessment",
+    "title": "诊断性评价与总结性评价的区别",
+    "summary": "诊断性评价重在发现问题与改进教学，总结性评价重在判断学习结果。",
+    "points": [
+      "诊断性评价多发生在教学前或教学中",
+      "总结性评价多发生在教学阶段结束后",
+      "前者服务改进，后者服务鉴定与判断"
+    ]
+  },
+  {
+    "id": "conf_edu_teacher_psychology_002",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_teacher_psychology",
+    "title": "教师专业发展与教师心理健康的区别",
+    "summary": "前者强调专业能力成长，后者强调心理状态良好与适应，但二者相互影响。",
+    "points": [
+      "专业发展关注知识、能力与反思提升",
+      "心理健康关注情绪稳定、压力调适与职业适应",
+      "心理健康是教师持续专业发展的重要条件"
+    ]
   }
 ]

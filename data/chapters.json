@@ -1,64 +1,5 @@
 [
   {
-    "id": "ep_variables",
-    "subjectId": "experimental_psychology",
-    "name": "实验变量与实验设计",
-    "order": 1,
-    "importance": "high",
-    "difficulty": "medium",
-    "summary": "实验变量、自变量、因变量、控制变量及基本实验设计是实验心理学的入门主干。",
-    "tags": [
-      "高频",
-      "基础骨架",
-      "设计题"
-    ],
-    "status": "active"
-  },
-  {
-    "id": "ep_reaction_time",
-    "subjectId": "experimental_psychology",
-    "name": "反应时法",
-    "order": 2,
-    "importance": "high",
-    "difficulty": "medium",
-    "summary": "反应时法是实验心理学最常考的方法论章节之一，经常和减法反应时技术结合出题。",
-    "tags": [
-      "高频",
-      "方法",
-      "常考"
-    ],
-    "status": "active"
-  },
-  {
-    "id": "ep_psychophysics",
-    "subjectId": "experimental_psychology",
-    "name": "心理物理法",
-    "order": 3,
-    "importance": "high",
-    "difficulty": "hard",
-    "summary": "极限法、恒定刺激法、平均差误法是心理物理法章节的核心内容。",
-    "tags": [
-      "高频",
-      "方法",
-      "阈限"
-    ],
-    "status": "active"
-  },
-  {
-    "id": "ep_memory_experiment",
-    "subjectId": "experimental_psychology",
-    "name": "记忆实验",
-    "order": 4,
-    "importance": "medium",
-    "difficulty": "medium",
-    "summary": "记忆实验覆盖节省法、对偶联合法、自由回忆法等，是实验范式应用的重要部分。",
-    "tags": [
-      "经典范式",
-      "应用"
-    ],
-    "status": "active"
-  },
-  {
     "id": "gp_intro_methods",
     "subjectId": "general_psychology",
     "name": "第一章 心理学的研究对象和方法",
@@ -263,138 +204,6 @@
     "status": "active"
   },
   {
-    "id": "dp_overview",
-    "subjectId": "developmental_psychology",
-    "order": 1,
-    "name": "发展心理学概述",
-    "summary": "发展心理学的研究对象、基本问题、主要研究设计与核心理论构成全书总论基础。",
-    "tags": [
-      "总论",
-      "理论基础"
-    ]
-  },
-  {
-    "id": "dp_infancy",
-    "subjectId": "developmental_psychology",
-    "order": 2,
-    "name": "婴儿期心理发展",
-    "summary": "婴儿期感知觉、动作、语言与依恋的发展是早期心理发展的核心内容。",
-    "tags": [
-      "婴儿期",
-      "高频"
-    ]
-  },
-  {
-    "id": "dp_early_childhood",
-    "subjectId": "developmental_psychology",
-    "order": 3,
-    "name": "幼儿期心理发展",
-    "summary": "幼儿期认知、言语、游戏与社会性发展是本阶段常考主干。",
-    "tags": [
-      "幼儿期",
-      "社会性"
-    ]
-  },
-  {
-    "id": "dp_middle_childhood",
-    "subjectId": "developmental_psychology",
-    "order": 4,
-    "name": "童年期心理发展",
-    "summary": "童年期认知能力、学习活动与人格社会性发展是学校阶段的重要内容。",
-    "tags": [
-      "童年期",
-      "学校化"
-    ]
-  },
-  {
-    "id": "dp_adolescence",
-    "subjectId": "developmental_psychology",
-    "order": 5,
-    "name": "青少年心理发展",
-    "summary": "青少年自我意识、同伴关系与认知发展是发展心理学中的高频章节。",
-    "tags": [
-      "青少年",
-      "高频"
-    ]
-  },
-  {
-    "id": "dp_adulthood_aging",
-    "subjectId": "developmental_psychology",
-    "order": 6,
-    "name": "成年与老年心理发展",
-    "summary": "成年早中晚期及老年期的发展任务、认知变化与适应问题是综合性考点。",
-    "tags": [
-      "成年",
-      "老年"
-    ]
-  },
-  {
-    "id": "edu_overview",
-    "subjectId": "educational_psychology",
-    "order": 1,
-    "name": "教育心理学概述",
-    "summary": "教育心理学的对象、任务、研究方法与学科性质构成全书总论。",
-    "tags": [
-      "总论",
-      "理论基础"
-    ]
-  },
-  {
-    "id": "edu_learning_theory",
-    "subjectId": "educational_psychology",
-    "order": 2,
-    "name": "学习理论",
-    "summary": "行为主义、认知主义、建构主义等学习理论是教育心理学的核心主线。",
-    "tags": [
-      "学习理论",
-      "高频"
-    ]
-  },
-  {
-    "id": "edu_learning_motivation",
-    "subjectId": "educational_psychology",
-    "order": 3,
-    "name": "学习动机",
-    "summary": "学习动机的结构、归因、自我效能与动机激发是常考重点。",
-    "tags": [
-      "动机",
-      "高频"
-    ]
-  },
-  {
-    "id": "edu_knowledge_skill",
-    "subjectId": "educational_psychology",
-    "order": 4,
-    "name": "知识学习与技能形成",
-    "summary": "知识获得、迁移、技能形成与问题解决是教学心理主干内容。",
-    "tags": [
-      "知识学习",
-      "技能"
-    ]
-  },
-  {
-    "id": "edu_moral_social",
-    "subjectId": "educational_psychology",
-    "order": 5,
-    "name": "品德心理与社会规范学习",
-    "summary": "品德形成、道德认知与社会规范内化是教育心理学重要应用章节。",
-    "tags": [
-      "品德",
-      "社会化"
-    ]
-  },
-  {
-    "id": "edu_teaching_classroom",
-    "subjectId": "educational_psychology",
-    "order": 6,
-    "name": "教学设计与课堂管理",
-    "summary": "教学设计、个别差异、课堂管理与教师心理是教育实践场景中的重要内容。",
-    "tags": [
-      "教学设计",
-      "课堂管理"
-    ]
-  },
-  {
     "id": "stats_descriptive",
     "subjectId": "psychological_educational_statistics",
     "order": 1,
@@ -525,5 +334,435 @@
       "量表",
       "测验应用"
     ]
+  },
+  {
+    "id": "ep_intro",
+    "subjectId": "experimental_psychology",
+    "order": 1,
+    "name": "绪论",
+    "summary": "介绍实验心理学的产生、发展、研究对象与基本方法论地位。",
+    "importance": "high",
+    "difficulty": "medium",
+    "tags": [
+      "学科基础",
+      "方法论",
+      "实验心理学史"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ep_variables",
+    "subjectId": "experimental_psychology",
+    "order": 2,
+    "name": "实验变量与实验设计",
+    "summary": "围绕变量类型、控制原则与常见实验设计展开，是实验研究的核心方法基础。",
+    "importance": "high",
+    "difficulty": "high",
+    "tags": [
+      "变量",
+      "实验设计",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ep_reaction_time",
+    "subjectId": "experimental_psychology",
+    "order": 3,
+    "name": "反应时法",
+    "summary": "介绍反应时研究的基本思想、减法逻辑与典型实验范式。",
+    "importance": "high",
+    "difficulty": "high",
+    "tags": [
+      "反应时法",
+      "唐德斯",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ep_psychophysics",
+    "subjectId": "experimental_psychology",
+    "order": 4,
+    "name": "心理物理法",
+    "summary": "围绕阈限、韦伯定律、费希纳定律与经典心理物理方法展开。",
+    "importance": "high",
+    "difficulty": "high",
+    "tags": [
+      "心理物理法",
+      "阈限",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ep_perception",
+    "subjectId": "experimental_psychology",
+    "order": 5,
+    "name": "知觉",
+    "summary": "介绍知觉研究中的经典问题与实验范式，如大小知觉、形状知觉、深度知觉和错觉。",
+    "importance": "medium",
+    "difficulty": "medium",
+    "tags": [
+      "知觉",
+      "错觉",
+      "知觉恒常性"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ep_attention",
+    "subjectId": "experimental_psychology",
+    "order": 6,
+    "name": "注意",
+    "summary": "围绕注意分配、注意选择、注意广度与双作业任务等实验研究展开。",
+    "importance": "medium",
+    "difficulty": "medium",
+    "tags": [
+      "注意",
+      "双作业",
+      "过滤"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ep_memory_experiment",
+    "subjectId": "experimental_psychology",
+    "order": 7,
+    "name": "记忆实验",
+    "summary": "介绍记忆研究中的经典实验范式、保持规律与提取方式。",
+    "importance": "high",
+    "difficulty": "medium",
+    "tags": [
+      "记忆实验",
+      "艾宾浩斯",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ep_learning",
+    "subjectId": "experimental_psychology",
+    "order": 8,
+    "name": "学习",
+    "summary": "介绍经典条件作用、操作性条件作用与学习实验研究的基本范式。",
+    "importance": "medium",
+    "difficulty": "medium",
+    "tags": [
+      "学习",
+      "条件作用",
+      "实验"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ep_thinking",
+    "subjectId": "experimental_psychology",
+    "order": 9,
+    "name": "思维",
+    "summary": "围绕概念形成、问题解决与推理判断的实验研究展开。",
+    "importance": "medium",
+    "difficulty": "high",
+    "tags": [
+      "思维",
+      "问题解决",
+      "概念形成"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ep_emotion_motivation",
+    "subjectId": "experimental_psychology",
+    "order": 10,
+    "name": "情绪与动机",
+    "summary": "介绍情绪与动机研究中的实验范式、生理指标与经典理论问题。",
+    "importance": "medium",
+    "difficulty": "medium",
+    "tags": [
+      "情绪",
+      "动机",
+      "实验"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "sp_intro",
+    "subjectId": "social_psychology",
+    "name": "社会心理学导论",
+    "order": 1,
+    "status": "active"
+  },
+  {
+    "id": "sp_theory_methods",
+    "subjectId": "social_psychology",
+    "name": "社会心理学的理论与方法",
+    "order": 2,
+    "status": "active"
+  },
+  {
+    "id": "sp_self",
+    "subjectId": "social_psychology",
+    "name": "自我",
+    "order": 3,
+    "status": "active"
+  },
+  {
+    "id": "sp_social_cognition",
+    "subjectId": "social_psychology",
+    "name": "社会认知",
+    "order": 4,
+    "status": "active"
+  },
+  {
+    "id": "sp_social_behavior",
+    "subjectId": "social_psychology",
+    "name": "社会行为",
+    "order": 5,
+    "status": "active"
+  },
+  {
+    "id": "sp_attitude_prejudice",
+    "subjectId": "social_psychology",
+    "name": "态度与偏见",
+    "order": 6,
+    "status": "active"
+  },
+  {
+    "id": "sp_interpersonal",
+    "subjectId": "social_psychology",
+    "name": "人际关系",
+    "order": 7,
+    "status": "active"
+  },
+  {
+    "id": "sp_social_exchange_influence",
+    "subjectId": "social_psychology",
+    "name": "社会交换与社会影响",
+    "order": 8,
+    "status": "active"
+  },
+  {
+    "id": "sp_group_leadership",
+    "subjectId": "social_psychology",
+    "name": "团体与领导",
+    "order": 9,
+    "status": "active"
+  },
+  {
+    "id": "sp_health_psychology",
+    "subjectId": "social_psychology",
+    "name": "健康心理学",
+    "order": 10,
+    "status": "active"
+  },
+  {
+    "id": "sp_cultural_psychology",
+    "subjectId": "social_psychology",
+    "name": "文化心理学",
+    "order": 11,
+    "status": "active"
+  },
+  {
+    "id": "sp_positive_psychology",
+    "subjectId": "social_psychology",
+    "name": "积极心理学",
+    "order": 12,
+    "status": "active"
+  },
+  {
+    "id": "dp_intro",
+    "subjectId": "developmental_psychology",
+    "name": "绪论",
+    "order": 1,
+    "status": "active"
+  },
+  {
+    "id": "dp_theories",
+    "subjectId": "developmental_psychology",
+    "name": "发展心理学理论",
+    "order": 2,
+    "status": "active"
+  },
+  {
+    "id": "dp_methods",
+    "subjectId": "developmental_psychology",
+    "name": "发展心理学研究方法",
+    "order": 3,
+    "status": "active"
+  },
+  {
+    "id": "dp_fetus",
+    "subjectId": "developmental_psychology",
+    "name": "胎儿的生理和心理发展",
+    "order": 4,
+    "status": "active"
+  },
+  {
+    "id": "dp_infant",
+    "subjectId": "developmental_psychology",
+    "name": "婴儿的心理发展",
+    "order": 5,
+    "status": "active"
+  },
+  {
+    "id": "dp_preschool",
+    "subjectId": "developmental_psychology",
+    "name": "幼儿的心理发展",
+    "order": 6,
+    "status": "active"
+  },
+  {
+    "id": "dp_school_age",
+    "subjectId": "developmental_psychology",
+    "name": "小学儿童的心理发展",
+    "order": 7,
+    "status": "active"
+  },
+  {
+    "id": "dp_adolescent",
+    "subjectId": "developmental_psychology",
+    "name": "青少年的心理发展",
+    "order": 8,
+    "status": "active"
+  },
+  {
+    "id": "dp_early_adulthood",
+    "subjectId": "developmental_psychology",
+    "name": "成年早期个体的心理发展",
+    "order": 9,
+    "status": "active"
+  },
+  {
+    "id": "dp_middle_adulthood",
+    "subjectId": "developmental_psychology",
+    "name": "成年中期个体的心理发展",
+    "order": 10,
+    "status": "active"
+  },
+  {
+    "id": "dp_late_adulthood",
+    "subjectId": "developmental_psychology",
+    "name": "成年晚期个体的心理发展",
+    "order": 11,
+    "status": "active"
+  },
+  {
+    "id": "edu_intro",
+    "subjectId": "educational_psychology",
+    "name": "教育心理学及其研究",
+    "order": 1,
+    "status": "active"
+  },
+  {
+    "id": "edu_development",
+    "subjectId": "educational_psychology",
+    "name": "学生心理发展",
+    "order": 2,
+    "status": "active"
+  },
+  {
+    "id": "edu_individual_differences",
+    "subjectId": "educational_psychology",
+    "name": "学生个体差异",
+    "order": 3,
+    "status": "active"
+  },
+  {
+    "id": "edu_learning_intro",
+    "subjectId": "educational_psychology",
+    "name": "学习心理导论",
+    "order": 4,
+    "status": "active"
+  },
+  {
+    "id": "edu_behaviorism",
+    "subjectId": "educational_psychology",
+    "name": "行为学习理论",
+    "order": 5,
+    "status": "active"
+  },
+  {
+    "id": "edu_cognitive_theory",
+    "subjectId": "educational_psychology",
+    "name": "认知学习理论",
+    "order": 6,
+    "status": "active"
+  },
+  {
+    "id": "edu_constructivism_humanism",
+    "subjectId": "educational_psychology",
+    "name": "建构主义与人本主义学习理论",
+    "order": 7,
+    "status": "active"
+  },
+  {
+    "id": "edu_motivation",
+    "subjectId": "educational_psychology",
+    "name": "学习动机",
+    "order": 8,
+    "status": "active"
+  },
+  {
+    "id": "edu_knowledge_learning",
+    "subjectId": "educational_psychology",
+    "name": "知识的学习",
+    "order": 9,
+    "status": "active"
+  },
+  {
+    "id": "edu_skill_learning",
+    "subjectId": "educational_psychology",
+    "name": "技能的学习",
+    "order": 10,
+    "status": "active"
+  },
+  {
+    "id": "edu_problem_solving_creativity",
+    "subjectId": "educational_psychology",
+    "name": "问题解决的学习与创造性",
+    "order": 11,
+    "status": "active"
+  },
+  {
+    "id": "edu_learning_strategies",
+    "subjectId": "educational_psychology",
+    "name": "学习策略",
+    "order": 12,
+    "status": "active"
+  },
+  {
+    "id": "edu_moral_formation",
+    "subjectId": "educational_psychology",
+    "name": "品德的形成",
+    "order": 13,
+    "status": "active"
+  },
+  {
+    "id": "edu_instructional_design",
+    "subjectId": "educational_psychology",
+    "name": "教学设计",
+    "order": 14,
+    "status": "active"
+  },
+  {
+    "id": "edu_classroom_management",
+    "subjectId": "educational_psychology",
+    "name": "课堂管理",
+    "order": 15,
+    "status": "active"
+  },
+  {
+    "id": "edu_learning_assessment",
+    "subjectId": "educational_psychology",
+    "name": "学习评定",
+    "order": 16,
+    "status": "active"
+  },
+  {
+    "id": "edu_teacher_psychology",
+    "subjectId": "educational_psychology",
+    "name": "教师心理",
+    "order": 17,
+    "status": "active"
   }
 ]

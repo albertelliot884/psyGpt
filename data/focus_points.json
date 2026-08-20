@@ -1603,486 +1603,6 @@
     "status": "active"
   },
   {
-    "id": "fp_dp_overview_01",
-    "subjectId": "developmental_psychology",
-    "chapterId": "dp_overview",
-    "title": "发展心理学的研究对象与任务",
-    "content": "发展心理学概述复习时应先抓研究对象、阶段任务、代表性理论和高频发展现象，再展开具体机制。",
-    "order": 1,
-    "tags": [
-      "主干",
-      "高频"
-    ],
-    "status": "active",
-    "summary": "发展心理学研究个体从出生到衰老全过程中心理发生、发展及其规律，既关注年龄特征，也关注发展条件、动力机制和个体差异。",
-    "keywords": [
-      "研究对象",
-      "发展规律",
-      "年龄特征",
-      "影响因素"
-    ]
-  },
-  {
-    "id": "fp_dp_overview_02",
-    "subjectId": "developmental_psychology",
-    "chapterId": "dp_overview",
-    "title": "心理发展的基本特征",
-    "content": "发展心理学概述中常见命题方式是“理论观点 + 阶段特征 + 教育启示 / 实践意义”的综合考法。",
-    "order": 2,
-    "tags": [
-      "理论",
-      "综合"
-    ],
-    "status": "active",
-    "summary": "心理发展具有连续性与阶段性、普遍性与个别性、方向性与顺序性等基本特征，表现为个体在不同年龄阶段既遵循一般规律，又存在个体差异。",
-    "keywords": [
-      "连续性",
-      "阶段性",
-      "不平衡性",
-      "个别差异"
-    ]
-  },
-  {
-    "id": "fp_dp_infancy_01",
-    "subjectId": "developmental_psychology",
-    "chapterId": "dp_infancy",
-    "title": "婴儿期心理发展的主要特点",
-    "content": "婴儿期心理发展复习时应先抓研究对象、阶段任务、代表性理论和高频发展现象，再展开具体机制。",
-    "order": 1,
-    "tags": [
-      "主干",
-      "高频"
-    ],
-    "status": "active",
-    "summary": "婴儿期心理发展的主要特点是感知觉迅速发展、动作能力逐步提高、依恋关系开始形成，并出现最初的认知和言语准备活动。",
-    "keywords": [
-      "感知觉",
-      "动作发展",
-      "言语发生",
-      "依恋"
-    ]
-  },
-  {
-    "id": "fp_dp_infancy_02",
-    "subjectId": "developmental_psychology",
-    "chapterId": "dp_infancy",
-    "title": "婴儿期心理发展的理论与阶段特征",
-    "content": "婴儿期心理发展中常见命题方式是“理论观点 + 阶段特征 + 教育启示 / 实践意义”的综合考法。",
-    "order": 2,
-    "tags": [
-      "理论",
-      "综合"
-    ],
-    "status": "active",
-    "summary": "婴儿期心理发展可结合成熟势力说、认知发展理论和社会性发展理论加以理解，其阶段特征主要表现为感知动作活动占主导、依恋形成和最初言语发生。",
-    "keywords": [
-      "成熟势力说",
-      "认知发展",
-      "依恋",
-      "感知动作"
-    ]
-  },
-  {
-    "id": "fp_dp_early_childhood_01",
-    "subjectId": "developmental_psychology",
-    "chapterId": "dp_early_childhood",
-    "title": "幼儿期认知发展的主要特点",
-    "content": "幼儿期心理发展复习时应先抓研究对象、阶段任务、代表性理论和高频发展现象，再展开具体机制。",
-    "order": 1,
-    "tags": [
-      "主干",
-      "高频"
-    ],
-    "status": "active",
-    "summary": "幼儿期心理发展的主要特点是言语迅速发展、具体形象思维占主导、游戏成为主导活动，自我意识和社会交往能力开始明显发展。",
-    "keywords": [
-      "具体形象思维",
-      "言语发展",
-      "想象",
-      "游戏"
-    ]
-  },
-  {
-    "id": "fp_dp_early_childhood_02",
-    "subjectId": "developmental_psychology",
-    "chapterId": "dp_early_childhood",
-    "title": "幼儿期心理发展的理论与阶段特征",
-    "content": "幼儿期心理发展中常见命题方式是“理论观点 + 阶段特征 + 教育启示 / 实践意义”的综合考法。",
-    "order": 2,
-    "tags": [
-      "理论",
-      "综合"
-    ],
-    "status": "active",
-    "summary": "幼儿期心理发展主要表现为表象和具体形象思维迅速发展，游戏活动成为主导形式，自我意识和社会交往能力不断提高。",
-    "keywords": [
-      "幼儿期",
-      "表象",
-      "游戏活动",
-      "自我意识"
-    ]
-  },
-  {
-    "id": "fp_dp_middle_childhood_01",
-    "subjectId": "developmental_psychology",
-    "chapterId": "dp_middle_childhood",
-    "title": "童年期心理发展的主要特点",
-    "content": "童年期心理发展复习时应先抓研究对象、阶段任务、代表性理论和高频发展现象，再展开具体机制。",
-    "order": 1,
-    "tags": [
-      "主干",
-      "高频"
-    ],
-    "status": "active",
-    "summary": "童年期心理发展的主要特点是学习活动成为主导活动，有意注意、逻辑思维、规则意识和同伴交往能力得到进一步发展。",
-    "keywords": [
-      "学习活动",
-      "逻辑思维",
-      "随意性",
-      "同伴关系"
-    ]
-  },
-  {
-    "id": "fp_dp_middle_childhood_02",
-    "subjectId": "developmental_psychology",
-    "chapterId": "dp_middle_childhood",
-    "title": "童年期心理发展的理论与阶段特征",
-    "content": "童年期心理发展中常见命题方式是“理论观点 + 阶段特征 + 教育启示 / 实践意义”的综合考法。",
-    "order": 2,
-    "tags": [
-      "理论",
-      "综合"
-    ],
-    "status": "active",
-    "summary": "童年期心理发展以学习活动为中心，认知活动逐渐系统化，规则意识、自我控制和社会责任感不断发展。",
-    "keywords": [
-      "童年期",
-      "学习活动",
-      "规则意识",
-      "自我控制"
-    ]
-  },
-  {
-    "id": "fp_dp_adolescence_01",
-    "subjectId": "developmental_psychology",
-    "chapterId": "dp_adolescence",
-    "title": "青少年心理发展的主要特点",
-    "content": "青少年心理发展复习时应先抓研究对象、阶段任务、代表性理论和高频发展现象，再展开具体机制。",
-    "order": 1,
-    "tags": [
-      "主干",
-      "高频"
-    ],
-    "status": "active",
-    "summary": "青少年心理发展的主要特点是身心发展迅速而不平衡，自我意识增强，独立性提高，情绪波动较大，并开始深入思考价值观和社会角色问题。",
-    "keywords": [
-      "自我意识",
-      "抽象逻辑思维",
-      "独立意识",
-      "同伴关系"
-    ]
-  },
-  {
-    "id": "fp_dp_adolescence_02",
-    "subjectId": "developmental_psychology",
-    "chapterId": "dp_adolescence",
-    "title": "青少年心理发展的理论与阶段特征",
-    "content": "青少年心理发展中常见命题方式是“理论观点 + 阶段特征 + 教育启示 / 实践意义”的综合考法。",
-    "order": 2,
-    "tags": [
-      "理论",
-      "综合"
-    ],
-    "status": "active",
-    "summary": "青少年时期处于身心迅速变化阶段，心理发展表现为自我同一性建构、情绪波动增强和社会独立性提升。",
-    "keywords": [
-      "青少年",
-      "自我同一性",
-      "情绪波动",
-      "独立性"
-    ]
-  },
-  {
-    "id": "fp_dp_adulthood_aging_01",
-    "subjectId": "developmental_psychology",
-    "chapterId": "dp_adulthood_aging",
-    "title": "成年与老年心理发展的核心问题",
-    "content": "成年与老年心理发展复习时应先抓研究对象、阶段任务、代表性理论和高频发展现象，再展开具体机制。",
-    "order": 1,
-    "tags": [
-      "主干",
-      "高频"
-    ],
-    "status": "active",
-    "summary": "成年与老年心理发展的核心问题在于社会角色转变、认知机能变化、人格成熟和晚年适应，体现出稳定与变化并存的特点。",
-    "keywords": [
-      "成年期",
-      "老年期",
-      "角色转变",
-      "稳定与变化"
-    ]
-  },
-  {
-    "id": "fp_dp_adulthood_aging_02",
-    "subjectId": "developmental_psychology",
-    "chapterId": "dp_adulthood_aging",
-    "title": "成年与老年心理发展的理论与阶段特征",
-    "content": "成年与老年心理发展中常见命题方式是“理论观点 + 阶段特征 + 教育启示 / 实践意义”的综合考法。",
-    "order": 2,
-    "tags": [
-      "理论",
-      "综合"
-    ],
-    "status": "active",
-    "summary": "成年与老年发展理论强调个体在生命后期仍持续发展，既可能出现某些心理机能下降，也会表现出经验积累、智慧提升和适应方式重组。",
-    "keywords": [
-      "生命后期发展",
-      "机能下降",
-      "经验积累",
-      "智慧"
-    ]
-  },
-  {
-    "id": "fp_edu_overview_01",
-    "subjectId": "educational_psychology",
-    "chapterId": "edu_overview",
-    "title": "教育心理学的研究对象",
-    "content": "教育心理学概述应先抓住核心概念、代表理论、典型命题和教育情境应用。",
-    "order": 1,
-    "tags": [
-      "主干",
-      "高频"
-    ],
-    "status": "active",
-    "summary": "教育心理学研究学校教育情境中学与教的心理规律，重点关注学习过程、教学过程以及动机、评价、课堂管理等因素对教育效果的影响。",
-    "keywords": [
-      "学与教",
-      "心理规律",
-      "学习过程",
-      "教学情境"
-    ]
-  },
-  {
-    "id": "fp_edu_overview_02",
-    "subjectId": "educational_psychology",
-    "chapterId": "edu_overview",
-    "title": "教育心理学的研究意义",
-    "content": "教育心理学概述常将理论命题与教学场景、学习问题和教师干预策略结合考查。",
-    "order": 2,
-    "tags": [
-      "应用",
-      "综合"
-    ],
-    "status": "active",
-    "summary": "教育心理学的研究意义在于揭示学校教育情境中学与教的心理规律，为改进教学、促进学生发展和提高教育质量提供心理学依据。",
-    "keywords": [
-      "研究意义",
-      "学与教",
-      "教学改进",
-      "学生发展"
-    ]
-  },
-  {
-    "id": "fp_edu_learning_theory_01",
-    "subjectId": "educational_psychology",
-    "chapterId": "edu_learning_theory",
-    "title": "主要学习理论的基本观点",
-    "content": "学习理论应先抓住核心概念、代表理论、典型命题和教育情境应用。",
-    "order": 1,
-    "tags": [
-      "主干",
-      "高频"
-    ],
-    "status": "active",
-    "summary": "学习理论主要包括行为主义、认知主义和建构主义等取向，它们分别从强化机制、信息加工和主动建构等角度解释学习的本质。",
-    "keywords": [
-      "行为主义",
-      "认知主义",
-      "建构主义",
-      "学习理论"
-    ]
-  },
-  {
-    "id": "fp_edu_learning_theory_02",
-    "subjectId": "educational_psychology",
-    "chapterId": "edu_learning_theory",
-    "title": "学习理论的教育启示",
-    "content": "学习理论常将理论命题与教学场景、学习问题和教师干预策略结合考查。",
-    "order": 2,
-    "tags": [
-      "应用",
-      "综合"
-    ],
-    "status": "active",
-    "summary": "学习理论表明，教学既要重视强化与练习，也要重视认知加工和主动建构，这为教师选择教学方法和组织学习活动提供了理论依据。",
-    "keywords": [
-      "教育启示",
-      "强化练习",
-      "认知加工",
-      "主动建构"
-    ]
-  },
-  {
-    "id": "fp_edu_learning_motivation_01",
-    "subjectId": "educational_psychology",
-    "chapterId": "edu_learning_motivation",
-    "title": "学习动机的含义与作用",
-    "content": "学习动机应先抓住核心概念、代表理论、典型命题和教育情境应用。",
-    "order": 1,
-    "tags": [
-      "主干",
-      "高频"
-    ],
-    "status": "active",
-    "summary": "学习动机是推动学生进行学习活动并维持其朝向一定目标的内部动力，它直接影响学习投入程度、坚持性和学习效果。",
-    "keywords": [
-      "学习动机",
-      "内部动力",
-      "主动性",
-      "坚持性"
-    ]
-  },
-  {
-    "id": "fp_edu_learning_motivation_02",
-    "subjectId": "educational_psychology",
-    "chapterId": "edu_learning_motivation",
-    "title": "学习动机的培养途径",
-    "content": "学习动机常将理论命题与教学场景、学习问题和教师干预策略结合考查。",
-    "order": 2,
-    "tags": [
-      "应用",
-      "综合"
-    ],
-    "status": "active",
-    "summary": "学习动机的培养可通过设置适当目标、提供成功体验、改进归因方式和给予积极反馈等途径实现，以增强学生学习的主动性和坚持性。",
-    "keywords": [
-      "培养途径",
-      "目标设置",
-      "成功体验",
-      "积极反馈"
-    ]
-  },
-  {
-    "id": "fp_edu_knowledge_skill_01",
-    "subjectId": "educational_psychology",
-    "chapterId": "edu_knowledge_skill",
-    "title": "知识学习与技能形成的基本过程",
-    "content": "知识学习与技能形成应先抓住核心概念、代表理论、典型命题和教育情境应用。",
-    "order": 1,
-    "tags": [
-      "主干",
-      "高频"
-    ],
-    "status": "active",
-    "summary": "知识学习强调知识的获得、理解、保持和应用，技能形成强调通过练习掌握活动方式并达到熟练化，二者共同构成教学的重要目标。",
-    "keywords": [
-      "知识学习",
-      "技能形成",
-      "巩固",
-      "熟练化"
-    ]
-  },
-  {
-    "id": "fp_edu_knowledge_skill_02",
-    "subjectId": "educational_psychology",
-    "chapterId": "edu_knowledge_skill",
-    "title": "促进知识掌握与技能形成的条件",
-    "content": "知识学习与技能形成常将理论命题与教学场景、学习问题和教师干预策略结合考查。",
-    "order": 2,
-    "tags": [
-      "应用",
-      "综合"
-    ],
-    "status": "active",
-    "summary": "促进知识掌握与技能形成，需要重视原有知识基础、练习与反馈、迁移训练以及应用情境的安排，从而提高学习效果。",
-    "keywords": [
-      "知识掌握",
-      "技能形成",
-      "练习反馈",
-      "迁移训练"
-    ]
-  },
-  {
-    "id": "fp_edu_moral_social_01",
-    "subjectId": "educational_psychology",
-    "chapterId": "edu_moral_social",
-    "title": "品德心理与社会规范学习的基本特点",
-    "content": "品德心理与社会规范学习应先抓住核心概念、代表理论、典型命题和教育情境应用。",
-    "order": 1,
-    "tags": [
-      "主干",
-      "高频"
-    ],
-    "status": "active",
-    "summary": "品德发展是道德认识、道德情感和道德行为统一发展的过程，社会规范学习则强调个体对社会规则和价值要求的理解、接受与内化。",
-    "keywords": [
-      "品德形成",
-      "认知情感行为",
-      "社会规范",
-      "道德判断"
-    ]
-  },
-  {
-    "id": "fp_edu_moral_social_02",
-    "subjectId": "educational_psychology",
-    "chapterId": "edu_moral_social",
-    "title": "品德形成的教育条件",
-    "content": "品德心理与社会规范学习常将理论命题与教学场景、学习问题和教师干预策略结合考查。",
-    "order": 2,
-    "tags": [
-      "应用",
-      "综合"
-    ],
-    "status": "active",
-    "summary": "品德形成离不开榜样示范、道德情境体验、行为实践和价值引导等教育条件，这些条件共同促进社会规范的内化。",
-    "keywords": [
-      "榜样示范",
-      "情境体验",
-      "行为实践",
-      "价值引导"
-    ]
-  },
-  {
-    "id": "fp_edu_teaching_classroom_01",
-    "subjectId": "educational_psychology",
-    "chapterId": "edu_teaching_classroom",
-    "title": "教学设计与课堂管理的复习主干",
-    "content": "教学设计与课堂管理应先抓住核心概念、代表理论、典型命题和教育情境应用。",
-    "order": 1,
-    "tags": [
-      "主干",
-      "高频"
-    ],
-    "status": "active",
-    "summary": "教学设计强调目标、内容、方法和评价的一致性，课堂管理强调秩序维持、氛围营造和课堂互动调节，二者共同服务于有效教学。",
-    "keywords": [
-      "教学设计",
-      "课堂管理",
-      "一致性",
-      "有效教学"
-    ]
-  },
-  {
-    "id": "fp_edu_teaching_classroom_02",
-    "subjectId": "educational_psychology",
-    "chapterId": "edu_teaching_classroom",
-    "title": "有效课堂的基本条件",
-    "content": "教学设计与课堂管理常将理论命题与教学场景、学习问题和教师干预策略结合考查。",
-    "order": 2,
-    "tags": [
-      "应用",
-      "综合"
-    ],
-    "status": "active",
-    "summary": "有效课堂的基本条件包括明确的教学目标、合理的教学组织、积极的课堂氛围和适当的课堂管理，它们共同保障教学活动顺利开展。",
-    "keywords": [
-      "有效课堂",
-      "教学目标",
-      "课堂氛围",
-      "课堂管理"
-    ]
-  },
-  {
     "id": "fp_stats_descriptive_01",
     "subjectId": "psychological_educational_statistics",
     "chapterId": "stats_descriptive",
@@ -2561,5 +2081,2634 @@
       "合理解释",
       "可靠有效"
     ]
+  },
+  {
+    "id": "fp_ep_reaction_02",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_reaction_time",
+    "title": "减法反应时技术的逻辑前提",
+    "summary": "减法反应时技术认为，若两个任务仅在某一额外加工阶段上不同，而其他加工阶段保持相同，则两种任务反应时之差可以近似表示该额外心理过程所需的时间。这一方法以心理加工阶段相对独立、加工时间可以相加为理论前提，是利用时间指标分析内部认知过程的经典思路。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "论述题",
+      "选择题"
+    ],
+    "tags": [
+      "反应时法",
+      "唐德斯",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_psychophysics_02",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_psychophysics",
+    "title": "绝对阈限与差别阈限",
+    "summary": "绝对阈限是刚刚能够引起感觉的最小刺激量，反映机体对刺激存在与否的感受能力；差别阈限是刚刚能够觉察两个刺激差异的最小差别量，反映机体辨别刺激差异的能力。二者都属于感觉阈限范畴，但测量对象和研究重点不同，是心理物理法中的基础概念。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "辨析题",
+      "选择题"
+    ],
+    "tags": [
+      "心理物理法",
+      "阈限",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_memory_02",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_memory_experiment",
+    "title": "艾宾浩斯节省法",
+    "summary": "节省法是艾宾浩斯研究记忆保持的重要方法，指在一定保持间隔后重新学习同一材料时，以重学所节省的时间或次数来衡量保持量。节省越多，说明原先保持下来的记忆痕迹越多。该方法开创了用定量实验手段研究遗忘和保持规律的路径，是记忆实验史上的经典方法。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "记忆实验",
+      "艾宾浩斯",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_intro_01",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_intro",
+    "title": "实验心理学的研究对象与任务",
+    "summary": "实验心理学是运用实验方法研究心理现象及其规律的学科。它通过人为控制条件、操纵变量并记录行为或心理指标，探讨心理过程发生、发展及其机制，是科学心理学的重要方法基础。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "绪论",
+      "研究对象",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_intro_02",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_intro",
+    "title": "费希纳、冯特与艾宾浩斯的贡献",
+    "summary": "费希纳奠定了心理物理学基础，冯特以建立实验室和倡导实验方法推动心理学独立，艾宾浩斯则以记忆实验开创高级心理过程的实验研究。三者共同构成实验心理学发展史中的里程碑。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "论述题",
+      "选择题"
+    ],
+    "tags": [
+      "绪论",
+      "人物贡献",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_perception_01",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_perception",
+    "title": "知觉恒常性",
+    "summary": "知觉恒常性是指当客观刺激在一定范围内发生变化时，人仍倾向于把知觉对象看作具有相对稳定特性的现象，包括大小恒常性、形状恒常性和明度恒常性等。它说明知觉并非被动复制刺激，而是对外界信息进行组织和解释的结果。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "知觉",
+      "恒常性",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_perception_02",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_perception",
+    "title": "深度知觉线索",
+    "summary": "深度知觉依赖双眼线索和单眼线索。双眼视差、辐合、线条透视、遮挡、相对大小和运动视差等都可以为个体判断空间距离和立体关系提供依据，是知觉实验研究的重要内容。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "知觉",
+      "深度知觉",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_attention_01",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_attention",
+    "title": "注意的过滤器理论",
+    "summary": "过滤器理论认为外界信息在进入高级加工之前会经过选择机制，只有部分信息能够通过过滤器进入进一步加工。该理论解释了人在信息过载情境下如何进行选择性注意，是注意研究中的经典理论。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "注意",
+      "过滤器理论",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_attention_02",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_attention",
+    "title": "双作业法与注意分配",
+    "summary": "双作业法通过让被试同时完成两项任务来考察注意资源的分配情况。若两项任务同时进行时成绩下降，说明二者共享有限注意资源，因此双作业法是研究注意容量和分配机制的重要实验范式。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "实验设计题",
+      "选择题"
+    ],
+    "tags": [
+      "注意",
+      "双作业",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_learning_01",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_learning",
+    "title": "经典条件作用",
+    "summary": "经典条件作用是指原本中性的刺激经过与无条件刺激多次配对后，获得引发条件反应能力的学习过程。巴甫洛夫的唾液分泌实验是其经典范式，它揭示了刺激—反应联结形成的基本机制。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "学习",
+      "经典条件作用",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_learning_02",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_learning",
+    "title": "操作性条件作用",
+    "summary": "操作性条件作用强调有机体自发反应及其结果之间的关系。斯金纳认为，行为后果中的强化和惩罚会影响行为再次出现的概率，因此操作性条件作用是学习实验研究中的重要理论与方法。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "学习",
+      "操作性条件作用",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_thinking_01",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_thinking",
+    "title": "问题解决的阶段",
+    "summary": "问题解决通常包括发现问题、理解问题、提出假设、检验假设和获得答案等阶段。实验研究通过迷津、顿悟问题和推理任务等范式，揭示思维活动的过程性特点。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "论述题",
+      "选择题"
+    ],
+    "tags": [
+      "思维",
+      "问题解决",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_thinking_02",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_thinking",
+    "title": "概念形成实验",
+    "summary": "概念形成实验通过让被试在辨别刺激特征、归纳共同属性和提出规则的过程中形成概念，用以研究分类、规则发现和抽象概括等思维机制，是实验心理学研究高级认知的重要方式。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "实验设计题",
+      "选择题"
+    ],
+    "tags": [
+      "思维",
+      "概念形成",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_emotion_motivation_01",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_emotion_motivation",
+    "title": "情绪的外周理论与中枢理论",
+    "summary": "情绪研究中，詹姆斯—兰格理论强调情绪体验来源于对身体变化的知觉，而坎农—巴德理论认为情绪体验与生理反应可同时产生。二者体现了情绪生理机制研究中的两种经典解释路径。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "辨析题",
+      "选择题"
+    ],
+    "tags": [
+      "情绪",
+      "理论",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_emotion_motivation_02",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_emotion_motivation",
+    "title": "成就动机实验研究",
+    "summary": "成就动机研究关注个体在成功期望、失败回避和任务难度之间的关系。实验研究常通过成败反馈、任务选择和目标设置等方式考察动机水平对行为表现的影响。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "实验设计题",
+      "选择题"
+    ],
+    "tags": [
+      "动机",
+      "成就动机",
+      "实验"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_intro_03",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_intro",
+    "title": "实验法的优势与局限",
+    "summary": "实验法的优势在于能够主动操纵变量、控制无关因素并较有力地揭示因果关系，因此在检验理论和分析心理机制时具有重要作用。但实验法也存在人工情境较强、生态效度可能不足、某些复杂心理现象难以完全实验化等局限，因此需与其他研究方法结合理解。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "论述题",
+      "选择题"
+    ],
+    "tags": [
+      "绪论",
+      "实验法",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_perception_03",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_perception",
+    "title": "错觉在知觉研究中的价值",
+    "summary": "错觉研究的价值不在于说明知觉“错误”，而在于揭示知觉加工的组织原则和建构特征。通过分析背景关系、空间结构和经验因素如何造成系统性偏差，研究者可以更深入理解知觉恒常性、知觉组织和空间判断机制。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "实验设计题",
+      "选择题"
+    ],
+    "tags": [
+      "知觉",
+      "错觉",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_attention_03",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_attention",
+    "title": "衰减理论",
+    "summary": "衰减理论认为，未被选择的信息并非完全被阻断，而是以较弱强度继续加工，只有与当前任务相关或阈限较低的信息更容易进入意识。这一理论在过滤器理论基础上作出修正，更能解释未注意信息偶尔被觉察的现象，是注意选择研究中的重要理论发展。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "注意",
+      "衰减理论",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_learning_03",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_learning",
+    "title": "强化与惩罚",
+    "summary": "强化与惩罚都是影响行为变化的重要后果变量，但二者作用方向不同。强化旨在增加某行为再次出现的概率，惩罚则通常降低某行为出现的概率。区分正强化、负强化与惩罚，是理解操作性条件作用和行为塑造的关键。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "辨析题",
+      "选择题"
+    ],
+    "tags": [
+      "学习",
+      "强化",
+      "惩罚",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_thinking_03",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_thinking",
+    "title": "功能固着",
+    "summary": "功能固着是指个体在问题解决中受物体习惯用途限制，难以发现其新的可能功能的现象。它说明问题解决不仅依赖知识和逻辑，也会受到既有经验的束缚，因此是研究创造性思维障碍和问题解决困难的重要概念。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "实验设计题"
+    ],
+    "tags": [
+      "思维",
+      "功能固着",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_emotion_motivation_03",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_emotion_motivation",
+    "title": "情绪实验研究中的生理指标",
+    "summary": "情绪实验研究常借助心率、皮肤电、血压、呼吸变化和面部肌电等生理指标来分析情绪唤醒和情绪反应过程。这些指标有助于把主观情绪体验与客观身体变化联系起来，是研究情绪机制的重要工具。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "实验设计题",
+      "选择题"
+    ],
+    "tags": [
+      "情绪",
+      "生理指标",
+      "实验"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_intro_04",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_intro",
+    "title": "费希纳对实验心理学的三方面贡献",
+    "summary": "参考文档内容，费希纳对实验心理学的贡献至少体现在三方面：第一，提出费希纳定律，尝试用数学方式联系内部经验世界与外部物理刺激世界；第二，创立心理物理学方法，使心理现象第一次能够被较精确地量化描述；第三，其阈限与量化研究思想深刻影响了后来的信号检测论、心理测量学和现代实验计量研究。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "论述题",
+      "选择题"
+    ],
+    "tags": [
+      "绪论",
+      "费希纳",
+      "文档参考"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_psychophysics_03",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_psychophysics",
+    "title": "费希纳创立的三种经典感觉测量方法",
+    "summary": "参考文档内容，费希纳在心理物理学研究中创造了三种经典感觉测量方法，即最小可觉差法、正误法和均差法。它们标志着心理现象首次能够通过较规范的实验程序进行量化测量，是实验心理学得以成立的重要前提。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题",
+      "论述题"
+    ],
+    "tags": [
+      "心理物理法",
+      "费希纳",
+      "文档参考"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_attention_04",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_attention",
+    "title": "双耳分听技术",
+    "summary": "参考文档内容，双耳分听技术是为具体说明过滤器理论而发展出的经典实验技术，其本质是让被试双耳同时接受不同信息，以考察注意选择发生在信息加工的哪个阶段。该技术推动了早期选择、衰减模型和晚期选择等理论争论的发展。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "实验设计题"
+    ],
+    "tags": [
+      "注意",
+      "双耳分听",
+      "文档参考"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_thinking_04",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_thinking",
+    "title": "亚当森的功能固着研究",
+    "summary": "参考文档内容，亚当森通过功能固着实验指出，被试在追求准确率时可能以反应速度为代价，功能固着效应既能表现在是否成功解决问题上，也能表现在解决问题所需时间上。这说明问题解决研究中，速度—准确性权衡会影响功能固着效应的测量方式。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "实验设计题"
+    ],
+    "tags": [
+      "思维",
+      "功能固着",
+      "文档参考"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_intro_05",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_intro",
+    "title": "艾宾浩斯对高级心理过程实验化的意义",
+    "summary": "参考文档内容，艾宾浩斯以无意义音节和遗忘规律研究为代表，证明了记忆等高级心理过程同样可以采用实证和实验方法研究。他的工作不仅拓展了实验法的适用范围，也推动了实验心理学从感觉知觉研究走向更复杂的认知过程研究。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "论述题",
+      "选择题"
+    ],
+    "tags": [
+      "绪论",
+      "艾宾浩斯",
+      "文档参考"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_psychophysics_04",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_psychophysics",
+    "title": "正误法的特点与地位",
+    "summary": "参考文档内容，正误法又称恒定刺激法或次数法，其特点是预先选定若干刺激并随机呈现，再统计被试判断或觉察的比例来估计阈限。相较其他方法，它通常被视为较准确、应用较广的经典心理物理法之一。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "心理物理法",
+      "正误法",
+      "文档参考"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_attention_05",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_attention",
+    "title": "早期选择、中期选择与晚期选择模型",
+    "summary": "参考文档内容，围绕双耳分听技术展开的实验研究，使研究者进一步讨论注意选择究竟发生在感觉阶段、意义分析阶段还是反应阶段，由此形成早期选择模型、中期选择模型（衰减模型）与晚期选择模型等不同观点。它们体现了选择性注意研究从单一过滤观点走向阶段争论的发展过程。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "论述题",
+      "选择题"
+    ],
+    "tags": [
+      "注意",
+      "选择模型",
+      "文档参考"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_psychophysics_05",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_psychophysics",
+    "title": "费希纳定律及其意义",
+    "summary": "参考文档内容，费希纳在韦伯定律基础上提出费希纳定律，以数学形式表达刺激强度与主观感觉大小之间的关系，公式常写为 S = KlogR。该定律的重要意义在于，它把感觉经验纳入可量化研究框架，为实验心理学提供了连接物理世界与心理经验的经典模型。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "论述题"
+    ],
+    "tags": [
+      "心理物理法",
+      "费希纳定律",
+      "文档参考"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_attention_06",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_attention",
+    "title": "注意选择位置问题",
+    "summary": "参考文档内容，围绕双耳分听实验形成的理论争论，其核心问题在于：注意究竟是在感觉阶段、意义分析阶段还是反应阶段完成信息选择。这个“选择位置问题”是理解过滤器理论、衰减理论和晚期选择理论分歧的关键。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "论述题",
+      "选择题"
+    ],
+    "tags": [
+      "注意",
+      "选择位置",
+      "文档参考"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_intro_06",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_intro",
+    "title": "实验心理学从感知觉到高级过程的扩展",
+    "summary": "参考文档内容，实验心理学的发展并非停留在感觉与知觉研究层面，而是随着艾宾浩斯等人的工作，逐步扩展到记忆等高级心理过程研究。这一扩展说明实验法并不局限于简单心理现象，而具有更广泛的适用性。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "论述题"
+    ],
+    "tags": [
+      "绪论",
+      "发展脉络",
+      "文档参考"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_variables_03",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_variables",
+    "title": "内部效度与外部效度",
+    "summary": "内部效度是指实验结果能够在多大程度上归因于自变量操纵而非其他因素，外部效度则是指实验结果能够在多大程度上推广到其他被试、情境和时间条件。二者共同决定实验研究的解释力与推广价值，是实验设计评价中的核心指标。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "辨析题",
+      "选择题"
+    ],
+    "tags": [
+      "实验设计",
+      "效度",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_reaction_03",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_reaction_time",
+    "title": "速度—准确性权衡",
+    "summary": "速度—准确性权衡是指在反应任务中，被试若强调更快作答，往往会以正确率下降为代价；若强调更高准确率，则反应时间可能延长。这一现象提醒研究者在反应时实验中不能只看速度指标，而要结合正确率与任务要求综合解释结果。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "实验设计题",
+      "选择题"
+    ],
+    "tags": [
+      "反应时",
+      "速度—准确性权衡",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_ep_memory_03",
+    "subjectId": "experimental_psychology",
+    "chapterId": "ep_memory_experiment",
+    "title": "艾宾浩斯遗忘曲线",
+    "summary": "艾宾浩斯遗忘曲线表明，遗忘在学习后最初阶段速度较快，随后逐渐减慢，呈现“先快后慢”的变化趋势。该发现揭示了保持量随时间变化的基本规律，是记忆实验研究中的经典结论，也是理解复习时机与保持效果的重要理论依据。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "论述题",
+      "选择题"
+    ],
+    "tags": [
+      "记忆实验",
+      "遗忘曲线",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_intro_01",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_intro",
+    "title": "社会心理学的定义",
+    "summary": "社会心理学是研究个体与群体在社会情境中的心理活动、社会行为及其发展规律的科学。它既关注个体怎样知觉、理解和评价他人，也关注社会情境、群体关系与文化因素如何影响人的行为。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "导论",
+      "定义",
+      "文档参考"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_intro_02",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_intro",
+    "title": "学习社会心理学的意义",
+    "summary": "参考文档内容，学习社会心理学有助于认识自己、认识他人、认识社会并理解生活意义。它既能帮助个体理解自我与他人在社会中的行为表现，也有助于提升适应社会和解释现实社会现象的能力。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "导论",
+      "意义",
+      "文档参考"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_theory_01",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_theory_methods",
+    "title": "社会心理学的主要研究方法",
+    "summary": "社会心理学常用观察法、实验法、调查法和测量法等研究方法。不同方法在控制条件、生态效度和因果推断方面各有优势，研究者需根据研究问题与对象选择合适方法。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "理论方法",
+      "研究方法"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_theory_02",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_theory_methods",
+    "title": "假设、理论与研究设计",
+    "summary": "社会心理学研究通常以问题提出为起点，通过提出假设、选择理论框架和设计研究程序来检验假设。理论为研究提供解释框架，研究设计则关系到研究结论的可靠性与有效性。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "理论方法",
+      "研究设计"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_self_01",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_self",
+    "title": "自我概念",
+    "summary": "自我概念是个体对“我是谁”的总体认识，包括对自己能力、特质、角色和社会位置的理解。它是自我系统的核心内容，对情绪体验、行为选择和社会适应具有重要影响。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "自我",
+      "自我概念"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_self_02",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_self",
+    "title": "自尊与自我评价",
+    "summary": "自尊是个体对自身价值的总体评价和情感体验。自尊水平会影响个体的情绪稳定性、人际交往方式和应对挫折的方式，是社会心理学研究自我的重要主题。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "自我",
+      "自尊"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_cog_01",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_social_cognition",
+    "title": "社会认知",
+    "summary": "社会认知是指个体对他人、自己、群体和社会事件进行知觉、解释、记忆和判断的过程。它决定人们如何理解社会世界，并对归因、态度和社会行为产生重要影响。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "社会认知",
+      "定义"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_cog_02",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_social_cognition",
+    "title": "归因",
+    "summary": "归因是指个体对行为原因所作的解释过程，通常涉及内因与外因、稳定与不稳定、可控与不可控等维度。归因方式会影响情绪反应、行为预期和社会判断。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "社会认知",
+      "归因"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_behavior_01",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_social_behavior",
+    "title": "亲社会行为",
+    "summary": "亲社会行为是指有利于他人和社会的行为，如帮助、合作、分享和安慰。其产生受情境、人格、责任归属和社会规范等多种因素影响。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "社会行为",
+      "亲社会行为"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_behavior_02",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_social_behavior",
+    "title": "侵犯行为",
+    "summary": "侵犯行为是指个体有意伤害他人身心健康的行为。其形成与挫折、社会学习、情境刺激和个体特质等因素有关，是社会行为研究中的重要内容。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "社会行为",
+      "侵犯行为"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_attitude_01",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_attitude_prejudice",
+    "title": "态度的定义与功能",
+    "summary": "态度是个体对某一对象所持有的比较稳定的内在心理倾向，通常包含认知、情感和行为倾向三个成分。态度具有适应、自我防御、价值表达和知识组织等功能。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "态度",
+      "定义"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_attitude_02",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_attitude_prejudice",
+    "title": "偏见",
+    "summary": "偏见是个体基于群体成员身份而对某人或某群体持有的消极态度或不公平评价。偏见往往与刻板印象和歧视相联系，是社会心理学研究群际关系的重要主题。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "态度",
+      "偏见"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_interpersonal_01",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_interpersonal",
+    "title": "人际吸引",
+    "summary": "人际吸引是指个体对他人形成积极评价并愿意接近、交往的倾向。相似性、接近性、互补性、熟悉性和外表吸引力等因素都会影响人际吸引。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "人际关系",
+      "人际吸引"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_interpersonal_02",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_interpersonal",
+    "title": "人际关系的建立与维持",
+    "summary": "人际关系的建立与维持受交往频率、沟通质量、互惠原则、信任程度和冲突处理方式等因素影响。良好的人际关系有助于个体获得支持、归属和心理健康。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "人际关系",
+      "维持"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_exchange_01",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_social_exchange_influence",
+    "title": "社会交换",
+    "summary": "社会交换是指个体在人际或群体交往中对收益与成本进行权衡，并据此调整行为和关系投入的过程。社会交换理论强调人际行为中的利益计算与互惠原则。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "社会交换",
+      "定义"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_exchange_02",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_social_exchange_influence",
+    "title": "社会影响",
+    "summary": "社会影响是指个体的态度、判断和行为受到他人或群体影响而发生变化的现象，包括从众、服从与依从等多种形式。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "社会影响",
+      "定义"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_group_01",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_group_leadership",
+    "title": "团体规范与团体凝聚力",
+    "summary": "团体规范是群体成员共同遵守的行为标准，团体凝聚力则是成员愿意留在群体并维持群体关系的力量。二者共同影响团体内部秩序、效率与成员满意度。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "团体",
+      "规范",
+      "凝聚力"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_group_02",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_group_leadership",
+    "title": "领导方式",
+    "summary": "领导方式是领导者在组织成员、决策和沟通中表现出的相对稳定方式。不同领导方式会对团体气氛、成员积极性和工作绩效产生不同影响。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "领导",
+      "方式"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_health_01",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_health_psychology",
+    "title": "健康心理学的研究对象",
+    "summary": "健康心理学关注心理、行为和社会因素对健康、疾病及健康促进的影响。它强调生理、心理与社会因素的综合作用，是心理学在健康领域的重要应用方向。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "健康心理学",
+      "定义"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_health_02",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_health_psychology",
+    "title": "压力与健康",
+    "summary": "压力是个体对环境要求作出评估后产生的身心紧张状态。长期或过强压力会影响情绪、行为和生理功能，并对身体健康产生不利影响。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "健康心理学",
+      "压力"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_culture_01",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_cultural_psychology",
+    "title": "文化心理学的基本观点",
+    "summary": "文化心理学强调心理过程并非脱离文化背景而存在，个体的认知、情感与行为方式都会受到文化传统、价值观和社会制度的影响。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "文化心理学",
+      "定义"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_culture_02",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_cultural_psychology",
+    "title": "个体主义与集体主义",
+    "summary": "个体主义与集体主义是文化差异研究中的经典维度。个体主义强调个人目标、独立和自主，集体主义强调群体目标、关系义务和社会和谐。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "辨析题",
+      "选择题"
+    ],
+    "tags": [
+      "文化心理学",
+      "文化差异"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_positive_01",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_positive_psychology",
+    "title": "积极心理学的基本问题",
+    "summary": "积极心理学关注人的积极品质、积极情绪和积极社会环境，强调幸福感、优势、韧性和意义感等内容，旨在促进个体良好发展与生活质量提升。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "积极心理学",
+      "定义"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_positive_02",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_positive_psychology",
+    "title": "主观幸福感",
+    "summary": "主观幸福感是个体对自己生活质量和情绪状态的总体评价，通常包括生活满意度、积极情绪和消极情绪三个方面，是积极心理学的重要研究指标。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "积极心理学",
+      "幸福感"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_intro_03",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_intro",
+    "title": "社会心理学的三个研究领域",
+    "summary": "参考文档内容，社会心理学通常围绕个体社会心理、个体间相互作用以及群体与社会影响三个层面展开研究，既关注个体如何理解自己和他人，也关注群体、文化与社会情境对行为的作用。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "导论",
+      "研究领域",
+      "文档参考"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_theory_03",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_theory_methods",
+    "title": "社会心理学研究的伦理要求",
+    "summary": "社会心理学研究对象多为真实个体和群体，因此研究中必须遵守知情同意、保护隐私、减少伤害和事后说明等伦理要求。伦理规范既关系研究对象权益，也关系研究结论的合法性与可信度。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "理论方法",
+      "伦理"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_self_03",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_self",
+    "title": "自我形成的社会性",
+    "summary": "自我并不是孤立形成的，而是在社会交往、他人评价、社会比较与角色经验中逐步建构的。个体对自己的认识离不开社会环境和人际互动，因此自我具有明显的社会性。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "自我",
+      "形成"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_cog_03",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_social_cognition",
+    "title": "首因效应与近因效应",
+    "summary": "首因效应是指最先获得的信息对印象形成产生更大影响，近因效应则是最后获得的信息影响更明显。二者都说明社会认知并非对信息的机械累加，而会受到信息顺序影响。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "社会认知",
+      "印象形成"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_behavior_03",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_social_behavior",
+    "title": "旁观者效应",
+    "summary": "旁观者效应是指在他人在场的情况下，个体实施帮助行为的可能性反而下降的现象。它说明亲社会行为不仅受个人品质影响，也受到责任分散等社会情境因素制约。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "社会行为",
+      "旁观者效应"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_attitude_03",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_attitude_prejudice",
+    "title": "态度改变",
+    "summary": "态度改变是指个体对某一对象的认知、情感或行为倾向发生变化的过程。说服者特征、信息内容、接受者特点和情境因素都会影响态度改变的效果。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "态度",
+      "态度改变"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_interpersonal_03",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_interpersonal",
+    "title": "人际沟通在人际关系中的作用",
+    "summary": "人际沟通是建立、维持和修复人际关系的重要途径。有效沟通有助于促进理解、增强信任、减少误解并改善冲突处理，因此是人际关系研究中的基础环节。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "人际关系",
+      "沟通"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_exchange_03",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_social_exchange_influence",
+    "title": "依从",
+    "summary": "依从是指个体在没有明显强制命令的情况下，因他人请求、暗示或社会情境影响而作出某种行为反应。依从与从众、服从一起构成社会影响的重要表现形式。",
+    "importance": "medium",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "社会影响",
+      "依从"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_group_03",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_group_leadership",
+    "title": "社会助长与社会惰化",
+    "summary": "社会助长是指他人在场使个体行为表现提高的现象，社会惰化则是群体活动中个体努力程度下降的现象。二者共同说明群体情境会显著影响个体绩效。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "团体",
+      "绩效"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_health_03",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_health_psychology",
+    "title": "社会支持与健康",
+    "summary": "社会支持是个体从家庭、朋友、组织和社会网络中获得的情感、信息和工具性帮助。良好的社会支持能够缓冲压力对健康的不利影响，促进康复和心理适应。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "健康心理学",
+      "社会支持"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_culture_03",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_cultural_psychology",
+    "title": "文化对自我观的影响",
+    "summary": "不同文化背景会塑造不同的自我观。较强调个体主义的文化中，个体更重视独立自我；较强调集体主义的文化中，个体更重视关系自我和社会角色。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "文化心理学",
+      "自我观"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_sp_positive_03",
+    "subjectId": "social_psychology",
+    "chapterId": "sp_positive_psychology",
+    "title": "心理韧性",
+    "summary": "心理韧性是个体在面对压力、挫折和逆境时维持适应、恢复功能并继续成长的能力。它是积极心理学关注的重要积极品质之一。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "积极心理学",
+      "韧性"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_intro_01",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_intro",
+    "title": "发展心理学的定义",
+    "summary": "参考文档内容，发展心理学广义上研究种系和个体心理发生与发展的科学，狭义上主要指个体发展心理学，即研究个体从受精卵开始到衰老全过程中心理发生、发展的特点和规律。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "绪论",
+      "定义",
+      "文档参考"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_intro_02",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_intro",
+    "title": "个体心理发展的年龄特征",
+    "summary": "参考文档内容，发展心理学重视研究不同年龄阶段心理活动的特点和规律，既包括认知过程发展的年龄特征，也包括社会性发展的年龄特征，体现毕生发展的连续性与阶段性。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "绪论",
+      "年龄特征",
+      "文档参考"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_theories_01",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_theories",
+    "title": "精神分析的心理发展观",
+    "summary": "参考文档内容，精神分析学派强调早期经验、人格结构和心理冲突在个体发展中的作用，代表性观点包括弗洛伊德的心理性欲发展观和埃里克森的人格发展阶段论。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "理论",
+      "精神分析",
+      "文档参考"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_theories_02",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_theories",
+    "title": "皮亚杰的认知发展理论",
+    "summary": "皮亚杰认为儿童认知发展经历感知运动、前运算、具体运算和形式运算等阶段，强调同化、顺应与平衡化在认知发展中的作用，是发展心理学中的经典理论。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "论述题",
+      "选择题"
+    ],
+    "tags": [
+      "理论",
+      "皮亚杰"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_methods_01",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_methods",
+    "title": "横断研究与纵向研究",
+    "summary": "发展心理学研究常采用横断研究和纵向研究。横断研究比较不同年龄群体，实施较快；纵向研究持续追踪同一被试，较能反映发展变化过程。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "研究方法",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_methods_02",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_methods",
+    "title": "发展心理学研究的基本特点",
+    "summary": "发展心理学研究既关注年龄差异，也重视发展过程和机制解释。其方法选择不仅要考虑测量工具，还要考虑时间跨度、被试保持和发展变化的解释问题。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "研究方法",
+      "特点"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_fetus_01",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_fetus",
+    "title": "胎儿发展的基本过程",
+    "summary": "参考文档内容，胎儿阶段是个体生命发展的起点，生理结构、神经系统和感觉机能都在这一阶段逐步形成，为出生后的心理发展奠定基础。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "胎儿",
+      "发展过程",
+      "文档参考"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_fetus_02",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_fetus",
+    "title": "产前环境对胎儿发展的影响",
+    "summary": "母体健康、营养、情绪状态、疾病和有害刺激等产前环境因素都会影响胎儿生理与心理机能的发展，是理解早期发展条件的重要内容。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "胎儿",
+      "影响因素"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_infant_01",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_infant",
+    "title": "婴儿期动作发展",
+    "summary": "婴儿期动作发展从抬头、翻身、坐、爬到行走逐步展开，动作发展不仅具有生理成熟基础，也会影响认知探索和社会交往。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "婴儿",
+      "动作发展"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_infant_02",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_infant",
+    "title": "婴儿期依恋发展",
+    "summary": "依恋是婴儿与主要照料者之间形成的稳定情感联结，对安全感、探索行为和后续社会性发展具有重要意义，是婴儿心理发展的核心内容之一。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "婴儿",
+      "依恋"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_preschool_01",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_preschool",
+    "title": "幼儿期思维发展的特点",
+    "summary": "幼儿期思维以具体形象思维为主，抽象逻辑思维尚不成熟，常表现出自我中心、直觉性和具体性等特征。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "幼儿",
+      "思维发展"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_preschool_02",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_preschool",
+    "title": "幼儿游戏的心理意义",
+    "summary": "游戏是幼儿期的重要活动形式，它不仅促进认知、语言和想象发展，也有助于社会交往、规则意识和情绪调节能力的发展。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "幼儿",
+      "游戏"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_school_01",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_school_age",
+    "title": "小学儿童学习的特点",
+    "summary": "小学儿童进入系统学习阶段，注意、记忆和思维在学习活动中迅速发展，学习逐步成为其主导活动。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "小学儿童",
+      "学习"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_school_02",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_school_age",
+    "title": "小学儿童自我意识的发展",
+    "summary": "小学阶段儿童开始更稳定地评价自己，自我意识逐步从具体、片面走向较为全面和现实，是人格发展的重要时期。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "小学儿童",
+      "自我意识"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_adolescent_01",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_adolescent",
+    "title": "青少年身心发展的特点",
+    "summary": "青少年期是生理迅速成熟和心理急剧变化的时期，表现为第二性征发展、自我意识增强、独立性提高和情绪波动增多等特点。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "青少年",
+      "身心发展"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_adolescent_02",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_adolescent",
+    "title": "青少年自我同一性",
+    "summary": "自我同一性是青少年发展中的关键任务，涉及个体对“我是谁”“将成为什么样的人”的整合与确认，是人格成熟的重要标志。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "青少年",
+      "自我同一性"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_early_adult_01",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_early_adulthood",
+    "title": "成年早期的发展任务",
+    "summary": "成年早期个体面临恋爱婚姻、职业选择、家庭建立和社会角色承担等任务，体现从青年向稳定成人角色过渡的过程。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "成年早期",
+      "发展任务"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_early_adult_02",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_early_adulthood",
+    "title": "成年早期的亲密关系发展",
+    "summary": "成年早期的重要心理任务之一是建立稳定亲密关系，这不仅关系婚恋和家庭，也影响个体的社会支持和人格发展。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "成年早期",
+      "亲密关系"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_middle_adult_01",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_middle_adulthood",
+    "title": "成年中期的发展特点",
+    "summary": "成年中期个体通常在职业、家庭和社会责任方面处于相对稳定阶段，但也会面临生理变化、角色负担和生活压力等问题。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "成年中期",
+      "特点"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_middle_adult_02",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_middle_adulthood",
+    "title": "成年中期的中年危机问题",
+    "summary": "中年危机是对成年中期压力、角色冲突和自我反思现象的概括，并非所有人都会经历，但它反映了该阶段发展适应的重要议题。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "成年中期",
+      "中年危机"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_late_adult_01",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_late_adulthood",
+    "title": "成年晚期的认知与社会性变化",
+    "summary": "成年晚期个体在感觉、记忆、思维速度等方面可能出现下降，同时也会经历角色变化、社会关系调整和生命意义反思。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "成年晚期",
+      "认知变化"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_late_adult_02",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_late_adulthood",
+    "title": "老年适应与成功老化",
+    "summary": "成年晚期的发展并不只是衰退，也包含适应、整合与积极生活方式的建立。成功老化强调较好的身心状态、积极参与和生活满意度。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "成年晚期",
+      "成功老化"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_intro_03",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_intro",
+    "title": "毕生发展观",
+    "summary": "发展心理学强调人的心理发展贯穿生命全程，不仅包括儿童和青少年，也包括成年与老年阶段。毕生发展观有助于把心理发展理解为持续变化、阶段衔接和多因素共同作用的过程。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "绪论",
+      "毕生发展"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_theories_03",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_theories",
+    "title": "埃里克森人格发展理论",
+    "summary": "埃里克森从毕生发展角度提出人格发展阶段论，强调不同人生阶段都面临特定的发展任务和心理社会危机，其理论对理解青少年同一性与成人发展具有重要意义。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "理论",
+      "埃里克森"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_methods_03",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_methods",
+    "title": "聚合交叉研究",
+    "summary": "聚合交叉研究结合横断和纵向研究的特点，可在较短时间内获得较丰富的发展资料，有助于提高发展研究的效率和解释力。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "研究方法",
+      "聚合交叉"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_fetus_03",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_fetus",
+    "title": "胎教与早期刺激的作用边界",
+    "summary": "胎教和适度早期刺激可能通过母体情绪、环境节律等方式对胎儿发展产生间接影响，但其作用不能被夸大，胎儿发展仍受遗传和整体产前环境共同制约。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "胎儿",
+      "早期刺激"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_infant_03",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_infant",
+    "title": "客体永久性",
+    "summary": "客体永久性是指个体理解客体在看不见时仍然存在的认识，是婴儿认知发展的重要标志之一，也是皮亚杰感知运动阶段研究中的经典内容。",
+    "importance": "high",
+    "questionTypes": [
+      "名词解释",
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "婴儿",
+      "认知发展"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_preschool_03",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_preschool",
+    "title": "幼儿语言发展的特点",
+    "summary": "幼儿期是语言迅速发展的重要时期，词汇量增加、句法结构复杂化、表达能力增强，同时语言也进一步支持思维、交往和规则理解的发展。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "幼儿",
+      "语言发展"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_school_03",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_school_age",
+    "title": "小学儿童同伴关系发展",
+    "summary": "小学阶段同伴关系的重要性显著增强，儿童在同伴交往中学习合作、竞争、规则遵守与社会比较，这对社会性和自我意识发展具有重要意义。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "小学儿童",
+      "同伴关系"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_adolescent_03",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_adolescent",
+    "title": "青少年同伴交往的作用",
+    "summary": "青少年同伴关系在情绪支持、自我认同、社会比较和行为规范形成中具有重要作用，同伴影响增强是这一阶段的重要社会性发展特点。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "青少年",
+      "同伴关系"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_early_adult_03",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_early_adulthood",
+    "title": "职业发展与角色建立",
+    "summary": "成年早期的职业发展不仅关系经济独立，也关系个体社会身份、责任承担和生活结构的稳定，是成人角色建立的重要内容。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "成年早期",
+      "职业发展"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_middle_adult_03",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_middle_adulthood",
+    "title": "成年中期的生成感",
+    "summary": "生成感强调成年中期个体关心下一代、关注社会延续并愿意承担教养、指导和贡献责任，是人格成熟的重要表现。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "成年中期",
+      "生成感"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_dp_late_adult_03",
+    "subjectId": "developmental_psychology",
+    "chapterId": "dp_late_adulthood",
+    "title": "生命回顾与自我整合",
+    "summary": "成年晚期个体常通过回顾人生经历、评价生命意义来实现自我整合。积极的生命回顾有助于获得内心安定和较高生活满意度。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "成年晚期",
+      "生命回顾"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_mea_overview_03",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_overview",
+    "title": "测量误差的基本理解",
+    "summary": "心理与教育测量中任何测验分数都可能包含真实成分与误差成分。理解测量误差，有助于正确解释测验结果，避免把一次得分绝对化。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基本理论",
+      "误差"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_mea_reliability_03",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_reliability",
+    "title": "信度系数的解释",
+    "summary": "信度系数反映测验结果的稳定性和一致性。系数越高，说明测验受随机误差影响越小，但高信度并不自动保证测验一定有效。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "信度",
+      "系数解释"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_mea_validity_03",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_validity",
+    "title": "效度是测验解释的核心",
+    "summary": "效度关注测验是否真正测到了它想测的心理特质。与其说效度只是“试题好不好”，不如说它关系测验分数解释是否成立。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "效度",
+      "核心概念"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_mea_norms_scores_03",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_norms_scores",
+    "title": "导出分数的作用",
+    "summary": "导出分数通过标准化转换，把原始分数放进可比较的参照框架中，使不同个体和不同测验结果更容易解释与比较。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "常模",
+      "导出分数"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_mea_item_analysis_03",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_item_analysis",
+    "title": "项目分析的意义",
+    "summary": "项目分析可以帮助研究者判断题目难度、区分度及其与整体测验的关系，是提高测验质量和优化测验编制的重要环节。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "项目分析",
+      "测验编制"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_mea_scale_types_03",
+    "subjectId": "psychological_educational_measurement",
+    "chapterId": "mea_scale_types",
+    "title": "不同量表和测验的适用边界",
+    "summary": "不同量表和测验工具适用于不同对象、目的和情境。理解适用边界，有助于避免将测验工具机械移用到不合适场景。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "量表",
+      "应用"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_stats_descriptive_03",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_descriptive",
+    "title": "描述统计是推论统计的基础",
+    "summary": "描述统计的任务是对已有数据进行整理、概括与展示，包括统计图表、集中量数和差异量数等。只有先把样本数据描述清楚，后续推论统计才有可靠基础。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "描述统计",
+      "基础"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_stats_probability_sampling_03",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_probability_sampling",
+    "title": "概率思想对统计推断的重要性",
+    "summary": "统计推断依赖概率思想。抽样误差、抽样分布与参数估计都建立在概率论基础上，因此理解概率思想是掌握统计推断的前提。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "概率",
+      "抽样"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_stats_estimation_hypothesis_03",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_estimation_hypothesis",
+    "title": "参数估计与假设检验的功能区别",
+    "summary": "参数估计旨在推测总体参数的大致取值范围，假设检验旨在判断样本证据是否足以拒绝某一统计假设。二者都服务于推论统计，但任务不同。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "估计",
+      "假设检验"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_stats_t_anova_03",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_t_anova",
+    "title": "均数差异检验的基本思路",
+    "summary": "t 检验和方差分析都属于均数差异检验方法，核心都是比较组间差异与误差变异的关系，从而判断差异是否可能由随机因素造成。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "t检验",
+      "方差分析"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_stats_correlation_regression_03",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_correlation_regression",
+    "title": "相关与回归的应用价值",
+    "summary": "相关分析用于描述变量间关系的方向和程度，回归分析则进一步用于预测和解释变量变化。二者常结合使用，是心理与教育研究中的常用工具。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "相关",
+      "回归"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_stats_nonparametric_03",
+    "subjectId": "psychological_educational_statistics",
+    "chapterId": "stats_nonparametric",
+    "title": "非参数检验的适用意义",
+    "summary": "当数据不满足参数检验前提，或者数据类型较低时，非参数检验提供了更稳妥的统计分析路径，因此在实际研究中具有重要补充价值。",
+    "importance": "medium",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "非参数检验",
+      "适用条件"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_intro_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_intro",
+    "title": "教育心理学的研究对象与任务",
+    "summary": "教育心理学的研究对象与任务主要围绕学与教相互作用的基本规律展开，核心包括学生心理、学习心理、教学心理和教师心理。掌握这一点有助于从整体上理解本学科的研究范围与功能。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_development_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_development",
+    "title": "学生心理发展的基本特征",
+    "summary": "学生心理发展具有连续性与阶段性、定向性与顺序性、不平衡性以及个别差异性。理解这些特征，有助于教师依据发展规律实施因材施教。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_individual_differences_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_individual_differences",
+    "title": "学生个体差异的教育意义",
+    "summary": "学生在能力、气质、性格、认知方式和兴趣等方面存在差异。教育心理学重视这些差异，是因为教学效果往往取决于是否真正实现因材施教。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_learning_intro_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_learning_intro",
+    "title": "学习的实质",
+    "summary": "学习是个体在经验基础上引起的相对持久的行为或心理倾向变化。它不仅表现为外显行为改变，也包括认知、态度和策略等方面的变化。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_behaviorism_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_behaviorism",
+    "title": "行为学习理论的核心观点",
+    "summary": "行为学习理论强调学习是刺激与反应之间联结的形成与强化过程。通过强化、惩罚和练习，个体逐渐建立或改变行为。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_cognitive_theory_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_cognitive_theory",
+    "title": "认知学习理论的基本主张",
+    "summary": "认知学习理论强调学习不是机械联结，而是主体主动加工信息、形成认知结构和理解意义的过程。学习质量取决于内部认知加工。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_constructivism_humanism_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_constructivism_humanism",
+    "title": "建构主义学习观",
+    "summary": "建构主义强调知识不是被动接受的结果，而是学习者在一定情境和社会互动中主动建构的结果。情境、合作和意义建构是关键。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_motivation_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_motivation",
+    "title": "学习动机的作用",
+    "summary": "学习动机是推动学生进行学习活动并维持其朝向一定目标的内部动力。它影响学习的发动、坚持、努力程度和学习效果。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_knowledge_learning_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_knowledge_learning",
+    "title": "知识学习的基本过程",
+    "summary": "知识学习通常包括知识获得、知识保持和知识提取等环节。教学中不仅要让学生“学到”，还要帮助学生“记住”和“会用”。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_skill_learning_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_skill_learning",
+    "title": "技能形成的基本阶段",
+    "summary": "技能学习一般经历认知定向、练习形成和熟练自动化等阶段。教师应根据阶段特点安排示范、练习与反馈。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_problem_solving_creativity_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_problem_solving_creativity",
+    "title": "问题解决的基本过程",
+    "summary": "问题解决通常包括发现问题、明确问题、提出假设、检验假设和形成结论等环节。创造性学习往往建立在问题解决活动基础上。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_learning_strategies_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_learning_strategies",
+    "title": "学习策略的教育价值",
+    "summary": "学习策略是学习者为了提高学习效果和效率而有意识采用的规则、方法和调控方式。它体现了学习者对学习过程的主动管理。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_moral_formation_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_moral_formation",
+    "title": "品德形成的基本特点",
+    "summary": "品德形成是个体在社会规范影响下逐步形成稳定道德认识、道德情感和道德行为习惯的过程，具有长期性与实践性。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_instructional_design_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_instructional_design",
+    "title": "教学设计的基本要求",
+    "summary": "教学设计要围绕教学目标，统筹教学内容、方法、过程与评价，使教学活动更有计划性、针对性和有效性。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_classroom_management_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_classroom_management",
+    "title": "课堂管理的意义",
+    "summary": "课堂管理是教师为保证教学顺利进行、维持良好课堂秩序并促进学生有效学习而采取的一系列组织与调控活动。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_learning_assessment_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_learning_assessment",
+    "title": "学习评定的功能",
+    "summary": "学习评定不仅用于判断学生学习结果，还具有反馈、诊断、激励和改进教学的功能，是教学过程的重要组成部分。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_teacher_psychology_01",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_teacher_psychology",
+    "title": "教师心理的重要性",
+    "summary": "教师心理既影响教师自身职业成长，也影响课堂氛围、师生互动和学生发展，因此是教育心理学研究的重要组成部分。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_intro_02",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_intro",
+    "title": "教育心理学的发展与作用",
+    "summary": "教育心理学的发展经历初创、发展、成熟和深化拓展等阶段，研究不断走向系统化、实践化。了解其发展，有助于把握本学科在教育实践中的理论价值。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_development_02",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_development",
+    "title": "心理发展规律对教学的启示",
+    "summary": "学生心理发展具有阶段性和个体差异性，因此教学应遵循发展规律，避免拔苗助长或一刀切。发展规律是教育设计的重要依据。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_individual_differences_02",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_individual_differences",
+    "title": "个体差异与因材施教",
+    "summary": "教育实践中学生在能力、兴趣、气质和认知方式等方面差异明显。因材施教的前提，是承认并分析学生个体差异。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_learning_intro_02",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_learning_intro",
+    "title": "学习的分类与教育意义",
+    "summary": "从不同角度可以把学习分为知识学习、技能学习、态度学习等类型。理解学习分类，有助于教师采用更合适的教学方式。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_behaviorism_02",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_behaviorism",
+    "title": "强化在行为学习中的作用",
+    "summary": "在行为学习理论中，强化是维持和增强行为的重要条件。合理使用强化，有助于形成和巩固期望行为。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_cognitive_theory_02",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_cognitive_theory",
+    "title": "认知结构在学习中的意义",
+    "summary": "认知学习理论认为，学习效果不仅取决于信息输入，还取决于学习者原有认知结构与新知识之间的联系。认知结构越合理，理解越深入。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_constructivism_humanism_02",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_constructivism_humanism",
+    "title": "人本主义学习观的教育启示",
+    "summary": "人本主义强调尊重学生、关注情感体验与自我实现。它提醒教师不能只关注知识传授，还要重视学生主体价值。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_motivation_02",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_motivation",
+    "title": "学习动机的激发与维持",
+    "summary": "动机不是一时启动即可完成任务，还需要在学习过程中不断维持和调节。教师应从目标、反馈和成就体验等方面激发动机。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_knowledge_learning_02",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_knowledge_learning",
+    "title": "知识理解在学习中的作用",
+    "summary": "知识学习不能停留在死记硬背，更重要的是形成理解。真正理解有助于知识保持、迁移和灵活运用。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_skill_learning_02",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_skill_learning",
+    "title": "练习与反馈在技能形成中的作用",
+    "summary": "技能形成依赖反复练习，但练习必须与及时反馈结合，才能纠正错误、稳定动作或思维程序。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_problem_solving_creativity_02",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_problem_solving_creativity",
+    "title": "创造性与问题解决的关系",
+    "summary": "创造性往往在问题解决过程中体现出来。高水平的问题解决不仅依赖已有知识，也依赖思维的变通性和独创性。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_learning_strategies_02",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_learning_strategies",
+    "title": "元认知调节的意义",
+    "summary": "元认知调节使学习者能够计划、监控和评价自己的学习过程，是提高自主学习能力的重要条件。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_moral_formation_02",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_moral_formation",
+    "title": "品德形成中的实践作用",
+    "summary": "品德不是单靠讲授形成的，而需要在实际行为和社会交往中逐步内化。实践活动对品德形成具有重要作用。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_instructional_design_02",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_instructional_design",
+    "title": "教学目标在教学设计中的地位",
+    "summary": "教学目标是教学设计的出发点和核心，它决定内容选择、方法安排和评价标准。目标不清，设计就容易失去方向。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_classroom_management_02",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_classroom_management",
+    "title": "课堂管理与教学效果的关系",
+    "summary": "课堂管理不仅为了维持秩序，更为了保障教学活动顺利展开。课堂管理质量会直接影响学生参与和学习效果。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_learning_assessment_02",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_learning_assessment",
+    "title": "学习评定与教学改进",
+    "summary": "学习评定的价值不仅在于给学生打分，更在于为教学调整提供依据。评价结果能够帮助教师发现问题并改进教学。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "fp_edu_teacher_psychology_02",
+    "subjectId": "educational_psychology",
+    "chapterId": "edu_teacher_psychology",
+    "title": "教师心理健康与教学",
+    "summary": "教师心理健康关系教师职业适应、课堂情绪氛围和教学行为质量。良好的教师心理状态是有效教学的重要保障。",
+    "importance": "high",
+    "questionTypes": [
+      "简答题",
+      "选择题"
+    ],
+    "tags": [
+      "基础",
+      "高频"
+    ],
+    "status": "active"
   }
 ]
